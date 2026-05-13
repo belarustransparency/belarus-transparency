@@ -356,8 +356,14 @@ body, .md-typeset {
 }
 
 /* Фото-обложка */
-.bt-cover { margin: 0 0 2rem; }
+.bt-cover {
+  margin: 0 0 2rem;
+  width: 100%;
+  text-align: left;
+}
+
 .bt-cover-img {
+  display: block;
   width: 100%;
   aspect-ratio: 21 / 9;
   background-size: cover;
@@ -365,10 +371,12 @@ body, .md-typeset {
   background-color: #2A2520;
   border-radius: 2px;
 }
+
 .bt-cover figcaption {
   font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
   margin-top: 0.6rem;
+  text-align: left;
 }
 
 /* Шапка */
