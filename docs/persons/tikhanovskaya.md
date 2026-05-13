@@ -94,4 +94,14 @@ graph LR
 
 </section>
 
+<footer class="bt-tags">
+  <div class="bt-block-label">Теги</div>
+  <div class="bt-tag-list">
+    <span class="bt-tag">персоналия</span>
+    <span class="bt-tag">политик</span>
+    <span class="bt-tag">эмиграция</span>
+    <span class="bt-tag">2020</span>
+  </div>
+</footer>
+
 </div>
