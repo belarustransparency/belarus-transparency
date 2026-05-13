@@ -27,7 +27,6 @@ theme:
 plugins:
   - search:
       lang: ru
-  - awesome-pages
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -39,6 +38,14 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+
+nav:
+  - Главная: index.md
+  - Расследования: ru/investigations/index.md
+  - Персоналии: ru/persons/index.md
+  - Организации: ru/organizations/index.md
+  - События: ru/events/index.md
+  - English: en/index.md
 
 extra:
   social:

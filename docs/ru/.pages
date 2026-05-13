@@ -1,7 +1,7 @@
-title: Главная
+title: Русский
 nav:
   - index.md
-  - investigations
-  - persons
-  - organizations
-  - events
+  - Расследования: investigations
+  - Персоналии: persons
+  - Организации: organizations
+  - События: events

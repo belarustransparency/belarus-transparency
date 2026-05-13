@@ -74,7 +74,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,7 +184,7 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "5104181ecc926ce9",
+  "active": "f129766f99e518c1",
   "lastOpenFiles": [
     "CNAME",
     "ru/investigations/investigation-1.md"
