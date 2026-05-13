@@ -534,3 +534,108 @@ body, .md-typeset {
   background: #2A2A28;
   color: #9A9893;
 }
+/* === Витрина раздела === */
+
+.bt-index {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.bt-index-head {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.bt-index-head .bt-kicker {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+  font-weight: 500;
+  margin-bottom: 0.9rem;
+}
+
+.bt-index-head h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: var(--md-primary-fg-color);
+  margin: 0 0 0.7rem;
+}
+
+.bt-index-head h1 .headerlink { display: none; }
+
+.bt-index-head .bt-lede {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--md-default-fg-color--light);
+  margin: 0;
+  max-width: 40em;
+}
+
+/* Сетка карточек */
+.bt-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--md-default-fg-color--lightest);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Карточка-превью персоналии */
+.bt-card-person {
+  background: var(--md-default-bg-color);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  color: inherit !important;
+  border: none !important;
+  transition: background 0.15s;
+}
+
+.bt-card-person:hover {
+  background: #EDEAE0 !important;
+}
+
+[data-md-color-scheme="slate"] .bt-card-person:hover {
+  background: #1A1A19 !important;
+}
+
+.bt-card-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-color: #2A2520;
+}
+
+.bt-card-info {
+  padding: 1rem 1.2rem 1.2rem;
+}
+
+.bt-card-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.005em;
+}
+
+.bt-card-role {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Адаптив */
+@media (max-width: 700px) {
+  .bt-cards-grid { grid-template-columns: 1fr 1fr; }
+  .bt-index-head h1 { font-size: 1.8rem; }
+}
+
+@media (max-width: 460px) {
+  .bt-cards-grid { grid-template-columns: 1fr; }
+}
