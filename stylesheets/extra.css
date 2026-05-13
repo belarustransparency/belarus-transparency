@@ -281,7 +281,7 @@ body, .md-typeset {
 }
 
 .bt-card {
-  background: #FBFAF6;
+  background: #EDEAE0;
   padding: 1.5rem;
   text-decoration: none !important;
   color: inherit !important;
@@ -291,7 +291,7 @@ body, .md-typeset {
 }
 
 .bt-card:hover {
-  background: #F2EFE8 !important;
+  background: #E5E1D4 !important;
 }
 
 [data-md-color-scheme="slate"] .bt-card:hover {
