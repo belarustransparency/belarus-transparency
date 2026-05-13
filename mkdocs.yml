@@ -41,10 +41,18 @@ markdown_extensions:
 
 nav:
   - Главная: index.md
-  - Расследования: ru/investigations/index.md
-  - Персоналии: ru/persons/index.md
-  - Организации: ru/organizations/index.md
-  - События: ru/events/index.md
+  - Расследования:
+    - Список: ru/investigations/index.md
+    - Расследование 1: ru/investigations/investigation-1.md
+  - Персоналии:
+    - Список: ru/persons/index.md
+    - Петр Иванов: ru/persons/ivan-ivanov.md
+  - Организации:
+    - Список: ru/organizations/index.md
+    - Организация А: ru/organizations/org-a.md
+  - События:
+    - Список: ru/events/index.md
+    - Событие 1: ru/events/event-1.md
   - English: en/index.md
 
 extra:
