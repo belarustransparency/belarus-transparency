@@ -1,0 +1,65 @@
+site_name: Belarus Transparency
+site_url: https://belarus-transparency.org
+site_description: Расследовательский проект о прозрачности в Беларуси
+site_author: Belarus Transparency Project
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: ru/index.md
+  - Расследования:
+    - Список: ru/investigations/index.md
+    - Расследование 1: ru/investigations/investigation-1.md
+  - Персоналии:
+    - Список: ru/persons/index.md
+    - Иван Иванов: ru/persons/ivan-ivanov.md
+  - Организации:
+    - Список: ru/organizations/index.md
+    - Организация А: ru/organizations/org-a.md
+  - События:
+    - Список: ru/events/index.md
+    - Событие 1: ru/events/event-1.md
+  - English:
+    - Home: en/index.md
+    - Investigations: en/investigations/index.md
+    - Persons: en/persons/index.md
+    - Organizations: en/organizations/index.md
+    - Events: en/events/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/belarustransparency
