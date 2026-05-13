@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ru/events/event-1.md",
+                "file": "ru/investigations/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "event-1"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ru/events/event-1.md",
+                "file": "ru/investigations/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для event-1"
+              "title": "Обратные ссылки для index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ru/events/event-1.md",
+                "file": "ru/investigations/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из event-1"
+              "title": "Исходящие ссылки из index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ru/events/event-1.md",
+                "file": "ru/investigations/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура event-1"
+              "title": "Структура index"
             }
           }
         ]
@@ -185,10 +185,11 @@
   },
   "active": "5104181ecc926ce9",
   "lastOpenFiles": [
-    "ru/organizations/org-a.md",
     "ru/investigations/investigation-1.md",
-    "ru/persons/ivan-ivanov.md",
     "ru/investigations/index.md",
+    "ru/events/event-1.md",
+    "ru/organizations/org-a.md",
+    "ru/persons/ivan-ivanov.md",
     "CNAME"
   ]
 }
