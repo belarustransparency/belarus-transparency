@@ -329,6 +329,22 @@ body, .md-typeset {
   font-size: 0.85rem;
   color: var(--md-accent-fg-color);
   margin-top: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bt-card-arrow::after {
+  content: "→";
+  font-size: 1.1rem;
+  line-height: 1;
+  font-weight: 400;
+  transition: transform 0.15s;
+}
+
+.bt-card:hover .bt-card-arrow::after {
+  transform: translateX(3px);
 }
 
 /* адаптив */

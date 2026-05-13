@@ -32,28 +32,28 @@ title: Belarus Transparency
         <div class="bt-card-count">1</div>
         <div class="bt-card-title">Расследования</div>
         <p class="bt-card-desc">Лонгриды о финансовых схемах, организационных структурах и ключевых событиях.</p>
-        <div class="bt-card-arrow">Перейти →</div>
+        <div class="bt-card-arrow">Перейти</div>
       </a>
 
       <a class="bt-card" href="persons/">
         <div class="bt-card-count">1</div>
         <div class="bt-card-title">Персоналии</div>
-        <p class="bt-card-desc">Карточки публичных фигур с биографией, аффилиациями и упоминаниями в расследованиях.</p>
-        <div class="bt-card-arrow">Перейти →</div>
+        <p class="bt-card-desc">Карточки публичных фигур с биографией, связями и упоминаниями в расследованиях.</p>
+        <div class="bt-card-arrow">Перейти</div>
       </a>
 
       <a class="bt-card" href="organizations/">
         <div class="bt-card-count">1</div>
         <div class="bt-card-title">Организации</div>
         <p class="bt-card-desc">Политические структуры, фонды, медиа: руководство, финансирование, связи.</p>
-        <div class="bt-card-arrow">Перейти →</div>
+        <div class="bt-card-arrow">Перейти</div>
       </a>
 
       <a class="bt-card" href="events/">
         <div class="bt-card-count">1</div>
         <div class="bt-card-title">События</div>
         <p class="bt-card-desc">Хронология ключевых событий: даты, участники, последствия, цепочки ответственности.</p>
-        <div class="bt-card-arrow">Перейти →</div>
+        <div class="bt-card-arrow">Перейти</div>
       </a>
 
     </div>
