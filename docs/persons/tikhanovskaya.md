@@ -3,6 +3,11 @@ hide:
   - navigation
   - toc
 title: Светлана Тихановская
+tags:
+  - персоналия
+  - политик
+  - эмиграция
+  - 2020
 ---
 
 <div class="bt-person">
