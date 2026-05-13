@@ -291,11 +291,11 @@ body, .md-typeset {
 }
 
 .bt-card:hover {
-  background: #F2EFE8;
+  background: #F2EFE8 !important;
 }
 
-[data-md-color-scheme="slate"] .bt-card {
-  background: #1A1A19;
+[data-md-color-scheme="slate"] .bt-card:hover {
+  background: #232321 !important;
 }
 
 [data-md-color-scheme="slate"] .bt-card:hover {
