@@ -342,10 +342,6 @@ body, .md-typeset {
   font-weight: 400;
 }
 
-.bt-card:hover .bt-card-arrow::after {
-  transform: translateX(3px);
-}
-
 /* адаптив */
 @media (max-width: 700px) {
   .bt-row {
