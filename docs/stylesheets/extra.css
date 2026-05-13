@@ -579,7 +579,7 @@ body, .md-typeset {
 /* Сетка карточек */
 .bt-cards-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1px;
   background: var(--md-default-fg-color--lightest);
   border: 1px solid var(--md-default-fg-color--lightest);
@@ -632,10 +632,5 @@ body, .md-typeset {
 
 /* Адаптив */
 @media (max-width: 700px) {
-  .bt-cards-grid { grid-template-columns: 1fr 1fr; }
   .bt-index-head h1 { font-size: 1.8rem; }
-}
-
-@media (max-width: 460px) {
-  .bt-cards-grid { grid-template-columns: 1fr; }
 }

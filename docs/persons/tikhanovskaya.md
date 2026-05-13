@@ -3,11 +3,17 @@ hide:
   - navigation
   - toc
 title: Светлана Тихановская
+role: Глава Объединённого переходного кабинета
+date_added: 2026-05-13
+date_updated: 2026-05-13
+thumbnail: https://placehold.co/400x400/3a3530/ffffff?text=ST
+cover: https://placehold.co/1200x500/3a3530/ffffff?text=Photo+placeholder
+cover_caption: Брюссель, март 2024 · Sebastien Bozon / AFP
 tags:
-  - персоналия
+  - номинал
   - политик
-  - эмиграция
-  - 2020
+  - беглец
+status: active
 ---
 
 <div class="bt-person">
