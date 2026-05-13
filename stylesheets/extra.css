@@ -340,7 +340,6 @@ body, .md-typeset {
   font-size: 1.1rem;
   line-height: 1;
   font-weight: 400;
-  transition: transform 0.15s;
 }
 
 .bt-card:hover .bt-card-arrow::after {
