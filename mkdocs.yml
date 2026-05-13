@@ -30,6 +30,7 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+    - navigation.indexes  # ← добавить, чтобы index.ru.md в папках работали как обложки разделов
 
 extra_css:
   - stylesheets/extra.css
@@ -37,33 +38,16 @@ extra_css:
 plugins:
   - search:
       lang: ru
-
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
-  - admonition
-  - toc:
-      permalink: true
-
-nav:
-  - Главная: index.md
-  - Расследования:
-    - Список: ru/investigations/index.md
-    - Расследование 1: ru/investigations/investigation-1.md
-  - Персоналии:
-    - Список: ru/persons/index.md
-    - Петр Иванов: ru/persons/ivan-ivanov.md
-  - Организации:
-    - Список: ru/organizations/index.md
-    - Организация А: ru/organizations/org-a.md
-  - События:
-    - Список: ru/events/index.md
-    - Событие 1: ru/events/event-1.md
-  - English: en/index.md
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: ru
+          default: true
+          name: Русский
+          build: true
+        - locale: en
+          name: English
+          build: true
 
 extra:
   social:
