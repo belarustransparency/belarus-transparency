@@ -500,3 +500,29 @@ body, .md-typeset {
   .bt-pull { font-size: 1.15rem; }
   .bt-struct-grid { grid-template-columns: 1fr; }
 }
+/* === Теги (подвал карточки) === */
+
+.bt-tags {
+  margin-top: 3rem;
+}
+
+.bt-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bt-tag {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  padding: 4px 10px;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .bt-tag {
+  background: #2A2A28;
+  color: #9A9893;
+}
