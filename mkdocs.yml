@@ -34,6 +34,10 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+nav:
+  - Русский: ru/
+  - English: en/
+
 plugins:
   - search:
       lang: ru
@@ -50,13 +54,6 @@ markdown_extensions:
       permalink: true
 
 extra:
-  alternate:
-    - name: Русский
-      link: /ru/
-      lang: ru
-    - name: English
-      link: /en/
-      lang: en
-  social:
+    social:
     - icon: fontawesome/brands/github
       link: https://github.com/belarustransparency
