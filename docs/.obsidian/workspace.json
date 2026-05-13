@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ru/persons/petr-ivanov.md",
+                "file": "ru/persons/ivan-ivanov.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "petr-ivanov"
+              "title": "ivan-ivanov"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ru/persons/petr-ivanov.md",
+                "file": "ru/persons/ivan-ivanov.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для petr-ivanov"
+              "title": "Обратные ссылки для ivan-ivanov"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ru/persons/petr-ivanov.md",
+                "file": "ru/persons/ivan-ivanov.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из petr-ivanov"
+              "title": "Исходящие ссылки из ivan-ivanov"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ru/persons/petr-ivanov.md",
+                "file": "ru/persons/ivan-ivanov.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура petr-ivanov"
+              "title": "Структура ivan-ivanov"
             }
           }
         ]
