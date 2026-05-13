@@ -356,10 +356,7 @@ body, .md-typeset {
 }
 
 /* Фото-обложка */
-.bt-cover {
-  margin: 0 0 2rem;
-}
-
+.bt-cover { margin: 0 0 2rem; }
 .bt-cover-img {
   width: 100%;
   aspect-ratio: 21 / 9;
@@ -368,21 +365,18 @@ body, .md-typeset {
   background-color: #2A2520;
   border-radius: 2px;
 }
-
 .bt-cover figcaption {
   font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
   margin-top: 0.6rem;
-  letter-spacing: 0.02em;
 }
 
-/* Шапка персоналии */
+/* Шапка */
 .bt-person-head {
-  margin-bottom: 2.5rem;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.75rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
-
 .bt-person-head .bt-kicker {
   font-size: 0.7rem;
   letter-spacing: 0.14em;
@@ -391,7 +385,6 @@ body, .md-typeset {
   font-weight: 500;
   margin-bottom: 0.9rem;
 }
-
 .bt-person-head h1 {
   font-size: 2.5rem;
   line-height: 1.1;
@@ -400,11 +393,7 @@ body, .md-typeset {
   color: var(--md-primary-fg-color);
   margin: 0 0 0.6rem;
 }
-
-.bt-person-head h1 .headerlink {
-  display: none;
-}
-
+.bt-person-head h1 .headerlink { display: none; }
 .bt-person-head .bt-lede {
   font-size: 1.05rem;
   line-height: 1.55;
@@ -413,103 +402,101 @@ body, .md-typeset {
   max-width: 38em;
 }
 
+/* Цитата-врезка */
+.bt-pull {
+  margin: 2.5rem 0;
+  padding: 0 0 0 1.5rem;
+  border-left: 2px solid var(--md-accent-fg-color);
+  font-size: 1.35rem;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--md-primary-fg-color);
+}
+.bt-pull cite {
+  display: block;
+  margin-top: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--md-default-fg-color--light);
+}
+
 /* Проза */
+.bt-prose { margin: 2rem 0; }
 .bt-prose p {
   font-size: 1rem;
   line-height: 1.75;
   color: var(--md-default-fg-color);
   margin: 0 0 1.25em;
 }
+.bt-prose p:last-child { margin-bottom: 0; }
 
-.bt-prose h2 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  margin: 2.5rem 0 1rem;
-  color: var(--md-primary-fg-color);
-}
-
-.bt-prose h2 .headerlink {
-  display: none;
-}
-
-/* Цитата-врезка */
-.bt-pull {
-  margin: 2rem 0;
-  padding: 1.5rem 0 1.5rem 1.5rem;
-  border-left: 2px solid var(--md-accent-fg-color);
-  font-size: 1.25rem;
-  line-height: 1.4;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  color: var(--md-primary-fg-color);
-}
-
-.bt-pull cite {
-  display: block;
-  margin-top: 0.8rem;
-  font-size: 0.8rem;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--md-default-fg-color--light);
-  letter-spacing: 0.02em;
-}
-
-/* Подвал */
-.bt-person-foot {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-}
-
-.bt-foot-label {
+/* Метка-разделитель блоков (используется и в структурах, и в связях) */
+.bt-block-label {
   font-size: 0.7rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   font-weight: 500;
+  margin-bottom: 1.2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Контролируемые структуры */
+.bt-structures { margin: 2.5rem 0; }
+.bt-struct-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--md-default-fg-color--lightest);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+.bt-struct {
+  background: #EDEAE0;
+  padding: 1.25rem 1.4rem;
+}
+[data-md-color-scheme="slate"] .bt-struct { background: #1A1A19; }
+.bt-struct-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.25rem;
+}
+.bt-struct-role {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
   margin-bottom: 1rem;
 }
-
-.bt-foot-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.bt-struct-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  padding-top: 0.85rem;
+  border-top: 0.5px solid var(--md-default-fg-color--lightest);
+}
+.bt-struct-mlabel {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.2rem;
+}
+.bt-struct-mvalue {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--md-primary-fg-color);
+  letter-spacing: -0.01em;
 }
 
-.bt-foot-list li {
-  padding: 0.7rem 0;
-  border-bottom: 0.5px solid var(--md-default-fg-color--lightest);
-  font-size: 0.95rem;
-}
-
-.bt-foot-list li:last-child {
-  border-bottom: none;
-}
-
-.bt-foot-list a {
-  color: var(--md-default-fg-color);
-  text-decoration: none;
-  border-bottom: 1px solid var(--md-accent-fg-color);
-}
-
-.bt-foot-list a:hover {
-  background-color: var(--md-accent-fg-color--transparent);
-}
+/* Связи (Mermaid контейнер) */
+.bt-ties { margin: 2.5rem 0 1rem; }
+.bt-ties .mermaid { background: transparent; }
 
 /* Адаптив */
 @media (max-width: 700px) {
-  .bt-person-head h1 {
-    font-size: 1.8rem;
-  }
-  .bt-pull {
-    font-size: 1.1rem;
-  }
-  .bt-person-foot {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
+  .bt-person-head h1 { font-size: 1.8rem; }
+  .bt-pull { font-size: 1.15rem; }
+  .bt-struct-grid { grid-template-columns: 1fr; }
 }
