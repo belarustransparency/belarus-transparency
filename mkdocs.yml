@@ -39,27 +39,6 @@ markdown_extensions:
   - toc:
       permalink: true
 
-nav:
-  - Главная: ru/index.md
-  - Расследования:
-    - Список: ru/investigations/index.md
-    - Расследование 1: ru/investigations/investigation-1.md
-  - Персоналии:
-    - Список: ru/persons/index.md
-    - Иван Иванов: ru/persons/ivan-ivanov.md
-  - Организации:
-    - Список: ru/organizations/index.md
-    - Организация А: ru/organizations/org-a.md
-  - События:
-    - Список: ru/events/index.md
-    - Событие 1: ru/events/event-1.md
-  - English:
-    - Home: en/index.md
-    - Investigations: en/investigations/index.md
-    - Persons: en/persons/index.md
-    - Organizations: en/organizations/index.md
-    - Events: en/events/index.md
-
 extra:
   social:
     - icon: fontawesome/brands/github
