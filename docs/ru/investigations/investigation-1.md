@@ -5,7 +5,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 
 ## Персоналии
 
-- [Иван Иванов](../persons/ivan-ivanov.md)
+- [Иван Иванов](../persons/petr-ivanov.md)
 
 ## Организации
 

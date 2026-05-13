@@ -1,4 +1,4 @@
-# Иван Иванов
+# Петр Иванов
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
