@@ -34,6 +34,12 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+nav:
+  - Расследования: investigations/
+  - Персоналии: persons/
+  - Организации: organizations/
+  - События: events/
+
 plugins:
   - search:
       lang: ru
@@ -51,6 +57,11 @@ plugins:
           build: true
           theme:
             language: en
+          nav_translations:
+            Расследования: Investigations
+            Персоналии: People
+            Организации: Organizations
+            События: Events
 
 extra:
   social:
