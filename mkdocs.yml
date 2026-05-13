@@ -1,7 +1,7 @@
 site_name: Belarus Transparency
-site_url: site_url: https://belarus-transparency.org/
+site_url: https://belarus-transparency.org/
 use_directory_urls: true
-site_description: Расследовательский проект о прозрачности в Беларуси
+site_description: Исследовательский проект о динамике беларуской оппозиции
 site_author: Belarus Transparency Project
 
 theme:
