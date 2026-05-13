@@ -35,8 +35,10 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Русский: ru/
-  - English: en/
+  - Расследования: investigations/index.md
+  - Персоналии: persons/index.md
+  - Организации: organizations/index.md
+  - События: events/index.md
 
 plugins:
   - search:
@@ -59,6 +61,13 @@ markdown_extensions:
       permalink: true
 
 extra:
+    alternate:
+    - name: Русский
+      link: /
+      lang: ru
+    - name: English
+      link: /en/
+      lang: en
     social:
     - icon: fontawesome/brands/github
       link: https://github.com/belarustransparency
