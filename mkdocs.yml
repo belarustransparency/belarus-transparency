@@ -45,9 +45,13 @@ plugins:
           default: true
           name: Русский
           build: true
+          theme:
+            language: ru
         - locale: en
           name: English
           build: true
+          theme:
+            language: en
 
 extra:
   social:
