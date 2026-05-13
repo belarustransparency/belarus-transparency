@@ -35,10 +35,10 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Расследования: investigations/
-  - Персоналии: persons/
-  - Организации: organizations/
-  - События: events/
+  - Расследования: investigations/index.md
+  - Персоналии: persons/index.md
+  - Организации: organizations/index.md
+  - События: events/index.md
 
 plugins:
   - search:
