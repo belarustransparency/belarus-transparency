@@ -38,7 +38,7 @@ title: Belarus Transparency
       <a class="bt-card" href="persons/">
         <div class="bt-card-count">1</div>
         <div class="bt-card-title">Персоналии</div>
-        <p class="bt-card-desc">Карточки публичных фигур с биографией, связями и упоминаниями в расследованиях.</p>
+        <p class="bt-card-desc">Карточки публичных фигур с биографией протеста и упоминаниями в расследованиях.</p>
         <div class="bt-card-arrow">Перейти</div>
       </a>
 
