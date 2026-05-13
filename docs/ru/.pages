@@ -1,0 +1,7 @@
+title: Главная
+nav:
+  - index.md
+  - investigations
+  - persons
+  - organizations
+  - events

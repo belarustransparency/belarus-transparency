@@ -27,6 +27,7 @@ theme:
 plugins:
   - search:
       lang: ru
+  - awesome-pages
 
 markdown_extensions:
   - pymdownx.superfences:
