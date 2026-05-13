@@ -6,6 +6,7 @@ site_author: Belarus Transparency Project
 
 theme:
   name: material
+  language: ru
   font: false
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -29,41 +30,33 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
-    - navigation.indexes
 
 extra_css:
   - stylesheets/extra.css
 
-nav:
-  - Расследования: investigations/index.md
-  - Персоналии: persons/index.md
-  - Организации: organizations/index.md
-  - События: events/index.md
-
 plugins:
   - search:
       lang: ru
-  - i18n:
-      docs_structure: suffix
-      languages:
-        - locale: ru
-          default: true
-          name: Русский
-          build: true
-          theme:
-            language: ru
-        - locale: en
-          name: English
-          build: true
-          theme:
-            language: en
-          nav_translations:
-            Расследования: Investigations
-            Персоналии: People
-            Организации: Organizations
-            События: Events
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - admonition
+  - toc:
+      permalink: true
 
 extra:
+  alternate:
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: English
+      link: /en/
+      lang: en
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/belarustransparency
