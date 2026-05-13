@@ -294,12 +294,12 @@ body, .md-typeset {
   background: #E5E1D4 !important;
 }
 
-[data-md-color-scheme="slate"] .bt-card:hover {
-  background: #232321 !important;
+[data-md-color-scheme="slate"] .bt-card {
+  background: #1A1A19;
 }
 
 [data-md-color-scheme="slate"] .bt-card:hover {
-  background: #232321;
+  background: #232321 !important;
 }
 
 .bt-card-count {
