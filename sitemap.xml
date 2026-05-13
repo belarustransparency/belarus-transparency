@@ -1,129 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://belarus-transparency.org/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/"/>
+         <loc>https://belarus-transparency.org/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/events/event-1/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/events/event-1/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/events/event-1/"/>
+         <loc>https://belarus-transparency.org/en/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/events/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/events/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/events/"/>
+         <loc>https://belarus-transparency.org/en/events/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/investigations/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/investigations/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/investigations/"/>
+         <loc>https://belarus-transparency.org/en/investigations/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/investigations/investigation-1/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/investigations/investigation-1/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/investigations/investigation-1/"/>
+         <loc>https://belarus-transparency.org/en/organizations/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/organizations/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/organizations/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/organizations/"/>
+         <loc>https://belarus-transparency.org/en/persons/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/organizations/org-a/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/organizations/org-a/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/organizations/org-a/"/>
+         <loc>https://belarus-transparency.org/ru/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/persons/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/persons/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/persons/"/>
+         <loc>https://belarus-transparency.org/ru/events/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/persons/ivan-ivanov/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/persons/ivan-ivanov/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/persons/ivan-ivanov/"/>
+         <loc>https://belarus-transparency.org/ru/events/event-1/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/en/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/"/>
+         <loc>https://belarus-transparency.org/ru/investigations/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/en/events/event-1/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/events/event-1/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/events/event-1/"/>
+         <loc>https://belarus-transparency.org/ru/investigations/investigation-1/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/en/events/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/events/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/events/"/>
+         <loc>https://belarus-transparency.org/ru/organizations/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/en/investigations/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/investigations/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/investigations/"/>
+         <loc>https://belarus-transparency.org/ru/organizations/org-a/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/en/investigations/investigation-1/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/investigations/investigation-1/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/investigations/investigation-1/"/>
+         <loc>https://belarus-transparency.org/ru/persons/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
     <url>
-        <loc>https://belarus-transparency.org/en/organizations/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/organizations/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/organizations/"/>
-    </url>
-    <url>
-        <loc>https://belarus-transparency.org/en/organizations/org-a/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/organizations/org-a/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/organizations/org-a/"/>
-    </url>
-    <url>
-        <loc>https://belarus-transparency.org/en/persons/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/persons/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/persons/"/>
-    </url>
-    <url>
-        <loc>https://belarus-transparency.org/en/persons/ivan-ivanov/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://belarus-transparency.org/en/persons/ivan-ivanov/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://belarus-transparency.org/persons/ivan-ivanov/"/>
+         <loc>https://belarus-transparency.org/ru/persons/ivan-ivanov/</loc>
+         <lastmod>2026-05-13</lastmod>
     </url>
 </urlset>
