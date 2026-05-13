@@ -61,6 +61,7 @@ markdown_extensions:
       permalink: true
 
 extra:
+    generator: false
     alternate:
     - name: Русский
       link: /
