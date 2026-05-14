@@ -134,14 +134,27 @@
     <clipPath id="lh"><rect x="2" y="2" width="10" height="20"/></clipPath>
     <clipPath id="rh"><rect x="12" y="2" width="10" height="20"/></clipPath>
   </defs>
-  <!-- Кирпичная черта-акцент слева -->
+  <!-- Кирпичная акцент-черта -->
   <line x1="0" y1="4" x2="0" y2="20" stroke="#B8341E" stroke-width="1.5"/>
-  <!-- Половинки -->
+  <!-- Две половины фона -->
   <rect x="2" y="2" width="10" height="20" fill="#F7F5F0"/>
   <rect x="12" y="2" width="10" height="20" fill="#2A2A28"/>
-  <!-- Буква T в двух плотностях -->
-  <text x="12" y="17" font-family="Georgia, 'DejaVu Serif', 'Times New Roman', serif" font-size="13" font-weight="500" fill="#6B6B6B" text-anchor="middle" clip-path="url(#lh)">T</text>
-  <text x="12" y="17" font-family="Georgia, 'DejaVu Serif', 'Times New Roman', serif" font-size="13" font-weight="500" fill="#9A9893" text-anchor="middle" clip-path="url(#rh)">T</text>
+  <!-- Буква T левая (тёмная на светлом) -->
+  <g clip-path="url(#lh)">
+    <rect x="5.5" y="5.5" width="13" height="3" fill="#4A4A4A"/>
+    <rect x="10.5" y="5.5" width="3" height="13" fill="#4A4A4A"/>
+    <rect x="5.5" y="5.5" width="2.2" height="3.5" fill="#4A4A4A"/>
+    <rect x="16.3" y="5.5" width="2.2" height="3.5" fill="#4A4A4A"/>
+    <rect x="8" y="16.5" width="8" height="2.2" fill="#4A4A4A"/>
+  </g>
+  <!-- Буква T правая (светлая на тёмном) -->
+  <g clip-path="url(#rh)">
+    <rect x="5.5" y="5.5" width="13" height="3" fill="#C8C8C8"/>
+    <rect x="10.5" y="5.5" width="3" height="13" fill="#C8C8C8"/>
+    <rect x="5.5" y="5.5" width="2.2" height="3.5" fill="#C8C8C8"/>
+    <rect x="16.3" y="5.5" width="2.2" height="3.5" fill="#C8C8C8"/>
+    <rect x="8" y="16.5" width="8" height="2.2" fill="#C8C8C8"/>
+  </g>
 </svg>
       </label>
     
@@ -160,8 +173,22 @@
   <line x1="0" y1="4" x2="0" y2="20" stroke="#D85A30" stroke-width="1.5"/>
   <rect x="2" y="2" width="10" height="20" fill="#2A2A28"/>
   <rect x="12" y="2" width="10" height="20" fill="#F7F5F0"/>
-  <text x="12" y="17" font-family="Georgia, 'DejaVu Serif', 'Times New Roman', serif" font-size="13" font-weight="500" fill="#9A9893" text-anchor="middle" clip-path="url(#lh)">T</text>
-  <text x="12" y="17" font-family="Georgia, 'DejaVu Serif', 'Times New Roman', serif" font-size="13" font-weight="500" fill="#6B6B6B" text-anchor="middle" clip-path="url(#rh)">T</text>
+  <!-- T левая (светлая на тёмном) -->
+  <g clip-path="url(#lh)">
+    <rect x="5.5" y="5.5" width="13" height="3" fill="#C8C8C8"/>
+    <rect x="10.5" y="5.5" width="3" height="13" fill="#C8C8C8"/>
+    <rect x="5.5" y="5.5" width="2.2" height="3.5" fill="#C8C8C8"/>
+    <rect x="16.3" y="5.5" width="2.2" height="3.5" fill="#C8C8C8"/>
+    <rect x="8" y="16.5" width="8" height="2.2" fill="#C8C8C8"/>
+  </g>
+  <!-- T правая (тёмная на светлом) -->
+  <g clip-path="url(#rh)">
+    <rect x="5.5" y="5.5" width="13" height="3" fill="#4A4A4A"/>
+    <rect x="10.5" y="5.5" width="3" height="13" fill="#4A4A4A"/>
+    <rect x="5.5" y="5.5" width="2.2" height="3.5" fill="#4A4A4A"/>
+    <rect x="16.3" y="5.5" width="2.2" height="3.5" fill="#4A4A4A"/>
+    <rect x="8" y="16.5" width="8" height="2.2" fill="#4A4A4A"/>
+  </g>
 </svg>
       </label>
     
@@ -173,23 +200,39 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-      <div class="md-header__option">
-  <div class="md-select">
-    
-    <button class="md-header__button md-icon" aria-label="Выберите язык">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+      <!-- Site language selector -->
+<div class="md-header__option">
+  <div class="md-select"><button
+      class="md-header__button md-icon"
+      aria-label="Выберите язык"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <line x1="0" y1="4" x2="0" y2="20" stroke="#B8341E" stroke-width="1.5"/>
+  <text x="12" y="16.5"
+        font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif"
+        font-size="10" font-weight="700" fill="#4A4A4A"
+        text-anchor="middle">EN</text>
+</svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/" hreflang="ru" class="md-select__link">
+            <a
+              href="/"
+              hreflang="ru"
+              class="md-select__link"
+            >
               Русский
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/en/" hreflang="en" class="md-select__link">
+            <a
+              href="/en/"
+              hreflang="en"
+              class="md-select__link"
+            >
               English
             </a>
           </li>
