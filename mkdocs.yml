@@ -9,7 +9,7 @@ theme:
   custom_dir: overrides
   language: ru
   font: false
-  logo: assets/mark.svg
+  logo: assets/logo-horizontal-ru.svg
   favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
