@@ -731,3 +731,11 @@ img.bt-logo--dark,
   display: inline-flex;
   align-items: center;
 }
+css/* === Выравнивание логотипа по сетке контента === */
+.md-header__inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
