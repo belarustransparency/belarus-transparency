@@ -739,3 +739,243 @@ css/* === Выравнивание логотипа по сетке контен
   margin-left: 0;
   margin-right: 0;
 }
+/* === Витрина расследований === */
+
+.bt-inv-index {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.bt-inv-head {
+  border-bottom: 1px solid #E5E5E0;
+  padding-bottom: 18px;
+  margin-bottom: 22px;
+}
+.bt-inv-head h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #0A0A0A;
+  margin: 0 0 6px;
+  line-height: 1.2;
+}
+.bt-inv-head .bt-kicker {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #B8341E;
+  margin-bottom: 8px;
+}
+.bt-inv-head .bt-lede {
+  font-size: 14px;
+  color: #6B6B6B;
+  margin: 0;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* Фильтры */
+.bt-inv-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.bt-inv-flabel {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6B6B6B;
+  margin-right: 4px;
+}
+.bt-inv-filter {
+  font-size: 13px;
+  padding: 5px 11px;
+  border: 1px solid #D3D1C7;
+  background: transparent;
+  color: #444441;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.bt-inv-filter:hover {
+  background: #EDEAE0;
+}
+.bt-inv-filter.active {
+  background: #1F1F1F;
+  color: #FFFFFF;
+  border-color: #1F1F1F;
+}
+
+/* Список карточек */
+.bt-inv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.bt-inv-card {
+  display: block;
+  border: 1px solid #E5E5E0;
+  text-decoration: none !important;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: border-color 0.15s;
+}
+.bt-inv-card:hover {
+  border-color: #1F1F1F;
+}
+
+/* Затемнение фото градиентом */
+.bt-inv-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.4) 55%, rgba(0,0,0,0.7) 100%);
+  z-index: 1;
+}
+
+/* Верхняя половина: код, дата, заголовок, теги */
+.bt-inv-cover {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  z-index: 2;
+  padding: 18px 22px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bt-inv-cover-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bt-inv-cover-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bt-inv-code {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: rgba(255,255,255,0.85);
+  text-transform: uppercase;
+  padding-left: 14px;
+  position: relative;
+}
+.bt-inv-code::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  bottom: 1px;
+  width: 3px;
+  background: #B8341E;
+}
+.bt-inv-date {
+  font-size: 10px;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 0.04em;
+}
+.bt-inv-title {
+  font-family: var(--font-serif, Georgia, 'DejaVu Serif', 'Times New Roman', serif);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #FFFFFF;
+  max-width: 92%;
+}
+.bt-inv-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.bt-inv-tag {
+  font-size: 10px;
+  color: rgba(255,255,255,0.95);
+  padding: 2px 7px;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(0,0,0,0.2);
+}
+
+/* Нижняя половина: статус, лид, бар, сумма */
+.bt-inv-foot {
+  position: relative;
+  z-index: 2;
+  padding: 12px 22px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 16px;
+  align-items: center;
+  background: rgba(247, 245, 240, 0.88);
+  color: #1F1F1F;
+  border-top: 1px solid rgba(255,255,255,0.5);
+}
+.bt-inv-status {
+  font-size: 10px;
+  padding: 2px 8px;
+  border: 1px solid currentColor;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.bt-inv-status.published { color: #0F6E56; }
+.bt-inv-status.collecting { color: #BA7517; }
+.bt-inv-status.draft { color: #888780; }
+
+.bt-inv-lede {
+  font-size: 12.5px;
+  color: #444441;
+  line-height: 1.5;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bt-inv-bar {
+  width: 70px;
+  height: 3px;
+  background: #E5E5E0;
+}
+.bt-inv-bar-fill {
+  height: 100%;
+  background: #B8341E;
+}
+
+.bt-inv-sum {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #0A0A0A;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.bt-inv-pct {
+  font-size: 10px;
+  color: #6B6B6B;
+  font-weight: 400;
+}
+
+/* Мобильная адаптация — нижняя полоса в 2 строки */
+@media (max-width: 600px) {
+  .bt-inv-foot {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "status lede"
+      "bar sum";
+    gap: 8px 12px;
+  }
+  .bt-inv-status { grid-area: status; }
+  .bt-inv-lede { grid-area: lede; }
+  .bt-inv-bar { grid-area: bar; align-self: center; }
+  .bt-inv-sum { grid-area: sum; justify-self: end; }
+  .bt-inv-title { font-size: 17px; }
+}
