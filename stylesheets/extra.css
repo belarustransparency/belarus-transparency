@@ -731,16 +731,3 @@ img.bt-logo--dark,
   display: inline-flex;
   align-items: center;
 }
-/* === Выравнивание логотипа по сетке контента ===
-   .md-header__inner — это узкая полоска от края до края, а навигация
-   ниже выровнена по .md-grid (max-width 61rem, центрируется).
-   Заставляем шапку использовать ту же сетку, чтобы логотип
-   начинался в той же вертикали, что табы и контент. */
-
-.md-header__inner {
-  max-width: 61rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-}
