@@ -685,7 +685,7 @@ body[data-md-color-scheme] .md-content {
 
 /* Высота логотипа в шапке */
 .md-header__button.md-logo {
-  margin: 0.4rem 0.6rem 0.4rem 0.8rem;
+  margin: 0.4rem 0.6rem 0.4rem 0.6rem;
   padding: 0;
 }
 
