@@ -36,6 +36,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
+  - Главная: index.md
   - Расследования: investigations/index.md
   - Персоналии: persons/index.md
   - Организации: organizations/index.md
