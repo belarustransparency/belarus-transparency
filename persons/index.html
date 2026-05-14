@@ -90,9 +90,8 @@
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
     <a href=".." title="Belarus Transparency" class="md-header__button md-logo" aria-label="Belarus Transparency" data-md-component="logo">
-      
-  <img src="../assets/logo-horizontal-ru.svg" alt="logo">
-
+      <img src="../assets/logo-horizontal-ru-light.svg" alt="logo" class="bt-logo bt-logo--light" />
+<img src="../assets/logo-horizontal-ru-dark.svg" alt="logo" class="bt-logo bt-logo--dark" />
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
@@ -121,7 +120,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Тёмная тема"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Тёмная тема"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Тёмная тема" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -156,7 +155,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Светлая тема"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Светлая тема"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Светлая тема" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -201,14 +200,26 @@
       class="md-header__button md-icon"
       aria-label="Выберите язык"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <span class="bt-lang bt-lang--light">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
   <line x1="0" y1="4" x2="0" y2="20" stroke="#B8341E" stroke-width="1.5"/>
   <text x="12" y="16.5"
         font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif"
         font-size="10" font-weight="700" fill="#0A0A0A"
         text-anchor="middle">EN</text>
 </svg>
+      </span>
+      <span class="bt-lang bt-lang--dark">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <line x1="0" y1="4" x2="0" y2="20" stroke="#D85A30" stroke-width="1.5"/>
+  <text x="12" y="16.5"
+        font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif"
+        font-size="10" font-weight="700" fill="#FFFFFF"
+        text-anchor="middle">EN</text>
+</svg>
+      </span>
     </button>
+
     <div class="md-select__inner">
       <ul class="md-select__list">
         
@@ -401,9 +412,8 @@
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Belarus Transparency" class="md-nav__button md-logo" aria-label="Belarus Transparency" data-md-component="logo">
-      
-  <img src="../assets/logo-horizontal-ru.svg" alt="logo">
-
+      <img src="../assets/logo-horizontal-ru-light.svg" alt="logo" class="bt-logo bt-logo--light" />
+<img src="../assets/logo-horizontal-ru-dark.svg" alt="logo" class="bt-logo bt-logo--dark" />
     </a>
     Belarus Transparency
   </label>
