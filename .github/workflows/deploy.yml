@@ -21,5 +21,6 @@ jobs:
           python-version: 3.x
 
       - run: pip install mkdocs-material
+      - run: pip install mkdocs mkdocs-material mkdocs-macros-plugin pyyaml
 
       - run: mkdocs gh-deploy --force
