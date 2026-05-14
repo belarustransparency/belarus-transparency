@@ -733,7 +733,7 @@ img.bt-logo--dark,
 }
 css/* === Выравнивание логотипа по сетке контента === */
 .md-header__inner {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   padding-right: 1rem;
   max-width: none;
   margin-left: 0;
