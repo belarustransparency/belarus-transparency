@@ -8,6 +8,8 @@ theme:
   name: material
   language: ru
   font: false
+  logo: assets/mark.svg
+  favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
