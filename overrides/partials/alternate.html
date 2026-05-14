@@ -1,33 +1,38 @@
 {#-
   Override: partials/alternate.html
-  Belarus Transparency — динамическая иконка переключения языка.
+  Belarus Transparency — иконка языка, переключаемая по URL и по теме.
 
-  Логика: смотрим на URL текущей страницы.
-  - URL начинается с "en/" → мы на английской странице → показываем RU.
-  - Иначе (русские страницы) → показываем EN.
-
-  Это нужно потому что config.theme.language всегда "ru" (Material
-  поддерживает один canonical язык на проект), а у нас зеркальные
-  папки ru/ и en/ в одном проекте.
+  Логика:
+  - На /en/* показываем RU (намёк "есть русская").
+  - На остальных (русских) — EN.
+  - Внутри каждого варианта — две версии (для светлой и тёмной темы),
+    CSS показывает нужную через [data-md-color-scheme].
 -#}
 
 <!-- Site language selector -->
 <div class="md-header__option">
   <div class="md-select">
 
-    {#- Определяем по URL: на /en/* показываем RU, иначе EN -#}
     {%- if page and page.url.startswith("en/") -%}
-      {%- set icon = "bt/lang-ru" -%}
+      {%- set icon_light = "bt/lang-ru-light" -%}
+      {%- set icon_dark  = "bt/lang-ru-dark" -%}
     {%- else -%}
-      {%- set icon = "bt/lang-en" -%}
+      {%- set icon_light = "bt/lang-en-light" -%}
+      {%- set icon_dark  = "bt/lang-en-dark" -%}
     {%- endif -%}
 
     <button
       class="md-header__button md-icon"
       aria-label="{{ lang.t('select.language') }}"
     >
-      {% include ".icons/" ~ icon ~ ".svg" %}
+      <span class="bt-lang bt-lang--light">
+        {% include ".icons/" ~ icon_light ~ ".svg" %}
+      </span>
+      <span class="bt-lang bt-lang--dark">
+        {% include ".icons/" ~ icon_dark ~ ".svg" %}
+      </span>
     </button>
+
     <div class="md-select__inner">
       <ul class="md-select__list">
         {% for alt in config.extra.alternate %}

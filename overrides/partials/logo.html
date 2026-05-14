@@ -1,0 +1,20 @@
+{#-
+  Override: partials/logo.html
+  Belarus Transparency — двойной логотип для светлой и тёмной темы.
+
+  Material принимает только одну ссылку в theme.logo и не умеет автоматически
+  переключать логотип при смене темы. Решение: вставить оба <img>,
+  один из них скрыть через CSS в зависимости от [data-md-color-scheme].
+-#}
+
+{%- set logo_light = "assets/logo-horizontal-ru-light.svg" -%}
+{%- set logo_dark  = "assets/logo-horizontal-ru-dark.svg" -%}
+
+{#- На английских страницах берём английский логотип -#}
+{%- if page and page.url.startswith("en/") -%}
+  {%- set logo_light = "assets/logo-horizontal-en-light.svg" -%}
+  {%- set logo_dark  = "assets/logo-horizontal-en-dark.svg" -%}
+{%- endif -%}
+
+<img src="{{ logo_light | url }}" alt="logo" class="bt-logo bt-logo--light" />
+<img src="{{ logo_dark  | url }}" alt="logo" class="bt-logo bt-logo--dark" />

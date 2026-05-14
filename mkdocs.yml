@@ -9,18 +9,16 @@ theme:
   custom_dir: overrides
   language: ru
   font: false
-  logo: assets/logo-horizontal-ru.svg
+  logo: assets/logo-horizontal-ru-light.svg
   favicon: assets/favicon.svg
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: bt/theme-toggle-light
         name: Тёмная тема
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: custom
       accent: custom
       toggle:
