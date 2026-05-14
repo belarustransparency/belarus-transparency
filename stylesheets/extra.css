@@ -663,3 +663,43 @@ body[data-md-color-scheme] .md-content {
   margin: 0 auto;
   padding: 1rem 1.5rem 2rem;
 }
+/* ==========================================================================
+   === Шапка сайта: горизонтальный логотип вместо знака + site_name ===
+
+   Material по умолчанию рендерит в шапке: знак (theme.logo) + текст
+   (site_name) рядом. Нам нужен только горизонтальный логотип целиком —
+   с моноширинным названием и подзаголовком внутри SVG. Поэтому:
+   1) site_name прячем визуально (но оставляем для SEO и скринридеров)
+   2) логотипу даём бОльшую высоту (40px вместо дефолтных 24px)
+   ========================================================================== */
+
+/* Скрываем материаловское название сайта в шапке */
+.md-header__title .md-header__topic {
+  display: none;
+}
+
+/* Даём логотипу нужную высоту, чтобы наш SVG читался */
+.md-header__button.md-logo {
+  margin: 0.4rem 0.6rem 0.4rem 0;
+  padding: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 40px;
+  width: auto;
+}
+
+/* Уменьшаем общий padding шапки чтобы логотип не упирался */
+.md-header__inner {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* На мобильных экранах логотип чуть меньше */
+@media screen and (max-width: 76.234375em) {
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 32px;
+  }
+}
