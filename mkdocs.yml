@@ -6,6 +6,7 @@ site_author: Belarus Transparency Project
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   font: false
   logo: assets/mark.svg
@@ -16,14 +17,14 @@ theme:
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-night
+        icon: bt/theme-toggle-light
         name: Тёмная тема
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-sunny
+        icon: bt/theme-toggle-dark
         name: Светлая тема
   features:
     - navigation.tabs
@@ -67,9 +68,11 @@ extra:
     - name: Русский
       link: /
       lang: ru
+      icon: bt/lang-en
     - name: English
       link: /en/
       lang: en
+      icon: bt/lang-ru
     generator: false
     social:
     - icon: fontawesome/brands/github
