@@ -65,14 +65,14 @@ markdown_extensions:
       permalink: true
 
 extra:
-    alternate:
+  alternate:
     - name: Русский
       link: /
       lang: ru
     - name: English
       link: /en/
       lang: en
-    generator: false
-    social:
+  generator: false
+  social:
     - icon: fontawesome/brands/github
       link: https://github.com/belarustransparency
