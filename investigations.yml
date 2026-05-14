@@ -38,7 +38,7 @@ investigations:
       - finansy
     grants_eur: 90
     grants_pct: 12
-    cover: ""
+    cover: "/assets/covers/marinich.webp"
     cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
 
   - code: BT-003
@@ -55,7 +55,7 @@ investigations:
       - litva
     grants_eur: 53
     grants_pct: 7
-    cover: ""
+    cover: "/assets/covers/alekhnovich.webp"
     cover_gradient: "linear-gradient(135deg, #3d3530 0%, #20191a 100%)"
 
 
