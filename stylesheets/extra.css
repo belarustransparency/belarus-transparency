@@ -664,42 +664,64 @@ body[data-md-color-scheme] .md-content {
   padding: 1rem 1.5rem 2rem;
 }
 /* ==========================================================================
-   === Шапка сайта: горизонтальный логотип вместо знака + site_name ===
+   === Шапка сайта: горизонтальный логотип + переключение тем ===
 
-   Material по умолчанию рендерит в шапке: знак (theme.logo) + текст
-   (site_name) рядом. Нам нужен только горизонтальный логотип целиком —
-   с моноширинным названием и подзаголовком внутри SVG. Поэтому:
-   1) site_name прячем визуально (но оставляем для SEO и скринридеров)
-   2) логотипу даём бОльшую высоту (40px вместо дефолтных 24px)
+   v2.1 — усиленные селекторы. Material может рендерить partials/logo.html
+   в разных контекстах (шапка, боковая панель), и DOM-структура может
+   отличаться. Поэтому правила переключения работают по классу .bt-logo*
+   глобально, без привязки к родителю.
    ========================================================================== */
 
-/* Скрываем материаловское название сайта в шапке */
+/* Скрываем дублирующее название из site_name */
 .md-header__title .md-header__topic {
-  display: none;
+  display: none !important;
 }
 
-/* Даём логотипу нужную высоту, чтобы наш SVG читался */
+/* Высота логотипа в шапке */
 .md-header__button.md-logo {
   margin: 0.4rem 0.6rem 0.4rem 0;
   padding: 0;
 }
 
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
+.md-header__button.md-logo img.bt-logo,
+.md-header__button.md-logo .bt-logo {
   height: 40px;
   width: auto;
 }
 
-/* Уменьшаем общий padding шапки чтобы логотип не упирался */
-.md-header__inner {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-/* На мобильных экранах логотип чуть меньше */
 @media screen and (max-width: 76.234375em) {
-  .md-header__button.md-logo img,
-  .md-header__button.md-logo svg {
+  .md-header__button.md-logo img.bt-logo,
+  .md-header__button.md-logo .bt-logo {
     height: 32px;
   }
+}
+
+/* ==========================================================================
+   Переключение версий по теме — глобальные правила (не зависят от родителя)
+   ========================================================================== */
+
+/* По умолчанию (светлая тема): прячем тёмные варианты везде */
+img.bt-logo--dark,
+.bt-lang--dark {
+  display: none !important;
+}
+
+/* В тёмной теме: показываем тёмные, прячем светлые */
+[data-md-color-scheme="slate"] img.bt-logo--light,
+[data-md-color-scheme="slate"] .bt-lang--light {
+  display: none !important;
+}
+
+[data-md-color-scheme="slate"] img.bt-logo--dark {
+  display: inline-block !important;
+}
+
+[data-md-color-scheme="slate"] .bt-lang--dark {
+  display: inline-flex !important;
+}
+
+/* span'ы внутри кнопки языка */
+.md-header__option .bt-lang {
+  display: inline-flex;
+  align-items: center;
 }
