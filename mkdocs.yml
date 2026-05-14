@@ -68,11 +68,9 @@ extra:
     - name: Русский
       link: /
       lang: ru
-      icon: bt/lang-en
     - name: English
       link: /en/
       lang: en
-      icon: bt/lang-ru
     generator: false
     social:
     - icon: fontawesome/brands/github

@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
   <line x1="0" y1="4" x2="0" y2="20" stroke="#B8341E" stroke-width="1.5"/>
-  <text x="12" y="16" font-family="'DejaVu Sans Mono', Menlo, Consolas, ui-monospace, monospace" font-size="9" font-weight="500" fill="#6B6B6B" text-anchor="middle">EN</text>
+  <text x="12" y="16.5"
+        font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif"
+        font-size="10" font-weight="700" fill="#4A4A4A"
+        text-anchor="middle">EN</text>
 </svg>

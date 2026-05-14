@@ -1,0 +1,47 @@
+{#-
+  Override: partials/alternate.html
+  Belarus Transparency — динамическая иконка переключения языка.
+
+  Логика: смотрим на URL текущей страницы.
+  - URL начинается с "en/" → мы на английской странице → показываем RU.
+  - Иначе (русские страницы) → показываем EN.
+
+  Это нужно потому что config.theme.language всегда "ru" (Material
+  поддерживает один canonical язык на проект), а у нас зеркальные
+  папки ru/ и en/ в одном проекте.
+-#}
+
+<!-- Site language selector -->
+<div class="md-header__option">
+  <div class="md-select">
+
+    {#- Определяем по URL: на /en/* показываем RU, иначе EN -#}
+    {%- if page and page.url.startswith("en/") -%}
+      {%- set icon = "bt/lang-ru" -%}
+    {%- else -%}
+      {%- set icon = "bt/lang-en" -%}
+    {%- endif -%}
+
+    <button
+      class="md-header__button md-icon"
+      aria-label="{{ lang.t('select.language') }}"
+    >
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        {% for alt in config.extra.alternate %}
+          <li class="md-select__item">
+            <a
+              href="{{ alt.link | url }}"
+              hreflang="{{ alt.lang }}"
+              class="md-select__link"
+            >
+              {{ alt.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

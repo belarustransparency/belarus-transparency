@@ -3,12 +3,25 @@
     <clipPath id="lh"><rect x="2" y="2" width="10" height="20"/></clipPath>
     <clipPath id="rh"><rect x="12" y="2" width="10" height="20"/></clipPath>
   </defs>
-  <!-- Кирпичная черта-акцент слева -->
+  <!-- Кирпичная акцент-черта -->
   <line x1="0" y1="4" x2="0" y2="20" stroke="#B8341E" stroke-width="1.5"/>
-  <!-- Половинки -->
+  <!-- Две половины фона -->
   <rect x="2" y="2" width="10" height="20" fill="#F7F5F0"/>
   <rect x="12" y="2" width="10" height="20" fill="#2A2A28"/>
-  <!-- Буква T в двух плотностях -->
-  <text x="12" y="17" font-family="Georgia, 'DejaVu Serif', 'Times New Roman', serif" font-size="13" font-weight="500" fill="#6B6B6B" text-anchor="middle" clip-path="url(#lh)">T</text>
-  <text x="12" y="17" font-family="Georgia, 'DejaVu Serif', 'Times New Roman', serif" font-size="13" font-weight="500" fill="#9A9893" text-anchor="middle" clip-path="url(#rh)">T</text>
+  <!-- Буква T левая (тёмная на светлом) -->
+  <g clip-path="url(#lh)">
+    <rect x="5.5" y="5.5" width="13" height="3" fill="#4A4A4A"/>
+    <rect x="10.5" y="5.5" width="3" height="13" fill="#4A4A4A"/>
+    <rect x="5.5" y="5.5" width="2.2" height="3.5" fill="#4A4A4A"/>
+    <rect x="16.3" y="5.5" width="2.2" height="3.5" fill="#4A4A4A"/>
+    <rect x="8" y="16.5" width="8" height="2.2" fill="#4A4A4A"/>
+  </g>
+  <!-- Буква T правая (светлая на тёмном) -->
+  <g clip-path="url(#rh)">
+    <rect x="5.5" y="5.5" width="13" height="3" fill="#C8C8C8"/>
+    <rect x="10.5" y="5.5" width="3" height="13" fill="#C8C8C8"/>
+    <rect x="5.5" y="5.5" width="2.2" height="3.5" fill="#C8C8C8"/>
+    <rect x="16.3" y="5.5" width="2.2" height="3.5" fill="#C8C8C8"/>
+    <rect x="8" y="16.5" width="8" height="2.2" fill="#C8C8C8"/>
+  </g>
 </svg>
