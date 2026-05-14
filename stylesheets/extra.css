@@ -1,6 +1,12 @@
 /* === Inter, кириллица + латиница === */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
+/* Всегда резервировать место под полосу прокрутки — убирает прыжок шапки
+   при переключении страниц с разной длиной контента */
+html {
+  scrollbar-gutter: stable;
+}
+
 /* === Палитра, светлая тема === */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color:        #0A0A0A;
