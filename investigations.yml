@@ -21,7 +21,7 @@ investigations:
       - litva
     grants_eur: 135       # сумма в млн €
     grants_pct: 18        # процент от 750 млн € (должен совпадать с грубой математикой выше)
-    cover: ""             # путь к фото-обложке, или пусто для тёмной плашки
+    cover: "/assets/covers/brukhan.webp"             # путь к фото-обложке, или пусто для тёмной плашки
     cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
 
   - code: BT-002
