@@ -44,6 +44,8 @@ nav:
 plugins:
   - search:
       lang: ru
+  - macros:
+      module_name: main  
 
 markdown_extensions:
   - attr_list
