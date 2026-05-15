@@ -981,3 +981,31 @@ css/* === Выравнивание логотипа по сетке контен
   .bt-inv-grants { grid-area: grants; justify-content: flex-end; }
   .bt-inv-title { font-size: 17px; }
 }
+/* ========================================================================
+   ДОБАВИТЬ В docs/stylesheets/extra.css
+   3 новые секции: события, карточка события, архив, карточка документа.
+   ======================================================================== */
+
+
+/* === Витрина раздела событий === */
+
+.bt-event-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.bt-filter {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  cursor: pointer;
+  user-select: none;
+  color: var(--md-default-fg-color--light);
+  transition: all 0.15s ease;
+}
