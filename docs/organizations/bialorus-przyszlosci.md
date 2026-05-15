@@ -41,7 +41,7 @@ tags:
 status_note:
 ---
 
-<div class="bt-org">
+<div class="bt-org" markdown="1">
 
 <header class="bt-org-head">
   <div class="bt-kicker">Организация · Фонд</div>
