@@ -63,7 +63,7 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
-      
+
 extra:
   alternate:
     - name: Русский
@@ -73,13 +73,3 @@ extra:
       link: /en/
       lang: en
   generator: false
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/belarus-transparency
-      name: Belarus Transparency на LinkedIn
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@belarustransparency
-      name: Belarus Transparency на YouTube
-    - icon: fontawesome/brands/github
-      link: https://github.com/belarustransparency
-      name: Исходники сайта на GitHub
