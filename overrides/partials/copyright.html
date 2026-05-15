@@ -1,36 +1,36 @@
 {#-
   overrides/partials/copyright.html
 
-  Полностью переопределяет блок копирайта Material.
   Структура:
-    .md-footer-meta
-      .md-footer-meta__inner          ← Material flex-контейнер
-        .md-copyright                  ← в нём наш .bt-footer
-          .bt-footer
-            .bt-footer-row             ← главная строка: копирайт + меню
-              .bt-footer-left           — копирайт
-              .bt-footer-right          — пункты меню
-        .md-social                     ← иконки соцсетей (Material рендерит сам)
-    .bt-footer-fineprint               ← приписка отдельным рядом во всю ширину
+    .md-copyright (рендерит Material)
+      .bt-footer                       — наш блок на всю ширину
+        .bt-footer-row                 — flex-строка с тремя зонами
+          .bt-footer-left              — копирайт (прижат к левому краю)
+          .bt-footer-sep-vert          — кирпичная черта 14px
+          .bt-footer-mid               — пункты меню (по центру)
+          .bt-footer-sep-vert          — кирпичная черта 14px
+          (пустое место под .md-social справа)
+
+  Соцсети Material рендерит сам из extra.social в mkdocs.yml,
+  как .md-social — соседним блоком к .md-copyright внутри
+  .md-footer-meta__inner. CSS-правила в extra.css кладут оба
+  блока (.md-copyright и .md-social) в одну flex-строку, наш
+  .md-copyright занимает всё доступное место, .md-social жмётся
+  вправо. Поэтому в партиале мы рисуем только левую и центральную
+  зоны + правую кирпичную черту-разделитель — иконки приедут сами.
 -#}
 <div class="md-copyright">
   <div class="bt-footer">
     <div class="bt-footer-row">
-      <div class="bt-footer-left">
-        <span class="bt-footer-copy">© 2026 Belarus Transparency</span>
-      </div>
-      <nav class="bt-footer-right">
-        <a href="{{ '/archive/' | url }}">Архив</a>
-        <span class="bt-footer-sep">·</span>
+      <span class="bt-footer-copy">© 2026 Belarus Transparency</span>
+      <span class="bt-footer-sep-vert" aria-hidden="true"></span>
+      <nav class="bt-footer-mid">
+        <a href="{{ '/archive/' | url }}">Архив документов</a>
         <a href="{{ '/methodology/' | url }}">Методология</a>
-        <span class="bt-footer-sep">·</span>
         <a href="{{ '/source-protection/' | url }}">Защита источников</a>
-        <span class="bt-footer-sep">·</span>
         <a href="{{ '/privacy/' | url }}">Конфиденциальность</a>
       </nav>
+      <span class="bt-footer-sep-vert" aria-hidden="true"></span>
     </div>
   </div>
-</div>
-<div class="bt-footer-fineprint">
-  Сайт не использует системы веб-аналитики и не устанавливает собственные cookie. Хостится на GitHub Pages, шрифты&nbsp;— Google Fonts. Подробнее на странице <a href="{{ '/privacy/' | url }}">Конфиденциальность</a>.
 </div>
