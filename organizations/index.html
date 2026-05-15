@@ -629,8 +629,7 @@
 
 <!-- ============================================================
      ФИЛЬТРЫ ПО ТИПУ ОРГАНИЗАЦИИ
-     Атрибут data-type должен совпадать с org_type из frontmatter
-     карточки организации.
+     data-filter совпадает с org_type из frontmatter карточки.
      ============================================================ -->
 
 <nav class="bt-org-filters">
@@ -643,28 +642,39 @@
 
 <!-- ============================================================
      ЛЕНТА КАРТОЧЕК
-     Каждая карточка — одна строка HTML без переносов внутри <a>,
-     иначе markdown-парсер разваливает структуру (см. manual).
 
-     data-type — для фильтрации, совпадает с org_type
+     ВАЖНО: карточка — это <div data-href="...">, НЕ <a>.
+     Причина: внутри карточки есть вложенная ссылка на персону
+     (.bt-org-eq для one-person организаций), а <a> внутри <a>
+     запрещён HTML-спецификацией — браузер закрывает внешнюю
+     ссылку перед открытием внутренней, что разваливает вёрстку.
+
+     Клик по карточке обрабатывает JS внизу страницы. Он же
+     обеспечивает доступность с клавиатуры (Enter/Space).
+
+     Каждая карточка пишется ОДНОЙ строкой HTML без переносов —
+     иначе markdown-парсер развалит структуру (известная проблема).
      ============================================================ -->
 
 <div class="bt-orgs-list" markdown="0">
 
-<a class="bt-org-row" data-type="political-structure" href="opk/"><div class="bt-org-row-head"><div class="bt-org-row-type">Политическая структура</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Объединённый переходный кабинет</div><div class="bt-org-row-role">Координирует политическую оппозицию в эмиграции</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></a>
+<div class="bt-org-row" data-type="political-structure" data-href="opk/" role="link" tabindex="0" aria-label="Объединённый переходный кабинет"><div class="bt-org-row-head"><div class="bt-org-row-type">Политическая структура</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Объединённый переходный кабинет</div><div class="bt-org-row-role">Координирует политическую оппозицию в эмиграции</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
 
-<a class="bt-org-row" data-type="foundation" href="byhelp/"><div class="bt-org-row-head"><div class="bt-org-row-type">Фонд</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span><a class="bt-org-eq" href="../persons/ivan-ivanov/"><span class="bt-org-eq-sym">≡</span>Иван Иванов</a></div></div><div class="bt-org-row-name">Фонд солидарности By_help</div><div class="bt-org-row-role">Помощь пострадавшим от репрессий</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></a>
+<div class="bt-org-row" data-type="foundation" data-href="byhelp/" role="link" tabindex="0" aria-label="Фонд солидарности By_help"><div class="bt-org-row-head"><div class="bt-org-row-type">Фонд</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span><a class="bt-org-eq" href="../persons/ivan-ivanov/"><span class="bt-org-eq-sym">≡</span>Иван Иванов</a></div></div><div class="bt-org-row-name">Фонд солидарности By_help</div><div class="bt-org-row-role">Помощь пострадавшим от репрессий</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
 
-<a class="bt-org-row" data-type="media" href="example-media/"><div class="bt-org-row-head"><div class="bt-org-row-type">Медиа</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Название медиа</div><div class="bt-org-row-role">Краткое описание издания одной строкой</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-part"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></a>
+<div class="bt-org-row" data-type="media" data-href="example-media/" role="link" tabindex="0" aria-label="Название медиа"><div class="bt-org-row-head"><div class="bt-org-row-type">Медиа</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Название медиа</div><div class="bt-org-row-role">Краткое описание издания одной строкой</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-part"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
 
 </div>
 
 </div>
 
 <!-- ============================================================
-     СКРИПТ ФИЛЬТРАЦИИ
-     Минимальный inline JS — переключает класс активного фильтра
-     и видимость карточек. Без сторонних зависимостей.
+     СКРИПТ ФИЛЬТРАЦИИ И КЛИКА ПО КАРТОЧКЕ
+     - Фильтры переключают видимость карточек по data-type.
+     - Клик по карточке ведёт на data-href.
+     - НЕ перехватываем клики по вложенным <a> (напр. ≡ Имя) —
+       такие клики ведут на свой собственный href.
+     - Клавиатура: Enter / Space на карточке = клик.
      ============================================================ -->
 
 <script>
@@ -685,6 +695,24 @@
           r.style.display = 'none';
         }
       });
+    });
+  });
+
+  rows.forEach(r => {
+    const href = r.dataset.href;
+    if (!href) return;
+
+    r.addEventListener('click', e => {
+      if (e.target.closest('a')) return;
+      window.location.href = href;
+    });
+
+    r.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        if (e.target.closest('a')) return;
+        e.preventDefault();
+        window.location.href = href;
+      }
     });
   });
 })();
