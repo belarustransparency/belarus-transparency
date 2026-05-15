@@ -1536,83 +1536,71 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 /* === Подвал сайта === */
-
-/* --- Material-контейнер: переводим в строку --- */
+ 
+/* --- Material-контейнер: переводим в строку, прижимаем нашу
+       .md-copyright на всю ширину. Material не вставляет
+       больше ничего рядом — extra.social не используется. --- */
 .md-footer-meta__inner.md-grid {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: wrap !important;
-  align-items: center !important;
-  row-gap: 0.75rem;
-  column-gap: 0;
+  align-items: stretch !important;
+  padding: 0;
 }
-
-/* Наш блок копирайта занимает всё доступное пространство */
+ 
 .md-footer-meta__inner > .md-copyright {
-  flex: 1 1 auto;
+  flex: 1 1 100%;
+  width: 100%;
   min-width: 0;
-  width: auto;
   max-width: none;
   margin: 0;
   padding: 0;
 }
-
-/* Социалки прижимаются к правому краю и плотно стыкуются с нашей правой чертой */
-.md-footer-meta__inner > .md-social {
-  flex: 0 0 auto;
-  padding: 0 0.5rem 0 0;
-  margin: 0;
-}
-
-.md-social__link {
-  padding: 0.2rem 0.35rem;
-}
-
-/* --- Наш футер: три зоны + черты --- */
-
+ 
+/* --- Наш футер --- */
+ 
 .bt-footer {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   line-height: 1.5;
   color: var(--md-footer-fg-color--light);
-  padding: 0;
+  padding: 1.5rem 1.25rem 0;
   margin: 0;
   width: 100%;
+  box-sizing: border-box;
 }
-
+ 
 .bt-footer-row {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 1.5rem;
   width: 100%;
+  padding-bottom: 1.25rem;
 }
-
-/* Зоны футера */
+ 
+/* Зоны */
 .bt-footer-copy {
   color: #B8341E !important;
   font-weight: 500;
   letter-spacing: 0.01em;
   flex-shrink: 0;
 }
-
+ 
 .bt-footer-mid {
   display: flex;
-  flex: 1 1 auto;
-  justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
-/* Кирпичная вертикальная черта 14px высотой */
-.bt-footer-sep-vert {
+ 
+.bt-footer-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   flex-shrink: 0;
-  width: 1px;
-  height: 14px;
-  background: #B8341E;
-  display: inline-block;
 }
-
+ 
 /* Ссылки в меню */
-.bt-footer a {
+.bt-footer-mid a {
   color: var(--md-footer-fg-color--light) !important;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -1620,36 +1608,56 @@ css/* === Выравнивание логотипа по сетке контен
   padding-bottom: 1px;
   white-space: nowrap;
 }
-
-.bt-footer a:hover {
+ 
+.bt-footer-mid a:hover {
   color: var(--md-footer-fg-color) !important;
   border-bottom-color: #B8341E;
 }
-
+ 
+/* Иконки соцсетей */
+.bt-footer-icon {
+  color: var(--md-footer-fg-color--light) !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  text-decoration: none;
+  border-bottom: none !important;
+  transition: color 0.15s ease;
+}
+ 
+.bt-footer-icon:hover {
+  color: #B8341E !important;
+}
+ 
+.bt-footer-icon svg {
+  display: block;
+}
+ 
+/* Кирпичная линия снизу + пустое пространство под ней */
+.bt-footer-line {
+  height: 1px;
+  background: #B8341E;
+  width: 100%;
+}
+ 
+.bt-footer-after {
+  height: 1rem;
+}
+ 
 /* --- Мобильная адаптация --- */
 @media (max-width: 768px) {
-  .md-footer-meta__inner.md-grid {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 0.75rem;
-  }
-  .md-footer-meta__inner > .md-social {
-    margin: 0;
-    padding: 0;
-  }
   .bt-footer-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem;
-  }
-  .bt-footer-sep-vert {
-    display: none;
+    gap: 0.75rem;
   }
   .bt-footer-mid {
     justify-content: flex-start;
-    gap: 0.75rem 1rem;
+    gap: 0.5rem 1rem;
   }
 }
+
 
 /* === Юридические страницы (privacy, terms, imprint) === */
 
