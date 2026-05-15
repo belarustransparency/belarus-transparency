@@ -854,7 +854,7 @@ img.bt-logo--dark,
    Inter везде (раньше .bt-inv-title была Georgia — убрана). */
 
 .bt-inv-index {
-  max-width: 880px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -1407,7 +1407,8 @@ img.bt-logo--dark,
 /* === Карточка документа === */
 
 .bt-doc {
-  max-width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .bt-doc-kicker {
@@ -1752,7 +1753,8 @@ img.bt-logo--dark,
 /* === Юридические страницы (privacy, terms, imprint) === */
 
 .bt-legal {
-  max-width: 720px;
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .bt-legal-kicker {
@@ -1840,7 +1842,7 @@ img.bt-logo--dark,
    ============================================================ */
 
 .bt-orgs-index {
-  max-width: 920px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -2141,7 +2143,7 @@ img.bt-logo--dark,
    ============================================================ */
 
 .bt-org {
-  max-width: 820px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
