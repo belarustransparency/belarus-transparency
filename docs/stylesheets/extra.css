@@ -267,6 +267,17 @@ body, .md-typeset {
   margin-bottom: 1.1rem;
 }
 
+/* Прячем kicker (надтекст «РАЗДЕЛ САЙТА» и подобные) на внутренних
+   страницах. На главной (.bt-hero) kicker нужен — он подписывает
+   проект целиком. На внутренних он дублирует то, что и так очевидно
+   из навигации, поэтому скрывается. */
+.bt-person-head .bt-kicker,
+.bt-index-head .bt-kicker,
+.bt-inv-head .bt-kicker,
+.bt-org-head .bt-kicker {
+  display: none;
+}
+
 .bt-hero h1 {
   font-size: var(--bt-fs-s1);
   line-height: var(--bt-lh-head);
