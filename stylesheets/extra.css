@@ -1736,3 +1736,713 @@ css/* === Выравнивание логотипа по сетке контен
   font-weight: 500;
   color: var(--md-default-fg-color);
 }
+/* ============================================================
+   === Витрина раздела организаций ===
+   Лента карточек с фильтрами по типу.
+   Каждая карточка показывает 4 индикатора прозрачности.
+   ============================================================ */
+
+/* Корневая обёртка */
+.bt-orgs-index {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* Фильтры — тонкие текстовые ссылки, как у событий */
+.bt-org-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  margin: 1.5rem 0 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest, #E5E5E0);
+}
+
+.bt-org-filters .bt-filter {
+  font-size: 0.78rem;
+  color: #6B6B6B;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.bt-org-filters .bt-filter:hover {
+  color: #B8341E;
+}
+
+.bt-org-filters .bt-filter-active {
+  color: #0A0A0A;
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .bt-org-filters {
+  border-bottom-color: #2A2A28;
+}
+
+[data-md-color-scheme="slate"] .bt-org-filters .bt-filter {
+  color: #9A9893;
+}
+
+[data-md-color-scheme="slate"] .bt-org-filters .bt-filter-active {
+  color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .bt-org-filters .bt-filter:hover {
+  color: #D85A30;
+}
+
+/* Лента карточек */
+.bt-orgs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Превью-карточка организации */
+.bt-org-row {
+  display: block;
+  padding: 1rem 1.2rem 0.9rem;
+  background: #EDEAE0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.bt-org-row > * {
+  color: inherit;
+}
+
+.bt-org-row:hover {
+  border-color: #B8341E;
+}
+
+[data-md-color-scheme="slate"] .bt-org-row {
+  background: #1A1A19;
+}
+
+[data-md-color-scheme="slate"] .bt-org-row:hover {
+  border-color: #D85A30;
+}
+
+/* Шапка карточки — тип слева, статус-линия справа */
+.bt-org-row-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 0.4rem;
+}
+
+.bt-org-row-type {
+  font-size: 0.65rem;
+  color: #6B6B6B;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+[data-md-color-scheme="slate"] .bt-org-row-type {
+  color: #9A9893;
+}
+
+/* Линия статусов и бейдж "≡ Имя" — компактно справа */
+.bt-org-row-status-line {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Бейджи статуса (общие классы — используются и в карточке тоже) */
+.bt-status {
+  font-size: 0.6rem;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+
+.bt-status-active {
+  background: #EAF3DE;
+  color: #3B6D11;
+}
+
+.bt-status-closed {
+  background: #F1EFE8;
+  color: #6B6B6B;
+}
+
+.bt-status-paused {
+  background: #FAEEDA;
+  color: #854F0B;
+}
+
+[data-md-color-scheme="slate"] .bt-status-active {
+  background: rgba(99, 153, 34, 0.18);
+  color: #97C459;
+}
+
+[data-md-color-scheme="slate"] .bt-status-closed {
+  background: #2A2A28;
+  color: #9A9893;
+}
+
+[data-md-color-scheme="slate"] .bt-status-paused {
+  background: rgba(186, 117, 23, 0.18);
+  color: #EF9F27;
+}
+
+/* Бейдж "≡ Имя" — отсылка к персоне для one-person организаций */
+.bt-org-eq {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.62rem;
+  color: #6B6B6B !important;
+  background: #F1EFE8;
+  padding: 2px 8px 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+
+.bt-org-eq:hover {
+  background: #E5E2D6;
+}
+
+.bt-org-eq-sym {
+  font-family: 'Georgia', serif;
+  font-size: 0.78rem;
+  color: #B8341E;
+  font-weight: 400;
+  line-height: 1;
+}
+
+[data-md-color-scheme="slate"] .bt-org-eq {
+  background: #2A2A28;
+  color: #9A9893 !important;
+}
+
+[data-md-color-scheme="slate"] .bt-org-eq:hover {
+  background: #3A3A37;
+}
+
+[data-md-color-scheme="slate"] .bt-org-eq-sym {
+  color: #D85A30;
+}
+
+/* Название и роль */
+.bt-org-row-name {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #0A0A0A;
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
+
+[data-md-color-scheme="slate"] .bt-org-row-name {
+  color: #FFFFFF;
+}
+
+.bt-org-row-role {
+  font-size: 0.82rem;
+  color: #6B6B6B;
+  line-height: 1.45;
+  margin-bottom: 0.8rem;
+}
+
+[data-md-color-scheme="slate"] .bt-org-row-role {
+  color: #9A9893;
+}
+
+/* ============================================================
+   === Полоска индикаторов прозрачности ===
+   Используется и в витрине, и внутри карточки организации.
+   4 сегмента: устав / отчёты / аудит / контроль
+   Цвета: зелёный=да, красный=нет, серый=неизвестно, жёлтый=частично
+   ============================================================ */
+
+.bt-tp-bar {
+  display: flex;
+  gap: 2px;
+  margin-top: 0.4rem;
+}
+
+.bt-tp-seg {
+  flex: 1;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.bt-tp-yes {
+  background: #639922;
+}
+
+.bt-tp-no {
+  background: #E24B4A;
+}
+
+.bt-tp-unk {
+  background: #C8C5BC;
+}
+
+.bt-tp-part {
+  background: #EF9F27;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-unk {
+  background: #3A3A37;
+}
+
+.bt-tp-legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 0.62rem;
+  color: #6B6B6B;
+  letter-spacing: 0.02em;
+}
+
+.bt-tp-legend span {
+  flex: 1;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-legend {
+  color: #9A9893;
+}
+
+/* ============================================================
+   === Карточка организации ===
+   ============================================================ */
+
+/* Корневая обёртка */
+.bt-org {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+/* Обложка (наследует .bt-cover из персоналий — здесь только если
+   нужны корректировки. Если .bt-cover уже в проекте — этот блок не нужен) */
+.bt-org .bt-cover {
+  margin-bottom: 1.5rem;
+}
+
+/* Шапка карточки */
+.bt-org-head {
+  margin-bottom: 1.6rem;
+}
+
+.bt-org-head h1 {
+  margin: 0.3rem 0 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #0A0A0A;
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .bt-org-head h1 {
+  color: #FFFFFF;
+}
+
+.bt-org-head .bt-kicker {
+  font-size: 0.65rem;
+  color: #6B6B6B;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+[data-md-color-scheme="slate"] .bt-org-head .bt-kicker {
+  color: #9A9893;
+}
+
+.bt-org-head .bt-lede {
+  font-size: 0.92rem;
+  color: #6B6B6B;
+  line-height: 1.55;
+  margin: 0 0 0.8rem;
+}
+
+[data-md-color-scheme="slate"] .bt-org-head .bt-lede {
+  color: #9A9893;
+}
+
+.bt-org-status {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+/* === Блок прозрачности внутри карточки === */
+
+.bt-org-transparency {
+  background: #EDEAE0;
+  padding: 1rem 1.2rem 1.1rem;
+  border-radius: 4px;
+  margin: 1.5rem 0 2rem;
+}
+
+[data-md-color-scheme="slate"] .bt-org-transparency {
+  background: #1A1A19;
+}
+
+.bt-org-transparency .bt-block-label {
+  margin-bottom: 0.6rem;
+}
+
+.bt-tp-details {
+  margin-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding-top: 0.8rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-details {
+  border-top-color: rgba(255,255,255,0.06);
+}
+
+.bt-tp-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 12px;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.bt-tp-label {
+  color: #6B6B6B;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-label {
+  color: #9A9893;
+}
+
+.bt-tp-value-yes {
+  color: #3B6D11;
+}
+
+.bt-tp-value-no {
+  color: #A32D2D;
+}
+
+.bt-tp-value-unk {
+  color: #6B6B6B;
+}
+
+.bt-tp-value-part {
+  color: #854F0B;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-value-yes {
+  color: #97C459;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-value-no {
+  color: #F09595;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-value-unk {
+  color: #9A9893;
+}
+
+[data-md-color-scheme="slate"] .bt-tp-value-part {
+  color: #EF9F27;
+}
+
+/* Адаптивность: на узких экранах метки переезжают над значениями */
+@media (max-width: 600px) {
+  .bt-tp-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+/* === Блок-метаданные организации === */
+
+.bt-org-meta {
+  margin: 1.5rem 0;
+}
+
+.bt-org-meta .bt-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem 1.5rem;
+}
+
+.bt-org-meta .bt-meta-item {
+  border-left: 2px solid #B8341E;
+  padding-left: 10px;
+}
+
+.bt-org-meta .bt-meta-label {
+  font-size: 0.62rem;
+  color: #6B6B6B;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
+.bt-org-meta .bt-meta-value {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+[data-md-color-scheme="slate"] .bt-org-meta .bt-meta-label {
+  color: #9A9893;
+}
+
+/* === Блок "Персональная организация" === */
+
+.bt-org-single {
+  margin: 1.8rem 0;
+  padding: 1rem 1.2rem;
+  background: #F7F5F0;
+  border-left: 3px solid #B8341E;
+  border-radius: 0;
+}
+
+.bt-org-single .bt-block-label {
+  margin-bottom: 0.4rem;
+}
+
+.bt-org-single-body p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+[data-md-color-scheme="slate"] .bt-org-single {
+  background: #141413;
+  border-left-color: #D85A30;
+}
+
+/* === Блок "Структура" === */
+
+.bt-org-structure {
+  margin: 2rem 0;
+}
+
+.bt-org-structure .bt-block-label {
+  margin-bottom: 0.7rem;
+}
+
+/* === Финансовый блок — общие стили === */
+
+.bt-org-money {
+  margin: 2rem 0;
+}
+
+.bt-org-money .bt-block-label {
+  margin-bottom: 0.6rem;
+}
+
+.bt-org-money-note {
+  font-size: 0.78rem;
+  color: #6B6B6B;
+  margin: 0 0 1rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+[data-md-color-scheme="slate"] .bt-org-money-note {
+  color: #9A9893;
+}
+
+/* Режим А — таблица годовой отчётности */
+.bt-money-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.bt-money-table thead th {
+  text-align: left;
+  font-weight: 500;
+  font-size: 0.65rem;
+  color: #6B6B6B;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.5rem 0.8rem 0.5rem 0;
+  border-bottom: 1px solid #E5E5E0;
+}
+
+.bt-money-table tbody td {
+  padding: 0.55rem 0.8rem 0.55rem 0;
+  border-bottom: 1px solid #F1EFE8;
+  line-height: 1.4;
+  vertical-align: top;
+}
+
+.bt-money-table tfoot td {
+  padding: 0.7rem 0.8rem 0.5rem 0;
+  font-weight: 500;
+  border-top: 1px solid #E5E5E0;
+  font-size: 0.85rem;
+}
+
+[data-md-color-scheme="slate"] .bt-money-table thead th {
+  color: #9A9893;
+  border-bottom-color: #2A2A28;
+}
+
+[data-md-color-scheme="slate"] .bt-money-table tbody td {
+  border-bottom-color: #1A1A19;
+}
+
+[data-md-color-scheme="slate"] .bt-money-table tfoot td {
+  border-top-color: #2A2A28;
+}
+
+/* Режим Б — список фрагментов */
+.bt-money-fragments-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.bt-money-fragments-list li {
+  display: grid;
+  grid-template-columns: 56px 110px 1fr auto;
+  gap: 12px;
+  align-items: baseline;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #F1EFE8;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.bt-money-fragments-list li:last-child {
+  border-bottom: none;
+}
+
+.bt-mf-year {
+  font-weight: 500;
+  color: #B8341E;
+}
+
+.bt-mf-amount {
+  color: #0A0A0A;
+}
+
+.bt-mf-source {
+  color: #1F1F1F;
+}
+
+.bt-mf-doc {
+  font-size: 0.74rem;
+}
+
+.bt-mf-context {
+  grid-column: 1 / -1;
+  font-size: 0.74rem;
+  color: #6B6B6B;
+  font-style: italic;
+  margin-top: -3px;
+  margin-left: 68px;
+}
+
+[data-md-color-scheme="slate"] .bt-money-fragments-list li {
+  border-bottom-color: #1A1A19;
+}
+
+[data-md-color-scheme="slate"] .bt-mf-year {
+  color: #D85A30;
+}
+
+[data-md-color-scheme="slate"] .bt-mf-amount {
+  color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .bt-mf-source {
+  color: #E8E6E0;
+}
+
+[data-md-color-scheme="slate"] .bt-mf-context {
+  color: #9A9893;
+}
+
+@media (max-width: 600px) {
+  .bt-money-fragments-list li {
+    grid-template-columns: 56px 1fr;
+  }
+  .bt-mf-source, .bt-mf-doc {
+    grid-column: 2;
+  }
+  .bt-mf-context {
+    margin-left: 0;
+  }
+}
+
+/* Режим В — блок непрозрачности */
+.bt-org-money-opaque-body {
+  padding: 0.9rem 1.1rem;
+  background: #F7F5F0;
+  border-left: 3px solid #C8C5BC;
+}
+
+.bt-org-money-opaque-body p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.bt-org-money-opaque-body p + p {
+  margin-top: 0.6rem;
+}
+
+.bt-org-money-checked {
+  font-size: 0.74rem !important;
+  color: #6B6B6B;
+  font-style: italic;
+}
+
+[data-md-color-scheme="slate"] .bt-org-money-opaque-body {
+  background: #141413;
+  border-left-color: #3A3A37;
+}
+
+[data-md-color-scheme="slate"] .bt-org-money-checked {
+  color: #9A9893;
+}
+
+/* === Блок "Ключевые люди" и "Связанные события" === */
+
+.bt-org-people, .bt-org-events, .bt-org-sources {
+  margin: 1.8rem 0;
+}
+
+.bt-org-people-list,
+.bt-org-events-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bt-org-people-list li,
+.bt-org-events-list li {
+  padding: 0.35rem 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border-bottom: 1px solid #F1EFE8;
+}
+
+.bt-org-people-list li:last-child,
+.bt-org-events-list li:last-child {
+  border-bottom: none;
+}
+
+[data-md-color-scheme="slate"] .bt-org-people-list li,
+[data-md-color-scheme="slate"] .bt-org-events-list li {
+  border-bottom-color: #1A1A19;
+}
