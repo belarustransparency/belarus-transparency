@@ -1,27 +1,26 @@
 {#
-  Override Material-партиала copyright.html — добавляет служебные ссылки
-  в самый низ футера.
-
-  Положить файл в: overrides/partials/copyright.html
-
-  В mkdocs.yml уже должен быть theme.custom_dir: overrides
-  (он у тебя есть, через него работают иконки темы и языка).
+  Override Material-партиала copyright.html
+  Положить в: overrides/partials/copyright.html
+  ЗАМЕНЯЕТ предыдущую версию из комплекта bt-footer-privacy.
 #}
 
-<div class="md-copyright">
-  {% if config.copyright %}
-    <div class="md-copyright__highlight">
-      {{ config.copyright }}
+<div class="bt-footer">
+  <div class="bt-footer-row">
+    <div class="bt-footer-left">
+      <span class="bt-footer-copy">© 2026 Belarus Transparency</span>
+      <span class="bt-footer-tag">исследовательский проект</span>
     </div>
-  {% endif %}
-  {% if not config.extra.generator == false %}
-    Создано с помощью
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>
-  {% endif %}
-
-  <div class="bt-footer-links">
-    <a href="{{ '/archive/' | url }}">Архив документов</a>
-    <span class="bt-footer-sep">·</span>
-    <a href="{{ '/en/' | url }}">English</a>
+    <nav class="bt-footer-right">
+      <a href="{{ '/archive/' | url }}">Архив документов</a>
+      <span class="bt-footer-sep">·</span>
+      <a href="{{ '/methodology/' | url }}">Методология</a>
+      <span class="bt-footer-sep">·</span>
+      <a href="{{ '/source-protection/' | url }}">Защита источников</a>
+      <span class="bt-footer-sep">·</span>
+      <a href="{{ '/privacy/' | url }}">Конфиденциальность</a>
+    </nav>
+  </div>
+  <div class="bt-footer-fineprint">
+    Сайт не использует системы веб-аналитики и не устанавливает собственные cookie. Хостится на GitHub Pages, шрифты — Google Fonts. Подробнее на странице <a href="{{ '/privacy/' | url }}">Конфиденциальность</a>.
   </div>
 </div>

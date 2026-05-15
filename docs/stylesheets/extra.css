@@ -1529,31 +1529,156 @@ css/* === Выравнивание логотипа по сетке контен
   }
 }
 
-/* === Служебные ссылки в футере === */
+/* === Подвал сайта === */
 
-.bt-footer-links {
-  margin-top: 0.75rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--md-footer-fg-color--lighter);
-  font-size: 0.78rem;
+.bt-footer {
+  font-size: 0.7rem;
+  line-height: 1.5;
   color: var(--md-footer-fg-color--light);
+  padding: 0.5rem 0;
 }
 
-.bt-footer-links a {
+.bt-footer a {
   color: var(--md-footer-fg-color--light) !important;
   text-decoration: none;
-  margin: 0 0.4rem;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
-.bt-footer-links a:first-child {
-  margin-left: 0;
-}
-
-.bt-footer-links a:hover {
+.bt-footer a:hover {
   color: var(--md-footer-fg-color) !important;
-  text-decoration: underline;
+  border-bottom-color: #B8341E;
+}
+
+.bt-footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+}
+
+.bt-footer-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.75rem;
+  align-items: baseline;
+}
+
+.bt-footer-copy {
+  color: var(--md-footer-fg-color);
+  font-weight: 500;
+}
+
+.bt-footer-tag {
+  color: var(--md-footer-fg-color--light);
+  font-size: 0.65rem;
+  letter-spacing: 0.03em;
+}
+
+.bt-footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  align-items: baseline;
 }
 
 .bt-footer-sep {
   color: var(--md-footer-fg-color--lighter);
+}
+
+.bt-footer-fineprint {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--md-footer-fg-color--lighter);
+  font-size: 0.65rem;
+  color: var(--md-footer-fg-color--lighter);
+  line-height: 1.5;
+  max-width: 680px;
+}
+
+@media (max-width: 600px) {
+  .bt-footer-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+/* === Юридические страницы (privacy, terms, imprint) === */
+
+.bt-legal {
+  max-width: 720px;
+}
+
+.bt-legal-kicker {
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  margin: 1rem 0 0.5rem;
+}
+
+.bt-legal-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+  color: var(--md-default-fg-color);
+}
+
+.bt-legal-meta {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.bt-legal-prose {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--md-default-fg-color);
+}
+
+.bt-legal-prose h2 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 2rem 0 0.75rem;
+  color: var(--md-default-fg-color);
+  letter-spacing: -0.005em;
+}
+
+.bt-legal-prose h3 {
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin: 1.25rem 0 0.5rem;
+  color: var(--md-default-fg-color);
+}
+
+.bt-legal-prose p {
+  margin: 0 0 0.75rem;
+}
+
+.bt-legal-prose ul {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.bt-legal-prose li {
+  margin: 0.25rem 0;
+}
+
+.bt-legal-prose a {
+  color: #B8341E;
+  text-decoration: none;
+}
+
+.bt-legal-prose a:hover {
+  text-decoration: underline;
+}
+
+.bt-legal-prose strong {
+  font-weight: 500;
+  color: var(--md-default-fg-color);
 }
