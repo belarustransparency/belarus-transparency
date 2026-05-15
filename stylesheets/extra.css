@@ -823,7 +823,7 @@ img.bt-logo--dark,
 }
 
 .md-search__input {
-  font-size: var(--bt-fs-s4);
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color);
   background: transparent;
 }
