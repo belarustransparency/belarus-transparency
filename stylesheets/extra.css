@@ -2205,6 +2205,17 @@ img.bt-logo--dark,
   gap: 6px;
   align-items: center;
 }
+.bt-org-status-note {
+  font-size: 0.78rem;
+  color: #6B6B6B;
+  line-height: 1.45;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+[data-md-color-scheme="slate"] .bt-org-status-note {
+  color: #9A9893;
+}
 
 /* === Блок прозрачности внутри карточки === */
 
