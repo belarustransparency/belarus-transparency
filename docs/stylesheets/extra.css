@@ -1537,20 +1537,17 @@ css/* === Выравнивание логотипа по сетке контен
 
 /* === Подвал сайта === */
 
-/* --- Material-контейнер: переводим в строку и распределяем место ---
-   Material по умолчанию у этой темы раскладывает .md-footer-meta__inner
-   как колонку или с переносами, из-за чего наш блок и соцсети встают
-   на разных строках. Принудительно делаем строку, наш блок занимает
-   всё свободное пространство, соцсети жмутся вправо. */
+/* --- Material-контейнер: переводим в строку --- */
 .md-footer-meta__inner.md-grid {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
   align-items: center !important;
   row-gap: 0.75rem;
-  column-gap: 1.5rem;
+  column-gap: 0;
 }
 
+/* Наш блок копирайта занимает всё доступное пространство */
 .md-footer-meta__inner > .md-copyright {
   flex: 1 1 auto;
   min-width: 0;
@@ -1560,28 +1557,18 @@ css/* === Выравнивание логотипа по сетке контен
   padding: 0;
 }
 
+/* Социалки прижимаются к правому краю и плотно стыкуются с нашей правой чертой */
 .md-footer-meta__inner > .md-social {
   flex: 0 0 auto;
-  padding: 0;
-  margin: 0 0 0 auto;
+  padding: 0 0.5rem 0 0;
+  margin: 0;
 }
 
 .md-social__link {
   padding: 0.2rem 0.35rem;
 }
 
-/* --- Приписка во всю ширину под строкой копирайта ---
-   Сначала кладём её в .md-footer-meta__inner как полноширинный сосед,
-   чтобы она занимала отдельный «ряд» внутри того же flex-контейнера. */
-.md-footer-meta__inner > .bt-footer-fineprint {
-  flex: 1 0 100%;
-  margin-top: 0.6rem;
-  padding-top: 0.6rem;
-  border-top: 1px solid var(--md-footer-fg-color--lighter);
-}
-
-
-/* === Наш футер внутри .md-copyright === */
+/* --- Наш футер: три зоны + черты --- */
 
 .bt-footer {
   font-size: 0.7rem;
@@ -1589,14 +1576,49 @@ css/* === Выравнивание логотипа по сетке контен
   color: var(--md-footer-fg-color--light);
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
+.bt-footer-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Зоны футера */
+.bt-footer-copy {
+  color: #B8341E !important;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  flex-shrink: 0;
+}
+
+.bt-footer-mid {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* Кирпичная вертикальная черта 14px высотой */
+.bt-footer-sep-vert {
+  flex-shrink: 0;
+  width: 1px;
+  height: 14px;
+  background: #B8341E;
+  display: inline-block;
+}
+
+/* Ссылки в меню */
 .bt-footer a {
   color: var(--md-footer-fg-color--light) !important;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease, color 0.15s ease;
   padding-bottom: 1px;
+  white-space: nowrap;
 }
 
 .bt-footer a:hover {
@@ -1604,66 +1626,7 @@ css/* === Выравнивание логотипа по сетке контен
   border-bottom-color: #B8341E;
 }
 
-.bt-footer-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.4rem 1.5rem;
-}
-
-.bt-footer-left {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 0.75rem;
-  align-items: baseline;
-  flex-shrink: 0;
-}
-
-.bt-footer-copy {
-  color: #B8341E !important;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-}
-
-.bt-footer-tag {
-  color: var(--md-footer-fg-color--light);
-  font-size: 0.65rem;
-  letter-spacing: 0.03em;
-}
-
-.bt-footer-right {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 1rem;
-  align-items: baseline;
-}
-
-.bt-footer-sep {
-  color: var(--md-footer-fg-color--lighter);
-  opacity: 0.4;
-}
-
-.bt-footer-fineprint {
-  font-size: 0.58rem;
-  color: var(--md-footer-fg-color--lighter);
-  line-height: 1.5;
-  opacity: 0.75;
-}
-
-.bt-footer-fineprint a {
-  color: var(--md-footer-fg-color--lighter) !important;
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-}
-
-.bt-footer-fineprint a:hover {
-  color: var(--md-footer-fg-color--light) !important;
-  border-bottom-color: #B8341E;
-}
-
-
-/* === Мобильная адаптация ===
-   На узких экранах разрешаем колонку и убираем right margin у соцсетей */
+/* --- Мобильная адаптация --- */
 @media (max-width: 768px) {
   .md-footer-meta__inner.md-grid {
     flex-direction: column !important;
@@ -1672,10 +1635,19 @@ css/* === Выравнивание логотипа по сетке контен
   }
   .md-footer-meta__inner > .md-social {
     margin: 0;
+    padding: 0;
   }
   .bt-footer-row {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .bt-footer-sep-vert {
+    display: none;
+  }
+  .bt-footer-mid {
+    justify-content: flex-start;
+    gap: 0.75rem 1rem;
   }
 }
 
