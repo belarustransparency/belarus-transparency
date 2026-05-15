@@ -50,6 +50,9 @@ status_note:
   <div class="bt-org-status">
     <span class="bt-status bt-status-active">действует</span>
   </div>
+  <!-- Если status_note во frontmatter заполнен, раскомментировать строку ниже и вписать текст:
+  <div class="bt-org-status-note">короткое пояснение к статусу</div>
+  -->
 </header>
 
 <section class="bt-org-transparency">
