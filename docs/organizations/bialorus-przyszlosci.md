@@ -134,7 +134,7 @@ graph TD
     PRES["Артем Праскалович<br/>председатель с авг. 2022"]
     OV1["Артем Брухан<br/>с 29 мая 2023"]
     OV2["Яна Латушко<br/>с 5 сент. 2025"]
-    OV3["Iryna Khalopitsa<br/>с 5 сент. 2025"]
+    OV3["Ирина Халопица<br/>с 5 сент. 2025"]
 
     ORG --> MGMT
     ORG --> OVS
@@ -164,7 +164,7 @@ graph TD
     <li><span class="bt-tl-date">29 мая 2023</span> · <a href="../persons/artem-bruchan/">Артем Брухан</a> вписан в надзорный орган.</li>
     <li><span class="bt-tl-date">6 июня 2023</span> · Фонд внесён в реестр предпринимателей.</li>
     <li><span class="bt-tl-date">2023</span> · Получен грант Fundacji Solidarności Międzynarodowej в размере 980 000 zł по результатам <a href="../events/fsm-grant-competition-2023/">конкурса FSM 2023 года</a>.</li>
-    <li><span class="bt-tl-date">5 сентября 2025</span> · В надзорный орган вписаны <a href="../persons/jana-latushko/">Яна Латушко</a> и <a href="../persons/iryna-khalopitsa/">Iryna Khalopitsa</a>. В тот же день основной вид экономической деятельности изменён на PKD 68.20.Z «аренда и управление недвижимостью».</li>
+    <li><span class="bt-tl-date">5 сентября 2025</span> · В надзорный орган вписаны <a href="../persons/jana-latushko/">Яна Латушко</a> и <a href="../persons/iryna-khalopitsa/">Ирина Халопица</a>. В тот же день основной вид экономической деятельности изменён на PKD 68.20.Z «аренда и управление недвижимостью».</li>
     <li><span class="bt-tl-date">26 января 2026</span> · Анна Панов вычеркнута из надзорного органа.</li>
   </ul>
 </section>
