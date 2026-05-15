@@ -41,7 +41,7 @@ tags:
 status_note:
 ---
 
-<div class="bt-org" markdown>
+<div class="bt-org">
 
 <header class="bt-org-head">
   <div class="bt-kicker">Организация · Фонд</div>
@@ -117,7 +117,7 @@ status_note:
   </div>
 </section>
 
-<div class="bt-prose" markdown>
+<div class="bt-prose">
 
 Фонд зарегистрирован в Польше 11 января 2021 года четырьмя учредителями. К 2022 году все четверо вышли из органов фонда. С августа 2022 года правление возглавляет Артем Праскалович.
 
