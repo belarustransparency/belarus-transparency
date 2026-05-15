@@ -1316,7 +1316,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-kicker {
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
@@ -1330,7 +1330,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-title {
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   font-weight: 500;
   line-height: 1.25;
   margin: 0 0 0.5rem;
@@ -1338,7 +1338,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-lede {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   line-height: 1.5;
   color: var(--md-default-fg-color--light);
   margin: 0 0 1.5rem;
@@ -1352,15 +1352,15 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-doc-meta-row {
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 170px 1fr;
   gap: 0.5rem 1rem;
-  padding: 0.4rem 0;
-  font-size: 0.82rem;
+  padding: 0.35rem 0;
+  font-size: 0.75rem;
   align-items: baseline;
 }
 
 .bt-doc-meta-label {
-  font-size: 0.68rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--md-default-fg-color--light);
@@ -1383,7 +1383,7 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-doc-status {
   display: inline-block;
   margin-left: 0.5rem;
-  font-size: 0.65rem;
+  font-size: 0.58rem;
   padding: 1px 6px;
   border: 1px solid currentColor;
   letter-spacing: 0.04em;
@@ -1402,14 +1402,14 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-doc-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 0.5rem;
   margin: 1.5rem 0;
 }
 
 .bt-doc-btn {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  font-size: 0.78rem;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none !important;
@@ -1436,7 +1436,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-prose {
-  font-size: 0.92rem;
+  font-size: 0.85rem;
   line-height: 1.65;
   margin: 1.5rem 0;
 }
@@ -1446,7 +1446,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-block-label {
-  font-size: 0.68rem;
+  font-size: 0.6rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
@@ -1455,11 +1455,11 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-doc-rel-group {
   margin: 0.5rem 0 1rem;
-  font-size: 0.82rem;
+  font-size: 0.75rem;
 }
 
 .bt-doc-rel-label {
-  font-size: 0.65rem;
+  font-size: 0.58rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--md-default-fg-color--light);
@@ -1488,18 +1488,29 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-doc-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin-top: 0.5rem;
 }
 
 .bt-doc-tag {
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   color: var(--md-default-fg-color--light);
-  padding: 3px 10px;
+  padding: 2px 8px;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 999px;
 }
 
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .bt-doc-meta-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+  .bt-doc-title {
+    font-size: 1.15rem;
+  }
+}
 
 /* Мобильная адаптация архива и карточки документа */
 @media (max-width: 768px) {
