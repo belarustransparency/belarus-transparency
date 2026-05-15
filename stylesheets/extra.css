@@ -2247,13 +2247,14 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-org-meta .bt-meta-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 0.8rem 1.5rem;
 }
 
 .bt-org-meta .bt-meta-item {
   border-left: 2px solid #B8341E;
   padding-left: 10px;
+  min-width: 0;
 }
 
 .bt-org-meta .bt-meta-label {
@@ -2262,11 +2263,18 @@ css/* === Выравнивание логотипа по сетке контен
   text-transform: uppercase;
   letter-spacing: var(--bt-ls-caps);
   margin-bottom: 2px;
+  /* Длинные каплс-лейблы вроде "РЕЕСТР ПРЕДПРИНИМАТЕЛЕЙ" не должны
+     ломаться посреди слова */
+  overflow-wrap: normal;
+  word-break: keep-all;
 }
 
 .bt-org-meta .bt-meta-value {
-  font-size: var(--bt-fs-s4);
+  font-size: var(--bt-fs-s5);
   line-height: var(--bt-lh-tight);
+  /* Переносим только по пробелам, без разрывов внутри слов */
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 [data-md-color-scheme="slate"] .bt-org-meta .bt-meta-label {
