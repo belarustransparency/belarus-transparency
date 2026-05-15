@@ -1002,7 +1002,7 @@ css/* === Выравнивание логотипа по сетке контен
 
 
 /* === Витрина раздела событий === */
-
+ 
 .bt-event-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1010,9 +1010,9 @@ css/* === Выравнивание логотипа по сетке контен
   margin: 1.5rem 0 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
 }
-
+ 
 .bt-filter {
   color: var(--md-default-fg-color--light);
   cursor: pointer;
@@ -1021,114 +1021,103 @@ css/* === Выравнивание логотипа по сетке контен
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
-
+ 
 .bt-filter:hover {
   color: var(--md-default-fg-color);
 }
-
+ 
 .bt-filter.active {
   color: var(--md-default-fg-color);
   border-bottom-color: #B8341E;
 }
-
+ 
 .bt-events-list {
   display: block;
 }
-
-/* Превью-строка события.
-   color: inherit + явная перебивка всех дочерних — чтобы Material
-   не красил содержимое в акцентный цвет ссылки. */
+ 
+/* Превью-строка события */
 .bt-event-row {
   display: grid;
-  grid-template-columns: 70px 110px 1fr 110px;
-  gap: 1.25rem;
+  grid-template-columns: 60px 120px 1fr 100px;
+  gap: 1.5rem;
   align-items: baseline;
-  padding: 0.875rem 0;
+  padding: 0.9rem 0;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
   color: inherit !important;
   text-decoration: none !important;
   transition: background 0.15s ease;
 }
-
+ 
 .bt-event-row > * {
   color: inherit;
 }
-
+ 
 .bt-event-row:hover {
   background: var(--md-default-fg-color--lightest);
 }
-
-/* Дата */
+ 
+/* Дата — день сверху, "месяц год" одной строкой снизу */
 .bt-event-date {
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
+  line-height: 1.1;
 }
-
+ 
 .bt-event-day {
-  font-size: 1.375rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: var(--md-default-fg-color);
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
-
+ 
 .bt-event-month {
-  font-size: 0.75rem;
-  color: var(--md-default-fg-color--light);
-  letter-spacing: 0.04em;
-}
-
-/* Тип события — приглушённая мета-подпись */
-.bt-event-type {
   font-size: 0.7rem;
   color: var(--md-default-fg-color--light);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  white-space: nowrap;
 }
-
+ 
+/* Тип события — без капса, обычный серый текст */
+.bt-event-type {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+ 
 /* Заголовок + summary */
 .bt-event-info {
   min-width: 0;
 }
-
+ 
 .bt-event-title {
-  font-size: 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
   color: var(--md-default-fg-color);
   line-height: 1.35;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
-
+ 
 .bt-event-summary {
-  font-size: 0.825rem;
+  font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
-  line-height: 1.45;
+  line-height: 1.5;
 }
-
+ 
 .bt-event-place {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
   text-align: right;
 }
-
+ 
 /* Мобильная версия: убираем колонки типа и места */
 @media (max-width: 768px) {
   .bt-event-row {
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 55px 1fr;
     gap: 1rem;
   }
   .bt-event-type,
   .bt-event-place {
     display: none;
   }
-  .bt-event-day {
-    font-size: 1.2rem;
-  }
 }
 
-
 /* === Карточка события === */
-/* (этот блок оставляем как был — там проблем нет, события открываются
-   нормально. Если уже скопировал — пропусти эту секцию.) */
 
 .bt-event-head {
   margin: 2rem 0 1.5rem;
