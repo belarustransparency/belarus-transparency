@@ -282,7 +282,7 @@ body, .md-typeset {
   line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color);
   margin: 0;
-  max-width: 36em;
+  max-width: 720px;
 }
 
 /* строки с левой подписью */
