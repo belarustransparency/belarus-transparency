@@ -1369,6 +1369,10 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-doc-meta-value {
   color: var(--md-default-fg-color);
   word-break: break-word;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.5rem;
 }
 
 .bt-doc-meta-value a {
@@ -1389,6 +1393,7 @@ css/* === Выравнивание логотипа по сетке контен
   letter-spacing: 0.04em;
   vertical-align: 1px;
   text-transform: lowercase;
+  white-space: nowrap;
 }
 
 .bt-doc-status-dead {
@@ -1414,25 +1419,26 @@ css/* === Выравнивание логотипа по сетке контен
   letter-spacing: 0.02em;
   text-decoration: none !important;
   border: 1px solid var(--md-default-fg-color);
-  color: var(--md-default-fg-color);
+  color: var(--md-default-fg-color) !important;
   transition: all 0.15s ease;
 }
 
 .bt-doc-btn:hover {
   background: var(--md-default-fg-color);
-  color: var(--md-default-bg-color);
+  color: var(--md-default-bg-color) !important;
+  border-color: var(--md-default-fg-color);
 }
 
 .bt-doc-btn-primary {
   background: #B8341E;
   border-color: #B8341E;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .bt-doc-btn-primary:hover {
   background: #0A0A0A;
   border-color: #0A0A0A;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .bt-doc-prose {
