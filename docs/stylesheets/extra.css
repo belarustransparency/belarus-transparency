@@ -1218,3 +1218,302 @@ css/* === Выравнивание логотипа по сетке контен
   font-family: var(--md-code-font);
   color: var(--md-default-fg-color--light);
 }
+/* === Витрина архива === */
+
+.bt-archive-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.5rem 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.78rem;
+}
+
+.bt-archive-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+.bt-archive-table th {
+  text-align: left;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+  padding: 0.6rem 0.75rem 0.6rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.bt-archive-table td {
+  padding: 0.75rem 0.75rem 0.75rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  vertical-align: top;
+  line-height: 1.4;
+}
+
+.bt-archive-table tr:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+.bt-archive-table .bt-col-id { width: 90px; }
+.bt-archive-table .bt-col-type { width: 90px; }
+.bt-archive-table .bt-col-date { width: 100px; }
+.bt-archive-table .bt-col-status { width: 95px; }
+
+.bt-arc-id {
+  white-space: nowrap;
+  font-family: var(--md-code-font);
+}
+
+.bt-arc-id a {
+  color: #B8341E;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.bt-arc-id a:hover {
+  text-decoration: underline;
+}
+
+.bt-arc-title a {
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+
+.bt-arc-title a:hover {
+  color: #B8341E;
+}
+
+.bt-arc-type,
+.bt-arc-date {
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.bt-arc-status {
+  white-space: nowrap;
+}
+
+.bt-src-dead {
+  color: #B8341E;
+  font-size: 0.72rem;
+}
+
+.bt-src-alive {
+  color: #2A8F3C;
+  font-size: 0.72rem;
+}
+
+
+/* === Карточка документа === */
+
+.bt-doc {
+  max-width: 100%;
+}
+
+.bt-doc-kicker {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  margin: 1rem 0 0.5rem;
+}
+
+.bt-doc-id {
+  color: #B8341E;
+  font-family: var(--md-code-font);
+  font-weight: 500;
+}
+
+.bt-doc-title {
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+  color: var(--md-default-fg-color);
+}
+
+.bt-doc-lede {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 1.5rem;
+}
+
+.bt-doc-meta {
+  border-left: 2px solid var(--md-default-fg-color--lighter);
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.bt-doc-meta-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 0.5rem 1rem;
+  padding: 0.4rem 0;
+  font-size: 0.82rem;
+  align-items: baseline;
+}
+
+.bt-doc-meta-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--md-default-fg-color--light);
+}
+
+.bt-doc-meta-value {
+  color: var(--md-default-fg-color);
+  word-break: break-word;
+}
+
+.bt-doc-meta-value a {
+  color: #B8341E;
+  text-decoration: none;
+}
+
+.bt-doc-meta-value a:hover {
+  text-decoration: underline;
+}
+
+.bt-doc-status {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border: 1px solid currentColor;
+  letter-spacing: 0.04em;
+  vertical-align: 1px;
+  text-transform: lowercase;
+}
+
+.bt-doc-status-dead {
+  color: #B8341E;
+}
+
+.bt-doc-status-alive {
+  color: #2A8F3C;
+}
+
+.bt-doc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.bt-doc-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+  border: 1px solid var(--md-default-fg-color);
+  color: var(--md-default-fg-color);
+  transition: all 0.15s ease;
+}
+
+.bt-doc-btn:hover {
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+.bt-doc-btn-primary {
+  background: #B8341E;
+  border-color: #B8341E;
+  color: #FFFFFF;
+}
+
+.bt-doc-btn-primary:hover {
+  background: #0A0A0A;
+  border-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+.bt-doc-prose {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin: 1.5rem 0;
+}
+
+.bt-doc-prose p {
+  margin: 0 0 0.75rem;
+}
+
+.bt-doc-block-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  margin: 1.75rem 0 0.5rem;
+}
+
+.bt-doc-rel-group {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.82rem;
+}
+
+.bt-doc-rel-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.25rem;
+}
+
+.bt-doc-rel-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.25rem 0 0;
+}
+
+.bt-doc-rel-list li {
+  padding: 0.2rem 0;
+}
+
+.bt-doc-rel-list li a {
+  color: #B8341E;
+  text-decoration: none;
+}
+
+.bt-doc-rel-list li a:hover {
+  text-decoration: underline;
+}
+
+.bt-doc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.bt-doc-tag {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  padding: 3px 10px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+}
+
+
+/* Мобильная адаптация архива и карточки документа */
+@media (max-width: 768px) {
+  .bt-archive-table .bt-col-type,
+  .bt-archive-table .bt-arc-type,
+  .bt-archive-table .bt-col-status,
+  .bt-archive-table .bt-arc-status {
+    display: none;
+  }
+  .bt-doc-meta-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+  .bt-doc-title {
+    font-size: 1.3rem;
+  }
+}
