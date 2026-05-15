@@ -796,18 +796,107 @@ img.bt-logo--dark,
   align-items: center;
 }
 
-/* === Выравнивание логотипа по сетке контента ===
-   ВНИМАНИЕ: префикс "css" перед комментарием намеренный — он отключает
-   следующее правило. В прошлой версии этот фрагмент был включён и логотип
-   уезжал на левый край, в то время как меню оставалось в дефолтной позиции
-   Material. Откатили, пока не решим, как именно выравнивать. */
-css/* === Выравнивание логотипа по сетке контента === */
-.md-header__inner {
-  padding-left: 1.5rem;
-  padding-right: 1rem;
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
+/* ==========================================================================
+   === Поиск: иконка по умолчанию, раскрытие по клику ===
+
+   Material на десктопе показывает поле поиска целиком в шапке. Нам это
+   не нужно — поле слишком доминирует. Превращаем поиск в третью иконку
+   в шапке (после темы и языка), которая раскрывает полноразмерное поле
+   только по клику.
+
+   Механика. Material использует скрытый чекбокс [data-md-toggle="search"]
+   как переключатель состояния поиска. На мобильном Material и так
+   скрывает форму, пока чекбокс не активирован — мы повторяем это
+   поведение на десктопе.
+   ========================================================================== */
+
+/* Кнопка-лупа в шапке: показываем её всегда (Material на десктопе её прячет
+   и заменяет полноразмерным input — мы это отменяем) */
+.md-header__button[for="__search"] {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0.4rem 0.2rem;
+  padding: 0.4rem;
+}
+
+/* Прячем форму и оверлей по умолчанию (на десктопе Material их показывает) */
+.md-search__form,
+.md-search__overlay,
+.md-search__output {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, visibility 0s linear 0.18s;
+}
+
+/* Контейнер поиска в покое не занимает место в шапке */
+.md-search {
+  position: static;
+}
+
+.md-search__inner {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 4;
+  background: var(--md-default-bg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  transform: translateY(-8px);
+  transition: transform 0.18s ease;
+}
+
+/* Когда чекбокс активирован — показываем форму и оверлей */
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form,
+[data-md-toggle="search"]:checked ~ .md-header .md-search__overlay,
+[data-md-toggle="search"]:checked ~ .md-header .md-search__output {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.18s ease;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+  transform: translateY(0);
+}
+
+/* Поле ввода — нормальный вид внутри раскрывшейся панели */
+.md-search__form {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
+  background: transparent;
+  box-shadow: none;
+  height: auto;
+}
+
+.md-search__input {
+  font-size: var(--bt-fs-s4);
+  background: transparent;
+  color: var(--md-default-fg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.5rem 0;
+}
+
+.md-search__input::placeholder {
+  color: var(--md-default-fg-color--light);
+}
+
+/* Иконка-лупа внутри формы (та, что слева от input) */
+.md-search__icon[for="__search"] {
+  color: var(--md-default-fg-color--light);
+}
+
+/* Оверлей-затемнение под раскрытым поиском */
+.md-search__overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+[data-md-color-scheme="slate"] .md-search__overlay {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /* === Витрина расследований ===
