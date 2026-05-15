@@ -1537,6 +1537,37 @@ css/* === Выравнивание логотипа по сетке контен
 
 /* === Подвал сайта === */
 
+/* Material по умолчанию раскладывает .md-footer-meta__inner так,
+   что наш кастомный блок (.bt-footer) и его блок (.md-copyright
+   с соцсетями) встают в колонку. Принудительно переводим в строку
+   и распределяем пространство: наш блок занимает всё, что осталось,
+   соцсети жмутся вправо. */
+.md-footer-meta__inner {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 1.5rem;
+}
+
+.md-footer-meta__inner > .md-copyright {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.md-footer-meta__inner > .md-social {
+  flex: 0 0 auto;
+  padding: 0;
+  margin-left: auto;
+}
+
+.md-social__link {
+  padding: 0.2rem 0.35rem;
+}
+
+
+/* === Наш футер внутри .md-copyright === */
+
 .bt-footer {
   font-size: 0.7rem;
   line-height: 1.5;
@@ -1561,9 +1592,8 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-footer-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  gap: 0.5rem 1.5rem;
+  gap: 0.4rem 1.5rem;
 }
 
 .bt-footer-left {
@@ -1571,6 +1601,7 @@ css/* === Выравнивание логотипа по сетке контен
   flex-wrap: wrap;
   gap: 0.4rem 0.75rem;
   align-items: baseline;
+  flex-shrink: 0;
 }
 
 .bt-footer-copy {
@@ -1592,9 +1623,6 @@ css/* === Выравнивание логотипа по сетке контен
   align-items: baseline;
 }
 
-/* Разделитель-точка между пунктами меню в подвале —
-   делаем её совсем неприметной, потому что подчёркивание
-   при hover теперь сам по себе достаточный сигнал «это ссылка». */
 .bt-footer-sep {
   color: var(--md-footer-fg-color--lighter);
   opacity: 0.4;
@@ -1611,23 +1639,18 @@ css/* === Выравнивание логотипа по сетке контен
   opacity: 0.75;
 }
 
-/* Material рисует свой блок генератора/соцсетей в .md-copyright
-   справа от нашего футера. Чтобы наша «© 2026 Belarus Transparency»
-   и социалки выровнялись по одной горизонтальной линии — убираем
-   у этого блока лишние внутренние отступы, и центрируем по высоте. */
-.md-footer-meta__inner {
-  align-items: center;
-}
 
-.md-social {
-  padding: 0;
-}
-
-.md-social__link {
-  padding: 0.2rem 0.3rem;
-}
-
-@media (max-width: 600px) {
+/* === Мобильная адаптация ===
+   На узких экранах разрешаем колонку и убираем right margin у соцсетей */
+@media (max-width: 768px) {
+  .md-footer-meta__inner {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem;
+  }
+  .md-footer-meta__inner > .md-social {
+    margin-left: 0;
+  }
   .bt-footer-row {
     flex-direction: column;
     align-items: flex-start;
