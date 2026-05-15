@@ -17,10 +17,9 @@ title: События
 <span class="bt-filter active" data-filter="all">Все</span>
 <span class="bt-filter" data-filter="conference">Мероприятия</span>
 <span class="bt-filter" data-filter="publication">Публикации</span>
-<span class="bt-filter" data-filter="grant">Гранты и тендеры</span>
+<span class="bt-filter" data-filter="grant">Гранты</span>
 <span class="bt-filter" data-filter="statement">Заявления</span>
 <span class="bt-filter" data-filter="meeting">Встречи</span>
-<span class="bt-filter" data-filter="finance">Финансы</span>
 <span class="bt-filter" data-filter="personnel">Кадры</span>
 </div>
 
