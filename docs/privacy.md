@@ -5,7 +5,7 @@ hide:
 title: Политика конфиденциальности
 ---
 
-<div class="bt-legal">
+<div class="bt-legal" markdown="1">
 
 <div class="bt-legal-kicker">Юридическая информация</div>
 <h1 class="bt-legal-title">Политика конфиденциальности</h1>

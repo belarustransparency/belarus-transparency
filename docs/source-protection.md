@@ -5,7 +5,7 @@ hide:
 title: Защита источников
 ---
 
-<div class="bt-legal">
+<div class="bt-legal" markdown="1">
 
 <div class="bt-legal-kicker">Этика проекта</div>
 <h1 class="bt-legal-title">Защита источников</h1>
