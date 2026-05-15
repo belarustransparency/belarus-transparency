@@ -1009,3 +1009,24 @@ css/* === Выравнивание логотипа по сетке контен
   color: var(--md-default-fg-color--light);
   transition: all 0.15s ease;
 }
+.bt-footer-links {
+  text-align: center;
+  padding: 1rem 0 0.5rem;
+  font-size: 0.8rem;
+  color: var(--md-footer-fg-color--light);
+}
+
+.bt-footer-links a {
+  color: var(--md-footer-fg-color--light) !important;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.bt-footer-links a:hover {
+  color: var(--md-footer-fg-color) !important;
+  text-decoration: underline;
+}
+
+.bt-footer-sep {
+  color: var(--md-footer-fg-color--lighter);
+}
