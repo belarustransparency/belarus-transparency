@@ -1537,32 +1537,47 @@ css/* === Выравнивание логотипа по сетке контен
 
 /* === Подвал сайта === */
 
-/* Material по умолчанию раскладывает .md-footer-meta__inner так,
-   что наш кастомный блок (.bt-footer) и его блок (.md-copyright
-   с соцсетями) встают в колонку. Принудительно переводим в строку
-   и распределяем пространство: наш блок занимает всё, что осталось,
-   соцсети жмутся вправо. */
-.md-footer-meta__inner {
+/* --- Material-контейнер: переводим в строку и распределяем место ---
+   Material по умолчанию у этой темы раскладывает .md-footer-meta__inner
+   как колонку или с переносами, из-за чего наш блок и соцсети встают
+   на разных строках. Принудительно делаем строку, наш блок занимает
+   всё свободное пространство, соцсети жмутся вправо. */
+.md-footer-meta__inner.md-grid {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: nowrap !important;
+  flex-wrap: wrap !important;
   align-items: center !important;
-  gap: 1.5rem;
+  row-gap: 0.75rem;
+  column-gap: 1.5rem;
 }
 
 .md-footer-meta__inner > .md-copyright {
   flex: 1 1 auto;
   min-width: 0;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 .md-footer-meta__inner > .md-social {
   flex: 0 0 auto;
   padding: 0;
-  margin-left: auto;
+  margin: 0 0 0 auto;
 }
 
 .md-social__link {
   padding: 0.2rem 0.35rem;
+}
+
+/* --- Приписка во всю ширину под строкой копирайта ---
+   Сначала кладём её в .md-footer-meta__inner как полноширинный сосед,
+   чтобы она занимала отдельный «ряд» внутри того же flex-контейнера. */
+.md-footer-meta__inner > .bt-footer-fineprint {
+  flex: 1 0 100%;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--md-footer-fg-color--lighter);
 }
 
 
@@ -1605,7 +1620,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-footer-copy {
-  color: #B8341E;
+  color: #B8341E !important;
   font-weight: 500;
   letter-spacing: 0.01em;
 }
@@ -1629,27 +1644,34 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-footer-fineprint {
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid var(--md-footer-fg-color--lighter);
   font-size: 0.58rem;
   color: var(--md-footer-fg-color--lighter);
   line-height: 1.5;
-  max-width: 680px;
   opacity: 0.75;
+}
+
+.bt-footer-fineprint a {
+  color: var(--md-footer-fg-color--lighter) !important;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.bt-footer-fineprint a:hover {
+  color: var(--md-footer-fg-color--light) !important;
+  border-bottom-color: #B8341E;
 }
 
 
 /* === Мобильная адаптация ===
    На узких экранах разрешаем колонку и убираем right margin у соцсетей */
 @media (max-width: 768px) {
-  .md-footer-meta__inner {
+  .md-footer-meta__inner.md-grid {
     flex-direction: column !important;
     align-items: flex-start !important;
     gap: 0.75rem;
   }
   .md-footer-meta__inner > .md-social {
-    margin-left: 0;
+    margin: 0;
   }
   .bt-footer-row {
     flex-direction: column;
