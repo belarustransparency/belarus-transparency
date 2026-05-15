@@ -493,7 +493,7 @@ body, .md-typeset {
   line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color);
   margin: 0;
-  max-width: 38em;
+  max-width: 720px;
 }
 
 /* Цитата-врезка (кейсовый слой — но крупный размер сам по себе) */
@@ -661,7 +661,7 @@ body, .md-typeset {
   line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color--light);
   margin: 0;
-  max-width: 40em;
+  max-width: 720px;
 }
 
 /* Сетка карточек */
