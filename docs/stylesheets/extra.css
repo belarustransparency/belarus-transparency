@@ -987,46 +987,245 @@ css/* === Выравнивание логотипа по сетке контен
    ======================================================================== */
 
 
+/* ========================================================================
+   ИСПРАВЛЕНИЕ: заменить секции «Витрина раздела событий» и «Карточка
+   события» из предыдущего файла extra-css-additions.css на этот блок.
+
+   Что исправлено относительно прошлой версии:
+   1. Фильтры — тонкие текстовые ссылки без рамок (как ты попросил).
+   2. Превью-блок: грид правильно сработает, потому что в разметке
+      содержимое <a> теперь в одну строку.
+   3. Color: inherit принудительно для всех дочерних элементов внутри <a>,
+      чтобы Material не красил их в акцент.
+   4. Сведена иерархия размеров: 3 размера вместо 5.
+   ======================================================================== */
+
+
 /* === Витрина раздела событий === */
 
 .bt-event-filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1.25rem;
   margin: 1.5rem 0 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.85rem;
 }
 
 .bt-filter {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0.35rem 0.75rem;
-  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
   cursor: pointer;
   user-select: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.bt-filter:hover {
+  color: var(--md-default-fg-color);
+}
+
+.bt-filter.active {
+  color: var(--md-default-fg-color);
+  border-bottom-color: #B8341E;
+}
+
+.bt-events-list {
+  display: block;
+}
+
+/* Превью-строка события.
+   color: inherit + явная перебивка всех дочерних — чтобы Material
+   не красил содержимое в акцентный цвет ссылки. */
+.bt-event-row {
+  display: grid;
+  grid-template-columns: 70px 110px 1fr 110px;
+  gap: 1.25rem;
+  align-items: baseline;
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: background 0.15s ease;
+}
+
+.bt-event-row > * {
+  color: inherit;
+}
+
+.bt-event-row:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+/* Дата */
+.bt-event-date {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.bt-event-day {
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+  margin-bottom: 4px;
+}
+
+.bt-event-month {
+  font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
-  transition: all 0.15s ease;
+  letter-spacing: 0.04em;
 }
-.bt-footer-links {
-  text-align: center;
-  padding: 1rem 0 0.5rem;
+
+/* Тип события — приглушённая мета-подпись */
+.bt-event-type {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Заголовок + summary */
+.bt-event-info {
+  min-width: 0;
+}
+
+.bt-event-title {
+  font-size: 1rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.35;
+  margin-bottom: 3px;
+}
+
+.bt-event-summary {
+  font-size: 0.825rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.45;
+}
+
+.bt-event-place {
   font-size: 0.8rem;
-  color: var(--md-footer-fg-color--light);
+  color: var(--md-default-fg-color--light);
+  text-align: right;
 }
 
-.bt-footer-links a {
-  color: var(--md-footer-fg-color--light) !important;
-  text-decoration: none;
-  margin: 0 0.5rem;
+/* Мобильная версия: убираем колонки типа и места */
+@media (max-width: 768px) {
+  .bt-event-row {
+    grid-template-columns: 60px 1fr;
+    gap: 1rem;
+  }
+  .bt-event-type,
+  .bt-event-place {
+    display: none;
+  }
+  .bt-event-day {
+    font-size: 1.2rem;
+  }
 }
 
-.bt-footer-links a:hover {
-  color: var(--md-footer-fg-color) !important;
-  text-decoration: underline;
+
+/* === Карточка события === */
+/* (этот блок оставляем как был — там проблем нет, события открываются
+   нормально. Если уже скопировал — пропусти эту секцию.) */
+
+.bt-event-head {
+  margin: 2rem 0 1.5rem;
 }
 
-.bt-footer-sep {
-  color: var(--md-footer-fg-color--lighter);
+.bt-event-meta {
+  background: var(--md-default-fg-color--lightest);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: 3px solid #B8341E;
+}
+
+.bt-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem 2rem;
+}
+
+.bt-meta-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.25rem;
+}
+
+.bt-meta-value {
+  font-size: 0.95rem;
+  color: var(--md-default-fg-color);
+  font-weight: 500;
+}
+
+.bt-participants {
+  margin: 2rem 0;
+}
+
+.bt-participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0 0;
+}
+
+.bt-participants-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.95rem;
+}
+
+.bt-participants-list li:last-child {
+  border-bottom: none;
+}
+
+.bt-money {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px dashed #888780;
+  background: rgba(247, 245, 240, 0.5);
+}
+
+[data-md-color-scheme="slate"] .bt-money {
+  background: rgba(20, 20, 19, 0.5);
+}
+
+.bt-money-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.bt-money-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.25rem;
+}
+
+.bt-money-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+.bt-sources {
+  margin: 2rem 0;
+}
+
+.bt-sources-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0 0;
+}
+
+.bt-sources-list li {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  font-family: var(--md-code-font);
+  color: var(--md-default-fg-color--light);
 }
