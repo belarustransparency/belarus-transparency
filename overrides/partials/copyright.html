@@ -1,14 +1,27 @@
-{% if config.copyright %}
+{#
+  Override Material-партиала copyright.html — добавляет служебные ссылки
+  в самый низ футера.
+
+  Положить файл в: overrides/partials/copyright.html
+
+  В mkdocs.yml уже должен быть theme.custom_dir: overrides
+  (он у тебя есть, через него работают иконки темы и языка).
+#}
+
 <div class="md-copyright">
+  {% if config.copyright %}
     <div class="md-copyright__highlight">
-    {{ config.copyright }}
+      {{ config.copyright }}
     </div>
-</div>
-{% endif %}
-<div class="bt-footer-links">
-<a href="{{ '/archive/' | url }}">Архив документов</a>
-<span class="bt-footer-sep">·</span>
-<a href="{{ '/about/' | url }}">О проекте</a>
-<span class="bt-footer-sep">·</span>
-<a href="{{ '/en/' | url }}">English</a>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Создано с помощью
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>
+  {% endif %}
+
+  <div class="bt-footer-links">
+    <a href="{{ '/archive/' | url }}">Архив документов</a>
+    <span class="bt-footer-sep">·</span>
+    <a href="{{ '/en/' | url }}">English</a>
+  </div>
 </div>

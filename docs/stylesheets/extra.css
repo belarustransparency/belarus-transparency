@@ -1517,3 +1517,32 @@ css/* === Выравнивание логотипа по сетке контен
     font-size: 1.3rem;
   }
 }
+
+/* === Служебные ссылки в футере === */
+
+.bt-footer-links {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--md-footer-fg-color--lighter);
+  font-size: 0.78rem;
+  color: var(--md-footer-fg-color--light);
+}
+
+.bt-footer-links a {
+  color: var(--md-footer-fg-color--light) !important;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+.bt-footer-links a:first-child {
+  margin-left: 0;
+}
+
+.bt-footer-links a:hover {
+  color: var(--md-footer-fg-color) !important;
+  text-decoration: underline;
+}
+
+.bt-footer-sep {
+  color: var(--md-footer-fg-color--lighter);
+}
