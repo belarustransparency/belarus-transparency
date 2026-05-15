@@ -27,7 +27,7 @@ title: Архив документов
 <tr><th class="bt-col-id">ID</th><th>Документ</th><th class="bt-col-type">Тип</th><th class="bt-col-date">Дата</th><th class="bt-col-status">Источник</th></tr>
 </thead>
 <tbody>
-<tr data-type="pdf"><td class="bt-arc-id"><a href="doc-0001/">doc-0001</a></td><td class="bt-arc-title"><a href="doc-0001/">Программа конференции «Новая Беларусь 2024»</a></td><td class="bt-arc-type">PDF</td><td class="bt-arc-date">5 авг 2024</td><td class="bt-arc-status"><span class="bt-src-dead">мертв</span></td></tr>
+<tr data-type="pdf"><td class="bt-arc-id"><a href="doc-0001/">doc-0001</a></td><td class="bt-arc-title"><a href="doc-0001/">Lista rankingowa Konkursu Grantowego na rzecz Białorusi (FSM, 2023)</a></td><td class="bt-arc-type">PDF</td><td class="bt-arc-date">2023</td><td class="bt-arc-status"><span class="bt-src-dead">не зафиксирован</span></td></tr>
 </tbody>
 </table>
 
