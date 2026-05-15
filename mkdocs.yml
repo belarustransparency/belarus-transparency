@@ -63,7 +63,7 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
-
+      
 extra:
   alternate:
     - name: Русский
