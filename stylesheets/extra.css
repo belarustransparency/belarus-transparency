@@ -7,6 +7,60 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* ==========================================================================
+   === ДИЗАЙН-СИСТЕМА: типографическая шкала и пробелы ===
+
+   Один источник истины для размеров и отступов.
+   База Material — 18px (a не стандартные 16px), поэтому 1rem = 18px.
+
+   ШКАЛА (6 ступеней). Промежуточные значения запрещены.
+
+   S1  Display          1.5rem (27px)   H1 на витрине, шапка карточки кейса
+   S2  Heading          1.15rem (~21px) H2 секции, заголовок карточки в сетке
+   S3  Body-prose       0.95rem (~17px) Основная проза кейсов, лиды
+   S4  Body-ref         0.85rem (~15px) Тело справочного слоя, описания
+   S5  Meta             0.72rem (~13px) Метаданные, даты, тип события
+   S6  Label-caps       0.65rem (~12px) КАПС-лейблы
+
+   LINE-HEIGHT
+   --bt-lh-prose 1.65    только для длинной прозы кейсов
+   --bt-lh-body  1.5     основной текст справочного слоя
+   --bt-lh-tight 1.4     меты, таблицы, списки
+   --bt-lh-head  1.25    заголовки
+
+   ПРОБЕЛЫ
+   Справочный слой: воздух от padding'ов и gap'ов, line-height умеренный.
+   Кейсовый слой: line-height большой, max-width колонки ограничен.
+   ========================================================================== */
+
+:root {
+  /* Шкала размеров */
+  --bt-fs-s1: 1.5rem;
+  --bt-fs-s2: 1.15rem;
+  --bt-fs-s3: 0.95rem;
+  --bt-fs-s4: 0.85rem;
+  --bt-fs-s5: 0.72rem;
+  --bt-fs-s6: 0.65rem;
+
+  /* Line-height */
+  --bt-lh-prose: 1.65;
+  --bt-lh-body: 1.5;
+  --bt-lh-tight: 1.4;
+  --bt-lh-head: 1.25;
+
+  /* Letter-spacing для каплс-лейблов */
+  --bt-ls-caps: 0.1em;
+
+  /* Системные отступы (справочный слой) */
+  --bt-space-card-pad: 1.25rem 1.5rem;
+  --bt-space-grid-gap: 1rem;
+  --bt-space-section: 2.5rem;
+  --bt-space-block: 1.5rem;
+
+  /* Колонка прозы кейсов */
+  --bt-prose-width: 42rem;
+}
+
 /* === Палитра, светлая тема === */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color:        #0A0A0A;
@@ -60,16 +114,18 @@ body, .md-typeset {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* === Типографика === */
+/* === Типографика базовая ===
+   Material даёт .md-typeset { font-size: 16px }, в нашем стиле — 16px, line-height умеренный.
+   Длинная проза получает увеличенный line-height только через .bt-prose / .bt-doc-prose / .bt-legal-prose. */
 .md-typeset {
   font-size: 16px;
-  line-height: 1.7;
+  line-height: var(--bt-lh-body);
 }
 
 .md-typeset h1 {
   font-weight: 600;
-  font-size: 2.1rem;
-  line-height: 1.2;
+  font-size: var(--bt-fs-s1);
+  line-height: var(--bt-lh-head);
   letter-spacing: -0.02em;
   margin: 0 0 1.2rem;
   color: var(--md-primary-fg-color);
@@ -77,8 +133,8 @@ body, .md-typeset {
 
 .md-typeset h2 {
   font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 1.3;
+  font-size: var(--bt-fs-s2);
+  line-height: var(--bt-lh-head);
   letter-spacing: -0.015em;
   margin: 2.5rem 0 1rem;
   color: var(--md-primary-fg-color);
@@ -86,7 +142,7 @@ body, .md-typeset {
 
 .md-typeset h3 {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: var(--bt-fs-s2);
   letter-spacing: -0.01em;
   margin: 2rem 0 0.75rem;
   color: var(--md-primary-fg-color);
@@ -128,7 +184,7 @@ body, .md-typeset {
 }
 
 .md-tabs__link {
-  font-size: 0.85rem;
+  font-size: var(--bt-fs-s4);
   font-weight: 500;
   opacity: 0.7;
 }
@@ -142,15 +198,15 @@ body, .md-typeset {
 /* === Таблицы === */
 .md-typeset table:not([class]) {
   border: none;
-  font-size: 0.9rem;
+  font-size: var(--bt-fs-s4);
 }
 
 .md-typeset table:not([class]) th {
   background-color: transparent;
   color: var(--md-default-fg-color--light);
   font-weight: 500;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
@@ -174,6 +230,7 @@ body, .md-typeset {
   border-radius: 3px;
   padding: 0.1em 0.35em;
 }
+
 /* === Лендинг главной === */
 
 .bt-landing {
@@ -202,8 +259,8 @@ body, .md-typeset {
 }
 
 .bt-kicker {
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-accent-fg-color);
   font-weight: 500;
@@ -211,8 +268,8 @@ body, .md-typeset {
 }
 
 .bt-hero h1 {
-  font-size: 2.75rem;
-  line-height: 1.1;
+  font-size: var(--bt-fs-s1);
+  line-height: var(--bt-lh-head);
   font-weight: 600;
   letter-spacing: -0.025em;
   color: var(--md-primary-fg-color);
@@ -221,8 +278,8 @@ body, .md-typeset {
 }
 
 .bt-lede {
-  font-size: 1.1rem;
-  line-height: 1.55;
+  font-size: var(--bt-fs-s3);
+  line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color);
   margin: 0;
   max-width: 36em;
@@ -242,17 +299,19 @@ body, .md-typeset {
 }
 
 .bt-label {
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   font-weight: 500;
   padding-top: 0.3rem;
 }
 
+/* === КЕЙСОВЫЙ СЛОЙ ===
+   Длинная проза. Только здесь line-height: 1.65. */
 .bt-body p {
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: var(--bt-fs-s3);
+  line-height: var(--bt-lh-prose);
   margin: 0 0 1em;
   color: var(--md-default-fg-color);
 }
@@ -262,7 +321,7 @@ body, .md-typeset {
 }
 
 .bt-h2 {
-  font-size: 1.5rem;
+  font-size: var(--bt-fs-s1);
   font-weight: 600;
   letter-spacing: -0.015em;
   color: var(--md-primary-fg-color);
@@ -270,14 +329,14 @@ body, .md-typeset {
 }
 
 .bt-h3 {
-  font-size: 1.35rem;
+  font-size: var(--bt-fs-s2);
   font-weight: 500;
   letter-spacing: -0.015em;
   color: var(--md-primary-fg-color);
   margin: 0 0 0.75rem;
 }
 
-/* сетка карточек */
+/* сетка карточек главной — 4 раздела */
 .bt-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -309,7 +368,7 @@ body, .md-typeset {
 }
 
 .bt-card-count {
-  font-size: 2rem;
+  font-size: var(--bt-fs-s1);
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--md-primary-fg-color);
@@ -318,21 +377,21 @@ body, .md-typeset {
 }
 
 .bt-card-title {
-  font-size: 1.05rem;
+  font-size: var(--bt-fs-s2);
   font-weight: 500;
   color: var(--md-primary-fg-color);
   margin: 0 0 0.4rem;
 }
 
 .bt-card-desc {
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color--light);
   margin: 0;
 }
 
 .bt-card-arrow {
-  font-size: 0.85rem;
+  font-size: var(--bt-fs-s4);
   color: var(--md-accent-fg-color);
   margin-top: 0.9rem;
   font-weight: 500;
@@ -343,7 +402,7 @@ body, .md-typeset {
 
 .bt-card-arrow::after {
   content: "→";
-  font-size: 1.1rem;
+  font-size: var(--bt-fs-s2);
   line-height: 1;
   font-weight: 400;
 }
@@ -359,12 +418,13 @@ body, .md-typeset {
     padding: 2.5rem 0;
   }
   .bt-hero h1 {
-    font-size: 2rem;
+    font-size: var(--bt-fs-s2);
   }
   .bt-grid {
     grid-template-columns: 1fr;
   }
 }
+
 /* === Карточка персоналии === */
 
 .bt-person {
@@ -390,7 +450,7 @@ body, .md-typeset {
 }
 
 .bt-cover figcaption {
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
   margin-top: 0.6rem;
   text-align: left;
@@ -403,16 +463,16 @@ body, .md-typeset {
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 .bt-person-head .bt-kicker {
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-accent-fg-color);
   font-weight: 500;
   margin-bottom: 0.9rem;
 }
 .bt-person-head h1 {
-  font-size: 2.5rem;
-  line-height: 1.1;
+  font-size: var(--bt-fs-s1);
+  line-height: var(--bt-lh-head);
   font-weight: 600;
   letter-spacing: -0.025em;
   color: var(--md-primary-fg-color);
@@ -420,20 +480,20 @@ body, .md-typeset {
 }
 .bt-person-head h1 .headerlink { display: none; }
 .bt-person-head .bt-lede {
-  font-size: 1.05rem;
-  line-height: 1.55;
+  font-size: var(--bt-fs-s3);
+  line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color);
   margin: 0;
   max-width: 38em;
 }
 
-/* Цитата-врезка */
+/* Цитата-врезка (кейсовый слой — но крупный размер сам по себе) */
 .bt-pull {
   margin: 2.5rem 0;
   padding: 0 0 0 1.5rem;
   border-left: 2px solid var(--md-accent-fg-color);
-  font-size: 1.35rem;
-  line-height: 1.4;
+  font-size: var(--bt-fs-s2);
+  line-height: var(--bt-lh-tight);
   font-weight: 500;
   letter-spacing: -0.01em;
   color: var(--md-primary-fg-color);
@@ -441,17 +501,17 @@ body, .md-typeset {
 .bt-pull cite {
   display: block;
   margin-top: 0.9rem;
-  font-size: 0.8rem;
+  font-size: var(--bt-fs-s5);
   font-weight: 400;
   font-style: normal;
   color: var(--md-default-fg-color--light);
 }
 
-/* Проза */
-.bt-prose { margin: 2rem 0; }
+/* === КЕЙСОВЫЙ СЛОЙ === Длинная проза карточки персоналии */
+.bt-prose { margin: 2rem 0; max-width: var(--bt-prose-width); }
 .bt-prose p {
-  font-size: 1rem;
-  line-height: 1.75;
+  font-size: var(--bt-fs-s3);
+  line-height: var(--bt-lh-prose);
   color: var(--md-default-fg-color);
   margin: 0 0 1.25em;
 }
@@ -459,8 +519,8 @@ body, .md-typeset {
 
 /* Метка-разделитель блоков (используется и в структурах, и в связях) */
 .bt-block-label {
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   font-weight: 500;
@@ -484,13 +544,13 @@ body, .md-typeset {
 }
 [data-md-color-scheme="slate"] .bt-struct { background: #1A1A19; }
 .bt-struct-name {
-  font-size: 1rem;
+  font-size: var(--bt-fs-s3);
   font-weight: 500;
   color: var(--md-primary-fg-color);
   margin-bottom: 0.25rem;
 }
 .bt-struct-role {
-  font-size: 0.8rem;
+  font-size: var(--bt-fs-s4);
   color: var(--md-default-fg-color--light);
   margin-bottom: 1rem;
 }
@@ -502,14 +562,14 @@ body, .md-typeset {
   border-top: 0.5px solid var(--md-default-fg-color--lightest);
 }
 .bt-struct-mlabel {
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   margin-bottom: 0.2rem;
 }
 .bt-struct-mvalue {
-  font-size: 1.1rem;
+  font-size: var(--bt-fs-s2);
   font-weight: 500;
   color: var(--md-primary-fg-color);
   letter-spacing: -0.01em;
@@ -521,10 +581,11 @@ body, .md-typeset {
 
 /* Адаптив */
 @media (max-width: 700px) {
-  .bt-person-head h1 { font-size: 1.8rem; }
-  .bt-pull { font-size: 1.15rem; }
+  .bt-person-head h1 { font-size: var(--bt-fs-s2); }
+  .bt-pull { font-size: var(--bt-fs-s2); }
   .bt-struct-grid { grid-template-columns: 1fr; }
 }
+
 /* === Теги (подвал карточки) === */
 
 .bt-tags {
@@ -538,7 +599,7 @@ body, .md-typeset {
 }
 
 .bt-tag {
-  font-size: 0.72rem;
+  font-size: var(--bt-fs-s5);
   letter-spacing: 0.04em;
   padding: 4px 10px;
   background: var(--md-default-fg-color--lightest);
@@ -551,6 +612,7 @@ body, .md-typeset {
   background: #2A2A28;
   color: #9A9893;
 }
+
 /* === Витрина раздела === */
 
 .bt-index {
@@ -566,8 +628,8 @@ body, .md-typeset {
 }
 
 .bt-index-head .bt-kicker {
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-accent-fg-color);
   font-weight: 500;
@@ -575,8 +637,8 @@ body, .md-typeset {
 }
 
 .bt-index-head h1 {
-  font-size: 2.5rem;
-  line-height: 1.1;
+  font-size: var(--bt-fs-s1);
+  line-height: var(--bt-lh-head);
   font-weight: 600;
   letter-spacing: -0.025em;
   color: var(--md-primary-fg-color);
@@ -586,8 +648,8 @@ body, .md-typeset {
 .bt-index-head h1 .headerlink { display: none; }
 
 .bt-index-head .bt-lede {
-  font-size: 1.05rem;
-  line-height: 1.55;
+  font-size: var(--bt-fs-s3);
+  line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color--light);
   margin: 0;
   max-width: 40em;
@@ -634,7 +696,7 @@ body, .md-typeset {
 }
 
 .bt-card-name {
-  font-size: 1rem;
+  font-size: var(--bt-fs-s3);
   font-weight: 500;
   color: var(--md-primary-fg-color);
   margin-bottom: 0.25rem;
@@ -642,15 +704,16 @@ body, .md-typeset {
 }
 
 .bt-card-role {
-  font-size: 0.8rem;
-  line-height: 1.4;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-tight);
   color: var(--md-default-fg-color--light);
 }
 
 /* Адаптив */
 @media (max-width: 700px) {
-  .bt-index-head h1 { font-size: 1.8rem; }
+  .bt-index-head h1 { font-size: var(--bt-fs-s2); }
 }
+
 /* === Полная ширина контента когда обе боковые панели скрыты === */
 
 /* На страницах с hide: navigation + hide: toc вытягиваем контент */
@@ -669,6 +732,7 @@ body[data-md-color-scheme] .md-content {
   margin: 0 auto;
   padding: 1rem 1.5rem 2rem;
 }
+
 /* ==========================================================================
    === Шапка сайта: горизонтальный логотип + переключение тем ===
 
@@ -731,7 +795,8 @@ img.bt-logo--dark,
   display: inline-flex;
   align-items: center;
 }
-css/* === Выравнивание логотипа по сетке контента === */
+
+/* === Выравнивание логотипа по сетке контента === */
 .md-header__inner {
   padding-left: 1.5rem;
   padding-right: 1rem;
@@ -739,7 +804,10 @@ css/* === Выравнивание логотипа по сетке контен
   margin-left: 0;
   margin-right: 0;
 }
-/* === Витрина расследований === */
+
+/* === Витрина расследований ===
+   Переведена с px на единую rem-шкалу.
+   Inter везде (раньше .bt-inv-title была Georgia — убрана). */
 
 .bt-inv-index {
   max-width: 880px;
@@ -752,26 +820,26 @@ css/* === Выравнивание логотипа по сетке контен
   margin-bottom: 22px;
 }
 .bt-inv-head h1 {
-  font-size: 28px;
+  font-size: var(--bt-fs-s1);
   font-weight: 500;
   color: #0A0A0A;
   margin: 0 0 6px;
-  line-height: 1.2;
+  line-height: var(--bt-lh-head);
 }
 .bt-inv-head .bt-kicker {
-  font-size: 12px;
+  font-size: var(--bt-fs-s6);
   font-weight: 500;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: #B8341E;
   margin-bottom: 8px;
 }
 .bt-inv-head .bt-lede {
-  font-size: 14px;
+  font-size: var(--bt-fs-s4);
   color: #6B6B6B;
   margin: 0;
   max-width: 600px;
-  line-height: 1.5;
+  line-height: var(--bt-lh-body);
 }
 
 /* Фильтры */
@@ -783,15 +851,15 @@ css/* === Выравнивание логотипа по сетке контен
   margin-bottom: 22px;
 }
 .bt-inv-flabel {
-  font-size: 11px;
+  font-size: var(--bt-fs-s6);
   font-weight: 500;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: #6B6B6B;
   margin-right: 4px;
 }
 .bt-inv-filter {
-  font-size: 13px;
+  font-size: var(--bt-fs-s5);
   padding: 5px 11px;
   border: 1px solid #D3D1C7;
   background: transparent;
@@ -863,7 +931,7 @@ css/* === Выравнивание логотипа по сетке контен
   max-width: 92%;
 }
 .bt-inv-code {
-  font-size: 10px;
+  font-size: var(--bt-fs-s6);
   letter-spacing: 0.16em;
   color: rgba(255,255,255,0.85);
   text-transform: uppercase;
@@ -880,22 +948,24 @@ css/* === Выравнивание логотипа по сетке контен
   background: #B8341E;
 }
 .bt-inv-date {
-  font-size: 10px;
+  font-size: var(--bt-fs-s6);
   color: rgba(255,255,255,0.7);
   letter-spacing: 0.04em;
 }
+/* Заголовок кейса на обложке — Inter, без serif */
 .bt-inv-title {
-  font-family: var(--font-serif, Georgia, 'DejaVu Serif', 'Times New Roman', serif);
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 1.3;
+  font-family: var(--md-text-font);
+  font-size: var(--bt-fs-s2);
+  font-weight: 500;
+  line-height: var(--bt-lh-head);
   color: #FFFFFF;
+  letter-spacing: -0.01em;
 }
 /* Лид с кирпичной полоской слева */
 .bt-inv-lede {
-  font-size: 13px;
+  font-size: var(--bt-fs-s5);
   color: rgba(255,255,255,0.85);
-  line-height: 1.5;
+  line-height: var(--bt-lh-body);
   margin: 0;
   padding-left: 12px;
   border-left: 2px solid #B8341E;
@@ -921,7 +991,7 @@ css/* === Выравнивание логотипа по сетке контен
   align-items: center;
 }
 .bt-inv-tag {
-  font-size: 10px;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   padding: 2px 7px;
   background: #F1EFE8;
@@ -942,7 +1012,7 @@ css/* === Выравнивание логотипа по сетке контен
   background: #B8341E;
 }
 .bt-inv-sum {
-  font-size: 12.5px;
+  font-size: var(--bt-fs-s5);
   font-weight: 500;
   color: #0A0A0A;
   font-variant-numeric: tabular-nums;
@@ -952,12 +1022,12 @@ css/* === Выравнивание логотипа по сетке контен
   gap: 6px;
 }
 .bt-inv-pct {
-  font-size: 10px;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   font-weight: 400;
 }
 .bt-inv-status {
-  font-size: 10px;
+  font-size: var(--bt-fs-s6);
   padding: 2px 8px;
   border: 1px solid currentColor;
   letter-spacing: 0.04em;
@@ -979,30 +1049,11 @@ css/* === Выравнивание логотипа по сетке контен
   .bt-inv-tags { grid-area: tags; }
   .bt-inv-status { grid-area: status; }
   .bt-inv-grants { grid-area: grants; justify-content: flex-end; }
-  .bt-inv-title { font-size: 17px; }
+  .bt-inv-title { font-size: var(--bt-fs-s3); }
 }
-/* ========================================================================
-   ДОБАВИТЬ В docs/stylesheets/extra.css
-   3 новые секции: события, карточка события, архив, карточка документа.
-   ======================================================================== */
-
-
-/* ========================================================================
-   ИСПРАВЛЕНИЕ: заменить секции «Витрина раздела событий» и «Карточка
-   события» из предыдущего файла extra-css-additions.css на этот блок.
-
-   Что исправлено относительно прошлой версии:
-   1. Фильтры — тонкие текстовые ссылки без рамок (как ты попросил).
-   2. Превью-блок: грид правильно сработает, потому что в разметке
-      содержимое <a> теперь в одну строку.
-   3. Color: inherit принудительно для всех дочерних элементов внутри <a>,
-      чтобы Material не красил их в акцент.
-   4. Сведена иерархия размеров: 3 размера вместо 5.
-   ======================================================================== */
-
 
 /* === Витрина раздела событий === */
- 
+
 .bt-event-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1010,9 +1061,9 @@ css/* === Выравнивание логотипа по сетке контен
   margin: 1.5rem 0 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  font-size: 0.78rem;
+  font-size: var(--bt-fs-s5);
 }
- 
+
 .bt-filter {
   color: var(--md-default-fg-color--light);
   cursor: pointer;
@@ -1021,20 +1072,20 @@ css/* === Выравнивание логотипа по сетке контен
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
- 
+
 .bt-filter:hover {
   color: var(--md-default-fg-color);
 }
- 
+
 .bt-filter.active {
   color: var(--md-default-fg-color);
   border-bottom-color: #B8341E;
 }
- 
+
 .bt-events-list {
   display: block;
 }
- 
+
 /* Превью-строка события */
 .bt-event-row {
   display: grid;
@@ -1047,64 +1098,64 @@ css/* === Выравнивание логотипа по сетке контен
   text-decoration: none !important;
   transition: background 0.15s ease;
 }
- 
+
 .bt-event-row > * {
   color: inherit;
 }
- 
+
 .bt-event-row:hover {
   background: var(--md-default-fg-color--lightest);
 }
- 
+
 /* Дата — день сверху, "месяц год" одной строкой снизу */
 .bt-event-date {
-  line-height: 1.1;
+  line-height: var(--bt-lh-head);
 }
- 
+
 .bt-event-day {
-  font-size: 1.05rem;
+  font-size: var(--bt-fs-s3);
   font-weight: 500;
   color: var(--md-default-fg-color);
   margin-bottom: 2px;
 }
- 
+
 .bt-event-month {
-  font-size: 0.7rem;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
   white-space: nowrap;
 }
- 
+
 /* Тип события — без капса, обычный серый текст */
 .bt-event-type {
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
 }
- 
+
 /* Заголовок + summary */
 .bt-event-info {
   min-width: 0;
 }
- 
+
 .bt-event-title {
-  font-size: 0.875rem;
+  font-size: var(--bt-fs-s4);
   font-weight: 500;
   color: var(--md-default-fg-color);
-  line-height: 1.35;
+  line-height: var(--bt-lh-tight);
   margin-bottom: 2px;
 }
- 
+
 .bt-event-summary {
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
-  line-height: 1.5;
+  line-height: var(--bt-lh-body);
 }
- 
+
 .bt-event-place {
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
   text-align: right;
 }
- 
+
 /* Мобильная версия: убираем колонки типа и места */
 @media (max-width: 768px) {
   .bt-event-row {
@@ -1137,15 +1188,15 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-meta-label {
-  font-size: 0.7rem;
+  font-size: var(--bt-fs-s6);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bt-ls-caps);
   color: var(--md-default-fg-color--light);
   margin-bottom: 0.25rem;
 }
 
 .bt-meta-value {
-  font-size: 0.95rem;
+  font-size: var(--bt-fs-s3);
   color: var(--md-default-fg-color);
   font-weight: 500;
 }
@@ -1163,7 +1214,7 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-participants-list li {
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  font-size: 0.95rem;
+  font-size: var(--bt-fs-s3);
 }
 
 .bt-participants-list li:last-child {
@@ -1189,15 +1240,15 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-money-label {
-  font-size: 0.7rem;
+  font-size: var(--bt-fs-s6);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bt-ls-caps);
   color: var(--md-default-fg-color--light);
   margin-bottom: 0.25rem;
 }
 
 .bt-money-value {
-  font-size: 1rem;
+  font-size: var(--bt-fs-s3);
   font-weight: 600;
   color: var(--md-default-fg-color);
 }
@@ -1214,10 +1265,11 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-sources-list li {
   padding: 0.4rem 0;
-  font-size: 0.9rem;
+  font-size: var(--bt-fs-s4);
   font-family: var(--md-code-font);
   color: var(--md-default-fg-color--light);
 }
+
 /* === Витрина архива === */
 
 .bt-archive-filters {
@@ -1227,19 +1279,19 @@ css/* === Выравнивание логотипа по сетке контен
   margin: 1.5rem 0 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  font-size: 0.78rem;
+  font-size: var(--bt-fs-s5);
 }
 
 .bt-archive-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.78rem;
+  font-size: var(--bt-fs-s5);
 }
 
 .bt-archive-table th {
   text-align: left;
-  font-size: 0.65rem;
-  letter-spacing: 0.1em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   font-weight: 500;
@@ -1251,7 +1303,7 @@ css/* === Выравнивание логотипа по сетке контен
   padding: 0.75rem 0.75rem 0.75rem 0;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
   vertical-align: top;
-  line-height: 1.4;
+  line-height: var(--bt-lh-tight);
 }
 
 .bt-archive-table tr:hover {
@@ -1300,12 +1352,12 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-src-dead {
   color: #B8341E;
-  font-size: 0.72rem;
+  font-size: var(--bt-fs-s5);
 }
 
 .bt-src-alive {
   color: #2A8F3C;
-  font-size: 0.72rem;
+  font-size: var(--bt-fs-s5);
 }
 
 
@@ -1316,8 +1368,8 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-kicker {
-  font-size: 0.62rem;
-  letter-spacing: 0.1em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   margin: 1rem 0 0.5rem;
@@ -1330,16 +1382,16 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-title {
-  font-size: 1.35rem;
+  font-size: var(--bt-fs-s2);
   font-weight: 500;
-  line-height: 1.25;
+  line-height: var(--bt-lh-head);
   margin: 0 0 0.5rem;
   color: var(--md-default-fg-color);
 }
 
 .bt-doc-lede {
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color--light);
   margin: 0 0 1.5rem;
 }
@@ -1355,14 +1407,14 @@ css/* === Выравнивание логотипа по сетке контен
   grid-template-columns: 170px 1fr;
   gap: 0.5rem 1rem;
   padding: 0.35rem 0;
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
   align-items: baseline;
 }
 
 .bt-doc-meta-label {
-  font-size: 0.6rem;
+  font-size: var(--bt-fs-s6);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--bt-ls-caps);
   color: var(--md-default-fg-color--light);
 }
 
@@ -1387,7 +1439,7 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-doc-status {
   display: inline-block;
   margin-left: 0.5rem;
-  font-size: 0.58rem;
+  font-size: var(--bt-fs-s6);
   padding: 1px 6px;
   border: 1px solid currentColor;
   letter-spacing: 0.04em;
@@ -1414,7 +1466,7 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-doc-btn {
   display: inline-block;
   padding: 0.35rem 0.85rem;
-  font-size: 0.7rem;
+  font-size: var(--bt-fs-s5);
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none !important;
@@ -1441,10 +1493,12 @@ css/* === Выравнивание логотипа по сетке контен
   color: #FFFFFF !important;
 }
 
+/* === КЕЙСОВЫЙ СЛОЙ === Длинная проза карточки документа */
 .bt-doc-prose {
-  font-size: 0.85rem;
-  line-height: 1.65;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-prose);
   margin: 1.5rem 0;
+  max-width: var(--bt-prose-width);
 }
 
 .bt-doc-prose p {
@@ -1452,8 +1506,8 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-block-label {
-  font-size: 0.6rem;
-  letter-spacing: 0.1em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   margin: 1.75rem 0 0.5rem;
@@ -1461,13 +1515,13 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-doc-rel-group {
   margin: 0.5rem 0 1rem;
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
 }
 
 .bt-doc-rel-label {
-  font-size: 0.58rem;
+  font-size: var(--bt-fs-s6);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bt-ls-caps);
   color: var(--md-default-fg-color--light);
   margin-bottom: 0.25rem;
 }
@@ -1499,7 +1553,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-doc-tag {
-  font-size: 0.62rem;
+  font-size: var(--bt-fs-s6);
   color: var(--md-default-fg-color--light);
   padding: 2px 8px;
   border: 1px solid var(--md-default-fg-color--lightest);
@@ -1514,11 +1568,11 @@ css/* === Выравнивание логотипа по сетке контен
     gap: 0.15rem;
   }
   .bt-doc-title {
-    font-size: 1.15rem;
+    font-size: var(--bt-fs-s2);
   }
 }
 
-/* Мобильная адаптация архива и карточки документа */
+/* Мобильная адаптация архива */
 @media (max-width: 768px) {
   .bt-archive-table .bt-col-type,
   .bt-archive-table .bt-arc-type,
@@ -1526,17 +1580,10 @@ css/* === Выравнивание логотипа по сетке контен
   .bt-archive-table .bt-arc-status {
     display: none;
   }
-  .bt-doc-meta-row {
-    grid-template-columns: 1fr;
-    gap: 0.15rem;
-  }
-  .bt-doc-title {
-    font-size: 1.3rem;
-  }
 }
 
 /* === Подвал сайта === */
- 
+
 /* --- Material-контейнер: переводим в строку, прижимаем нашу
        .md-copyright на всю ширину. Material не вставляет
        больше ничего рядом — extra.social не используется. --- */
@@ -1546,7 +1593,7 @@ css/* === Выравнивание логотипа по сетке контен
   align-items: stretch !important;
   padding: 0;
 }
- 
+
 .md-footer-meta__inner > .md-copyright {
   flex: 1 1 100%;
   width: 100%;
@@ -1555,19 +1602,19 @@ css/* === Выравнивание логотипа по сетке контен
   margin: 0;
   padding: 0;
 }
- 
+
 /* --- Наш футер --- */
- 
+
 .bt-footer {
-  font-size: 0.6rem;
-  line-height: 1.5;
+  font-size: var(--bt-fs-s6);
+  line-height: var(--bt-lh-body);
   color: var(--md-footer-fg-color--light);
   padding: 1.5rem 1.25rem 0;
   margin: 0;
   width: 100%;
   box-sizing: border-box;
 }
- 
+
 .bt-footer-row {
   display: flex;
   align-items: center;
@@ -1576,7 +1623,7 @@ css/* === Выравнивание логотипа по сетке контен
   width: 100%;
   padding-bottom: 1.25rem;
 }
- 
+
 /* Зоны */
 .bt-footer-copy {
   color: #B8341E !important;
@@ -1584,21 +1631,21 @@ css/* === Выравнивание логотипа по сетке контен
   letter-spacing: 0.01em;
   flex-shrink: 0;
 }
- 
+
 .bt-footer-mid {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
- 
+
 .bt-footer-right {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   flex-shrink: 0;
 }
- 
+
 /* Ссылки в меню */
 .bt-footer-mid a {
   color: var(--md-footer-fg-color--light) !important;
@@ -1608,12 +1655,12 @@ css/* === Выравнивание логотипа по сетке контен
   padding-bottom: 1px;
   white-space: nowrap;
 }
- 
+
 .bt-footer-mid a:hover {
   color: var(--md-footer-fg-color) !important;
   border-bottom-color: #B8341E;
 }
- 
+
 /* Иконки соцсетей */
 .bt-footer-icon {
   color: var(--md-footer-fg-color--light) !important;
@@ -1625,26 +1672,26 @@ css/* === Выравнивание логотипа по сетке контен
   border-bottom: none !important;
   transition: color 0.15s ease;
 }
- 
+
 .bt-footer-icon:hover {
   color: #B8341E !important;
 }
- 
+
 .bt-footer-icon svg {
   display: block;
 }
- 
+
 /* Кирпичная линия снизу + пустое пространство под ней */
 .bt-footer-line {
   height: 1px;
   background: #B8341E;
   width: 100%;
 }
- 
+
 .bt-footer-after {
   height: 1rem;
 }
- 
+
 /* --- Мобильная адаптация --- */
 @media (max-width: 768px) {
   .bt-footer-row {
@@ -1666,37 +1713,38 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-legal-kicker {
-  font-size: 0.62rem;
-  letter-spacing: 0.1em;
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
   text-transform: uppercase;
   color: var(--md-default-fg-color--light);
   margin: 1rem 0 0.5rem;
 }
 
 .bt-legal-title {
-  font-size: 1.5rem;
+  font-size: var(--bt-fs-s1);
   font-weight: 500;
-  line-height: 1.25;
+  line-height: var(--bt-lh-head);
   margin: 0 0 0.5rem;
   color: var(--md-default-fg-color);
 }
 
 .bt-legal-meta {
-  font-size: 0.75rem;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
   margin: 0 0 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
+/* === КЕЙСОВЫЙ СЛОЙ === Юридическая проза — длинные тексты для чтения */
 .bt-legal-prose {
-  font-size: 0.88rem;
-  line-height: 1.65;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-prose);
   color: var(--md-default-fg-color);
 }
 
 .bt-legal-prose h2 {
-  font-size: 1.05rem;
+  font-size: var(--bt-fs-s2);
   font-weight: 500;
   margin: 2rem 0 0.75rem;
   color: var(--md-default-fg-color);
@@ -1704,7 +1752,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-legal-prose h3 {
-  font-size: 0.92rem;
+  font-size: var(--bt-fs-s3);
   font-weight: 500;
   margin: 1.25rem 0 0.5rem;
   color: var(--md-default-fg-color);
@@ -1736,6 +1784,7 @@ css/* === Выравнивание логотипа по сетке контен
   font-weight: 500;
   color: var(--md-default-fg-color);
 }
+
 /* ============================================================
    === Витрина раздела организаций ===
    Лента карточек с фильтрами по типу.
@@ -1762,7 +1811,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-filters .bt-filter {
-  font-size: 0.78rem;
+  font-size: var(--bt-fs-s5);
   color: #6B6B6B;
   text-decoration: none;
   border: none;
@@ -1860,10 +1909,10 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-row-type {
-  font-size: 0.65rem;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--bt-ls-caps);
 }
 
 [data-md-color-scheme="slate"] .bt-org-row-type {
@@ -1879,7 +1928,7 @@ css/* === Выравнивание логотипа по сетке контен
 
 /* Бейджи статуса (общие — используются и в карточке, и в полной странице) */
 .bt-status {
-  font-size: 0.6rem;
+  font-size: var(--bt-fs-s6);
   padding: 2px 7px;
   border-radius: 3px;
   font-weight: 500;
@@ -1919,12 +1968,13 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 /* Бейдж "≡ Имя" — отсылка к персоне для one-person организаций.
-   Это НАСТОЯЩАЯ ссылка <a>, она работает независимо от клика по карточке. */
+   Это НАСТОЯЩАЯ ссылка <a>, она работает независимо от клика по карточке.
+   Символ "≡" взят из Inter (раньше был Georgia — убран). */
 .bt-org-eq {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 0.62rem;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B !important;
   background: #F1EFE8;
   padding: 2px 8px 2px 6px;
@@ -1941,8 +1991,8 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-eq-sym {
-  font-family: 'Georgia', serif;
-  font-size: 0.78rem;
+  font-family: var(--md-text-font);
+  font-size: var(--bt-fs-s5);
   color: #B8341E;
   font-weight: 400;
   line-height: 1;
@@ -1964,10 +2014,10 @@ css/* === Выравнивание логотипа по сетке контен
 
 /* Название и роль */
 .bt-org-row-name {
-  font-size: 1.05rem;
+  font-size: var(--bt-fs-s2);
   font-weight: 500;
   color: #0A0A0A;
-  line-height: 1.3;
+  line-height: var(--bt-lh-head);
   margin-bottom: 0.35rem;
 }
 
@@ -1976,9 +2026,9 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-row-role {
-  font-size: 0.82rem;
+  font-size: var(--bt-fs-s4);
   color: #6B6B6B;
-  line-height: 1.45;
+  line-height: var(--bt-lh-tight);
   margin-bottom: 1.65rem;
 }
 
@@ -2029,7 +2079,7 @@ css/* === Выравнивание логотипа по сетке контен
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
-  font-size: 0.62rem;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   letter-spacing: 0.02em;
 }
@@ -2062,8 +2112,8 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-org-head h1 {
   margin: 0.3rem 0 0.5rem;
-  font-size: 1.5rem;
-  line-height: 1.2;
+  font-size: var(--bt-fs-s1);
+  line-height: var(--bt-lh-head);
   color: #0A0A0A;
   font-weight: 500;
 }
@@ -2073,10 +2123,10 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-head .bt-kicker {
-  font-size: 0.65rem;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: var(--bt-ls-caps);
 }
 
 [data-md-color-scheme="slate"] .bt-org-head .bt-kicker {
@@ -2084,9 +2134,9 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-head .bt-lede {
-  font-size: 0.92rem;
+  font-size: var(--bt-fs-s3);
   color: #6B6B6B;
-  line-height: 1.55;
+  line-height: var(--bt-lh-body);
   margin: 0 0 0.8rem;
 }
 
@@ -2133,8 +2183,8 @@ css/* === Выравнивание логотипа по сетке контен
   display: grid;
   grid-template-columns: 160px 1fr;
   gap: 12px;
-  font-size: 0.82rem;
-  line-height: 1.5;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
 }
 
 .bt-tp-label {
@@ -2202,16 +2252,16 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-meta .bt-meta-label {
-  font-size: 0.62rem;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: var(--bt-ls-caps);
   margin-bottom: 2px;
 }
 
 .bt-org-meta .bt-meta-value {
-  font-size: 0.85rem;
-  line-height: 1.4;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-tight);
 }
 
 [data-md-color-scheme="slate"] .bt-org-meta .bt-meta-label {
@@ -2234,8 +2284,8 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-org-single-body p {
   margin: 0;
-  font-size: 0.88rem;
-  line-height: 1.55;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
 }
 
 [data-md-color-scheme="slate"] .bt-org-single {
@@ -2264,11 +2314,11 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-money-note {
-  font-size: 0.78rem;
+  font-size: var(--bt-fs-s5);
   color: #6B6B6B;
   margin: 0 0 1rem;
   font-style: italic;
-  line-height: 1.5;
+  line-height: var(--bt-lh-body);
 }
 
 [data-md-color-scheme="slate"] .bt-org-money-note {
@@ -2279,16 +2329,16 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-money-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.82rem;
+  font-size: var(--bt-fs-s4);
 }
 
 .bt-money-table thead th {
   text-align: left;
   font-weight: 500;
-  font-size: 0.65rem;
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: var(--bt-ls-caps);
   padding: 0.5rem 0.8rem 0.5rem 0;
   border-bottom: 1px solid #E5E5E0;
 }
@@ -2296,7 +2346,7 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-money-table tbody td {
   padding: 0.55rem 0.8rem 0.55rem 0;
   border-bottom: 1px solid #F1EFE8;
-  line-height: 1.4;
+  line-height: var(--bt-lh-tight);
   vertical-align: top;
 }
 
@@ -2304,7 +2354,7 @@ css/* === Выравнивание логотипа по сетке контен
   padding: 0.7rem 0.8rem 0.5rem 0;
   font-weight: 500;
   border-top: 1px solid #E5E5E0;
-  font-size: 0.85rem;
+  font-size: var(--bt-fs-s4);
 }
 
 [data-md-color-scheme="slate"] .bt-money-table thead th {
@@ -2337,8 +2387,8 @@ css/* === Выравнивание логотипа по сетке контен
   align-items: baseline;
   padding: 0.5rem 0;
   border-bottom: 1px solid #F1EFE8;
-  font-size: 0.82rem;
-  line-height: 1.4;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-tight);
 }
 
 .bt-money-fragments-list li:last-child {
@@ -2359,12 +2409,12 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-mf-doc {
-  font-size: 0.74rem;
+  font-size: var(--bt-fs-s5);
 }
 
 .bt-mf-context {
   grid-column: 1 / -1;
-  font-size: 0.74rem;
+  font-size: var(--bt-fs-s5);
   color: #6B6B6B;
   font-style: italic;
   margin-top: -3px;
@@ -2412,8 +2462,8 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-org-money-opaque-body p {
   margin: 0;
-  font-size: 0.88rem;
-  line-height: 1.55;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
 }
 
 .bt-org-money-opaque-body p + p {
@@ -2421,7 +2471,7 @@ css/* === Выравнивание логотипа по сетке контен
 }
 
 .bt-org-money-checked {
-  font-size: 0.74rem !important;
+  font-size: var(--bt-fs-s5) !important;
   color: #6B6B6B;
   font-style: italic;
 }
@@ -2453,8 +2503,8 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-org-events-list li,
 .bt-org-cases-list li {
   padding: 0.35rem 0;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
   border-bottom: 1px solid #F1EFE8;
 }
 
@@ -2481,8 +2531,8 @@ css/* === Выравнивание логотипа по сетке контен
 
 .bt-org-timeline-list li {
   padding: 0.4rem 0;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: var(--bt-fs-s4);
+  line-height: var(--bt-lh-body);
   position: relative;
   list-style: none;
 }
@@ -2520,7 +2570,7 @@ css/* === Выравнивание логотипа по сетке контен
 .bt-org-cases-list em {
   color: #888780;
   font-style: italic;
-  font-size: 0.82rem;
+  font-size: var(--bt-fs-s4);
 }
 
 [data-md-color-scheme="slate"] .bt-org-cases-list em {
