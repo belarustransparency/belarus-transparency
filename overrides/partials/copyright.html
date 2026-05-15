@@ -1,14 +1,14 @@
-# {% if config.copyright %}
-#   <div class="md-copyright">
-#     <div class="md-copyright__highlight">
-#       {{ config.copyright }}
-#     </div>
-#   </div>
-# {% endif %}
-# <div class="bt-footer-links">
-#   <a href="{{ '/archive/' | url }}">Архив документов</a>
-#   <span class="bt-footer-sep">·</span>
-#   <a href="{{ '/about/' | url }}">О проекте</a>
-#   <span class="bt-footer-sep">·</span>
-#   <a href="{{ '/en/' | url }}">English</a>
-# </div>
+{% if config.copyright %}
+<div class="md-copyright">
+    <div class="md-copyright__highlight">
+    {{ config.copyright }}
+    </div>
+</div>
+{% endif %}
+<div class="bt-footer-links">
+<a href="{{ '/archive/' | url }}">Архив документов</a>
+<span class="bt-footer-sep">·</span>
+<a href="{{ '/about/' | url }}">О проекте</a>
+<span class="bt-footer-sep">·</span>
+<a href="{{ '/en/' | url }}">English</a>
+</div>
