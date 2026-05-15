@@ -2200,37 +2200,43 @@ css/* === Выравнивание логотипа по сетке контен
   color: #9A9893;
 }
 
-.bt-tp-value-yes {
-  color: #3B6D11;
-}
-
-.bt-tp-value-no {
-  color: #A32D2D;
-}
-
-.bt-tp-value-unk {
-  color: #6B6B6B;
-}
-
+/* Значение — обычный тёмный текст, цвет только через точку-маркер слева.
+   Маркер рисуется через ::before; цвет берётся из --bt-marker, заданного
+   на классах-модификаторах ниже. */
+.bt-tp-value-yes,
+.bt-tp-value-no,
+.bt-tp-value-unk,
 .bt-tp-value-part {
-  color: #854F0B;
+  color: var(--md-default-fg-color);
+  position: relative;
+  padding-left: 1rem;
 }
 
-[data-md-color-scheme="slate"] .bt-tp-value-yes {
-  color: #97C459;
+.bt-tp-value-yes::before,
+.bt-tp-value-no::before,
+.bt-tp-value-unk::before,
+.bt-tp-value-part::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--bt-marker);
 }
 
-[data-md-color-scheme="slate"] .bt-tp-value-no {
-  color: #F09595;
-}
+.bt-tp-value-yes  { --bt-marker: #639922; }
+.bt-tp-value-no   { --bt-marker: #E24B4A; }
+.bt-tp-value-unk  { --bt-marker: #C8C5BC; }
+.bt-tp-value-part { --bt-marker: #EF9F27; }
 
-[data-md-color-scheme="slate"] .bt-tp-value-unk {
-  color: #9A9893;
-}
-
-[data-md-color-scheme="slate"] .bt-tp-value-part {
-  color: #EF9F27;
-}
+/* В тёмной теме маркеры чуть осветляем, чтобы не тонули в фоне.
+   "unk" в тёмной теме делаем темнее, чтобы держал ритм с другими. */
+[data-md-color-scheme="slate"] .bt-tp-value-yes  { --bt-marker: #97C459; }
+[data-md-color-scheme="slate"] .bt-tp-value-no   { --bt-marker: #F09595; }
+[data-md-color-scheme="slate"] .bt-tp-value-unk  { --bt-marker: #6B6A65; }
+[data-md-color-scheme="slate"] .bt-tp-value-part { --bt-marker: #EF9F27; }
 
 @media (max-width: 600px) {
   .bt-tp-row {
