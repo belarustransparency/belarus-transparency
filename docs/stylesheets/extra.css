@@ -2526,3 +2526,26 @@ css/* === Выравнивание логотипа по сетке контен
 [data-md-color-scheme="slate"] .bt-org-cases-list em {
   color: #6B6A65;
 }
+
+/* === Маркер идентификатора документа в контексте ===
+   Используется когда документ упоминается в тексте/блоке карточки,
+   но кликабельная ссылка на него — только в финальном блоке
+   "Первичные документы" внизу страницы. Это правило одного источника
+   истины для документа на странице: каждый doc-XXXX даёт ровно одну
+   ссылку в карточке, в блоке "Первичные документы". */
+
+.bt-doc-ref {
+  font-family: var(--md-code-font, ui-monospace, monospace);
+  font-size: 0.78em;
+  color: #6B6B6B;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+[data-md-color-scheme="slate"] .bt-doc-ref {
+  color: #9A9893;
+  background: rgba(255, 255, 255, 0.05);
+}
