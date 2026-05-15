@@ -282,7 +282,6 @@ body, .md-typeset {
   line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color);
   margin: 0;
-  max-width: 720px;
 }
 
 /* строки с левой подписью */
@@ -493,7 +492,6 @@ body, .md-typeset {
   line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color);
   margin: 0;
-  max-width: 720px;
 }
 
 /* Цитата-врезка (кейсовый слой — но крупный размер сам по себе) */
@@ -661,7 +659,6 @@ body, .md-typeset {
   line-height: var(--bt-lh-body);
   color: var(--md-default-fg-color--light);
   margin: 0;
-  max-width: 720px;
 }
 
 /* Сетка карточек */
@@ -885,7 +882,6 @@ img.bt-logo--dark,
   font-size: var(--bt-fs-s4);
   color: #6B6B6B;
   margin: 0;
-  max-width: 600px;
   line-height: var(--bt-lh-body);
 }
 
