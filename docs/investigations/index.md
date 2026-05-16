@@ -24,7 +24,7 @@ title: Расследования
 
 <div class="bt-inv-list" markdown="0">
 {%- for inv in data.investigations %}
-{%- set card_href = '/source-protection/' if inv.status == 'collecting' else inv.href %}
+{%- set card_href = '/source-protection/#open-investigations' if inv.status == 'collecting' else inv.href %}
 {%- set bg = "url('" ~ inv.cover ~ "')" if inv.cover else inv.cover_gradient %}
 <a class="bt-inv-card" href="{{ card_href }}" data-tags="{{ inv.filter_tags | join(' ') }}" style="background-image: {{ bg }};">
   <div class="bt-inv-cover">
