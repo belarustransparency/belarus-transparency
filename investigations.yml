@@ -5,56 +5,63 @@
 
 investigations:
 
-  - code: BT-001
-    href: opk-grants-2022-2025/
-    title: "Куда уходят гранты ОПК: реконструкция расходов 2022–2025"
-    lede: Структура расходов Офиса Тихановской и связанных НКО по отчётам грантодателей.
-    date: март 2026
+  - code: CASE-001
+    href: bialorus-przyszlosci-fsm/
+    title: "Fundacja Białoruś Przyszłości — грант FSM 2023"
+    lede: >-
+      Польский публичный фонд Fundacji Solidarności Międzynarodowej выделил в 2023 году 980 000 zł (≈218 000 €) частному фонду, органы управления
+      которого c 2023 года полностью состоят из действующих сотрудников и членов семьи заместителя главы ОПК Павла Латушко. Устав не опубликован,
+      обязательная финансовая отчётность за 2023 - 2025 годы в открытом реестре отсутствует.
+    date: май 2026
     status: published     # published | collecting | draft
     tags:                 # видимые теги (можно по-русски)
-      - ОПК
-      - Финансы
-      - Литва
+      - Польша
+      - FSM
+      - Грант
     filter_tags:          # технические теги для фильтра (латиницей, lowercase)
-      - opk
-      - finansy
-      - litva
-    grants_eur: 135       # сумма в млн €
-    grants_pct: 18        # процент от 750 млн € (должен совпадать с грубой математикой выше)
-    cover: "/assets/covers/brukhan.webp"             # путь к фото-обложке, или пусто для тёмной плашки
+      - democracy
+    grants_eur: 0.22      # сумма в млн €
+    grants_pct: 1         # процент от 170 млн € (бюджет ЕС 2020–2024)
+    cover: "/assets/covers/brukhan.webp"
     cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
 
-  - code: BT-002
-    href: media-eu-funding/
-    title: "Медиа в эмиграции: кто получил деньги ЕС и за какой контент"
-    lede: Кто из беларуских редакций получал финансирование через EED, NED и USAID, в каких суммах и под какие KPI.
-    date: апрель 2026
+  - code: CASE-002
+    href: imaguru/
+    title: "Imaguru / Belbiz — гранты ЕК 2022–2025"
+    lede: >-
+      Сеть из пяти юрлиц, зарегистрированных в Литве, Латвии, Польше и Испании c одним бенефициаром - Татьяной Маринич. В 2022 году получила грант
+      Еврокомиссии на 2 000 000 € после гранта 60 000 € годом ранее (рост в 33 раза). С февраля 2025 года — участник консорциума Belarusian Diaspora Initiative (3 000 000 € на 3 года, лидер
+      Eurochambres). Финансовая отчётность по ее фондам - отсутствует.
+    date: май 2026
     status: collecting
     tags:
-      - Медиа
-      - Финансы
+      - Грант
+      - ЕК
+      - Помощь бизнесу
     filter_tags:
-      - media
-      - finansy
-    grants_eur: 90
-    grants_pct: 12
+      - business
+    grants_eur: 5.06
+    grants_pct: 3
     cover: "/assets/covers/marinich.webp"
     cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
 
-  - code: BT-003
-    href: ngo-lithuania/
-    title: "Карта беларуских НКО в Литве: учредители, бюджеты, пересечения"
-    lede: 31 организация зарегистрирована беларусами в Литве с 2020 года.
-    date: в работе
-    status: draft
+  - code: CASE-003
+    href: abba/
+    title: "ABBA — фонды Ассоциации белорусского бизнеса за рубежом"
+    lede: >-
+      Сеть из трёх связанных польских и американских фондов, получивших с 2022 года не менее 1 050 000 € от Еврокомиссии по двум грантам и около 1 000 000 $ от американских доноров (по балансовым
+      отчётам и публичным заявлениям руководства). С февраля 2025 года — участник консорциума Belarusian Diaspora Initiative 3 000 000 €. По данным открытых источников, бизнесу с белорусскими
+      корнями за два грантовых года распределено около 100 000 €. Устав не опубликован, обязательный аудит не проводится.
+    date: май 2026
+    status: collecting
     tags:
-      - НКО в эмиграции
-      - Литва
+      - США
+      - ЕК
+      - Помощь бизнесу
     filter_tags:
-      - ngo
-      - litva
-    grants_eur: 53
-    grants_pct: 7
+      - business
+    grants_eur: 4.98
+    grants_pct: 3
     cover: "/assets/covers/alekhnovich.webp"
     cover_gradient: "linear-gradient(135deg, #3d3530 0%, #20191a 100%)"
 
@@ -66,8 +73,9 @@ investigations:
 
 filters:
   all: Все
-  opk: ОПК
+  business: Бизнес-помощь
+  democracy: Поддержка демократии
+  political_prisoners: Политзаключённые
   media: Медиа
-  ngo: НКО в эмиграции
-  finansy: Финансы
-  litva: Литва
+  culture: Культура
+  relocation: Релокация
