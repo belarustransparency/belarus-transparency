@@ -966,9 +966,9 @@ img.bt-logo--dark,
 /* Верхняя половина: код, дата, заголовок, лид */
 .bt-inv-cover {
   position: relative;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 1800 / 1010;     /* пропорция исходников — не обрезать */
   z-index: 2;
-  padding: 18px 22px 22px;
+  padding: 26px 22px 22px;       /* +8px сверху — отвести надписи от кромки */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -981,7 +981,7 @@ img.bt-logo--dark,
 .bt-inv-cover-bottom {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;                     /* было 8px — +полстрочки воздуха */
   max-width: 92%;
 }
 .bt-inv-code {
@@ -1091,18 +1091,20 @@ img.bt-logo--dark,
 .bt-inv-status.collecting { color: #BA7517; }
 .bt-inv-status.draft { color: #888780; }
 
-/* Мобильная адаптация — плашка в 2 строки */
+/* Мобильная адаптация */
 @media (max-width: 600px) {
+  /* Усиленное затемнение фото — текст должен оставаться читаемым на узком экране */
+  .bt-inv-card::before {
+    background: linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.82) 100%);
+  }
+  /* Нижняя плашка: только сумма + статус, без тегов */
   .bt-inv-foot {
     grid-template-columns: 1fr auto;
-    grid-template-areas:
-      "tags status"
-      "grants grants";
     gap: 10px 12px;
   }
-  .bt-inv-tags { grid-area: tags; }
-  .bt-inv-status { grid-area: status; }
-  .bt-inv-grants { grid-area: grants; justify-content: flex-end; }
+  .bt-inv-tags { display: none; }
+  .bt-inv-grants { justify-content: flex-start; }
+  /* Заголовок чуть меньше, чем на десктопе */
   .bt-inv-title { font-size: var(--bt-fs-s3); }
 }
 
