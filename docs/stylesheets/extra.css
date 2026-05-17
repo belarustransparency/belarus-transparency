@@ -478,8 +478,6 @@ body, .md-typeset {
 /* Шапка */
 .bt-person-head {
   margin-bottom: 2rem;
-  padding-bottom: 1.75rem;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 .bt-person-head .bt-kicker {
   font-size: var(--bt-fs-s6);
