@@ -1318,6 +1318,10 @@ img.bt-logo--dark,
 .bt-event-table td:nth-last-child(-n+2) {
   white-space: nowrap;
   text-align: right;
+}
+
+.bt-event-table th:last-child,
+.bt-event-table td:last-child {
   padding-right: 0;
 }
 
