@@ -28,7 +28,7 @@ status: active
 <div class="bt-person" markdown>
 
 <div class="bt-cover">
-  <div class="bt-cover-img" style="background-image: url('./assets/iryna-khalopitsa-cover.webp');"></div>
+  <div class="bt-cover-img" style="background-image: url('../assets/iryna-khalopitsa-cover.webp');"></div>
   <div class="bt-cover-cap"></div>
 </div>
 
