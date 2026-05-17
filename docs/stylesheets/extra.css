@@ -1294,9 +1294,7 @@ img.bt-logo--dark,
   text-align: left;
   padding: 0.5rem 0.75rem 0.5rem 0;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  font-size: var(--bt-fs-s6);
-  letter-spacing: var(--bt-ls-caps);
-  text-transform: uppercase;
+  font-size: var(--bt-fs-s5);
   color: var(--md-default-fg-color--light);
   font-weight: 500;
   vertical-align: bottom;
