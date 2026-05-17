@@ -87,7 +87,6 @@ status: completed
       <th>Место</th>
       <th>Организация</th>
       <th>Проект</th>
-      <th>Приоритет</th>
       <th>Балл</th>
       <th>Сумма (zł)</th>
     </tr>
@@ -97,7 +96,6 @@ status: completed
       <td>1</td>
       <td>Kolegium Europy Wschodniej im. J. Nowaka-Jeziorańskiego</td>
       <td>Wspieramy Białoruskie Przebudzenie</td>
-      <td>II, III</td>
       <td><strong>19,5</strong></td>
       <td>142 000</td>
     </tr>
@@ -105,7 +103,6 @@ status: completed
       <td>2</td>
       <td>Fundacja Strefa Solidarności (TV Biełsat)</td>
       <td>Поддержка платформы TV Biełsat</td>
-      <td>II, III</td>
       <td>16,5</td>
       <td>300 000</td>
     </tr>
@@ -113,7 +110,6 @@ status: completed
       <td>2</td>
       <td><strong><a href="../../organizations/bialorus-przyszlosci/">Fundacja Białoruś Przyszłości</a></strong></td>
       <td><strong>Дорожная карта защиты прав жертв преступлений против человечности</strong></td>
-      <td><strong>I</strong></td>
       <td><strong>16,5</strong></td>
       <td><strong>980 000</strong></td>
     </tr>
@@ -121,7 +117,6 @@ status: completed
       <td>4</td>
       <td>Fundacja Informacyjne Biuro Białoruś w Fokusie</td>
       <td>Развитие журналистики в эмиграции</td>
-      <td>II</td>
       <td>16,0</td>
       <td>400 000</td>
     </tr>
@@ -129,7 +124,6 @@ status: completed
       <td>5</td>
       <td>Fundacja BYPOL</td>
       <td>Развитие демократии на Беларуси</td>
-      <td>II</td>
       <td>15,5</td>
       <td>251 460</td>
     </tr>
