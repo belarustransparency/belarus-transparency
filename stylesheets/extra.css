@@ -602,6 +602,13 @@ body, .md-typeset {
   .bt-person-head h1 { font-size: var(--bt-fs-s2); }
   .bt-pull { font-size: var(--bt-fs-s2); }
   .bt-struct-grid { grid-template-columns: 1fr; }
+
+  /* Скрываем mermaid-схемы на мобильном — некорректно рендерится в узком viewport,
+     показывает сырой код вместо схемы. Текстовая часть карточки при этом не страдает. */
+  .bt-ties,
+  .bt-org-structure .mermaid,
+  pre.mermaid,
+  .mermaid { display: none; }
 }
 
 /* === Теги (подвал карточки) === */
