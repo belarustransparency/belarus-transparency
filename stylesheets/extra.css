@@ -2116,6 +2116,245 @@ img.bt-logo--dark,
 [data-md-color-scheme="slate"] .bt-org-row-role {
   color: #9A9893;
 }
+/* ============================================================
+   ПАТЧ ДЛЯ extra.css — стили витрины персоналий с горизонтальными плашками.
+   Добавить в конец extra.css (или рядом со стилями bt-orgs).
+   ============================================================ */
+
+/* === Витрина персон — горизонтальные плашки === */
+
+.bt-persons-index {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Группа фильтров — повторяет стиль .bt-org-filters */
+.bt-persons-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  margin: 1.5rem 0 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest, #E5E5E0);
+}
+
+.bt-persons-filters .bt-filter {
+  font-size: var(--bt-fs-s5);
+  color: #6B6B6B;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.bt-persons-filters .bt-filter:hover {
+  color: #B8341E;
+}
+
+.bt-persons-filters .bt-filter-active {
+  color: #0A0A0A;
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .bt-persons-filters {
+  border-bottom-color: #2A2A28;
+}
+
+[data-md-color-scheme="slate"] .bt-persons-filters .bt-filter {
+  color: #9A9893;
+}
+
+[data-md-color-scheme="slate"] .bt-persons-filters .bt-filter-active {
+  color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .bt-persons-filters .bt-filter:hover {
+  color: #D85A30;
+}
+
+/* Лента плашек */
+.bt-persons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Плашка персоны — горизонтальная, как у org-row, но более компактная.
+   Структура: фото слева (квадрат 56×56), имя+роль в центре, бейджи справа. */
+.bt-person-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px 14px calc(18px - 3px);
+  background: #EDEAE0;
+  border: 0 solid transparent;
+  border-left: 3px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #1F1F1F;
+  outline: none;
+  transition: background-color 0.18s ease, border-left-color 0.18s ease, border-radius 0.18s ease;
+}
+
+.bt-person-row:hover,
+.bt-person-row:focus,
+.bt-person-row:focus-visible {
+  background: #E1DDD0;
+  border-left-color: #B8341E;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="slate"] .bt-person-row {
+  background: #1A1A19;
+  color: #E8E6E0;
+}
+
+[data-md-color-scheme="slate"] .bt-person-row:hover,
+[data-md-color-scheme="slate"] .bt-person-row:focus,
+[data-md-color-scheme="slate"] .bt-person-row:focus-visible {
+  background: #232321;
+  border-left-color: #D85A30;
+}
+
+/* Фото-квадрат слева */
+.bt-person-row-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+  background-color: #2A2520;
+  flex-shrink: 0;
+}
+
+/* Центральный блок с именем и описанием — расширяется */
+.bt-person-row-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.bt-person-row-name {
+  font-size: var(--bt-fs-s4);
+  font-weight: 500;
+  color: #1F1F1F;
+  margin-bottom: 2px;
+  letter-spacing: -0.005em;
+}
+
+[data-md-color-scheme="slate"] .bt-person-row-name {
+  color: #E8E6E0;
+}
+
+.bt-person-row-role {
+  font-size: var(--bt-fs-s5);
+  line-height: var(--bt-lh-tight);
+  color: #6B6B6B;
+}
+
+[data-md-color-scheme="slate"] .bt-person-row-role {
+  color: #9A9893;
+}
+
+/* Бейджи справа — компактные пилюли */
+.bt-person-row-badges {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 220px;
+}
+
+.bt-badge {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 10px;
+  white-space: nowrap;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* Бейджи функциональной роли — синяя гамма */
+.bt-badge-role-politician {
+  background: #D6E4F4;
+  color: #1F3F66;
+}
+.bt-badge-role-media {
+  background: #E6E0F0;
+  color: #3F2E66;
+}
+.bt-badge-role-expert {
+  background: #DDE9DD;
+  color: #2E5C2E;
+}
+.bt-badge-role-civic {
+  background: #F4E3D6;
+  color: #66401F;
+}
+.bt-badge-role-business {
+  background: #F0E8D6;
+  color: #66552E;
+}
+.bt-badge-role-private {
+  background: #F4DDE3;
+  color: #66304D;
+}
+
+[data-md-color-scheme="slate"] .bt-badge-role-politician { background: #2A3548; color: #B5CFEC; }
+[data-md-color-scheme="slate"] .bt-badge-role-media      { background: #34293F; color: #C9BBE6; }
+[data-md-color-scheme="slate"] .bt-badge-role-expert     { background: #2A3A2A; color: #B5D4B5; }
+[data-md-color-scheme="slate"] .bt-badge-role-civic      { background: #3F2F22; color: #E6C9B5; }
+[data-md-color-scheme="slate"] .bt-badge-role-business   { background: #3A3320; color: #E0CFB5; }
+[data-md-color-scheme="slate"] .bt-badge-role-private    { background: #3F2932; color: #E6BFCC; }
+
+/* Бейджи структурной позиции — нейтральные серые/коричневые */
+.bt-badge-position-principal {
+  background: #1F1F1F;
+  color: #FFFFFF;
+}
+.bt-badge-position-nominal {
+  background: #E0DCD0;
+  color: #4A4A45;
+  border: 1px solid #C5C0B0;
+}
+.bt-badge-position-witness {
+  background: #EDEAE0;
+  color: #6B6B6B;
+  border: 1px dashed #C5C0B0;
+}
+.bt-badge-position-kin {
+  background: #E8D4D0;
+  color: #66302A;
+}
+
+[data-md-color-scheme="slate"] .bt-badge-position-principal { background: #FFFFFF; color: #1F1F1F; }
+[data-md-color-scheme="slate"] .bt-badge-position-nominal   { background: #2A2A28; color: #B0AEA5; border-color: #3A3A38; }
+[data-md-color-scheme="slate"] .bt-badge-position-witness   { background: #1A1A19; color: #888780; border-color: #3A3A38; }
+[data-md-color-scheme="slate"] .bt-badge-position-kin       { background: #3F2925; color: #E6C2BC; }
+
+/* Адаптив — на узких экранах бейджи переходят под имя */
+@media (max-width: 700px) {
+  .bt-person-row {
+    flex-wrap: wrap;
+  }
+  .bt-person-row-info {
+    flex: 1 1 calc(100% - 56px - 16px);
+  }
+  .bt-person-row-badges {
+    flex: 1 1 100%;
+    justify-content: flex-start;
+    margin-top: 4px;
+    margin-left: calc(56px + 16px);
+    max-width: none;
+  }
+  .bt-person-row-photo {
+    width: 48px;
+    height: 48px;
+  }
+}
 
 /* ============================================================
    === Полоска индикаторов прозрачности ===
