@@ -55,7 +55,7 @@ status: active
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Хранение</div><div class="bt-doc-meta-value">В репозитории</div></div>
 </div>
 
-<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="files/Odpis_Pełny_KRS_0000877364.pdf" download>Скачать PDF</a></div>
+<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/Odpis_Pełny_KRS_0000877364.pdf" download>Скачать PDF</a></div>
 
 <div class="bt-doc-prose" markdown>
 
