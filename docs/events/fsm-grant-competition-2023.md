@@ -30,7 +30,7 @@ tags:
 status: completed
 ---
 
-<div class="bt-event">
+<div class="bt-event" markdown>
 
 <header class="bt-event-head">
   <h1>Конкурс грантов FSM на беларуское направление, 2023</h1>
@@ -82,7 +82,7 @@ status: completed
 
 </div>
 
-<section class="bt-block">
+<section class="bt-block" markdown>
 <div class="bt-block-label">Получатели грантов</div>
 
 | Место | Организация | Проект | Приоритет | Балл | Сумма (zł) |
@@ -95,7 +95,7 @@ status: completed
 
 </section>
 
-<section class="bt-block">
+<section class="bt-block" markdown>
 <div class="bt-block-label">Заявки, не получившие финансирования</div>
 
 | Организация | Балл |
@@ -129,14 +129,14 @@ BP — единственный получатель, заявившийся в 
 
 </div>
 
-<section class="bt-event-cases">
+<section class="bt-event-cases" markdown>
 <div class="bt-block-label">Упоминается в кейсах</div>
 <ul>
   <li><a href="../../investigations/bialorus-przyszlosci-fsm/">Беларусь Будущего и польские публичные деньги</a> · inv-0001</li>
 </ul>
 </section>
 
-<section class="bt-event-sources">
+<section class="bt-event-sources" markdown>
 <div class="bt-block-label">Первичные документы</div>
 <ul>
   <li><a href="../../archive/doc-fsm-2023-results/">doc-fsm-2023-results</a> · Wyniki Konkursu Grantowego na rzecz Białorusi 2023 (PDF, получен из веб-архива)</li>
