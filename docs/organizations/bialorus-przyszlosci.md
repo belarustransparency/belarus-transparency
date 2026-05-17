@@ -9,7 +9,7 @@ single_person:
 date_founded: 2021-01-11
 date_dissolved:
 date_added: 2026-05-15
-date_updated: 2026-05-16
+date_updated: 2026-05-17
 charter_public: false
 reports_public: false
 audit_public: unknown
@@ -49,7 +49,7 @@ status_note:
 <header class="bt-org-head">
   <div class="bt-kicker">Организация · Фонд</div>
   <h1>Fundacja Białoruś Przyszłości</h1>
-  <p class="bt-lede">Польский фонд, зарегистрирован в январе 2021 года. Грантополучатель Fundacji Solidarności Międzynarodowej на сумму 980 000 zł в конкурсе 2023 года.</p>
+  <p class="bt-lede">Польский фонд, зарегистрирован в январе 2021 года. С января 2022 года размещён по адресу офиса НАУ Павла Латушко. Грантополучатель Fundacji Solidarności Międzynarodowej на сумму 980 000 zł в конкурсе 2023 года.</p>
   <div class="bt-org-status">
     <span class="bt-status bt-status-active">действует</span>
   </div>
@@ -74,7 +74,7 @@ status_note:
   <div class="bt-tp-details">
     <div class="bt-tp-row">
       <div class="bt-tp-label">Устав публичен</div>
-      <div class="bt-tp-value bt-tp-value-no">Нет · устав фонда не обнаружен в открытых источниках</div>
+      <div class="bt-tp-value bt-tp-value-no">Нет · устав фонда не обнаружен в открытых источниках. Внесён четыре раза: 20.11.2020 (с правкой 09.12.2020), 01.03.2023, 07.04.2025, 27.10.2025. Содержание не опубликовано.</div>
     </div>
     <div class="bt-tp-row">
       <div class="bt-tp-label">Финансовая отчётность</div>
@@ -102,8 +102,16 @@ status_note:
       <div class="bt-meta-value">Польша</div>
     </div>
     <div class="bt-meta-item">
+      <div class="bt-meta-label">KRS / NIP / REGON</div>
+      <div class="bt-meta-value">0000877364 / 5213917050 / 387913350</div>
+    </div>
+    <div class="bt-meta-item">
       <div class="bt-meta-label">Зарегистрирован</div>
       <div class="bt-meta-value">11 января 2021</div>
+    </div>
+    <div class="bt-meta-item">
+      <div class="bt-meta-label">Адрес</div>
+      <div class="bt-meta-value">ul. Mazowiecka 12, 00-033 Warszawa<br/><em>офис НАУ Павла Латушко</em></div>
     </div>
     <div class="bt-meta-item">
       <div class="bt-meta-label">Реестр предпринимателей</div>
@@ -111,7 +119,7 @@ status_note:
     </div>
     <div class="bt-meta-item">
       <div class="bt-meta-label">Председатель правления</div>
-      <div class="bt-meta-value"><a href="../persons/artsiom-praskalovich/">Artsiom Praskalovich</a> (с августа 2022)</div>
+      <div class="bt-meta-value"><a href="../persons/artsiom-praskalovich/">Artsiom Praskalovich</a> (с 26 августа 2022)</div>
     </div>
     <div class="bt-meta-item">
       <div class="bt-meta-label">Основной вид деятельности</div>
@@ -121,10 +129,11 @@ status_note:
 </section>
 
 <div class="bt-prose">
-<p>Фонд зарегистрирован в Польше 11 января 2021 года четырьмя учредителями. В 2022 году все четверо вышли из органов фонда.</p>
+<p>Фонд зарегистрирован в Польше 11 января 2021 года четырьмя учредителями. Председателем правления был Anatol Kotau, членом правления — Elena Zhilochkina, в надзорном органе — Vadim Prokopiev и Mikhail Kiryliuk.</p>
+<p>12 января 2022 года Anatol Kotau вычеркнут с должности председателя правления, Vadim Prokopiev — из надзорного органа. В тот же день фонд переезжает с ul. Wincentego Rzymowskiego 28 (район Mokotów) на <strong>ul. Mazowiecka 12 в центре Варшавы — по адресу офиса Народного антикризисного управления Павла Латушко</strong>. Elena Zhilochkina временно возглавляет правление.</p>
 <p>В июне 2023 года фонд внесён в реестр предпринимателей, что по польскому законодательству влечёт обязанность подавать годовую финансовую отчётность в открытый реестр. Отчёты за 2023 и 2024 годы в реестре отсутствуют.</p>
 <p>В 2023 году фонд получил грант Fundacji Solidarności Międzynarodowej в размере 980 000 zł — крупнейший индивидуальный грант конкурса по теме Беларуси.</p>
-<p>5 сентября 2025 года фонд изменил основной вид экономической деятельности на «Аренда и управление недвижимостью» (PKD 68.20.Z), в тот же день в надзорный орган вписаны два новых члена — Yana Latushka и Iryna Khalopitsa.</p>
+<p>5 сентября 2025 года фонд изменил основной вид экономической деятельности на «Аренда и управление недвижимостью» (PKD 68.20.Z), в тот же день в надзорный орган вписаны два новых члена — Yana Latushka и Iryna Khalopitsa. 26 января 2026 года из надзорного органа вычеркнута Anna Panov.</p>
 </div>
 
 <section class="bt-org-structure">
@@ -132,12 +141,12 @@ status_note:
 
 ```mermaid
 graph TD
-    ORG["Fundacja Białoruś Przyszłości"]
+    ORG["Fundacja Białoruś Przyszłości<br/>ul. Mazowiecka 12<br/>офис НАУ"]
     MGMT["Правление"]
     OVS["Надзорный орган"]
-    PRES["Artsiom Praskalovich<br/>председатель с авг. 2022"]
+    PRES["Artsiom Praskalovich<br/>председатель с 08.2022"]
     OV1["Artsiom Brukhan<br/>с 29 мая 2023"]
-    OV2["Vladzimir Astapenka<br/>с авг. 2022"]
+    OV2["Vladzimir Astapenka<br/>с 26 авг. 2022"]
     OV3["Yana Latushka<br/>с 5 сент. 2025"]
     OV4["Iryna Khalopitsa<br/>с 5 сент. 2025"]
 
@@ -163,16 +172,18 @@ graph TD
 <section class="bt-org-timeline">
   <div class="bt-block-label">Хронология реестровых событий</div>
   <ul class="bt-org-timeline-list">
-    <li><span class="bt-tl-date">11 января 2021</span> · Регистрация фонда в Польше. Учредители: <a href="../persons/anatol-kotau/">Anatol Kotau</a>, <a href="../persons/vadim-prokopiev/">Vadim Prokopiev</a>, <a href="../persons/mikhail-kiryliuk/">Mikhail Kiryliuk</a>, <a href="../persons/elena-zhilochkina/">Elena Zhilochkina</a>.</li>
+    <li><span class="bt-tl-date">11 января 2021</span> · Регистрация фонда в Польше. Председатель правления — <a href="../persons/anatol-kotau/">Anatol Kotau</a>, член правления — <a href="../persons/elena-zhilochkina/">Elena Zhilochkina</a>. Надзорный орган: <a href="../persons/vadim-prokopiev/">Vadim Prokopiev</a>, <a href="../persons/mikhail-kiryliuk/">Mikhail Kiryliuk</a>. Адрес: ul. Wincentego Rzymowskiego 28.</li>
     <li><span class="bt-tl-date">2021</span> · Выявлен документальный дефицит по расходам фонда; начат судебный конфликт между Павлом Латушко и Anatol Kotau, председателем правления.</li>
-    <li><span class="bt-tl-date">К началу 2022</span> · Anatol Kotau и Vadim Prokopiev вычеркнуты из органов фонда.</li>
-    <li><span class="bt-tl-date">26 августа 2022</span> · <a href="../persons/anna-panov/">Anna Panov</a> вписана в надзорный орган.</li>
-    <li><span class="bt-tl-date">Август 2022</span> · <a href="../persons/artsiom-praskalovich/">Artsiom Praskalovich</a> вступает в должность председателя правления; <a href="../persons/vladzimir-astapenka/">Vladzimir Astapenka</a> вписан в надзорный орган.</li>
-    <li><span class="bt-tl-date">2022</span> · Elena Zhilochkina и Mikhail Kiryliuk вычеркнуты из органов фонда.</li>
-    <li><span class="bt-tl-date">29 мая 2023</span> · <a href="../persons/artsiom-brukhan/">Artsiom Brukhan</a> вписан в надзорный орган.</li>
+    <li><span class="bt-tl-date">12 января 2022</span> · Anatol Kotau вычеркнут как председатель правления, Vadim Prokopiev — из надзорного органа. Elena Zhilochkina становится председателем правления. <strong>Фонд переезжает с ul. Wincentego Rzymowskiego 28 на ul. Mazowiecka 12 — по адресу офиса Народного антикризисного управления Павла Латушко.</strong></li>
+    <li><span class="bt-tl-date">26 августа 2022</span> · Полная замена правления и надзора. Председателем правления становится <a href="../persons/artsiom-praskalovich/">Artsiom Praskalovich</a>; в правление вписан <a href="../persons/valery-matskevich/">Valery Matskevich</a>. В надзорный орган вписаны <a href="../persons/vladzimir-astapenka/">Vladzimir Astapenka</a> и <a href="../persons/anna-panov/">Anna Panov</a>. Elena Zhilochkina и Mikhail Kiryliuk вычеркнуты.</li>
+    <li><span class="bt-tl-date">1 марта 2023</span> · Внесены изменения в устав фонда (§ 9 пп. 13–19, § 21 и § 23). Содержание изменений не опубликовано.</li>
+    <li><span class="bt-tl-date">29 мая 2023</span> · Valery Matskevich вычеркнут из правления. В надзорный орган вписан <a href="../persons/artsiom-brukhan/">Artsiom Brukhan</a>.</li>
     <li><span class="bt-tl-date">6 июня 2023</span> · Фонд внесён в реестр предпринимателей.</li>
     <li><span class="bt-tl-date">2023</span> · Получен грант Fundacji Solidarności Międzynarodowej в размере 980 000 zł по результатам <a href="../events/fsm-grant-competition-2023/">конкурса FSM 2023 года</a>.</li>
-    <li><span class="bt-tl-date">5 сентября 2025</span> · В надзорный орган вписаны <a href="../persons/yana-latushka/">Yana Latushka</a> и <a href="../persons/iryna-khalopitsa/">Iryna Khalopitsa</a>; Anna Panov вычеркнута из надзорного органа. В тот же день основной вид экономической деятельности изменён на PKD 68.20.Z «аренда и управление недвижимостью».</li>
+    <li><span class="bt-tl-date">7 апреля 2025</span> · Принят полностью новый текст устава фонда. Содержание не опубликовано.</li>
+    <li><span class="bt-tl-date">5 сентября 2025</span> · В надзорный орган вписаны <a href="../persons/yana-latushka/">Yana Latushka</a> и <a href="../persons/iryna-khalopitsa/">Iryna Khalopitsa</a>. В коды PKD деятельности фонда добавлен 68.20.Z — «аренда и управление недвижимостью» — как основной вид деятельности.</li>
+    <li><span class="bt-tl-date">27 октября 2025</span> · Изменён § 12 п. 1 устава фонда. Содержание не опубликовано.</li>
+    <li><span class="bt-tl-date">26 января 2026</span> · Anna Panov вычеркнута из надзорного органа.</li>
   </ul>
 </section>
 
@@ -190,15 +201,15 @@ graph TD
     </li>
   </ul>
 
-  <p class="bt-org-money-checked">Последняя проверка реестра годовой отчётности: 16 мая 2026.</p>
+  <p class="bt-org-money-checked">Последняя проверка реестра годовой отчётности: 17 мая 2026.</p>
 </section>
 
 <section class="bt-org-people">
   <div class="bt-block-label">Действующий состав</div>
   <ul class="bt-org-people-list">
-    <li><a href="../persons/artsiom-praskalovich/">Artsiom Praskalovich</a> — председатель правления с августа 2022</li>
+    <li><a href="../persons/artsiom-praskalovich/">Artsiom Praskalovich</a> — председатель правления с 26 августа 2022</li>
     <li><a href="../persons/artsiom-brukhan/">Artsiom Brukhan</a> — член надзорного органа с 29 мая 2023</li>
-    <li><a href="../persons/vladzimir-astapenka/">Vladzimir Astapenka</a> — член надзорного органа с августа 2022</li>
+    <li><a href="../persons/vladzimir-astapenka/">Vladzimir Astapenka</a> — член надзорного органа с 26 августа 2022</li>
     <li><a href="../persons/yana-latushka/">Yana Latushka</a> — член надзорного органа с 5 сентября 2025</li>
     <li><a href="../persons/iryna-khalopitsa/">Iryna Khalopitsa</a> — член надзорного органа с 5 сентября 2025</li>
   </ul>
@@ -207,12 +218,12 @@ graph TD
 <section class="bt-org-people">
   <div class="bt-block-label">Вышли из органов фонда</div>
   <ul class="bt-org-people-list">
-    <li><a href="../persons/anatol-kotau/">Anatol Kotau</a> — учредитель, председатель правления; вычеркнут к началу 2022</li>
-    <li><a href="../persons/vadim-prokopiev/">Vadim Prokopiev</a> — учредитель; вычеркнут к началу 2022</li>
-    <li><a href="../persons/mikhail-kiryliuk/">Mikhail Kiryliuk</a> — учредитель, член правления; вычеркнут в 2022</li>
-    <li><a href="../persons/elena-zhilochkina/">Elena Zhilochkina</a> — учредитель; вычеркнута в 2022</li>
-    <li><a href="../persons/valery-matskevich/">Valery Matskevich</a> — член надзорного органа; вычеркнут</li>
-    <li><a href="../persons/anna-panov/">Anna Panov</a> — член надзорного органа с 26 августа 2022; вычеркнута 5 сентября 2025</li>
+    <li><a href="../persons/anatol-kotau/">Anatol Kotau</a> — учредитель; председатель правления 11.01.2021 — 12.01.2022</li>
+    <li><a href="../persons/elena-zhilochkina/">Elena Zhilochkina</a> — учредитель; член правления, затем председатель правления 12.01.2022 — 26.08.2022</li>
+    <li><a href="../persons/vadim-prokopiev/">Vadim Prokopiev</a> — учредитель; член надзорного органа 11.01.2021 — 12.01.2022</li>
+    <li><a href="../persons/mikhail-kiryliuk/">Mikhail Kiryliuk</a> — учредитель; член надзорного органа 11.01.2021 — 29.05.2023</li>
+    <li><a href="../persons/valery-matskevich/">Valery Matskevich</a> — член правления 26.08.2022 — 29.05.2023</li>
+    <li><a href="../persons/anna-panov/">Anna Panov</a> — член надзорного органа 26.08.2022 — 26.01.2026</li>
   </ul>
 </section>
 
@@ -233,7 +244,7 @@ graph TD
 <section class="bt-org-sources">
   <div class="bt-block-label">Первичные документы</div>
   <ul class="bt-sources-list">
-    <li><a href="../archive/doc-krs-bp/">doc-krs-bp</a> · Выписка KRS Fundacji Białoruś Przyszłości</li>
+    <li><a href="../archive/doc-krs-bp/">doc-krs-bp</a> · Odpis Pełny z KRS, numer 0000877364, stan na 27.01.2026</li>
     <li><a href="../archive/doc-fsm-2023-results/">doc-fsm-2023-results</a> · Wyniki Konkursu Grantowego na rzecz Białorusi 2023 (из веб-архива)</li>
   </ul>
 </section>
