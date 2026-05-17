@@ -2,8 +2,8 @@
 hide:
   - navigation
   - toc
-title: "doc-0001 · Lista rankingowa Konkursu na rzecz Białorusi 2023"
-id: doc-0001
+title: "doc-fsm-2023-results · Lista rankingowa Konkursu na rzecz Białorusi 2023"
+id: doc-fsm-2023-results
 doc_title: Lista rankingowa Konkursu Grantowego na rzecz Białorusi (FSM, 2023)
 date_original: 2023-01-01
 date_captured: 2026-05-15
@@ -55,7 +55,7 @@ status: active
 
 <div class="bt-doc" markdown>
 
-<div class="bt-doc-kicker">Архив · документ · <span class="bt-doc-id">doc-0001</span></div>
+<div class="bt-doc-kicker">Архив · документ · <span class="bt-doc-id">doc-fsm-2023-results</span></div>
 <h1 class="bt-doc-title">Lista rankingowa Konkursu Grantowego na rzecz Białorusi (FSM, 2023)</h1>
 <p class="bt-doc-lede">Результаты грантового конкурса Fundacji Solidarności Międzynarodowej (на поручение МИД Польши) на поддержку Беларуси: списки победителей, отклонённых по баллам и отклонённых формально.</p>
 
