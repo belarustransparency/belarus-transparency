@@ -26,7 +26,7 @@ title: События
 
 <div class="bt-events-list" markdown="0">
 
-<a class="bt-event-row" data-type="conference" href="event-slug/"><div class="bt-event-date"><div class="bt-event-day">15</div><div class="bt-event-month">авг 2024</div></div><div class="bt-event-type">Конференция</div><div class="bt-event-info"><div class="bt-event-title">Название мероприятия</div><div class="bt-event-summary">Краткое описание одной строкой — что произошло, кто организатор.</div></div><div class="bt-event-place">Вильнюс</div></a>
+<a class="bt-event-row" data-type="grant" href="fsm-grant-competition-2023/"><div class="bt-event-date"><div class="bt-event-day">18</div><div class="bt-event-month">мая 2023</div></div><div class="bt-event-type">Конкурс грантов</div><div class="bt-event-info"><div class="bt-event-title">Конкурс грантов FSM на беларуское направление, 2023</div><div class="bt-event-summary">Fundacja Solidarności Międzynarodowej распределила ≈ 2,07 млн zł между пятью получателями; крупнейший грант — 980 000 zł — присуждён Fundacji Białoruś Przyszłości.</div></div><div class="bt-event-place">Варшава</div></a>
 
 </div>
 
