@@ -1249,6 +1249,84 @@ img.bt-logo--dark,
 
 /* === Карточка события === */
 
+/*
+ * Этот блок РАСШИРЯЕТ существующую секцию `/* === Карточка события === *\/`
+ * в extra.css. Куда вставить: сразу ПОСЛЕ заголовка-комментария секции
+ * (строка 1250) и ПЕРЕД определением `.bt-event-head` (строка 1252).
+ *
+ * Существующие стили `.bt-event-head`, `.bt-event-meta`, `.bt-meta-*`,
+ * `.bt-participants`, `.bt-money`, `.bt-sources` НЕ ТРОГАТЬ — они уже
+ * стилизованы и работают.
+ *
+ * Что добавляется:
+ *   .bt-event               — корневая обёртка (группа «Объекты», 760px)
+ *   .bt-block               — универсальная секция-блок с лейблом + контентом
+ *   .bt-event-table         — таблицы внутри .bt-block
+ *   .bt-event-row-highlight — подсветка строки выделенного получателя
+ *   .bt-event-cases         — секция «Упоминается в кейсах»
+ */
+
+.bt-event {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* Универсальный блок-секция: лейбл сверху, контент под ним.
+   Используется для таблиц получателей, любых других контентных блоков. */
+.bt-block {
+  margin: 2rem 0;
+}
+
+.bt-block > .bt-block-label {
+  margin-bottom: 0.75rem;
+}
+
+/* Таблицы внутри карточки события — читаемые, с переносами,
+   без схлопывания на узких колонках */
+.bt-event-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--bt-fs-s4);
+  table-layout: auto;
+}
+
+.bt-event-table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: var(--bt-fs-s6);
+  letter-spacing: var(--bt-ls-caps);
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+  vertical-align: bottom;
+}
+
+.bt-event-table td {
+  padding: 0.6rem 0.75rem 0.6rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  vertical-align: top;
+  line-height: var(--bt-lh-tight);
+}
+
+.bt-event-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Подсветка строки выделенного получателя */
+.bt-event-table tr.bt-event-row-highlight td {
+  background: rgba(184, 52, 30, 0.05);
+}
+
+[data-md-color-scheme="slate"] .bt-event-table tr.bt-event-row-highlight td {
+  background: rgba(216, 90, 48, 0.08);
+}
+
+/* Алиас .bt-event-cases — те же стили, что у .bt-sources */
+.bt-event-cases {
+  margin: 2rem 0;
+}
+
 .bt-event-head {
   margin: 2rem 0 1.5rem;
 }
