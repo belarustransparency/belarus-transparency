@@ -3483,3 +3483,206 @@ img.bt-logo--dark,
   color: var(--bt-kc-affil);
   font-weight: 500;
 }
+/* === Дашборд внутри лонгрида ============================================= */
+/* Используется в карточках расследований вместо громоздких Mermaid-схем.    */
+/* Все размеры тянутся из общих --bt-fs-*; цвета — из общих переменных темы. */
+/* Брейкпойнт мобильной сборки — 640px.                                      */
+
+.bt-dash{
+  margin:24px 0 32px;
+  border-top:2px solid var(--md-default-fg-color);
+  padding-top:20px;
+}
+
+.bt-dash-head{
+  display:flex;justify-content:space-between;align-items:baseline;
+  flex-wrap:wrap;gap:8px;margin-bottom:18px;
+}
+.bt-dash-title{
+  font-size:var(--bt-fs-s2);font-weight:600;
+  color:var(--md-default-fg-color);
+  letter-spacing:.01em;
+}
+.bt-dash-asof{
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
+  text-transform:uppercase;letter-spacing:.06em;
+}
+
+/* --- KPI row -------------------------------------------------------------- */
+
+.bt-dash-kpi{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:1px;
+  background:var(--md-default-fg-color--lightest,#E5E5E0);
+  border:1px solid var(--md-default-fg-color--lightest,#E5E5E0);
+  margin-bottom:22px;
+}
+.bt-kpi{
+  background:var(--md-default-bg-color);
+  padding:14px 12px;
+}
+.bt-kpi-value{
+  font-size:1.4rem;font-weight:600;line-height:1.15;
+  color:var(--md-default-fg-color);
+}
+.bt-kpi-label{
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
+  text-transform:uppercase;letter-spacing:.06em;margin-top:6px;
+}
+.bt-kpi-sub{
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);margin-top:2px;
+}
+.bt-kpi.bt-kpi-alert .bt-kpi-value{color:var(--md-accent-fg-color,#B8341E)}
+
+@media (max-width:640px){
+  .bt-dash-kpi{grid-template-columns:repeat(2,1fr)}
+}
+
+/* --- Юрлица --------------------------------------------------------------- */
+
+.bt-dash-entities{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:12px;
+}
+.bt-ent{
+  display:block;
+  background:var(--md-code-bg-color,#EDEAE0);
+  border:1px solid var(--md-default-fg-color--lightest,#E5E5E0);
+  padding:14px;color:inherit;text-decoration:none;
+  transition:border-color .15s;
+}
+.bt-ent:hover{
+  border-color:var(--md-accent-fg-color,#B8341E);
+  text-decoration:none;
+}
+.bt-ent-type{
+  font-size:var(--bt-fs-s6);text-transform:uppercase;letter-spacing:.1em;
+  color:var(--bt-color-meta,#6B6B6B);
+}
+.bt-ent-name{
+  font-size:var(--bt-fs-s3);font-weight:600;
+  color:var(--md-default-fg-color);margin:6px 0 4px;line-height:1.25;
+}
+.bt-ent-krs{
+  font-family:var(--md-code-font-family,'JetBrains Mono',ui-monospace,monospace);
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
+}
+.bt-ent-foot{
+  display:flex;justify-content:space-between;align-items:baseline;
+  gap:8px;margin-top:10px;flex-wrap:wrap;
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
+}
+.bt-ent-since{font-variant-numeric:tabular-nums}
+
+@media (max-width:640px){
+  .bt-dash-entities{grid-template-columns:1fr;gap:8px}
+}
+
+/* --- Персоналии ----------------------------------------------------------- */
+
+.bt-dash-people{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:8px 16px;
+}
+.bt-pers{
+  display:block;padding:10px 12px;
+  border-left:2px solid var(--md-default-fg-color--lightest,#E5E5E0);
+  color:inherit;text-decoration:none;
+  transition:border-color .15s;
+}
+.bt-pers:hover{
+  border-left-color:var(--md-accent-fg-color,#B8341E);
+  text-decoration:none;
+}
+.bt-pers-name{
+  font-size:var(--bt-fs-s3);font-weight:500;line-height:1.3;
+  color:var(--md-default-fg-color);
+}
+.bt-pers-role{
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
+  margin-top:3px;line-height:1.4;
+}
+.bt-pers.bt-pers-removed{opacity:.55}
+.bt-pers.bt-pers-removed .bt-pers-name::after{
+  content:" · вышел";
+  color:var(--bt-color-meta,#6B6B6B);font-weight:400;
+  font-size:var(--bt-fs-s5);
+}
+
+@media (max-width:640px){
+  .bt-dash-people{grid-template-columns:1fr}
+}
+
+/* --- Денежные потоки ------------------------------------------------------ */
+
+.bt-dash-money{margin-bottom:4px}
+.bt-mf{
+  display:grid;
+  grid-template-columns:1fr auto auto auto;
+  align-items:center;gap:14px;
+  padding:9px 0;
+  border-bottom:1px solid var(--md-default-fg-color--lightest,#E5E5E0);
+  font-size:var(--bt-fs-s4);
+}
+.bt-mf:last-child{border-bottom:none}
+.bt-mf-donor{color:var(--md-default-fg-color);font-weight:500}
+.bt-mf-target{color:var(--bt-color-meta,#6B6B6B)}
+.bt-mf-target::before{content:"→ ";color:var(--bt-color-meta,#6B6B6B)}
+.bt-mf-amount{
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+  font-family:var(--md-code-font-family,'JetBrains Mono',ui-monospace,monospace);
+  font-size:var(--bt-fs-s4);color:var(--md-default-fg-color);
+}
+.bt-mf-year{
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+  font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
+}
+.bt-mf.bt-mf-cut{opacity:.55}
+.bt-mf.bt-mf-cut .bt-mf-donor::after{
+  content:" · разрыв";
+  color:var(--md-accent-fg-color,#B8341E);font-weight:600;
+  font-size:var(--bt-fs-s5);
+}
+
+@media (max-width:640px){
+  .bt-mf{grid-template-columns:1fr auto;gap:4px 12px}
+  .bt-mf-target{grid-column:1;grid-row:2;font-size:var(--bt-fs-s5)}
+  .bt-mf-year{grid-column:2;grid-row:2;font-size:var(--bt-fs-s5);text-align:right}
+  .bt-mf-amount{grid-column:2;grid-row:1;text-align:right}
+}
+
+/* --- Конфликт-блок -------------------------------------------------------- */
+
+.bt-dash-conflict{
+  border-left:3px solid var(--md-accent-fg-color,#B8341E);
+  padding:4px 14px;margin:10px 0 4px;
+}
+.bt-conf-row{
+  display:grid;grid-template-columns:90px 1fr;gap:14px;
+  padding:7px 0;font-size:var(--bt-fs-s4);
+}
+.bt-conf-row + .bt-conf-row{
+  border-top:1px solid var(--md-default-fg-color--lightest,#E5E5E0);
+}
+.bt-conf-date{
+  color:var(--bt-color-meta,#6B6B6B);
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+.bt-conf-text{color:var(--md-default-fg-color)}
+.bt-conf-text a{color:var(--md-default-fg-color)}
+
+.bt-dash-conflict-tail{
+  margin-top:6px;font-size:var(--bt-fs-s5);
+  color:var(--md-accent-fg-color,#B8341E);font-weight:600;
+  text-transform:uppercase;letter-spacing:.06em;
+}
+
+@media (max-width:640px){
+  .bt-conf-row{grid-template-columns:1fr;gap:2px}
+}
+
+/* --- Подвал-легенда ------------------------------------------------------- */
+
+.bt-dash-legend{
+  margin-top:18px;font-size:var(--bt-fs-s5);
+  color:var(--bt-color-meta,#6B6B6B);line-height:1.5;
+}
