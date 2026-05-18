@@ -705,17 +705,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Структурная схема
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#a" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -789,7 +778,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         Дефицит раскрытия по донорам
@@ -822,7 +811,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         Вознаграждение руководства
@@ -833,7 +822,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         Деферированный доход
@@ -971,7 +960,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Хронология
@@ -982,7 +971,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         Ключевые фигуранты
@@ -1076,7 +1065,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         Источники и методология
@@ -1088,7 +1077,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         Уровни доказанности
@@ -1099,7 +1088,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         Первичные источники
@@ -1126,7 +1115,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       
         Связанные расследования
@@ -1170,33 +1159,181 @@
 <p>С финансового года 2024 ни одно из юрлиц ABBA не подало формальной отчётности в KRS. Срок подачи истёк в середине 2025 года. По состоянию на май 2026 года, отчётность за 2024 год отсутствует для обоих юрлиц.</p>
 <p>Это расследование документирует структурную траекторию ABBA на основе первичных документов государственного реестра Польши, аудиторских заключений, журналистских расследований SOTA, коалиционных писем и публичных заявлений донорских структур.</p>
 <hr />
-<h2 id="_2">Структурная схема<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<pre class="mermaid"><code>graph TD
-    BURY[Yauheni Bury&lt;br/&gt;Президент Фонда&lt;br/&gt;Председатель Związku&lt;br/&gt;Член ОЭК OST]
-    GIRIN[Marina Girin&lt;br/&gt;Вице-президент Фонда&lt;br/&gt;Вице-президент Związku&lt;br/&gt;50%% Connect GMN]
-    BURY --- GIRIN
+<!--
+================================================================================
+Заменяет ```mermaid graph TD ...``` блок в файле
+docs/investigations/abba.md (раздел «## Структурная схема»).
 
-    BURY --&gt; FUND[Fundacja ABBA&lt;br/&gt;KRS 921760&lt;br/&gt;сентябрь 2021&lt;br/&gt;Rejestr Przedsiębiorców 10.2022]
-    GIRIN --&gt; FUND
-    BURY --&gt; ZWIAZ[Związek ABBA&lt;br/&gt;KRS 968865&lt;br/&gt;май 2022]
-    GIRIN --&gt; ZWIAZ
-    GIRIN --&gt; CONN[Connect GMN&lt;br/&gt;Sp. z o.o.&lt;br/&gt;KRS 1092508&lt;br/&gt;февраль 2024]
+После замены:
+1. Удалить из markdown заголовок "## Структурная схема" и сам ```mermaid```-блок.
+2. Вставить этот фрагмент целиком вместо них.
+3. Раскрасить CSS-фрагмент из abba-dashboard.css в конец docs/stylesheets/extra.css
+   в отдельную секцию /* === Дашборд внутри лонгрида === */.
 
-    EC[European Commission&lt;br/&gt;≈€1 млн / 2023–24] --&gt; FUND
-    USAID --&gt; FUND
-    NORDIC[Nordic Council] --&gt; FUND
-    ZPP_2022[ZPP / 2022] --&gt; ZWIAZ
-    CIPE[CIPE USA / 2023] --&gt; ZWIAZ
-    FARP[FARP / 2022] --&gt; FUND
+ВНИМАНИЕ ПО РЕНДЕРУ MARKDOWN:
+- Корневая обёртка <section class="bt-dash" markdown="0"> — атрибут обязателен,
+  иначе python-markdown сломает вложенные <div> с пустыми строками.
+- Внутри ничего markdown-разметки нет, всё чистый HTML.
+================================================================================
+-->
 
-    FUND --&gt; FBBA[FBBA-конкурсы I–IV]
-    FBBA --&gt; CONN_VENUE[IV FBBA — 8 февраля 2025&lt;br/&gt;в баре Connect]
-    CONN --- CONN_VENUE
+<section class="bt-dash" markdown="0">
 
-    FUND --&gt; USA[ABBA USA Representation&lt;br/&gt;Alachnovič → Shevchuk]
+<div class="bt-dash-head">
+  <div class="bt-dash-title">Структурный дашборд</div>
+  <div class="bt-dash-asof">по состоянию на 18.05.2026</div>
+</div>
 
-    CONFLICT[2 авг 2023: интервью Bury&lt;br/&gt;28 авг 2023: заявление ZPP&lt;br/&gt;7 сен 2023: коалиционное письмо] -.не отвечен.-&gt; OPK[Office of Tikhanouskaya / OST]
-    BURY -.член.-&gt; OPK</code></pre>
+<div class="bt-block-label">Ключевые показатели</div>
+<div class="bt-dash-kpi">
+  <div class="bt-kpi">
+    <div class="bt-kpi-value">3</div>
+    <div class="bt-kpi-label">Юрлица</div>
+    <div class="bt-kpi-sub">2&nbsp;NGO + 1&nbsp;Sp.&nbsp;z&nbsp;o.o.</div>
+  </div>
+  <div class="bt-kpi">
+    <div class="bt-kpi-value">≈€1 млн</div>
+    <div class="bt-kpi-label">Основной грант ЕС</div>
+    <div class="bt-kpi-sub">SCR.CTR.436909 · 2023–24</div>
+  </div>
+  <div class="bt-kpi bt-kpi-alert">
+    <div class="bt-kpi-value">4 мес</div>
+    <div class="bt-kpi-label">Тишина 2025</div>
+    <div class="bt-kpi-sub">март–июнь, публичные каналы</div>
+  </div>
+  <div class="bt-kpi bt-kpi-alert">
+    <div class="bt-kpi-value">0</div>
+    <div class="bt-kpi-label">Отчётов за 2024</div>
+    <div class="bt-kpi-sub">срок истёк в середине 2025</div>
+  </div>
+</div>
+
+<div class="bt-block-label">Юридическая структура</div>
+<div class="bt-dash-entities">
+  <a class="bt-ent" href="../organizations/fundacja-abba/">
+    <div class="bt-ent-type">Fundacja · NGO</div>
+    <div class="bt-ent-name">Fundacja ABBA</div>
+    <div class="bt-ent-krs">KRS 0000921760</div>
+    <div class="bt-ent-foot">
+      <span class="bt-ent-since">с 09.2021</span>
+      <span>+ Rejestr Przedsiębiorców · 10.2022</span>
+    </div>
+  </a>
+  <a class="bt-ent" href="../organizations/zwiazek-abba/">
+    <div class="bt-ent-type">Związek pracodawców</div>
+    <div class="bt-ent-name">Związek ABBA</div>
+    <div class="bt-ent-krs">KRS 0000968865</div>
+    <div class="bt-ent-foot">
+      <span class="bt-ent-since">с 05.2022</span>
+      <span>тот же адрес и email</span>
+    </div>
+  </a>
+  <a class="bt-ent" href="../organizations/connect-gmn/">
+    <div class="bt-ent-type">Sp. z o.o. · бар</div>
+    <div class="bt-ent-name">Connect GMN</div>
+    <div class="bt-ent-krs">KRS 0001092508</div>
+    <div class="bt-ent-foot">
+      <span class="bt-ent-since">с 02.2024</span>
+      <span>50% — М. Гирин</span>
+    </div>
+  </a>
+</div>
+
+<div class="bt-block-label">Руководство и связанные лица</div>
+<div class="bt-dash-people">
+  <a class="bt-pers" href="../persons/yauheni-bury/">
+    <div class="bt-pers-name">Yauheni Bury</div>
+    <div class="bt-pers-role">Президент Фонда · Председатель Związku · член ОЭК ОПК</div>
+  </a>
+  <a class="bt-pers" href="../persons/marina-girin/">
+    <div class="bt-pers-name">Marina Girin</div>
+    <div class="bt-pers-role">Вице-президент Фонда и Związku · 50% Connect GMN</div>
+  </a>
+  <a class="bt-pers" href="../persons/karolina-savka/">
+    <div class="bt-pers-name">Karalina Sauka</div>
+    <div class="bt-pers-role">Финансовый контролёр Фонда · член ОЭК ОПК</div>
+  </a>
+  <a class="bt-pers" href="../persons/ales-alachnovic/">
+    <div class="bt-pers-name">Aleś Alachnovič</div>
+    <div class="bt-pers-role">Wiceprezes Związku 07.2023–09.2025 · советник Тихановской</div>
+  </a>
+  <a class="bt-pers" href="../persons/siarhei-naurodski/">
+    <div class="bt-pers-name">Siarhei Naurodski</div>
+    <div class="bt-pers-role">Wiceprezes Związku · с 07.2023</div>
+  </a>
+  <a class="bt-pers bt-pers-removed" href="../persons/nikolai-prokofyev/">
+    <div class="bt-pers-name">Mikalai Prakofyeu</div>
+    <div class="bt-pers-role">Соучредитель Фонда · удалён 11.2021 / KRS 03.2022</div>
+  </a>
+  <a class="bt-pers bt-pers-removed" href="../persons/iryna-sazanovich/">
+    <div class="bt-pers-name">Iryna Sazanovich</div>
+    <div class="bt-pers-role">Wiceprezes Związku 05.2022 → резигнация 01.2023</div>
+  </a>
+</div>
+
+<div class="bt-block-label">Декларированные доноры</div>
+<div class="bt-dash-money">
+  <div class="bt-mf">
+    <div class="bt-mf-donor">European Commission</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2022–24</div>
+    <div class="bt-mf-amount">≈€1 млн</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">USAID</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2022–24</div>
+    <div class="bt-mf-amount">сумма не раскрыта</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">Nordic Council of Ministers</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2023</div>
+    <div class="bt-mf-amount">сумма не раскрыта</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">FARP (МГА Польши)</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2022</div>
+    <div class="bt-mf-amount">сумма не раскрыта</div>
+  </div>
+  <div class="bt-mf bt-mf-cut">
+    <div class="bt-mf-donor">ZPP</div>
+    <div class="bt-mf-target">Związek</div>
+    <div class="bt-mf-year">2022</div>
+    <div class="bt-mf-amount">237 126 zł</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">CIPE USA</div>
+    <div class="bt-mf-target">Związek</div>
+    <div class="bt-mf-year">2023</div>
+    <div class="bt-mf-amount">253 073 zł</div>
+  </div>
+</div>
+
+<div class="bt-block-label">Конфликт 2023 года</div>
+<div class="bt-dash-conflict">
+  <div class="bt-conf-row">
+    <div class="bt-conf-date">02.08.2023</div>
+    <div class="bt-conf-text"><a href="../events/bury-interview-aug-2023/">Интервью Y. Bury</a> — атака на 4 представителей экосистемы</div>
+  </div>
+  <div class="bt-conf-row">
+    <div class="bt-conf-date">28.08.2023</div>
+    <div class="bt-conf-text"><a href="../events/zpp-statement-aug-2023/">Заявление ZPP</a>: «soviet-style racketeering», разрыв</div>
+  </div>
+  <div class="bt-conf-row">
+    <div class="bt-conf-date">07.09.2023</div>
+    <div class="bt-conf-text"><a href="../events/coalition-letter-sep-2023/">Коалиционное письмо</a> 18+ организаций — донорам и ОПК</div>
+  </div>
+</div>
+<div class="bt-dash-conflict-tail">Ответа от Офиса Тихановской не последовало</div>
+
+<div class="bt-dash-legend">
+Источники: KRS Польши, аудиторская отчётность Фонда и Związku за 2021–2023, публикация ZPP на Charter97 от 28.08.2023, расследования SOTA от 18.04.2025 и 18.06.2025, EC Financial Transparency System. Детализация — в разделах ниже.
+</div>
+
+</section>
+
 <hr />
 <h2 id="a">A. Двойная юридическая структура<a class="headerlink" href="#a" title="Permanent link">&para;</a></h2>
 <p>ABBA реализована как структура из двух польских юрлиц плюс одна коммерческая компания, с операционной переплетённостью на уровне адреса, контактов и руководства.</p>
@@ -1257,7 +1394,7 @@
 <p>В 2022 году единственным донором Związku ABBA являлся ZPP — Польский союз предпринимателей и работодателей. По собственному публичному заявлению ZPP от 28 августа 2023 года, ZPP <strong>помогал создать ABBA в 2021 году</strong> и сотрудничал с её руководством в 2021–2023 годах.</p>
 <p>После <a href="../events/bury-interview-aug-2023.md">интервью Bury 2 августа 2023 года</a> и <a href="../events/zpp-statement-aug-2023.md">публичного заявления ZPP 28 августа 2023 года</a> о прекращении сотрудничества, единственным донором Związku в 2023 году становится <a href="../organizations/cipe.md">CIPE USA</a> — Center for International Private Enterprise, аффилированный с US Chamber of Commerce и финансируемый Национальным фондом за демократию (NED).</p>
 <p>Сумма гранта ZPP в Związek 2022: 237 126 PLN. Сумма гранта CIPE в Związek 2023: 253 073 PLN. Финансовая стабильность Związku не была нарушена конфликтом с ZPP — она была компенсирована переключением донорского канала с польского источника на американский.</p>
-<h3 id="_3">Дефицит раскрытия по донорам<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<h3 id="_2">Дефицит раскрытия по донорам<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <p>В отчётах о деятельности обоих юрлиц декларируются <strong>только наименования</strong> грантодателей, без раскрытия сумм по каждому источнику. В формальной классификации доходов (раздел III.2 «Informacja o źródłach przychodów») сумм в категории «Ze źródeł publicznych» (из публичных источников) нет ни в одном году.</p>
 <p>В 2022 году все полученные гранты Фонда классифицированы как «z darowizn» (от дарений), что методологически некорректно для грантов публичных агентств. В 2023 году формальные категории остались пустыми при общем обороте 2,84 млн PLN.</p>
 <p>Этот disclosure pattern блокирует независимую сверку с публичной отчётностью каждого донора. Перекрёстная верификация возможна только через прямые формальные запросы донорам.</p>
@@ -1306,13 +1443,13 @@
 <p>Во-первых, Фонд ABBA получил <strong>немногим больше половины</strong> — €533 695 из €1 млн. Это уточняет масштаб операционного финансирования: не €1 млн напрямую, как часто подаётся в публичной коммуникации, а ≈€267 тыс. в год на двухлетний период.</p>
 <p>Во-вторых, <strong>остальные три партнёра — CASE, KIG, Lietuvos Verslo Konfederacija — получили эти средства на ту же программную цель</strong>: поддержку белорусского бизнеса за рубежом. Любая трактовка, что ABBA «получила только половину», не отменяет того, что вторая половина должна была быть направлена на ту же целевую программу, а не на advocacy-выступления, операционные нужды партнёров или иные программы, не связанные с заявленной grant objective. Эффективность освоения этих ≈€466 тыс. CASE, KIG и Lietuvos Verslo Konfederacija — отдельный предмет верификации через прямые запросы к каждому из трёх партнёров.</p>
 <p>Аналогичный контракт <strong>SCR.CTR.432894.01.1</strong> (≈€50 тыс. на разработку методических пособий) формально на Фонд ABBA как бенефициара; полный мастер-контракт и его остальные суб-получатели — предмет того же блока запросов.</p>
-<h3 id="_4">Вознаграждение руководства<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<h3 id="_3">Вознаграждение руководства<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <p>В отчётности Фонда ABBA за 2023 год — раздел V.3.c, подпись Bury+Girin от 28 июня 2024 года — зафиксирована совокупная сумма вознаграждения членам правления и других органов фонда:</p>
 <blockquote>
 <p>«Wysokość rocznego wynagrodzenia wypłaconego łącznie członkom zarządu i innych organów fundacji oraz osobom kierującym wyłącznie działalnością gospodarczą — <strong>347 935,21 PLN</strong>»</p>
 </blockquote>
 <p>В Związku ABBA за 2022 год аналогичная статья составляла 178 698 PLN. Цифры значительно расходятся с собственными публичными заявлениями руководства ABBA о скромном уровне вознаграждения.</p>
-<h3 id="_5">Деферированный доход<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<h3 id="_4">Деферированный доход<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <p>На 31 декабря 2023 года в балансе Фонда зафиксирован остаток в категории «rozliczenia międzyokresowe» (deferred revenue) в размере <strong>493 470 PLN</strong> — полученные, но ещё не освоенные грантовые средства, относящиеся к 2024 году. Эта сумма обеспечивает 1–2 квартала операций и объясняет операционную силу первой половины 2024 года.</p>
 <hr />
 <h2 id="c-2023">C. Конфликт с экосистемой, август–сентябрь 2023<a class="headerlink" href="#c-2023" title="Permanent link">&para;</a></h2>
@@ -1491,7 +1628,7 @@
 <p>Одновременное непредставление отчётности обоими юрлицами ABBA за 2024 год — структурный сигнал, не объяснимый единичной технической задержкой. 2024 год — это критический период с точки зрения возможных раскрытий: окончание гранта ЕС, открытие бара Connect и related-party transactions, последствия конфликта 2023 года.</p>
 <p>Отсутствие 2024-отчётности означает блокирование независимого анализа критически важного года и информационный сигнал донорам — особенно ЕС — что независимая верификация использования грантовых средств заблокирована в открытых источниках.</p>
 <hr />
-<h2 id="_6">Хронология<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h2 id="_5">Хронология<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1611,7 +1748,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_7">Ключевые фигуранты<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h2 id="_6">Ключевые фигуранты<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <h3 id="yauheni-bury"><a href="../persons/yauheni-bury.md">Yauheni Bury</a><a class="headerlink" href="#yauheni-bury" title="Permanent link">&para;</a></h3>
 <p>Президент Фонда ABBA с момента его создания 20 сентября 2021 года; председатель правления Związku ABBA с момента его создания в мае 2022 года. Член экономической команды OST. По цитированию в материалах Human Rights Watch (май 2025), ранее работал в Совете безопасности Республики Беларусь.</p>
 <h3 id="mikalai-prakofyeu"><a href="../persons/nikolai-prokofyev.md">Mikalai Prakofyeu / Николай Прокофьев</a><a class="headerlink" href="#mikalai-prakofyeu" title="Permanent link">&para;</a></h3>
@@ -1627,15 +1764,15 @@
 <h3 id="siarhei-naurodski-sierz-naurodski"><a href="../persons/siarhei-naurodski.md">Siarhei Naurodski / Sierž Naūrodski</a><a class="headerlink" href="#siarhei-naurodski-sierz-naurodski" title="Permanent link">&para;</a></h3>
 <p>Wiceprezes Związku ABBA с 4 июля 2023 года по настоящее время. В составе официально объявленной Экономической команды OST по материалу сентября 2021 года не значится.</p>
 <hr />
-<h2 id="_8">Источники и методология<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
-<h3 id="_9">Уровни доказанности<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<h2 id="_7">Источники и методология<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h3 id="_8">Уровни доказанности<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Уровень 1 (документ)</strong> — первичный документ в государственном реестре, аудиторская отчётность. <strong>Большинство утверждений настоящего материала</strong> — этого уровня.</li>
 <li><strong>Уровень 2 (публичные данные)</strong> — публичные заявления, журналистские расследования, отчёты международных организаций.</li>
 <li><strong>Уровень 3 (свидетельство источника)</strong> — материал, подаваемый явно как «по информации источника». Применяется к: характеристикам внутренней работы ABBA; деталям американского трека.</li>
 <li><strong>Уровень 4 (реконструкция)</strong> — гипотеза, обозначенная глаголами предположения. Применяется минимально.</li>
 </ul>
-<h3 id="_10">Первичные источники<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<h3 id="_9">Первичные источники<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Krajowy Rejestr Sądowy (KRS) Польши</strong>: Odpis Pełny по KRS 0000921760 (Fundacja ABBA), KRS 0000968865 (Związek ABBA), KRS 0001092508 (Connect GMN); полная финансовая отчётность обоих юрлиц 2021–2023; полные историчные данные о составе Zarządu обоих юрлиц</li>
 <li><strong>Коалиционное письмо от 7 сентября 2023 года</strong> — оригинальный документ, 18+ подписантов</li>
@@ -1648,7 +1785,7 @@
 <h3 id="outreach">Запросы и outreach<a class="headerlink" href="#outreach" title="Permanent link">&para;</a></h3>
 <p>Параллельно с настоящей публикацией Belarus Transparency направляет систематические формальные запросы к ключевым фигурантам и донорским структурам — Европейской комиссии, USAID, Nordic Council of Ministers, CIPE, ZPP, Eurochambres, KIG, офису Тихановской, а также к лицам, ранее покинувшим руководящие позиции в ABBA. Ответы и неответы будут отражены в обновлениях настоящего материала. Некоторые из этих запросов параллельно повторяют требования, оставленные без ответа коалиционным письмом 7 сентября 2023 года — на этот раз поступающие через формальный канал юридического лица.</p>
 <hr />
-<h2 id="_11">Связанные расследования<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<h2 id="_10">Связанные расследования<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong><a href="../persons/ales-alachnovic.md">Экономическая команда OST</a></strong> — структура, состав, фактические результаты деятельности. <strong>Отдельное расследование, готовится.</strong></li>
 <li><strong>Imaguru / ASOCIACIJA BELBIZ (<a href="../persons/tatyana-marinich.md">Tatyana Marinich</a>)</strong> — структуры, <strong>с января 2025 года входящие в один консорциум BDI с ABBA</strong> как равноправные партнёры (ASOCIACIJA BELBIZ — литовское юрлицо, VAT LT100011430111; Imaguru Foundation). До этого позиционировались как «вторая параллельная привилегированная структура» поддержки белорусского бизнеса при OST. Грантовая архитектура BDI 2025–2028 объединила прежде конкурирующие образования. Отдельное расследование по структуре, грантам и истории Marinich — готовится.</li>
