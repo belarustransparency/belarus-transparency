@@ -64,36 +64,180 @@ status: active
 
 ---
 
-## Структурная схема
-
-```mermaid
-graph TD
-    BURY[Yauheni Bury<br/>Президент Фонда<br/>Председатель Związku<br/>Член ОЭК OST]
-    GIRIN[Marina Girin<br/>Вице-президент Фонда<br/>Вице-президент Związku<br/>50%% Connect GMN]
-    BURY --- GIRIN
-
-    BURY --> FUND[Fundacja ABBA<br/>KRS 921760<br/>сентябрь 2021<br/>Rejestr Przedsiębiorców 10.2022]
-    GIRIN --> FUND
-    BURY --> ZWIAZ[Związek ABBA<br/>KRS 968865<br/>май 2022]
-    GIRIN --> ZWIAZ
-    GIRIN --> CONN[Connect GMN<br/>Sp. z o.o.<br/>KRS 1092508<br/>февраль 2024]
-
-    EC[European Commission<br/>≈€1 млн / 2023–24] --> FUND
-    USAID --> FUND
-    NORDIC[Nordic Council] --> FUND
-    ZPP_2022[ZPP / 2022] --> ZWIAZ
-    CIPE[CIPE USA / 2023] --> ZWIAZ
-    FARP[FARP / 2022] --> FUND
-
-    FUND --> FBBA[FBBA-конкурсы I–IV]
-    FBBA --> CONN_VENUE[IV FBBA — 8 февраля 2025<br/>в баре Connect]
-    CONN --- CONN_VENUE
-
-    FUND --> USA[ABBA USA Representation<br/>Alachnovič → Shevchuk]
-
-    CONFLICT[2 авг 2023: интервью Bury<br/>28 авг 2023: заявление ZPP<br/>7 сен 2023: коалиционное письмо] -.не отвечен.-> OPK[Office of Tikhanouskaya / OST]
-    BURY -.член.-> OPK
-```
+<!--
+================================================================================
+Заменяет ```mermaid graph TD ...``` блок в файле
+docs/investigations/abba.md (раздел «## Структурная схема»).
+ 
+После замены:
+1. Удалить из markdown заголовок "## Структурная схема" и сам ```mermaid```-блок.
+2. Вставить этот фрагмент целиком вместо них.
+3. Раскрасить CSS-фрагмент из abba-dashboard.css в конец docs/stylesheets/extra.css
+   в отдельную секцию /* === Дашборд внутри лонгрида === */.
+ 
+ВНИМАНИЕ ПО РЕНДЕРУ MARKDOWN:
+- Корневая обёртка <section class="bt-dash" markdown="0"> — атрибут обязателен,
+  иначе python-markdown сломает вложенные <div> с пустыми строками.
+- Внутри ничего markdown-разметки нет, всё чистый HTML.
+================================================================================
+-->
+ 
+<section class="bt-dash" markdown="0">
+ 
+<div class="bt-dash-head">
+  <div class="bt-dash-title">Структурный дашборд</div>
+  <div class="bt-dash-asof">по состоянию на 18.05.2026</div>
+</div>
+ 
+<div class="bt-block-label">Ключевые показатели</div>
+<div class="bt-dash-kpi">
+  <div class="bt-kpi">
+    <div class="bt-kpi-value">3</div>
+    <div class="bt-kpi-label">Юрлица</div>
+    <div class="bt-kpi-sub">2&nbsp;NGO + 1&nbsp;Sp.&nbsp;z&nbsp;o.o.</div>
+  </div>
+  <div class="bt-kpi">
+    <div class="bt-kpi-value">≈€1 млн</div>
+    <div class="bt-kpi-label">Основной грант ЕС</div>
+    <div class="bt-kpi-sub">SCR.CTR.436909 · 2023–24</div>
+  </div>
+  <div class="bt-kpi bt-kpi-alert">
+    <div class="bt-kpi-value">4 мес</div>
+    <div class="bt-kpi-label">Тишина 2025</div>
+    <div class="bt-kpi-sub">март–июнь, публичные каналы</div>
+  </div>
+  <div class="bt-kpi bt-kpi-alert">
+    <div class="bt-kpi-value">0</div>
+    <div class="bt-kpi-label">Отчётов за 2024</div>
+    <div class="bt-kpi-sub">срок истёк в середине 2025</div>
+  </div>
+</div>
+ 
+<div class="bt-block-label">Юридическая структура</div>
+<div class="bt-dash-entities">
+  <a class="bt-ent" href="../organizations/fundacja-abba/">
+    <div class="bt-ent-type">Fundacja · NGO</div>
+    <div class="bt-ent-name">Fundacja ABBA</div>
+    <div class="bt-ent-krs">KRS 0000921760</div>
+    <div class="bt-ent-foot">
+      <span class="bt-ent-since">с 09.2021</span>
+      <span>+ Rejestr Przedsiębiorców · 10.2022</span>
+    </div>
+  </a>
+  <a class="bt-ent" href="../organizations/zwiazek-abba/">
+    <div class="bt-ent-type">Związek pracodawców</div>
+    <div class="bt-ent-name">Związek ABBA</div>
+    <div class="bt-ent-krs">KRS 0000968865</div>
+    <div class="bt-ent-foot">
+      <span class="bt-ent-since">с 05.2022</span>
+      <span>тот же адрес и email</span>
+    </div>
+  </a>
+  <a class="bt-ent" href="../organizations/connect-gmn/">
+    <div class="bt-ent-type">Sp. z o.o. · бар</div>
+    <div class="bt-ent-name">Connect GMN</div>
+    <div class="bt-ent-krs">KRS 0001092508</div>
+    <div class="bt-ent-foot">
+      <span class="bt-ent-since">с 02.2024</span>
+      <span>50% — М. Гирин</span>
+    </div>
+  </a>
+</div>
+ 
+<div class="bt-block-label">Руководство и связанные лица</div>
+<div class="bt-dash-people">
+  <a class="bt-pers" href="../persons/yauheni-bury/">
+    <div class="bt-pers-name">Yauheni Bury</div>
+    <div class="bt-pers-role">Президент Фонда · Председатель Związku · член ОЭК ОПК</div>
+  </a>
+  <a class="bt-pers" href="../persons/marina-girin/">
+    <div class="bt-pers-name">Marina Girin</div>
+    <div class="bt-pers-role">Вице-президент Фонда и Związku · 50% Connect GMN</div>
+  </a>
+  <a class="bt-pers" href="../persons/karolina-savka/">
+    <div class="bt-pers-name">Karalina Sauka</div>
+    <div class="bt-pers-role">Финансовый контролёр Фонда · член ОЭК ОПК</div>
+  </a>
+  <a class="bt-pers" href="../persons/ales-alachnovic/">
+    <div class="bt-pers-name">Aleś Alachnovič</div>
+    <div class="bt-pers-role">Wiceprezes Związku 07.2023–09.2025 · советник Тихановской</div>
+  </a>
+  <a class="bt-pers" href="../persons/siarhei-naurodski/">
+    <div class="bt-pers-name">Siarhei Naurodski</div>
+    <div class="bt-pers-role">Wiceprezes Związku · с 07.2023</div>
+  </a>
+  <a class="bt-pers bt-pers-removed" href="../persons/nikolai-prokofyev/">
+    <div class="bt-pers-name">Mikalai Prakofyeu</div>
+    <div class="bt-pers-role">Соучредитель Фонда · удалён 11.2021 / KRS 03.2022</div>
+  </a>
+  <a class="bt-pers bt-pers-removed" href="../persons/iryna-sazanovich/">
+    <div class="bt-pers-name">Iryna Sazanovich</div>
+    <div class="bt-pers-role">Wiceprezes Związku 05.2022 → резигнация 01.2023</div>
+  </a>
+</div>
+ 
+<div class="bt-block-label">Декларированные доноры</div>
+<div class="bt-dash-money">
+  <div class="bt-mf">
+    <div class="bt-mf-donor">European Commission</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2022–24</div>
+    <div class="bt-mf-amount">≈€1 млн</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">USAID</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2022–24</div>
+    <div class="bt-mf-amount">сумма не раскрыта</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">Nordic Council of Ministers</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2023</div>
+    <div class="bt-mf-amount">сумма не раскрыта</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">FARP (МГА Польши)</div>
+    <div class="bt-mf-target">Fundacja</div>
+    <div class="bt-mf-year">2022</div>
+    <div class="bt-mf-amount">сумма не раскрыта</div>
+  </div>
+  <div class="bt-mf bt-mf-cut">
+    <div class="bt-mf-donor">ZPP</div>
+    <div class="bt-mf-target">Związek</div>
+    <div class="bt-mf-year">2022</div>
+    <div class="bt-mf-amount">237 126 zł</div>
+  </div>
+  <div class="bt-mf">
+    <div class="bt-mf-donor">CIPE USA</div>
+    <div class="bt-mf-target">Związek</div>
+    <div class="bt-mf-year">2023</div>
+    <div class="bt-mf-amount">253 073 zł</div>
+  </div>
+</div>
+ 
+<div class="bt-block-label">Конфликт 2023 года</div>
+<div class="bt-dash-conflict">
+  <div class="bt-conf-row">
+    <div class="bt-conf-date">02.08.2023</div>
+    <div class="bt-conf-text"><a href="../events/bury-interview-aug-2023/">Интервью Y. Bury</a> — атака на 4 представителей экосистемы</div>
+  </div>
+  <div class="bt-conf-row">
+    <div class="bt-conf-date">28.08.2023</div>
+    <div class="bt-conf-text"><a href="../events/zpp-statement-aug-2023/">Заявление ZPP</a>: «soviet-style racketeering», разрыв</div>
+  </div>
+  <div class="bt-conf-row">
+    <div class="bt-conf-date">07.09.2023</div>
+    <div class="bt-conf-text"><a href="../events/coalition-letter-sep-2023/">Коалиционное письмо</a> 18+ организаций — донорам и ОПК</div>
+  </div>
+</div>
+<div class="bt-dash-conflict-tail">Ответа от Офиса Тихановской не последовало</div>
+ 
+<div class="bt-dash-legend">
+Источники: KRS Польши, аудиторская отчётность Фонда и Związku за 2021–2023, публикация ZPP на Charter97 от 28.08.2023, расследования SOTA от 18.04.2025 и 18.06.2025, EC Financial Transparency System. Детализация — в разделах ниже.
+</div>
+ 
+</section>
 
 ---
 
