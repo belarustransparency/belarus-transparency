@@ -41,6 +41,8 @@ nav:
   - Персоналии: persons/index.md
   - Организации: organizations/index.md
   - События: events/index.md
+  - Дашборды: dashboards/index.md  # ← новый
+  - Архив: archive/index.md
 
 plugins:
   - search:
@@ -73,3 +75,5 @@ extra:
       link: /en/
       lang: en
   generator: false
+  extra_javascript:
+  - javascripts/dashboard-kc-2026.js
