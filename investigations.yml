@@ -28,26 +28,6 @@ investigations:
     cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
 
   - code: CASE-002
-    href: imaguru/
-    title: "Imaguru / Belbiz — гранты ЕК 2022–2025"
-    lede: >-
-      Сеть фондов в Литве, Латвии, Польше и Испании c одним бенефициаром - Татьяной Маринич. В 2022 году получила грант
-      Еврокомиссии на 2&nbsp;млн&nbsp;€. С 2025 года - участник Belarusian Diaspora Initiative с фондом 3&nbsp;млн&nbsp;€. 
-      Отчётность - отсутствует, фонд - получатель гранта ЕК спешно ликвидирован.
-    date: май 2026
-    status: collecting
-    tags:
-      - ЕК
-      - Деятельность
-      - Лоббизм
-    filter_tags:
-      - business
-    grants_eur: 5.06
-    grants_pct: 3
-    cover: "/assets/covers/marinich.webp"
-    cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
-
-  - code: CASE-003
     href: abba/
     title: "ABBA - Ассоциации белорусского бизнеса за рубежом"
     lede: >-
@@ -68,6 +48,25 @@ investigations:
     cover: "/assets/covers/alekhnovich.webp"
     cover_gradient: "linear-gradient(135deg, #3d3530 0%, #20191a 100%)"
 
+  - code: CASE-003
+    href: imaguru/
+    title: "Imaguru / Belbiz — гранты ЕК 2022–2025"
+    lede: >-
+      Сеть фондов в Литве, Латвии, Польше и Испании c одним бенефициаром - Татьяной Маринич. В 2022 году получила грант
+      Еврокомиссии на 2&nbsp;млн&nbsp;€. С 2025 года - участник Belarusian Diaspora Initiative с фондом 3&nbsp;млн&nbsp;€. 
+      Отчётность - отсутствует, фонд - получатель гранта ЕК спешно ликвидирован.
+    date: май 2026
+    status: collecting
+    tags:
+      - ЕК
+      - Деятельность
+      - Лоббизм
+    filter_tags:
+      - business
+    grants_eur: 5.06
+    grants_pct: 3
+    cover: "/assets/covers/marinich.webp"
+    cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
 
 # === Список фильтров сверху витрины ===
 # Каждый фильтр — пара "ключ : подпись".
