@@ -5,11 +5,19 @@
   var ROOT = document.getElementById('bt-kc-dashboard');
   if (!ROOT) return;
 
-  var openFactionId = null;
+  var state = {
+    data: null,
+    mode: 'before',
+    openFactionId: null
+  };
 
   fetch(DATA_URL)
     .then(function(r){ return r.json(); })
-    .then(function(data){ render(data); })
+    .then(function(data){
+      state.data = data;
+      state.mode = (data.meta && data.meta.default_mode) || 'before';
+      renderAll();
+    })
     .catch(function(err){
       ROOT.innerHTML = '<p style="color:var(--bt-danger,#993C1D)">Ошибка загрузки данных дашборда: ' + err.message + '</p>';
     });
@@ -30,66 +38,94 @@
     return (parts[0][0] + parts[1][0]).toUpperCase();
   }
 
-  function render(data){
+  function findFaction(factions, id){
+    for (var i = 0; i < factions.length; i++) if (factions[i].id === id) return factions[i];
+    return null;
+  }
+
+  function renderAll(){
+    state.openFactionId = null;
+    var d = state.data;
+    var mode = d.modes[state.mode];
     var html = '';
-    html += renderHeader(data.meta);
-    html += renderStats(data.meta);
-    html += renderDonut(data.meta);
-    html += renderRoutes(data.routes);
-    html += renderFactions(data.factions);
-    html += renderFooter(data.meta);
+    html += renderPdfBtn();
+    html += renderModeToggle();
+    html += renderHeader(d.meta, mode);
+    html += renderStats(mode);
+    if (state.mode === 'after' && mode.highlight) {
+      html += renderHighlight(mode.highlight);
+    }
+    html += renderDonut(mode);
+    html += renderRoutes(d.routes, d.factions);
+    html += renderFactionsBars(d.factions, mode);
+    if (mode.disclaimer) {
+      html += renderDisclaimer(mode.disclaimer);
+    }
+    html += renderFooter(d.meta);
     ROOT.innerHTML = html;
 
-    drawDonutChart(data.meta.donut);
+    drawDonutChart('bt-kc-donut', mode.donut.segments);
+    bindModeToggle();
     bindFactionToggles();
   }
 
-  function renderHeader(meta){
+  function renderPdfBtn(){
     return ''
       + '<div class="bt-kc-pdf-mobile">'
       +   '<a class="bt-kc-pdf-btn" href="./files/kc-2026-dashboard.pdf" download>Скачать дашборд в PDF</a>'
-      + '</div>'
+      + '</div>';
+  }
+
+  function renderModeToggle(){
+    var modes = state.data.modes;
+    var html = '<div class="bt-kc-mode-toggle">';
+    Object.keys(modes).forEach(function(key){
+      var cls = 'bt-kc-mode-btn' + (state.mode === key ? ' is-active' : '');
+      html += '<button class="' + cls + '" type="button" data-mode="' + key + '">' + escapeHtml(modes[key].label) + '</button>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function renderHeader(meta, mode){
+    return ''
       + '<header class="bt-kc-header">'
       +   '<div class="bt-kc-header-main">'
-      +     '<h1 class="bt-kc-h1">' + escapeHtml(meta.title) + '</h1>'
-      +     '<p class="bt-kc-sub">' + escapeHtml(meta.subtitle) + '</p>'
+      +     '<h1 class="bt-kc-h1">' + mode.title_html + '</h1>'
+      +     '<p class="bt-kc-sub">' + escapeHtml(mode.subtitle) + '</p>'
       +   '</div>'
       +   '<div class="bt-kc-date-badge">'
-      +     '<div class="bt-kc-date-label">' + escapeHtml(meta.election_label) + '</div>'
-      +     '<div class="bt-kc-date-value">' + escapeHtml(meta.election_dates) + '</div>'
+      +     '<div class="bt-kc-date-label">' + escapeHtml(mode.date_label) + '</div>'
+      +     '<div class="bt-kc-date-value">' + escapeHtml(mode.date_value) + '</div>'
       +   '</div>'
       + '</header>';
   }
 
-  function renderStats(meta){
-    var t = meta.totals;
+  function renderStats(mode){
+    var items = mode.stats.map(function(s){
+      var cls = 'bt-kc-stat' + (s.warn ? ' bt-kc-stat-warn' : '');
+      return ''
+        + '<div class="' + cls + '">'
+        +   '<div class="bt-kc-stat-label">' + escapeHtml(s.label) + '</div>'
+        +   '<div class="bt-kc-stat-val">' + escapeHtml(s.value) + '</div>'
+        +   '<div class="bt-kc-stat-sub">' + escapeHtml(s.sub) + '</div>'
+        + '</div>';
+    }).join('');
+    return '<div class="bt-kc-stats">' + items + '</div>';
+  }
+
+  function renderHighlight(h){
     return ''
-      + '<div class="bt-kc-stats">'
-      +   '<div class="bt-kc-stat">'
-      +     '<div class="bt-kc-stat-label">Всего кандидатов</div>'
-      +     '<div class="bt-kc-stat-val">' + t.candidates + '</div>'
-      +     '<div class="bt-kc-stat-sub">в 9 фракциях</div>'
-      +   '</div>'
-      +   '<div class="bt-kc-stat bt-kc-stat-warn">'
-      +     '<div class="bt-kc-stat-label">Аффилированы с Офисом</div>'
-      +     '<div class="bt-kc-stat-val">' + t.affiliated + '</div>'
-      +     '<div class="bt-kc-stat-sub">через ОПК и НАУ</div>'
-      +   '</div>'
-      +   '<div class="bt-kc-stat bt-kc-stat-warn">'
-      +     '<div class="bt-kc-stat-label">Доля захвата</div>'
-      +     '<div class="bt-kc-stat-val">' + t.share_percent + '%</div>'
-      +     '<div class="bt-kc-stat-sub">три четверти КС</div>'
-      +   '</div>'
-      +   '<div class="bt-kc-stat bt-kc-stat-warn">'
-      +     '<div class="bt-kc-stat-label">Фракций под Офисом</div>'
-      +     '<div class="bt-kc-stat-val">' + t.factions_under + '</div>'
-      +     '<div class="bt-kc-stat-sub">из девяти списков</div>'
-      +   '</div>'
+      + '<div class="bt-kc-highlight">'
+      +   '<div class="bt-kc-highlight-label">' + escapeHtml(h.label) + '</div>'
+      +   '<div class="bt-kc-highlight-title">' + escapeHtml(h.title) + '</div>'
+      +   '<div class="bt-kc-highlight-big">' + escapeHtml(h.big) + '</div>'
+      +   '<div class="bt-kc-highlight-sub">' + escapeHtml(h.sub) + '</div>'
       + '</div>';
   }
 
-  function renderDonut(meta){
-    var legend = meta.donut.map(function(d){
+  function renderDonut(mode){
+    var legend = mode.donut.segments.map(function(d){
       return ''
         + '<div class="bt-kc-leg-row">'
         +   '<span class="bt-kc-leg-dot bt-kc-color-' + escapeHtml(d.color) + '"></span>'
@@ -99,57 +135,119 @@
 
     return ''
       + '<div class="bt-kc-donut-section">'
-      +   '<div class="bt-kc-section-title">Структура списков</div>'
+      +   '<div class="bt-kc-section-title">' + escapeHtml(mode.donut.title) + '</div>'
       +   '<div class="bt-kc-donut-flex">'
       +     '<div class="bt-kc-donut-wrap"><canvas id="bt-kc-donut" width="200" height="200"></canvas></div>'
       +     '<div class="bt-kc-donut-legend">'
       +       legend
-      +       '<p class="bt-kc-leg-note">' + escapeHtml(meta.note) + '</p>'
+      +       '<p class="bt-kc-leg-note">' + escapeHtml(mode.donut.note) + '</p>'
       +     '</div>'
       +   '</div>'
       + '</div>';
   }
 
-  function renderRoutes(routes){
+  function renderRoutes(routes, factions){
+    var isAfter = state.mode === 'after';
+    var title = isAfter ? state.data.routes_after_label : state.data.routes_before_label;
+    var titleHtml = escapeHtml(title).replace('Офис Тихановской', '<strong>Офис Тихановской</strong>');
+
     var items = routes.map(function(r){
+      var seatsLine = '';
+      if (isAfter) {
+        var f = findFaction(factions, r.faction_id);
+        if (f) {
+          seatsLine = '<div class="bt-kc-route-seats">' + f.seats + ' мест · ' + f.votes_pct.toFixed(2).replace('.', ',') + '% голосов</div>';
+        }
+      }
       return ''
         + '<div class="bt-kc-route" data-faction-id="' + r.faction_id + '">'
         +   '<div class="bt-kc-route-dept">' + escapeHtml(r.dept) + '</div>'
         +   '<div class="bt-kc-route-names">' + r.names.map(escapeHtml).join(' · ') + '</div>'
         +   '<div class="bt-kc-route-arrow">↓</div>'
         +   '<div class="bt-kc-route-frac"><strong>' + escapeHtml(r.faction) + '</strong></div>'
+        +   seatsLine
         + '</div>';
     }).join('');
 
     return ''
       + '<div class="bt-kc-routes-section">'
-      +   '<div class="bt-kc-section-title">Как <strong>Офис Тихановской</strong> расставил людей по спискам</div>'
+      +   '<div class="bt-kc-section-title">' + titleHtml + '</div>'
       +   '<div class="bt-kc-routes-grid">' + items + '</div>'
       + '</div>';
   }
 
-  function renderFactions(factions){
+  function renderFactionsBars(factions, mode){
+    var isAfter = state.mode === 'after';
     var sorted = factions.slice().sort(function(a, b){
+      if (isAfter) return b.seats - a.seats || b.votes - a.votes;
       return b.candidates.length - a.candidates.length;
     });
-    var max = sorted[0].candidates.length;
+    var maxVal = isAfter
+      ? Math.max.apply(null, sorted.map(function(f){ return f.seats; }))
+      : sorted[0].candidates.length;
+    if (maxVal === 0) maxVal = 1;
+
+    var header = '';
+    if (isAfter) {
+      header = ''
+        + '<div class="bt-kc-bars-header">'
+        +   '<span>Фракция</span>'
+        +   '<span>Распределение мест</span>'
+        +   '<span>% голосов</span>'
+        +   '<span>На канд.</span>'
+        +   '<span></span>'
+        + '</div>';
+    }
 
     var rows = sorted.map(function(f){
-      var percent = Math.round((f.candidates.length / max) * 100);
-      return renderFactionRow(f, percent);
+      return renderFactionRow(f, maxVal, isAfter);
     }).join('');
 
+    var listClass = 'bt-kc-factions-list' + (isAfter ? ' bt-kc-factions-list-after' : '');
     return ''
       + '<div class="bt-kc-factions-section">'
-      +   '<div class="bt-kc-section-title">Все 9 фракций — кликните, чтобы раскрыть состав</div>'
-      +   '<div class="bt-kc-factions-list">' + rows + '</div>'
+      +   '<div class="bt-kc-section-title">' + escapeHtml(mode.bars_title) + ' — кликните, чтобы раскрыть состав</div>'
+      +   header
+      +   '<div class="' + listClass + '">' + rows + '</div>'
       + '</div>';
   }
 
-  function renderFactionRow(f, percent){
+  function renderFactionRow(f, maxVal, isAfter){
+    var num = f.candidates.length;
     var affilCount = f.candidates.filter(function(c){ return c.affil; }).length;
-    var countLabel = f.candidates.length + ' канд.';
-    if (affilCount > 0) countLabel += ' · ' + affilCount + ' офис.';
+
+    var barWidth, barText, rightText, perCandText;
+
+    if (isAfter) {
+      barWidth = Math.round((f.seats / maxVal) * 100);
+      if (f.seats === 0) {
+        barText = '0 мест · не прошли';
+      } else {
+        barText = String(f.seats);
+      }
+      rightText = f.votes_pct.toFixed(2).replace('.', ',') + '%';
+      perCandText = (typeof f.per_cand === 'number') ? f.per_cand.toFixed(1).replace('.', ',') : '—';
+    } else {
+      barWidth = Math.round((num / maxVal) * 100);
+      barText = String(num);
+      var countLabel = num + ' канд.';
+      if (affilCount > 0) countLabel += ' · ' + affilCount + ' офис.';
+      rightText = countLabel;
+    }
+
+    var fillClass = 'bt-kc-faction-fill bt-kc-color-' + f.type;
+    var isZeroSeats = isAfter && f.seats === 0;
+
+    var trackInner;
+    if (isZeroSeats) {
+      trackInner = '<div class="bt-kc-faction-fill bt-kc-zero">' + barText + '</div>';
+    } else {
+      trackInner = '<div class="' + fillClass + '" style="width:' + barWidth + '%">' + barText + '</div>';
+    }
+
+    var perCandCell = isAfter
+      ? '<div class="bt-kc-faction-percand">' + perCandText + '</div>'
+      : '';
 
     return ''
       + '<div class="bt-kc-faction" data-faction-id="' + f.id + '">'
@@ -158,10 +256,9 @@
       +       '<span class="bt-kc-faction-num">' + f.id + '.</span> '
       +       '<span class="bt-kc-faction-name">' + escapeHtml(f.name_ru) + '</span>'
       +     '</div>'
-      +     '<div class="bt-kc-faction-track">'
-      +       '<div class="bt-kc-faction-fill bt-kc-color-' + f.type + '" style="width:' + percent + '%"></div>'
-      +     '</div>'
-      +     '<div class="bt-kc-faction-count">' + countLabel + '</div>'
+      +     '<div class="bt-kc-faction-track">' + trackInner + '</div>'
+      +     '<div class="bt-kc-faction-count">' + escapeHtml(rightText) + '</div>'
+      +     perCandCell
       +     '<div class="bt-kc-faction-chevron" aria-hidden="true">▾</div>'
       +   '</button>'
       +   '<div class="bt-kc-faction-body" hidden>'
@@ -204,11 +301,27 @@
     return '<div class="bt-kc-cand-list">' + rows + '</div>';
   }
 
+  function renderDisclaimer(text){
+    return '<div class="bt-kc-disclaimer">' + escapeHtml(text) + '</div>';
+  }
+
   function renderFooter(meta){
     return ''
       + '<div class="bt-kc-footer">'
       +   'Расследование: <strong>' + escapeHtml(meta.investigation_link) + '</strong>'
       + '</div>';
+  }
+
+  function bindModeToggle(){
+    var btns = ROOT.querySelectorAll('.bt-kc-mode-btn');
+    btns.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var mode = btn.getAttribute('data-mode');
+        if (mode === state.mode) return;
+        state.mode = mode;
+        renderAll();
+      });
+    });
   }
 
   function bindFactionToggles(){
@@ -239,19 +352,19 @@
     var current = ROOT.querySelector('.bt-kc-faction[data-faction-id="' + id + '"]');
     if (!current) return;
 
-    if (openFactionId === id){
+    if (state.openFactionId === id){
       closeFaction(current);
-      openFactionId = null;
+      state.openFactionId = null;
       return;
     }
 
-    if (openFactionId !== null){
-      var prev = ROOT.querySelector('.bt-kc-faction[data-faction-id="' + openFactionId + '"]');
+    if (state.openFactionId !== null){
+      var prev = ROOT.querySelector('.bt-kc-faction[data-faction-id="' + state.openFactionId + '"]');
       if (prev) closeFaction(prev);
     }
 
     openFaction(current);
-    openFactionId = id;
+    state.openFactionId = id;
   }
 
   function openFaction(el){
@@ -295,8 +408,8 @@
     }, 0);
   }
 
-  function drawDonutChart(segments){
-    var canvas = document.getElementById('bt-kc-donut');
+  function drawDonutChart(canvasId, segments){
+    var canvas = document.getElementById(canvasId);
     if (!canvas || !canvas.getContext) return;
 
     var ratio = window.devicePixelRatio || 1;
@@ -309,6 +422,7 @@
     ctx.scale(ratio, ratio);
 
     var total = segments.reduce(function(s, x){ return s + x.value; }, 0);
+    if (total === 0) return;
     var cx = size / 2;
     var cy = size / 2;
     var outerR = size / 2 - 4;
@@ -317,7 +431,8 @@
     var colorMap = {
       affil: '#993C1D',
       split: '#BA7517',
-      indep: '#888780'
+      indep: '#888780',
+      empty: '#3A3938'
     };
 
     var startAngle = -Math.PI / 2;
