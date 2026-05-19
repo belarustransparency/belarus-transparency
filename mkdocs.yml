@@ -76,4 +76,5 @@ extra:
       lang: en
   generator: false
   extra_javascript:
-  - javascripts/dashboard-kc-2026.js
+   - javascripts/external-links.js
+   - javascripts/dashboard-kc-2026.js
