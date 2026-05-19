@@ -1184,19 +1184,34 @@ img.bt-logo--dark,
   background: var(--md-default-fg-color--lightest);
 }
 
-/* Дата — день сверху, "месяц год" одной строкой снизу */
+/* Дата — день / месяц / год — три отдельные строки */
 .bt-event-date {
   line-height: var(--bt-lh-head);
 }
 
 .bt-event-day {
-  ...
+  font-size: var(--bt-fs-s2);
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+  line-height: 1;
+  margin-bottom: 4px;
 }
 
 .bt-event-month {
-  ...
-  white-space: nowrap;
+  font-size: var(--bt-fs-s5);
+  color: var(--md-default-fg-color--light);
+  line-height: 1;
+  margin-bottom: 2px;
 }
+
+.bt-event-year {
+  font-size: var(--bt-fs-s6);
+  color: var(--md-default-fg-color--lighter);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
 
 /* Тип события — без капса, обычный серый текст */
 .bt-event-type {
@@ -1238,6 +1253,20 @@ img.bt-logo--dark,
   .bt-event-type,
   .bt-event-place {
     display: none;
+  }
+}
+
+/* === Витрина дашбордов: 2 колонки (дата + контент) ========================
+ * Скрываем колонки «тип» и «место» — они избыточны для дашбордов
+ * (тип очевиден из раздела, место всегда «онлайн»).
+ */
+.bt-events-list--dashboards .bt-event-row {
+  grid-template-columns: 60px 1fr;
+}
+
+@media (max-width: 768px) {
+  .bt-events-list--dashboards .bt-event-row {
+    grid-template-columns: 55px 1fr;
   }
 }
 
