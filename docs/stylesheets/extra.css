@@ -1190,15 +1190,11 @@ img.bt-logo--dark,
 }
 
 .bt-event-day {
-  font-size: var(--bt-fs-s3);
-  font-weight: 500;
-  color: var(--md-default-fg-color);
-  margin-bottom: 2px;
+  ...
 }
 
 .bt-event-month {
-  font-size: var(--bt-fs-s5);
-  color: var(--md-default-fg-color--light);
+  ...
   white-space: nowrap;
 }
 
