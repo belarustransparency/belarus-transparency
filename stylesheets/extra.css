@@ -1190,7 +1190,7 @@ img.bt-logo--dark,
 }
 
 .bt-event-day {
-  font-size: var(--bt-fs-s2);
+  font-size: var(--bt-fs-s3);
   font-weight: 500;
   color: var(--md-default-fg-color);
   line-height: 1;
@@ -1225,7 +1225,7 @@ img.bt-logo--dark,
 }
 
 .bt-event-title {
-  font-size: var(--bt-fs-s4);
+  font-size: var(--bt-fs-s3);
   font-weight: 500;
   color: var(--md-default-fg-color);
   line-height: var(--bt-lh-tight);
