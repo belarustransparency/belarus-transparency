@@ -35,22 +35,27 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/external-links.js
+  - javascripts/dashboard-kc-2026.js
+
 nav:
   - Главная: index.md
   - Кейсы: investigations/index.md
   - Персоналии: persons/index.md
   - Организации: organizations/index.md
   - События: events/index.md
-  - Дашборды: dashboards/index.md  # ← новый
+  - Дашборды: dashboards/index.md
   - Архив: archive/index.md
 
 plugins:
   - search:
       lang: ru
   - macros:
-      module_name: main  
+      module_name: main
 
 markdown_extensions:
+  - meta
   - attr_list
   - md_in_html
   - pymdownx.superfences:
@@ -75,6 +80,3 @@ extra:
       link: /en/
       lang: en
   generator: false
-  extra_javascript:
-   - javascripts/external-links.js
-   - javascripts/dashboard-kc-2026.js
