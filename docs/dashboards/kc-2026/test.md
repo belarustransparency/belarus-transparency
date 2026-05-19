@@ -5,6 +5,8 @@ hide:
 title: Тестовая страница
 ---
 
-# Тестовый заголовок
+<div id="bt-kc-dashboard">
+  <p>Загрузка дашборда…</p>
+</div>
 
-Это тестовый параграф.
+<script src="../../javascripts/dashboard-kc-2026.js"></script>
