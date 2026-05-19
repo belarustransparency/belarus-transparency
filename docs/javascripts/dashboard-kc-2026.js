@@ -7,8 +7,8 @@
 
   // Имена PDF-файлов для каждого режима
   var PDF_FILES = {
-    before: '../files/kc-2026-dashboard.pdf',
-    after:  '../files/kc-2026-dashboard-after.pdf'
+    before: 'files/kc-2026-dashboard.pdf',
+    after:  'files/kc-2026-dashboard-after.pdf'
   };
 
   var state = {
