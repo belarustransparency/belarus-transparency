@@ -5,10 +5,12 @@
   var ROOT = document.getElementById('bt-kc-dashboard');
   if (!ROOT) return;
 
-  // Имена PDF-файлов для каждого режима
+  // Имена PDF-файлов для каждого режима.
+  // Пути — абсолютные от корня сайта. С относительными ('./files/...')
+  // MkDocs с use_directory_urls=true ведёт куда-то не туда.
   var PDF_FILES = {
-    before: 'files/kc-2026-dashboard.pdf',
-    after:  'files/kc-2026-dashboard-after.pdf'
+    before: '/dashboards/kc-2026/files/kc-2026-dashboard.pdf',
+    after:  '/dashboards/kc-2026/files/kc-2026-dashboard-after.pdf'
   };
 
   var state = {
@@ -88,14 +90,14 @@
   function renderPdfBtnMobile(){
     return ''
       + '<div class="bt-kc-pdf-mobile">'
-      +   '<a class="bt-kc-pdf-btn" href="' + currentPdfHref() + '" download>Скачать дашборд в PDF</a>'
+      +   '<a class="bt-kc-pdf-btn" href="' + currentPdfHref() + '" download>Скачать PDF · «' + escapeHtml(currentModeLabel()) + '»</a>'
       + '</div>';
   }
 
   function renderPdfBtnDesktop(){
     return ''
       + '<div class="bt-kc-pdf-download">'
-      +   '<a class="bt-kc-pdf-btn" href="' + currentPdfHref() + '" download>Скачать этот дашборд (PDF · «' + escapeHtml(currentModeLabel()) + '»)</a>'
+      +   '<a class="bt-kc-pdf-btn" href="' + currentPdfHref() + '" download>Скачать PDF · «' + escapeHtml(currentModeLabel()) + '»</a>'
       +   '<div class="bt-kc-pdf-hint">PDF фиксирует текущий режим. Чтобы скачать другой — переключите режим выше и нажмите «Скачать» ещё раз.</div>'
       + '</div>';
   }
