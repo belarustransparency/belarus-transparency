@@ -3644,6 +3644,27 @@ img.bt-logo--dark,
   font-weight: 500;
 }
 
+/* === Нижняя кнопка скачивания PDF (видна и на десктопе, и на мобильном) === */
+/* Добавить в extra.css после блока .bt-kc-disclaimer.                     */
+
+.bt-kc-pdf-download {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.1rem;
+  background: var(--bt-kc-surface-2);
+  border-radius: 4px;
+  border: 1px solid var(--bt-kc-border);
+  text-align: center;
+}
+.bt-kc-pdf-download .bt-kc-pdf-btn {
+  display: inline-block;
+}
+.bt-kc-pdf-hint {
+  margin-top: 0.6rem;
+  font-size: var(--bt-fs-s5);
+  color: var(--bt-kc-text-faint);
+  line-height: var(--bt-lh-body);
+}
+
 /* === Дашборд внутри лонгрида ============================================= */
 /* Используется в карточках расследований вместо громоздких Mermaid-схем.    */
 /* Все размеры тянутся из общих --bt-fs-*; цвета — из общих переменных темы. */
