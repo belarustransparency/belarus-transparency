@@ -1184,32 +1184,29 @@ img.bt-logo--dark,
   background: var(--md-default-fg-color--lightest);
 }
 
-/* Дата — день / месяц / год — три отдельные строки */
+/* Дата — день / месяц / год — три строки, одного размера, моноширинно */
 .bt-event-date {
-  line-height: var(--bt-lh-head);
+  line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--md-code-font, "JetBrains Mono", ui-monospace, monospace);
 }
 
 .bt-event-day {
-  font-size: var(--bt-fs-s3);
+  font-size: var(--bt-fs-s4);
   font-weight: 500;
   color: var(--md-default-fg-color);
-  line-height: 1;
-  margin-bottom: 4px;
 }
 
 .bt-event-month {
-  font-size: var(--bt-fs-s5);
+  font-size: var(--bt-fs-s4);
+  font-weight: 400;
   color: var(--md-default-fg-color--light);
-  line-height: 1;
-  margin-bottom: 2px;
 }
 
 .bt-event-year {
-  font-size: var(--bt-fs-s6);
+  font-size: var(--bt-fs-s4);
+  font-weight: 400;
   color: var(--md-default-fg-color--lighter);
-  line-height: 1;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.02em;
 }
 
 
