@@ -21,7 +21,7 @@
 
     
       
-        <title>Организации - Belarus Transparency</title>
+        <title>Organizations - Belarus Transparency</title>
       
     
     
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Организации
+              Organizations
             
           </span>
         </div>
@@ -617,45 +617,35 @@
 <div class="bt-orgs-index">
 
 <header class="bt-index-head">
-  <div class="bt-kicker">Раздел</div>
-  <h1>Организации</h1>
-  <p class="bt-lede">Структуры беларуской оппозиции в эмиграции. Каждая карточка показывает четыре индикатора прозрачности: устав, финансовая отчётность, внешний аудит, контрольный орган.</p>
+  <div class="bt-kicker">Skiltis</div>
+  <h1>Organizacijos</h1>
+  <p class="bt-lede">Baltarusių opozicijos struktūros emigracijoje. Kiekvienoje kortelėje rodomi keturi skaidrumo rodikliai — įstatai, finansinė atskaitomybė, išorinis auditas, priežiūros organas.</p>
 </header>
 
 <!-- ============================================================
      ФИЛЬТРЫ ПО ТИПУ ОРГАНИЗАЦИИ
-     data-filter совпадает с org_type из frontmatter карточки.
+     data-filter совпадает с полем type из organizations.yml.
      ============================================================ -->
 
 <nav class="bt-org-filters">
-  <a class="bt-filter bt-filter-active" data-filter="all" href="#">Все</a>
-  <a class="bt-filter" data-filter="political-structure" href="#">Политические структуры</a>
-  <a class="bt-filter" data-filter="foundation" href="#">Фонды</a>
-  <a class="bt-filter" data-filter="media" href="#">Медиа</a>
-  <a class="bt-filter" data-filter="initiative" href="#">Инициативы</a>
+  <a class="bt-filter bt-filter-active" data-filter="all" href="#">Visos</a>
+  <a class="bt-filter" data-filter="political-structure" href="#">Politinės struktūros</a>
+  <a class="bt-filter" data-filter="foundation" href="#">Fondai</a>
+  <a class="bt-filter" data-filter="media" href="#">Žiniasklaida</a>
+  <a class="bt-filter" data-filter="initiative" href="#">Iniciatyvos</a>
 </nav>
 
 <!-- ============================================================
      ЛЕНТА КАРТОЧЕК
-
-     ВАЖНО: карточка — это <div data-href="...">, НЕ <a>.
-     Причина: внутри карточки есть вложенная ссылка на персону
-     (.bt-org-eq для one-person организаций), а <a> внутри <a>
-     запрещён HTML-спецификацией — браузер закрывает внешнюю
-     ссылку перед открытием внутренней, что разваливает вёрстку.
-
-     Клик по карточке обрабатывает JS внизу страницы. Он же
-     обеспечивает доступность с клавиатуры (Enter/Space).
-
-     Каждая карточка пишется ОДНОЙ строкой HTML без переносов —
-     иначе markdown-парсер развалит структуру (известная проблема).
+     ВАЖНО: карточка — <div data-href="...">, не <a>, чтобы внутри
+     могли быть вложенные ссылки. Клик и доступность с клавиатуры —
+     inline-скрипт ниже.
+     Каждая карточка пишется ОДНОЙ строкой HTML без переносов.
      ============================================================ -->
 
 <div class="bt-orgs-list" markdown="0">
-
-<div class="bt-org-row" data-type="foundation" data-href="bialorus-przyszlosci/" role="link" tabindex="0" aria-label="Fundacja Białoruś Przyszłości"><div class="bt-org-row-head"><div class="bt-org-row-type">Фонд</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Fundacja Białoruś Przyszłości</div><div class="bt-org-row-role">Польский фонд, грантополучатель FSM 2023 на 980 000 zł</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
-
-<div class="bt-org-row" data-type="foundation" data-href="fundacja-solidarnosci-miedzynarodowej/" role="link" tabindex="0" aria-label="Fundacja Solidarności Międzynarodowej"><div class="bt-org-row-head"><div class="bt-org-row-type">Государственный фонд</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Fundacja Solidarności Międzynarodowej</div><div class="bt-org-row-role">Государственный фонд Польши, оператор помощи развитию по линии MSZ</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
+<div class="bt-org-row" data-type="foundation" data-href="bialorus-przyszlosci/" role="link" tabindex="0" aria-label="Fundacja Białoruś Przyszłości"><div class="bt-org-row-head"><div class="bt-org-row-type">Fondas</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">veikia</span></div></div><div class="bt-org-row-name">Fundacja Białoruś Przyszłości</div><div class="bt-org-row-role">Lenkijos fondas, FSM 2023 dotacijos gavėjas (980 000 zł)</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>įstatai</span><span>ataskaitos</span><span>auditas</span><span>priežiūra</span></div></div>
+<div class="bt-org-row" data-type="foundation" data-href="fundacja-solidarnosci-miedzynarodowej/" role="link" tabindex="0" aria-label="Fundacja Solidarności Międzynarodowej"><div class="bt-org-row-head"><div class="bt-org-row-type">Valstybinis fondas</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">veikia</span></div></div><div class="bt-org-row-name">Fundacja Solidarności Międzynarodowej</div><div class="bt-org-row-role">Lenkijos valstybinis fondas, paramos plėtrai operatorius per URM</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>įstatai</span><span>ataskaitos</span><span>auditas</span><span>priežiūra</span></div></div>
 
 </div>
 
@@ -663,11 +653,6 @@
 
 <!-- ============================================================
      СКРИПТ ФИЛЬТРАЦИИ И КЛИКА ПО КАРТОЧКЕ
-     - Фильтры переключают видимость карточек по data-type.
-     - Клик по карточке ведёт на data-href.
-     - НЕ перехватываем клики по вложенным <a> (напр. ≡ Имя) —
-       такие клики ведут на свой собственный href.
-     - Клавиатура: Enter / Space на карточке = клик.
      ============================================================ -->
 
 <script>
