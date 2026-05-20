@@ -1,0 +1,262 @@
+# Витрина событий — данные.
+#
+# Каждое событие — блок под `- slug:`.
+# slug должен совпадать с именем .md-файла карточки события
+# во всех локалях: docs/<lang>/events/<slug>.md
+#
+# Локализуемые поля имеют вложенные ключи ru/en/pl/lt.
+# Если перевода нет — fallback на en, затем на ru.
+#
+# Не локализуются (одно значение):
+#   slug, date_day, date_month, date_year, event_type, status,
+#   place (если латиница типа "Варшава" → в RU кириллица,
+#   в остальных языках перевод; делаем локализованным).
+#
+# Порядок блоков = порядок на витрине (новые события — сверху).
+
+events:
+
+  - slug: vybory-ks-2026
+    event_type: election
+    status: completed
+    date_day: "11"
+    date_month_key: may
+    date_year: "26"
+    title:
+      ru: Выборы в Координационный совет — 4-й созыв
+      en: Coordination Council elections — 4th convocation
+      pl: Wybory do Rady Koordynacyjnej — IV kadencja
+      lt: Koordinacinės tarybos rinkimai — IV kadencija
+    summary:
+      ru: Из 171 кандидата 130 шли по шести спискам, выстроенным вокруг сотрудников UTC, Офиса Тихановской и NAM. По итогам — 69 из 76 распределённых мест у офисных списков.
+      en: Of 171 candidates, 130 ran on six lists built around staff of the UTC, the Tsikhanouskaya Office, and NAM. Result — 69 of 76 distributed seats went to the office lists.
+      pl: Spośród 171 kandydatów 130 startowało z sześciu list zbudowanych wokół pracowników UTC, Biura Cichanouskiej i NAM. Wynik — 69 z 76 rozdzielonych miejsc dla list biurowych.
+      lt: Iš 171 kandidato 130 dalyvavo šešiuose sąrašuose, sudarytuose aplink UTC, Cichanouskos biuro ir NAM darbuotojus. Rezultatas — 69 iš 76 paskirstytų vietų atiteko biurų sąrašams.
+    place:
+      ru: Онлайн
+      en: Online
+      pl: Online
+      lt: Internetu
+
+  - slug: fsm-grant-competition-2026
+    event_type: grant
+    status: active
+    date_day: "26"
+    date_month_key: mar
+    date_year: "26"
+    title:
+      ru: Конкурс грантов FSM на беларуское направление, 2026
+      en: FSM Grant Competition for Belarus, 2026
+      pl: Konkurs grantowy FSM na rzecz Białorusi, 2026
+      lt: FSM dotacijų konkursas Baltarusijos kryptimi, 2026
+    summary:
+      ru: Ежегодный конкурс Fundacji Solidarności Międzynarodowej с бюджетом 7,48 млн&nbsp;zł. Дедлайн заявок — 17 апреля, результаты — до 29 мая 2026. Размер гранта — от 500 000 до 1 000 000 zł.
+      en: Annual competition of Fundacja Solidarności Międzynarodowej with a budget of 7.48&nbsp;million&nbsp;PLN. Application deadline — April 17, results — by May 29, 2026. Grant size — from 500,000 to 1,000,000 PLN.
+      pl: Coroczny konkurs Fundacji Solidarności Międzynarodowej z budżetem 7,48&nbsp;mln&nbsp;zł. Termin składania wniosków — 17 kwietnia, wyniki — do 29 maja 2026. Wielkość grantu — od 500 000 do 1 000 000 zł.
+      lt: Kasmetinis Fundacja Solidarności Międzynarodowej konkursas, kurio biudžetas — 7,48&nbsp;mln.&nbsp;zł. Paraiškų pateikimo terminas — balandžio 17 d., rezultatai — iki 2026 m. gegužės 29 d. Dotacijos dydis — nuo 500 000 iki 1 000 000 zł.
+    place:
+      ru: Варшава, Польша
+      en: Warsaw, Poland
+      pl: Warszawa, Polska
+      lt: Varšuva, Lenkija
+
+  - slug: fsm-grant-competition-2023
+    event_type: grant
+    status: completed
+    date_day: "18"
+    date_month_key: may
+    date_year: "23"
+    title:
+      ru: Конкурс грантов FSM на беларуское направление, 2023
+      en: FSM Grant Competition for Belarus, 2023
+      pl: Konkurs grantowy FSM na rzecz Białorusi, 2023
+      lt: FSM dotacijų konkursas Baltarusijos kryptimi, 2023
+    summary:
+      ru: Fundacja Solidarności Międzynarodowej распределила ≈ 2,07 млн&nbsp;zł между пятью получателями. Крупнейший индивидуальный грант — 980 000 zł, или 47,3% бюджета, — присуждён Fundacji Białoruś Przyszłości.
+      en: Fundacja Solidarności Międzynarodowej distributed ≈ 2.07&nbsp;million&nbsp;PLN among five recipients. The largest individual grant — 980,000&nbsp;PLN, or 47.3% of the budget — was awarded to Fundacja Białoruś Przyszłości.
+      pl: Fundacja Solidarności Międzynarodowej rozdzieliła ≈ 2,07&nbsp;mln&nbsp;zł między pięcioma beneficjentami. Największy indywidualny grant — 980 000 zł, czyli 47,3% budżetu — otrzymała Fundacja Białoruś Przyszłości.
+      lt: Fundacja Solidarności Międzynarodowej paskirstė ≈ 2,07&nbsp;mln.&nbsp;zł penkiems gavėjams. Didžiausia individuali dotacija — 980 000 zł, arba 47,3% biudžeto — paskirta Fundacji Białoruś Przyszłości.
+    place:
+      ru: Варшава, Польша
+      en: Warsaw, Poland
+      pl: Warszawa, Polska
+      lt: Varšuva, Lenkija
+
+# === Фильтры по типу события ===
+# Ключ совпадает с полем event_type в событии.
+
+filters:
+  all:
+    ru: Все
+    en: All
+    pl: Wszystkie
+    lt: Visi
+  conference:
+    ru: Мероприятия
+    en: Events
+    pl: Wydarzenia
+    lt: Renginiai
+  publication:
+    ru: Публикации
+    en: Publications
+    pl: Publikacje
+    lt: Publikacijos
+  grant:
+    ru: Гранты и тендеры
+    en: Grants and tenders
+    pl: Granty i przetargi
+    lt: Dotacijos ir konkursai
+  statement:
+    ru: Заявления
+    en: Statements
+    pl: Oświadczenia
+    lt: Pareiškimai
+  meeting:
+    ru: Встречи
+    en: Meetings
+    pl: Spotkania
+    lt: Susitikimai
+  finance:
+    ru: Финансы
+    en: Finance
+    pl: Finanse
+    lt: Finansai
+  personnel:
+    ru: Кадры
+    en: Personnel
+    pl: Kadry
+    lt: Personalas
+  election:
+    ru: Выборы
+    en: Elections
+    pl: Wybory
+    lt: Rinkimai
+
+# === Локализация типов в плашке ===
+# Используется в `bt-event-type` (короткая метка между датой и заголовком).
+
+types:
+  conference:
+    ru: Мероприятие
+    en: Event
+    pl: Wydarzenie
+    lt: Renginys
+  publication:
+    ru: Публикация
+    en: Publication
+    pl: Publikacja
+    lt: Publikacija
+  grant:
+    ru: Конкурс грантов
+    en: Grant competition
+    pl: Konkurs grantowy
+    lt: Dotacijų konkursas
+  statement:
+    ru: Заявление
+    en: Statement
+    pl: Oświadczenie
+    lt: Pareiškimas
+  meeting:
+    ru: Встреча
+    en: Meeting
+    pl: Spotkanie
+    lt: Susitikimas
+  finance:
+    ru: Финансы
+    en: Finance
+    pl: Finanse
+    lt: Finansai
+  personnel:
+    ru: Кадры
+    en: Personnel
+    pl: Kadry
+    lt: Personalas
+  election:
+    ru: Выборы
+    en: Elections
+    pl: Wybory
+    lt: Rinkimai
+
+# === Локализация месяцев (короткая форма для даты в плашке) ===
+# Используется в `bt-event-month`.
+
+months:
+  jan:
+    ru: янв
+    en: Jan
+    pl: sty
+    lt: sau
+  feb:
+    ru: фев
+    en: Feb
+    pl: lut
+    lt: vas
+  mar:
+    ru: мар
+    en: Mar
+    pl: mar
+    lt: kov
+  apr:
+    ru: апр
+    en: Apr
+    pl: kwi
+    lt: bal
+  may:
+    ru: май
+    en: May
+    pl: maj
+    lt: geg
+  jun:
+    ru: июн
+    en: Jun
+    pl: cze
+    lt: bir
+  jul:
+    ru: июл
+    en: Jul
+    pl: lip
+    lt: lie
+  aug:
+    ru: авг
+    en: Aug
+    pl: sie
+    lt: rgp
+  sep:
+    ru: сен
+    en: Sep
+    pl: wrz
+    lt: rgs
+  oct:
+    ru: окт
+    en: Oct
+    pl: paź
+    lt: spa
+  nov:
+    ru: ноя
+    en: Nov
+    pl: lis
+    lt: lap
+  dec:
+    ru: дек
+    en: Dec
+    pl: gru
+    lt: gru
+
+# === UI элементы витрины ===
+
+ui:
+  kicker:
+    ru: Раздел
+    en: Section
+    pl: Sekcja
+    lt: Skiltis
+  h1:
+    ru: События
+    en: Events
+    pl: Wydarzenia
+    lt: Įvykiai
+  lede:
+    ru: Мероприятия, публикации, конкурсы, заявления и другие активности структур беларуской оппозиции в эмиграции.
+    en: Events, publications, competitions, statements, and other activities of Belarusian opposition structures in exile.
+    pl: Wydarzenia, publikacje, konkursy, oświadczenia i inne działania struktur białoruskiej opozycji na emigracji.
+    lt: Renginiai, publikacijos, konkursai, pareiškimai ir kita baltarusių opozicijos struktūrų veikla emigracijoje.
