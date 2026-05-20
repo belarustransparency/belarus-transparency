@@ -1,0 +1,48 @@
+# Витрина дашбордов — данные.
+#
+# Каждый дашборд — блок под `- slug:`.
+# slug должен совпадать с именем папки дашборда:
+#   docs/<lang>/dashboards/<slug>/index.md
+#
+# Локализуемые поля: title, summary
+# Не локализуются: slug, date_day, date_month, date_year
+#
+# Сам контент дашбордов (JS-приложения) пока на русском
+# во всех локалях — задача на потом (см. технический долг).
+# Витрина — локализована полностью.
+
+dashboards:
+
+  - slug: kc-2026
+    date_day: "11"
+    date_month: "05"
+    date_year: "26"
+    title:
+      ru: Захват Координационного совета
+      en: Capture of the Coordination Council
+      pl: Przejęcie Rady Koordynacyjnej
+      lt: Koordinacinės tarybos užvaldymas
+    summary:
+      ru: "До выборов: 130 из 171 кандидата в 6 из 9 списков были выстроены вокруг сотрудников Офиса Тихановской, ОПК и НАУ. По итогам голосования: 69 из 76 распределённых мест заняли депутаты офисных списков, Коалиция Латушко в одиночку — 33 места из 80."
+      en: "Before the elections: 130 of 171 candidates in 6 of 9 lists were arranged around staff of the Tsikhanouskaya Office, UTC, and NAM. Voting results: 69 of 76 distributed seats went to deputies of the office lists; the Latushka Coalition alone — 33 seats out of 80."
+      pl: "Przed wyborami: 130 ze 171 kandydatów na 6 z 9 list było zgrupowanych wokół pracowników Biura Cichanouskiej, UTC i NAM. Wyniki głosowania: 69 z 76 rozdzielonych miejsc otrzymali deputowani z list biurowych, sama Koalicja Łatuszki — 33 miejsca z 80."
+      lt: "Iki rinkimų: 130 iš 171 kandidato 6-iuose iš 9 sąrašų buvo sutelkti aplink Cichanouskos biuro, UTC ir NAM darbuotojus. Balsavimo rezultatai: 69 iš 76 paskirstytų vietų atiteko biurų sąrašų deputatams, viena Latuškos koalicija — 33 vietos iš 80."
+
+# === UI элементы витрины ===
+
+ui:
+  kicker:
+    ru: Раздел
+    en: Section
+    pl: Sekcja
+    lt: Skiltis
+  h1:
+    ru: Дашборды
+    en: Dashboards
+    pl: Dashboardy
+    lt: Skydeliai
+  lede:
+    ru: Интерактивные визуализации связей и долей влияния в структурах беларуской оппозиции в эмиграции. Каждый дашборд опирается на открытые источники, имеет JSON-данные рядом со страницей и допускает скачивание статичной PDF-версии.
+    en: Interactive visualizations of connections and shares of influence in the structures of the Belarusian opposition in exile. Each dashboard is based on open sources, has accompanying JSON data, and allows download of a static PDF version.
+    pl: Interaktywne wizualizacje powiązań i udziałów wpływu w strukturach białoruskiej opozycji na emigracji. Każdy dashboard opiera się na otwartych źródłach, ma dane JSON obok strony i umożliwia pobranie statycznej wersji PDF.
+    lt: Interaktyvūs ryšių ir įtakos dalių vizualizavimai baltarusių opozicijos struktūrose emigracijoje. Kiekvienas skydelis remiasi atvirais šaltiniais, šalia puslapio turi JSON duomenis ir leidžia atsisiųsti statinę PDF versiją.
