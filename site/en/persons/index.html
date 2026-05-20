@@ -128,31 +128,16 @@
     <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Тёмная тема"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Тёмная тема" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <defs>
-    <clipPath id="lh"><rect x="2" y="2" width="10" height="20"/></clipPath>
-    <clipPath id="rh"><rect x="12" y="2" width="10" height="20"/></clipPath>
-  </defs>
-  <!-- Левая половина: только тонкая рамка -->
-  <rect x="2" y="2" width="10" height="20" fill="none" stroke="#0A0A0A" stroke-width="1"/>
-  <!-- Правая половина: сплошная тёмная -->
-  <rect x="12" y="2" width="10" height="20" fill="#141413"/>
-  <!-- T левая (тёмная на светлом) -->
-  <g clip-path="url(#lh)">
-    <rect x="6" y="5.5" width="12" height="2.2" fill="#0A0A0A"/>
-    <rect x="10.9" y="5.5" width="2.2" height="13" fill="#0A0A0A"/>
-    <rect x="6" y="5.5" width="1.8" height="3" fill="#0A0A0A"/>
-    <rect x="16.2" y="5.5" width="1.8" height="3" fill="#0A0A0A"/>
-    <rect x="9" y="17" width="6" height="1.8" fill="#0A0A0A"/>
-  </g>
-  <!-- T правая (светлая на тёмном) -->
-  <g clip-path="url(#rh)">
-    <rect x="6" y="5.5" width="12" height="2.2" fill="#F7F5F0"/>
-    <rect x="10.9" y="5.5" width="2.2" height="13" fill="#F7F5F0"/>
-    <rect x="6" y="5.5" width="1.8" height="3" fill="#F7F5F0"/>
-    <rect x="16.2" y="5.5" width="1.8" height="3" fill="#F7F5F0"/>
-    <rect x="9" y="17" width="6" height="1.8" fill="#F7F5F0"/>
-  </g>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="4"/>
+  <line x1="12" y1="3" x2="12" y2="5"/>
+  <line x1="12" y1="19" x2="12" y2="21"/>
+  <line x1="3" y1="12" x2="5" y2="12"/>
+  <line x1="19" y1="12" x2="21" y2="12"/>
+  <line x1="5.6" y1="5.6" x2="7" y2="7"/>
+  <line x1="17" y1="17" x2="18.4" y2="18.4"/>
+  <line x1="5.6" y1="18.4" x2="7" y2="17"/>
+  <line x1="17" y1="7" x2="18.4" y2="5.6"/>
 </svg>
       </label>
     
@@ -163,31 +148,8 @@
     <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Светлая тема"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Светлая тема" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <defs>
-    <clipPath id="lh"><rect x="2" y="2" width="10" height="20"/></clipPath>
-    <clipPath id="rh"><rect x="12" y="2" width="10" height="20"/></clipPath>
-  </defs>
-  <!-- Левая половина: сплошная тёмная (текущая) -->
-  <rect x="2" y="2" width="10" height="20" fill="#141413"/>
-  <!-- Правая половина: тонкая рамка светлая (целевая) -->
-  <rect x="12" y="2" width="10" height="20" fill="none" stroke="#FFFFFF" stroke-width="1"/>
-  <!-- T левая (светлая на тёмном) -->
-  <g clip-path="url(#lh)">
-    <rect x="6" y="5.5" width="12" height="2.2" fill="#F7F5F0"/>
-    <rect x="10.9" y="5.5" width="2.2" height="13" fill="#F7F5F0"/>
-    <rect x="6" y="5.5" width="1.8" height="3" fill="#F7F5F0"/>
-    <rect x="16.2" y="5.5" width="1.8" height="3" fill="#F7F5F0"/>
-    <rect x="9" y="17" width="6" height="1.8" fill="#F7F5F0"/>
-  </g>
-  <!-- T правая (светлая на «прозрачном») -->
-  <g clip-path="url(#rh)">
-    <rect x="6" y="5.5" width="12" height="2.2" fill="#FFFFFF"/>
-    <rect x="10.9" y="5.5" width="2.2" height="13" fill="#FFFFFF"/>
-    <rect x="6" y="5.5" width="1.8" height="3" fill="#FFFFFF"/>
-    <rect x="16.2" y="5.5" width="1.8" height="3" fill="#FFFFFF"/>
-    <rect x="9" y="17" width="6" height="1.8" fill="#FFFFFF"/>
-  </g>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
 </svg>
       </label>
     
@@ -199,26 +161,24 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-      <div class="md-header__option bt-lang-switcher">
-      <a class="bt-lang-link"
-         href="/ru/persons/"
-         hreflang="ru"
-         data-lang="ru"
-         aria-label="Русский">RU</a>
-      <a class="bt-lang-link current"
-         hreflang="en"
-         aria-current="page"
-         aria-label="English">EN</a>
-      <a class="bt-lang-link"
-         href="/pl/persons/"
-         hreflang="pl"
-         data-lang="pl"
-         aria-label="Polski">PL</a>
-      <a class="bt-lang-link"
-         href="/lt/persons/"
-         hreflang="lt"
-         data-lang="lt"
-         aria-label="Lietuvių">LT</a>
+      <div class="md-header__option bt-lang-wrap">
+  <div class="bt-lang-switcher"><a class="bt-lang-link"
+           href="../../ru/persons/"
+           hreflang="ru"
+           data-lang="ru"
+           aria-label="Русский">RU</a><a class="bt-lang-link current"
+           hreflang="en"
+           aria-current="page"
+           aria-label="English">EN</a><a class="bt-lang-link"
+           href="../../pl/persons/"
+           hreflang="pl"
+           data-lang="pl"
+           aria-label="Polski">PL</a><a class="bt-lang-link"
+           href="../../lt/persons/"
+           hreflang="lt"
+           data-lang="lt"
+           aria-label="Lietuvių">LT</a>
+  </div>
   <span class="bt-lang-sep" aria-hidden="true"></span>
 </div>
     

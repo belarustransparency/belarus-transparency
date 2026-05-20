@@ -3899,69 +3899,18 @@ img.bt-logo--dark,
 
 /* === Языковой переключатель === */
 
-/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа */
-.bt-lang {
+/* Внешняя обёртка — наш уникальный класс. По нему таргетим order. */
+.bt-lang-wrap {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
-  font-size: 12px;
-  margin-right: 14px;
 }
 
-.bt-lang a {
-  color: var(--md-default-fg-color--light);
-  text-decoration: none;
-  font-weight: 400;
-  padding-bottom: 2px;
-  border-bottom: 1.5px solid transparent;
-  transition: color 0.12s;
-  line-height: 1.2;
-}
-
-.bt-lang a:hover,
-.bt-lang a:focus {
-  color: var(--md-default-fg-color);
-}
-
-.bt-lang a.current {
-  color: var(--md-default-fg-color);
-  font-weight: 500;
-  border-bottom-color: #B8341E;  /* кирпичный, как в футере и логотипе */
-  pointer-events: none;          /* активный нельзя кликнуть */
-  cursor: default;
-}
-
-/* Кирпичная вертикальная чёрточка между языками и переключателем темы */
-.bt-lang-sep {
-  width: 1.5px;
-  height: 16px;
-  background: #B8341E;
-  display: inline-block;
-  margin: 0 14px 0 0;
-}
-
-/* На мобильном — компактнее */
-@media screen and (max-width: 480px) {
-  .bt-lang {
-    gap: 10px;
-    font-size: 11px;
-    margin-right: 10px;
-  }
-  .bt-lang-sep {
-    margin: 0 10px 0 0;
-    height: 14px;
-  }
-}
-/* === Языковой переключатель === */
-
-/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа.
-   Сидит в .md-header__option, который Material уже размещает в шапке. */
+/* Сама плашка с 4 языками */
 .bt-lang-switcher {
   display: inline-flex;
   align-items: center;
   gap: 14px;
   font-size: 12px;
-  margin-right: 4px;
 }
 
 .bt-lang-link {
@@ -3988,19 +3937,94 @@ img.bt-logo--dark,
   cursor: default;
 }
 
-/* Кирпичная вертикальная чёрточка между языками и иконкой темы */
+/* Кирпичная вертикальная чёрточка справа от языков, с отступами от соседей */
 .bt-lang-sep {
   width: 1.5px;
   height: 16px;
   background: #B8341E;
   display: inline-block;
-  margin-left: 4px;
+  margin: 0 8px 0 22px;   /* ещё больше слева, меньше справа */
+  flex-shrink: 0;
 }
 
-/* Порядок элементов в шапке справа: языки → разделитель → тема → поиск.
-   Material по умолчанию ставит переключатель темы первым. */
-.md-header__inner .md-header__option:has(.bt-lang-switcher) {
-  order: -1;
+/* === Порядок элементов в шапке: бургер | логотип | ... | языки | тема | поиск === */
+
+/* Языки — слева от темы, но справа от всего основного контента шапки. */
+.md-header__inner > .bt-lang-wrap {
+  order: 10;
+  margin-left: auto;     /* отжимает плашку и всё что справа к правому краю */
+}
+
+/* Иконка темы — после языков. Material рендерит её как <form> с кнопкой. */
+.md-header__inner > form[data-md-component="palette"] {
+  order: 20;
+}
+
+/* Поиск — самый правый */
+.md-header__inner > .md-search {
+  order: 30;
+}
+
+/* === Минималистичная иконка темы === */
+
+/* Уменьшаем размер SVG-иконки внутри кнопки палитры, чтобы не доминировала */
+.md-header__inner [data-md-component="palette"] .md-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.5;
+}
+
+/* === Адаптив: мобильный === */
+@media screen and (max-width: 76.234375em) {
+  /* На мобильном Material показывает бургер слева, логотип-заголовок,
+     дальше элементы шапки. Растягиваем правую группу. */
+
+  .bt-lang-switcher {
+    gap: 12px;
+    font-size: 12px;
+  }
+
+  .bt-lang-sep {
+    margin: 0 10px;
+    height: 14px;
+  }
+}
+
+/* Очень узкие экраны — ещё компактнее */
+@media screen and (max-width: 480px) {
+  .bt-lang-switcher {
+    gap: 10px;
+    font-size: 11px;
+  }
+  .bt-lang-sep {
+    margin: 0 8px;
+  }
+}
+
+/* === Порядок элементов в шапке ===
+   Material располагает элементы по DOM-порядку, мы переопределяем через order.
+   Целевая последовательность (слева направо):
+     [логотип] ... [языки RU EN PL LT | ] [тема] [поиск]
+
+   Используем большие положительные order для правых элементов:
+   - языки: 10
+   - переключатель темы (.md-header__button[for*="scheme"]): 20
+   - поиск (.md-search): 30
+   Логотип и заголовок имеют order: 0 — остаются слева. */
+.md-header__inner > .bt-lang-switcher,
+.md-header__inner > .md-header__option:has(.bt-lang-switcher) {
+  order: 10;
+}
+
+.md-header__inner > [data-md-component="palette"],
+.md-header__inner > .md-header__option:not(:has(.bt-lang-switcher)) {
+  order: 20;
+}
+
+.md-header__inner > .md-header__source,
+.md-header__inner > form,
+.md-header__inner > .md-search {
+  order: 30;
 }
 
 /* Адаптив: мобильный — компактнее */
