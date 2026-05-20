@@ -3997,6 +3997,12 @@ img.bt-logo--dark,
   margin-left: 4px;
 }
 
+/* Порядок элементов в шапке справа: языки → разделитель → тема → поиск.
+   Material по умолчанию ставит переключатель темы первым. */
+.md-header__inner .md-header__option:has(.bt-lang-switcher) {
+  order: -1;
+}
+
 /* Адаптив: мобильный — компактнее */
 @media screen and (max-width: 600px) {
   .bt-lang-switcher {
