@@ -3958,7 +3958,7 @@ img.bt-logo--dark,
 /* Иконка темы — после языков. Material рендерит её как <form> с кнопкой. */
 .md-header__inner > form[data-md-component="palette"] {
   order: 20;
-  margin-left: 0;        /* не нужен auto, языки уже отжали */
+  margin: 0 4px;   /* симметричные отступы от чёрточки и от поиска */
 }
 
 /* Поиск — самый правый */
