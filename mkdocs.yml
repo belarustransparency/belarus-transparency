@@ -40,13 +40,13 @@ extra_javascript:
   - javascripts/dashboard-kc-2026.js
 
 nav:
-  - Главная: index.md
-  - Кейсы: investigations/index.md
-  - Персоналии: persons/index.md
-  - Организации: organizations/index.md
-  - События: events/index.md
-  - Дашборды: dashboards/index.md
-  - Архив: archive/index.md
+  - Главная: ru/index.md
+  - Кейсы: ru/investigations/index.md
+  - Персоналии: ru/persons/index.md
+  - Организации: ru/organizations/index.md
+  - События: ru/events/index.md
+  - Дашборды: ru/dashboards/index.md
+  - Архив: ru/archive/index.md
 
 plugins:
   - search:
@@ -73,9 +73,15 @@ markdown_extensions:
 extra:
   alternate:
     - name: Русский
-      link: /
+      link: /ru/
       lang: ru
     - name: English
       link: /en/
       lang: en
+    - name: Polski
+      link: /pl/
+      lang: pl
+    - name: Lietuvių
+      link: /lt/
+      lang: lt
   generator: false
