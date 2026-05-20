@@ -2,127 +2,126 @@
 hide:
   - navigation
   - toc
-title: Защита источников
+title: "Ochrona źródeł — Belarus Transparency"
 ---
 
-<div class="bt-legal" markdown="1">
+<div class="bt-legal">
+<div class="bt-legal-kicker">Etyka projektu</div>
+<h1 class="bt-legal-title">Ochrona źródeł</h1>
+<p class="bt-legal-meta">Wersja 2.0 · obowiązuje od 15 maja 2026 roku</p>
+<div class="bt-legal-prose" markdown>
 
-<div class="bt-legal-kicker">Этика проекта</div>
-<h1 class="bt-legal-title">Защита источников</h1>
-<p class="bt-legal-meta">Версия 2.0 · действует с 15 мая 2026 года</p>
+## Jeżeli trafiłeś tu z otwartego śledztwa { #open-investigations }
 
-<div class="bt-legal-prose" markdown="1">
+Karta, z której przeszedłeś, dotyczy śledztwa, w sprawie którego zbieramy materiały. Mamy fakty, ale brakuje nam dokumentów potwierdzających lub świadectw.
 
-## Если вы пришли сюда с открытого расследования { #open-investigations }
+Jeżeli masz informacje — dokumenty, sprawozdania finansowe, korespondencję, obserwacje od wewnątrz organizacji — chętnie je otrzymamy. Sposoby kontaktu, gwarancje poufności i techniczna strona ochrony Twoich danych — niżej na tej stronie.
 
-Карточка, с которой вы перешли, — это расследование, по которому мы собираем материалы. У нас есть фактура, но не хватает подтверждающих документов или свидетельств.
+[Przejdź do sposobów kontaktu →](#contact)
 
-Если у вас есть информация — документы, балансовые отчёты, переписка, наблюдения изнутри организации, — мы будем рады её получить. Способы связи, гарантии конфиденциальности и техническая сторона защиты ваших данных — ниже на этой странице.
+Ta strona jest dla tych, którzy rozważają możliwość przekazania nam informacji o naruszeniu prawa przez struktury białoruskiej opozycji na emigracji. Najczęściej przychodzą do nas ludzie, którzy sami pracowali w tych strukturach, widzieli od wewnątrz decyzje finansowe i kadrowe, a teraz zastanawiają się — czy warto o tym opowiadać. Tutaj uczciwie napisano, czego realnie się obawiasz, co możemy zrobić i gdzie są granice naszych zobowiązań.
 
-[Перейти к способам связи →](#contact)
+Jesteśmy głęboko przekonani, że wartości demokratyczne, a także normy prawne demokratycznych krajów, które nas przyjęły, są obowiązujące dla wszystkich.
 
-Эта страница для тех, кто рассматривает возможность передать нам информацию о нарушении законодательства со стороны структур беларуской оппозиции в эмиграции. Чаще всего к нам приходят люди, которые сами работали в этих структурах, видели изнутри финансовые и кадровые решения, и теперь думают - стоит ли об этом рассказывать. Здесь честно написано, чего вы реально опасаетесь, что мы можем сделать, и где границы наших обязательств.
-Мы твердо убеждены, что демократические ценности, а также нормы законодательства принявших нас демократических стран обязательны для всех.
-Важно помнить, что режим лукашенко возник только потому, что многим из нас долгое время было все равно, что "иногда не до законов".
+Ważne jest pamiętać, że reżim łukaszenki powstał tylko dlatego, że wielu z nas przez długi czas było obojętnych wobec tego, że „czasem nie do prawa".
 
-## Кто наша аудитория
+## Kim jest nasza grupa odbiorców
 
-Мы понимаем, что значительная часть людей, у которых есть для нас релевантная информация, — это бывшие или действующие сотрудники, подрядчики, грантополучатели, волонтёры структур, о которых мы пишем. У вас другие риски, чем у диссидента, передающего материал из-под режима. Мы видим как минимум четыре типа опасений, и работаем с каждым.
+Rozumiemy, że znaczna część ludzi, którzy mają dla nas istotne informacje, to byli lub urzędujący pracownicy, podwykonawcy, beneficjenci grantów, wolontariusze struktur, o których piszemy. Macie inne ryzyka niż dysydent przekazujący materiał spod reżimu. Widzimy co najmniej cztery typy obaw i pracujemy z każdą z nich.
 
-**Первый — личная причастность.** Вы могли быть участником процессов, о которых хотите рассказать: подписывать документы, распределять средства, нанимать людей по знакомству, закрывать глаза на отсутствие отчётности. Открытое обращение к нам — это, кроме всего прочего, вопрос о вашей собственной правовой позиции.
+**Pierwszy — osobiste zaangażowanie.** Mogłeś być uczestnikiem procesów, o których chcesz opowiedzieć: podpisywać dokumenty, rozdzielać środki, zatrudniać ludzi po znajomości, przymykać oczy na brak sprawozdawczości. Otwarty kontakt z nami — to, między innymi, pytanie o Twoją własną pozycję prawną.
 
-**Второй — соглашение о неразглашении (NDA).** Многие из тех, кто работал с Офисом Светланы Тихановской и связанными структурами, подписывали NDA. В нём, как правило, прописаны денежные санкции за раскрытие внутренней информации.
+**Drugi — umowa o poufności (NDA).** Wielu z tych, którzy pracowali z Biurem Swiatłany Cichanouskiej i powiązanymi strukturami, podpisywało NDA. Zazwyczaj zapisane są w nim sankcje pieniężne za ujawnienie informacji wewnętrznej.
 
-**Третий — нелегитимное давление со стороны самой оппозиции.** За последние годы зафиксированы случаи, когда Офис и связанные структуры обращались в правоохранительные и миграционные органы стран пребывания с жалобами, содержащими заведомо ложные или не подкреплённые доказательствами утверждения — в отношении бывших сотрудников, журналистов, конкурентов. Цель — добиться проблем с легализацией, депортации, давления через органы. Это реальный риск, который надо называть прямо.
+**Trzeci — nielegalna presja ze strony samej opozycji.** W ostatnich latach odnotowano przypadki, w których Biuro i powiązane struktury zwracały się do organów ścigania i organów migracyjnych krajów pobytu ze skargami zawierającymi świadomie nieprawdziwe lub nieudokumentowane twierdzenia — w stosunku do byłych pracowników, dziennikarzy, konkurentów. Cel — doprowadzić do problemów z legalizacją, deportacji, presji przez organy. To realne ryzyko, które trzeba nazwać wprost.
 
-**Четвёртый — привычный, иногда иррациональный страх.** Часть беларусов в эмиграции продолжает действовать так, как привыкла действовать в режиме слежки и репрессий. Этот рефлекс понятен, и его не нужно стыдиться. Но в эмиграции структура рисков другая, и часть страхов не соответствует реальности.
+**Czwarty — nawykowy, czasem irracjonalny strach.** Część Białorusinów na emigracji nadal działa tak, jak przywykła działać w reżimie inwigilacji i represji. Ten odruch jest zrozumiały i nie ma się czego wstydzić. Ale na emigracji struktura ryzyk jest inna i część strachów nie odpowiada rzeczywistości.
 
-## Что мы делаем для защиты источника
+## Co robimy dla ochrony źródła
 
-**Конфиденциальность личности — абсолютна.** Имя, контакты, должность, обстоятельства передачи материалов и любые сведения, по которым источник может быть идентифицирован, не разглашаются ни при каких обстоятельствах. Единственное исключение — если источник сам публично заявит о своей роли.
+**Poufność tożsamości jest absolutna.** Imię, kontakty, stanowisko, okoliczności przekazania materiałów i wszelkie dane, po których źródło można zidentyfikować, nie są ujawniane pod żadnym warunkiem. Jedyny wyjątek — jeżeli źródło samo publicznie ujawni swoją rolę.
 
-**Метаданные мы вычищаем.** Перед публикацией любого документа удаляются метаданные (EXIF в изображениях, авторство в Office-файлах, серверные заголовки писем), которые могли бы навести на источник. Скриншоты переснимаются, чтобы не было артефактов рендеринга, привязанных к конкретному устройству.
+**Metadane usuwamy.** Przed publikacją dowolnego dokumentu usuwane są metadane (EXIF w obrazach, autorstwo w plikach Office, nagłówki serwerowe maili), które mogłyby naprowadzić na źródło. Zrzuty ekranu są ponownie wykonywane, by nie było artefaktów renderowania powiązanych z konkretnym urządzeniem.
 
-**Подача с задержкой и расширение круга.** Если из контекста публикации можно установить, что информация могла попасть к нам только из небольшого круга лиц, мы откладываем материал, меняем его подачу, или комбинируем сведения из нескольких источников так, чтобы круг возможных источников был расширен.
+**Opóźnione opublikowanie i poszerzenie kręgu.** Jeżeli z kontekstu publikacji można ustalić, że informacja mogła dotrzeć do nas tylko od wąskiego kręgu osób, odkładamy materiał, zmieniamy formę podania lub łączymy dane z kilku źródeł tak, aby krąg możliwych źródeł był poszerzony.
 
-**Хранение.** Файлы хранятся в защищённом контуре редакции. Не дублируются в незащищённых местах, не пересылаются открытыми каналами, не упоминаются в чатах третьих лиц.
+**Przechowywanie.** Pliki przechowywane są w chronionym obwodzie redakcji. Nie są duplikowane w niezabezpieczonych miejscach, nie są przesyłane otwartymi kanałami, nie są wymieniane w czatach osób trzecich.
 
-**Мы не торгуем информацией.** Полученные материалы не передаются третьим лицам — ни другим журналистам, ни правозащитным организациям, ни государственным органам — без явного согласия источника. Если источник хочет, чтобы материал также попал в правоохранительные органы — это решение источника. Мы можем помочь с маршрутом, но не делаем этого за него.
+**Nie handlujemy informacją.** Otrzymane materiały nie są przekazywane osobom trzecim — ani innym dziennikarzom, ani organizacjom obrony praw człowieka, ani organom państwowym — bez wyraźnej zgody źródła. Jeżeli źródło chce, aby materiał trafił także do organów ścigania — to decyzja źródła. Możemy pomóc z drogą, ale nie robimy tego za nie.
 
-## Юридическая помощь
+## Pomoc prawna
 
-Это твёрдое обещание проекта, а не оговорка. Если в результате обращения к нам у вас возникает юридическая проблема — связанная с NDA, с угрозой иска, с попыткой использовать против вас правоохранительные или миграционные органы — мы помогаем найти юриста, разбирающегося в применимой юрисдикции (Польша, Литва, ЕС), и берём на себя поиск, координацию и, при необходимости, оплату первичной консультации.
+To twarde zobowiązanie projektu, a nie zastrzeżenie. Jeżeli w wyniku kontaktu z nami pojawia się u Ciebie problem prawny — związany z NDA, z groźbą pozwu, z próbą wykorzystania przeciwko Tobie organów ścigania lub migracyjnych — pomagamy znaleźć prawnika znającego właściwą jurysdykcję (Polska, Litwa, UE) i bierzemy na siebie wyszukiwanie, koordynację i, w razie potrzeby, opłatę za pierwszą konsultację.
 
-Эта помощь не зависит от того, выйдет ли публикация на основе ваших материалов. Если по итогам разговора мы решили не публиковать — обязательство по юридической поддержке сохраняется.
+Ta pomoc nie zależy od tego, czy ukaże się publikacja na podstawie Twoich materiałów. Jeżeli po rozmowie zdecydujemy o niepublikowaniu — zobowiązanie do wsparcia prawnego zostaje w mocy.
 
-## Про NDA — что важно знать
+## O NDA — co warto wiedzieć { #nda }
 
-Соглашение о неразглашении (NDA) — это гражданско-правовой договор между сторонами. Его ограничения не безусловны. В большинстве европейских юрисдикций (включая Польшу и Литву) действует принцип: **NDA не подлежит исполнению в части, которая касается информации о нарушении закона держателем NDA**.
+Umowa o poufności (NDA) to umowa cywilnoprawna między stronami. Jej ograniczenia nie są bezwarunkowe. W większości jurysdykcji europejskich (włącznie z Polską i Litwą) obowiązuje zasada: **NDA nie podlega wykonaniu w części dotyczącej informacji o naruszeniu prawa przez podmiot zobowiązany NDA**.
 
-На практике это означает: если вы подписали NDA с организацией, и эта организация совершает действия, которые с высокой вероятностью являются нарушением закона страны регистрации (нецелевое расходование грантовых средств, налоговые нарушения, мошенничество, фальсификация отчётности донорам), — соглашение не запрещает вам сообщить об этих нарушениях третьим сторонам, включая журналистов и контролирующие органы. Попытка применить штрафные санкции по NDA в такой ситуации с высокой вероятностью будет отклонена судом.
+W praktyce oznacza to: jeżeli podpisałeś NDA z organizacją, a ta organizacja podejmuje działania, które z dużym prawdopodobieństwem stanowią naruszenie prawa kraju rejestracji (niezgodne z przeznaczeniem wydatkowanie środków grantowych, naruszenia podatkowe, oszustwo, fałszowanie sprawozdań dla darczyńców), — umowa nie zakazuje Ci powiadomić o tych naruszeniach osób trzecich, w tym dziennikarzy i organów kontrolnych. Próba zastosowania sankcji karnych z NDA w takiej sytuacji z dużym prawdopodobieństwem zostanie odrzucona przez sąd.
 
-Это не юридическая консультация по вашему конкретному случаю — для неё нужен юрист, читающий ваш конкретный договор. Но это общий принцип, который стоит учитывать, оценивая риск. В случае реальной угрозы иска по NDA — см. пункт выше про юридическую помощь.
+To nie jest porada prawna dla Twojego konkretnego przypadku — do niej potrzebny jest prawnik czytający Twoją konkretną umowę. Ale to ogólna zasada, którą warto uwzględnić, oceniając ryzyko. W razie realnej groźby pozwu z NDA — zobacz punkt wyżej o pomocy prawnej.
 
-## Про личную причастность
+## O osobistym zaangażowaniu
 
-Если вы были участником процессов, о которых хотите рассказать, — это не закрывает для вас возможность обращения к нам, но требует более тщательной проработки. Мы:
+Jeżeli byłeś uczestnikiem procesów, o których chcesz opowiedzieć — to nie zamyka dla Ciebie możliwości kontaktu z nami, ale wymaga staranniejszego przepracowania. My:
 
-- Не публикуем сведения о вашей роли без вашего согласия. Решение о том, как ваша личная роль будет (или не будет) отражена в материале, остаётся за вами
-- При необходимости отделяем фактическую информацию о работе структуры от вопросов вашей личной правовой позиции — материал может быть построен так, чтобы вашей роли не быть в фокусе
-- Если по итогам разговора вы решите не передавать материал — мы не используем сказанное ранее в каких-либо публикациях
+- Nie publikujemy informacji o Twojej roli bez Twojej zgody. Decyzja o tym, jak Twoja osobista rola będzie (lub nie będzie) odzwierciedlona w materiale, pozostaje przy Tobie
+- W razie potrzeby oddzielamy faktyczną informację o pracy struktury od kwestii Twojej osobistej pozycji prawnej — materiał może być zbudowany tak, by Twoja rola nie była w centrum
+- Jeżeli po rozmowie zdecydujesz o nieprzekazywaniu materiału — nie wykorzystujemy wcześniej powiedzianego w żadnych publikacjach
 
-Это не оборона нарушений и не «отмазка для жуликов». Если у вас были собственные действия, которые могут быть квалифицированы как преступление, — для адекватной оценки ваших рисков и стратегии нужна работа с юристом, и мы можем помочь его найти.
+To nie jest obrona naruszeń ani „wymówka dla oszustów". Jeżeli miałeś własne działania, które mogą być zakwalifikowane jako przestępstwo — do adekwatnej oceny Twoich ryzyk i strategii potrzebna jest praca z prawnikiem, a my możemy pomóc go znaleźć.
 
-## Про ложные обращения в органы
+## O fałszywych zawiadomieniach do organów
 
-Если в связи с вашим обращением к нам кто-либо из структур, о которых мы пишем, подаст жалобу в правоохранительные или миграционные органы страны вашего пребывания с заведомо ложными или не подкреплёнными утверждениями — мы реагируем публично и юридически. Это включает:
+Jeżeli w związku z Twoim kontaktem z nami ktokolwiek ze struktur, o których piszemy, złoży skargę do organów ścigania lub migracyjnych kraju Twojego pobytu z świadomie nieprawdziwymi lub nieudokumentowanymi twierdzeniami — reagujemy publicznie i prawnie. To obejmuje:
 
-- Публикацию факта подачи и текста жалобы (с защитой ваших данных)
-- Помощь с юридической защитой по той же логике, что описана выше
-- Эскалацию в международные журналистские организации (RSF, CPJ, IPI) в случаях, когда давление имеет признаки преследования по журналистскому признаку
+- Publikację faktu złożenia oraz tekstu skargi (z ochroną Twoich danych)
+- Pomoc w obronie prawnej na tej samej zasadzie, jak opisano wyżej
+- Eskalację do międzynarodowych organizacji dziennikarskich (RSF, CPJ, IPI) w przypadkach, gdy presja ma cechy prześladowania o charakterze dziennikarskim
 
-## Чего мы не можем
+## Czego nie możemy
 
-**Мы не можем защитить от следов на вашей стороне.** Если вы пишете нам с рабочей почты, с устройства, к которому у работодателя есть доступ, или из сети, которую видит ваш работодатель, — следы остаются у вас, не у нас. Используйте личный адрес и устройство.
+**Nie możemy zabezpieczyć przed śladami po Twojej stronie.** Jeżeli piszesz do nas z poczty służbowej, z urządzenia, do którego pracodawca ma dostęp, lub z sieci, którą widzi Twój pracodawca — ślady pozostają u Ciebie, nie u nas. Używaj prywatnego adresu i urządzenia.
 
-**Мы не можем юридически отказаться давать показания.** Польское и литовское законодательство о защите журналистских источников сильнее, чем в большинстве стран, но абсолютной защиты не существует ни в одной юрисдикции. Если речь идёт об особо чувствительных материалах — лучше передать их так, чтобы мы сами не знали вашего имени. Способ описан ниже.
+**Nie możemy prawnie odmówić zeznań.** Polskie i litewskie ustawodawstwo o ochronie źródeł dziennikarskich jest silniejsze niż w większości krajów, ale absolutnej ochrony nie ma w żadnej jurysdykcji. Jeżeli chodzi o szczególnie wrażliwe materiały — lepiej przekazać je tak, żebyśmy sami nie znali Twojego imienia. Sposób opisany jest niżej.
 
-**Мы не работаем со всеми материалами подряд.** Если материал не относится к теме проекта (внутренние дрязги, личные конфликты без публичного измерения, сведения о частной жизни без связи с деятельностью структур) — мы вежливо откажемся.
+**Nie pracujemy ze wszystkimi materiałami pod rząd.** Jeżeli materiał nie odnosi się do tematu projektu (wewnętrzne sprzeczki, osobiste konflikty bez wymiaru publicznego, dane o życiu prywatnym bez związku z działalnością struktur) — uprzejmie odmawiamy.
 
-## Как с нами связаться { #contact }
+## Jak się z nami skontaktować { #contact }
 
-**Основной канал:** transparency.belarus@gmail.com
+**Główny kanał:** transparency.belarus@gmail.com
 
-Ящик защищён двухфакторной аутентификацией; пароль и ключ хранятся только у редакции и нигде не записаны в открытом виде. Этот канал подходит для большинства обращений: общих вопросов, обсуждения тем, передачи документов из публичных источников, передачи внутренней информации, замечаний к опубликованным материалам.
+Skrzynka chroniona jest uwierzytelnianiem dwuskładnikowym; hasło i klucz przechowywane są wyłącznie u redakcji i nigdzie nie są zapisane w jawnej postaci. Ten kanał nadaje się do większości zgłoszeń: ogólnych pytań, omawiania tematów, przekazywania dokumentów ze źródeł publicznych, przekazywania informacji wewnętrznych, uwag do opublikowanych materiałów.
 
-**Если хотите передать материал, не раскрывая имя даже нам:** напишите короткое сообщение «есть материал, прошу контакт без раскрытия личности». Мы объясним маршрут, как это сделать технически (одноразовые ящики, временные хранилища, передача через посредника).
+**Jeżeli chcesz przekazać materiał bez ujawniania imienia nawet nam:** napisz krótką wiadomość „mam materiał, proszę o kontakt bez ujawniania tożsamości". Wyjaśnimy drogę, jak to zrobić technicznie (jednorazowe skrzynki, tymczasowe repozytoria, przekazanie przez pośrednika).
 
-**Анонимная передача документов.** Создайте новый email на ProtonMail (бесплатно, не привязан к телефону) с одноразового устройства или через VPN, загрузите файлы на временное хранилище (OnionShare, аналоги Firefox Send), пришлите ссылку. Мы скачиваем — линк уничтожается. Имя нам в этом случае не нужно и не должно быть указано.
+**Anonimowe przekazanie dokumentów.** Załóż nowy email na ProtonMail (bezpłatnie, niepowiązany z telefonem) z jednorazowego urządzenia lub przez VPN, załaduj pliki do tymczasowego repozytorium (OnionShare, analogi Firefox Send), prześlij link. Pobieramy — link jest niszczony. Imię nie jest nam w tym przypadku potrzebne i nie powinno być podawane.
 
-## Что не нужно делать
+## Czego nie należy robić
 
-- Не пишите нам с рабочего устройства или из рабочей сети
-- Не присылайте скриншоты, на которых видна ваша операционная система с открытыми вкладками, временем, заголовками окон
-- Не указывайте имя в письме, если вам важна анонимность — мы сами не будем выводить ваше имя «по умолчанию», и тут лишний риск ни к чему
-- Не повторяйте отправку через несколько каналов «на всякий случай» — это размножает следы
-- Не отправляйте материалы, которые вы могли получить с грубым нарушением закона (взлом чужих устройств, незаконный доступ к чужой переписке) — мы такое не используем
+- Nie pisz do nas ze służbowego urządzenia ani z sieci służbowej
+- Nie przysyłaj zrzutów ekranu, na których widać Twój system operacyjny z otwartymi kartami, godziną, tytułami okien
+- Nie podawaj imienia w wiadomości, jeśli zależy Ci na anonimowości — sami nie będziemy wyciągać Twojego imienia „domyślnie", a tutaj zbędne ryzyko jest niepotrzebne
+- Nie powielaj wysyłki przez kilka kanałów „na wszelki wypadek" — to mnoży ślady
+- Nie wysyłaj materiałów, które mogłeś uzyskać z rażącym naruszeniem prawa (włamanie do cudzych urządzeń, nielegalny dostęp do cudzej korespondencji) — takich nie używamy
 
-## После передачи материала
+## Po przekazaniu materiału
 
-Если на основании ваших материалов готовится публикация — мы заранее сообщаем дату и форму подачи, согласовываем формулировки, касающиеся вас лично (если ваша роль вообще упоминается), учитываем ваши соображения по таймингу.
+Jeżeli na podstawie Twoich materiałów przygotowywana jest publikacja — z wyprzedzeniem informujemy o dacie i formie podania, uzgadniamy sformułowania dotyczące Ciebie osobiście (jeżeli Twoja rola jest w ogóle wspominana), uwzględniamy Twoje uwagi co do timingu.
 
-Если публикации не будет — мы тоже об этом сообщаем, с объяснением причины (не удалось верифицировать, есть риск для источника, информация уже опубликована другими, тема не подходит проекту).
+Jeżeli publikacji nie będzie — również o tym informujemy, z wyjaśnieniem przyczyny (nie udało się zweryfikować, jest ryzyko dla źródła, informacja została już opublikowana przez innych, temat nie pasuje do projektu).
 
-## О проекте
+## O projekcie
 
-Belarus Transparency — независимый исследовательский проект. Наша рамка — научно-исследовательская и просветительская работа в правовом поле ЕС и США.
+Belarus Transparency — niezależny projekt badawczy. Nasze ramy to praca badawczo-naukowa i edukacyjna w polu prawnym UE i USA.
 
-Мы исходим из того, что демократические ценности — подотчётность власти обществу, сменяемость лидеров, организационная и финансовая прозрачность, соблюдение законов страны пребывания — не могут быть предметом торговли «сейчас не до этого». Для тех, кто претендует на роль демократических политиков, эти стандарты должны выполняться неуклонно. Иначе слово «оппозиция» теряет смысл.
+Wychodzimy z założenia, że wartości demokratyczne — rozliczalność władzy przed społeczeństwem, wymienialność liderów, organizacyjna i finansowa jawność, przestrzeganie prawa kraju pobytu — nie mogą być przedmiotem targu „teraz nie do tego". Dla tych, którzy pretendują do roli demokratycznych polityków, te standardy muszą być spełniane niezachwianie. Inaczej słowo „opozycja" traci sens.
 
-Этим объясняется и наш интерес к структурам беларуской оппозиции в эмиграции. Если организация декларирует, что строит «новую Беларусь» демократической, но при этом сама непрозрачна в финансах, не отчитывается перед обществом, не допускает сменяемости в собственных рядах, использует пробелы в законодательстве принимающих стран вместо того чтобы их соблюдать, организует травлю инакомыслящих — это противоречие нужно фиксировать и оценивать. 
+Tym tłumaczy się też nasze zainteresowanie strukturami białoruskiej opozycji na emigracji. Jeżeli organizacja deklaruje, że buduje „nową Białoruś" demokratyczną, lecz sama jest nieprzejrzysta w finansach, nie odpowiada przed społeczeństwem, nie dopuszcza wymienialności we własnych szeregach, wykorzystuje luki w prawie krajów przyjmujących zamiast je przestrzegać, organizuje nagonkę na inaczej myślących — tę sprzeczność trzeba odnotowywać i oceniać.
 
-Это не позиция против номинальной оппозиции; это позиция за то, чтобы оппозиция была тем, чем она себя называет.
+To nie jest stanowisko przeciwko nominalnej opozycji; to stanowisko za tym, by opozycja była tym, czym sama siebie nazywa.
 
 </div>
-
 </div>

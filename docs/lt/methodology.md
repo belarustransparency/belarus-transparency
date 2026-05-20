@@ -2,98 +2,98 @@
 hide:
   - navigation
   - toc
-title: Методология
+title: Metodologija
 ---
 
-<div class="bt-legal" markdown="1">
+<div class="bt-legal" markdown>
 
-<div class="bt-legal-kicker">Этика проекта</div>
-<h1 class="bt-legal-title">Методология</h1>
-<p class="bt-legal-meta">Версия 1.1 · действует с 15 мая 2026 года</p>
+<div class="bt-legal-kicker">Projekto etika</div>
+<h1 class="bt-legal-title">Metodologija</h1>
+<p class="bt-legal-meta">1.1 versija · galioja nuo 2026 m. gegužės 15 d.</p>
 
-<div class="bt-legal-prose" markdown="1">
+<div class="bt-legal-prose" markdown>
 
-Эта страница описывает, как проект работает с информацией: как проверяет, как ранжирует степень доказанности, как отличает факт от свидетельства, как реагирует на ошибки.
+Šis puslapis aprašo, kaip projektas dirba su informacija: kaip ją tikrina, kaip reitinguoja įrodomumo laipsnį, kaip atskiria faktą nuo liudijimo, kaip reaguoja į klaidas.
 
-## Уровни доказанности
+## Įrodomumo lygiai
 
-Каждое утверждение в наших публикациях соответствует одному из четырёх уровней. Уровень указывается явно в материалах, где есть смешение фактов разной степени подтверждённости.
+Kiekvienas teiginys mūsų publikacijose atitinka vieną iš keturių lygių. Lygis nurodomas atvirai medžiagose, kuriose susimaišo skirtingo patvirtinimo laipsnio faktai.
 
-**Уровень 1 — документ.** Утверждение подтверждено первичным документом, который мы видели и сохранили в архив: официальная публикация, финансовый отчёт, реестровая выписка, скриншот публичного поста, видеозапись выступления. Это самые сильные утверждения. Источник всегда указан со ссылкой на карточку в нашем [архиве](../archive/).
+**1 lygis — dokumentas.** Teiginį patvirtina pirminis dokumentas, kurį matėme ir išsaugojome archyve: oficiali publikacija, finansinė ataskaita, registro išrašas, viešo įrašo ekrano nuotrauka, kalbos vaizdo įrašas. Tai stipriausi teiginiai. Šaltinis visada nurodomas su nuoroda į kortelę mūsų [archyve](../archive/).
 
-**Уровень 2 — публичные данные из независимых источников.** Утверждение опирается на публикации других журналистов или организаций, при наличии нескольких независимых источников. Здесь мы доверяем чужой верификации, но проверяем согласованность: если одно издание утверждает одно, а другое — противоположное, мы это явно отмечаем.
+**2 lygis — vieši duomenys iš nepriklausomų šaltinių.** Teiginys remiasi kitų žurnalistų ar organizacijų publikacijomis, esant keliems nepriklausomiems šaltiniams. Čia pasitikime kito atlikta patikra, bet tikriname suderinamumą: jei vienas leidinys teigia viena, kitas — priešingai, tai atvirai pažymime.
 
-**Уровень 3 — свидетельство источника.** Информация получена от источника, чью идентичность мы не раскрываем. Подаётся явно: «по информации источника, знакомого с ситуацией», «по словам бывшего сотрудника», «согласно сведениям, переданным нам». Это не выдаётся за подтверждённый факт. Если у нас есть один такой источник — мы либо ищем подтверждение из второй независимой точки, либо публикуем материал с явным указанием на одиночное свидетельство.
+**3 lygis — šaltinio liudijimas.** Informacija gauta iš šaltinio, kurio tapatybės neatskleidžiame. Pristatoma atvirai: „pagal su situacija susipažinusio šaltinio informaciją", „buvusio darbuotojo žodžiais", „pagal mums perduotus duomenis". Tai neperteikiama kaip patvirtintas faktas. Jei turime vieną tokį šaltinį — arba ieškome patvirtinimo iš antrojo nepriklausomo taško, arba publikuojame medžiagą su atviru nurodymu apie pavienį liudijimą.
 
-**Уровень 4 — реконструкция.** Это наша логическая интерпретация имеющихся фактов. Например: «учитывая, что бюджет составил X, а отчёт публикует только Y, есть основания предполагать Z». Здесь явно используются глаголы предположения («предположительно», «есть основания полагать», «вероятно»). Утверждения уровня 4 могут оказаться неверными, и мы готовы вносить правки при появлении опровергающих фактов.
+**4 lygis — rekonstrukcija.** Tai mūsų loginė turimų faktų interpretacija. Pavyzdžiui: „atsižvelgiant į tai, kad biudžetas buvo X, o ataskaitoje skelbiama tik Y, yra pagrindo manyti, kad Z". Čia atvirai naudojami prielaidos veiksmažodžiai („greičiausiai", „yra pagrindo manyti", „tikėtina"). 4 lygio teiginiai gali pasirodyti klaidingi, ir esame pasirengę įvesti pataisas, atsiradus paneigiamiems faktams.
 
-## Особый случай — внутренняя информация от инсайдеров
+## Ypatingas atvejis — vidaus informacija iš insaiderių
 
-Часть структур, о которых мы пишем, скрывает свою финансовую деятельность от публики. В открытый доступ не попадают банковские выписки, переводы между счетами, контракты, реальные расходы по грантам, внутренняя переписка о кадровых решениях. Часть такой информации становится известна через людей, которые сами работали или работают в этих структурах. Это, как правило, бывшие или действующие сотрудники, подрядчики, грантополучатели, волонтёры. О том, какие у них реальные риски и что мы для них делаем, написано на странице [Защита источников](../source-protection/).
+Dalis struktūrų, apie kurias rašome, slepia savo finansinę veiklą nuo visuomenės. Į viešumą nepatenka banko išrašai, pavedimai tarp sąskaitų, sutartys, faktinės dotacijų išlaidos, vidinis susirašinėjimas dėl personalo sprendimų. Dalis tokios informacijos tampa žinoma per žmones, kurie patys dirbo ar dirba šiose struktūrose. Tai paprastai buvę ar dabartiniai darbuotojai, rangovai, dotacijų gavėjai, savanoriai. Apie tai, kokios yra jų realios rizikos ir ką mes jiems darome, parašyta puslapyje [Šaltinių apsauga](../source-protection/).
 
-Эта страница — о том, как мы работаем с такой информацией в самой публикации.
+Šis puslapis — apie tai, kaip dirbame su tokia informacija pačioje publikacijoje.
 
-**Маркировка уровня.** Большинство сведений от инсайдеров публикуются с маркировкой **Уровень 3** (свидетельство источника): «по информации источника, знакомого с финансовой работой организации…», «по словам бывшего сотрудника…». Это не выдаётся за окончательный факт.
+**Lygio žymėjimas.** Dauguma duomenų iš insaiderių skelbiama su žymėjimu **3 lygis** (šaltinio liudijimas): „pagal su organizacijos finansiniu darbu susipažinusio šaltinio informaciją…", „buvusio darbuotojo žodžiais…". Tai neperteikiama kaip galutinis faktas.
 
-**Подтверждение из второй точки.** По возможности мы ищем подтверждение из второй независимой точки — публичных реестров, документов другого источника, упоминаний в публикациях. Если такое подтверждение найдено, утверждение может быть переквалифицировано в Уровень 1 или 2 с явной отсылкой к подтверждающему источнику.
+**Patvirtinimas iš antrojo taško.** Pagal galimybes ieškome patvirtinimo iš antrojo nepriklausomo taško — viešųjų registrų, kito šaltinio dokumentų, paminėjimų publikacijose. Jei toks patvirtinimas randamas, teiginys gali būti perkvalifikuotas į 1 ar 2 lygį su atvira nuoroda į patvirtinantį šaltinį.
 
-**Округление чисел и обобщение.** Точные цифры, которые могли бы навести на источник (например, конкретная сумма зарплаты или перевода, известная очень ограниченному кругу лиц), округляются или заменяются на порядок величины: «порядка миллиона», а не «1 273 458 PLN». Это решение принимается совместно с источником.
+**Skaičių apvalinimas ir apibendrinimas.** Tikslūs skaičiai, galintys atvesti prie šaltinio (pavyzdžiui, konkreti atlyginimo ar pavedimo suma, žinoma labai siauram asmenų ratui), apvalinami arba pakeičiami dydžio eilė: „apie milijoną", o ne „1 273 458 PLN". Šis sprendimas priimamas kartu su šaltiniu.
 
-**Запрос на комментарий.** К фигуранту, чьи действия описываются, направляется запрос на комментарий с конкретными вопросами (см. раздел ниже). Если фигурант предоставит документы, подтверждающие или опровергающие наши сведения, — это отражается в публикации.
+**Prašymas komentaro.** Asmeniui, kurio veiksmai aprašomi, siunčiamas prašymas komentaro su konkrečiais klausimais (žr. skyrių žemiau). Jei asmuo pateiks dokumentus, patvirtinančius ar paneigiančius mūsų duomenis, — tai atsispindi publikacijoje.
 
-**Тематический фильтр.** Мы публикуем сведения, относящиеся к публичной деятельности структуры: распределение грантовых средств, кадровые решения, выполнение или невыполнение задекларированных обязательств, представительские расходы, аффилированность с третьими лицами. Сведения о частной жизни, личных отношениях, медицинских или семейных обстоятельствах фигурантов мы не публикуем, даже если они известны источнику.
+**Teminis filtras.** Skelbiame informaciją, susijusią su viešu struktūros veikimu: dotacijų lėšų paskirstymu, personalo sprendimais, deklaruotų įsipareigojimų vykdymu ar nevykdymu, reprezentacinėmis išlaidomis, ryšiais su trečiaisiais asmenimis. Informacijos apie privatų gyvenimą, asmeninius santykius, medicinines ar šeimos aplinkybes minimų asmenų neskelbiame, net jei šaltiniui jos žinomos.
 
-Мы не выдаём такие сведения за окончательно установленные факты, но и не игнорируем их. Журналистская функция здесь — зафиксировать, что у независимых наблюдателей есть основания задавать вопросы.
+Tokios informacijos nelaikome galutinai nustatytais faktais, bet ir jos neignoruojame. Žurnalistinė funkcija čia — fiksuoti, kad nepriklausomi stebėtojai turi pagrindo užduoti klausimus.
 
-## Запрос на комментарий
+## Prašymas komentaro
 
-Перед публикацией материала, содержащего критические утверждения о **конкретном физическом лице**, мы направляем этому лицу запрос на комментарий. Это стандартная журналистская практика. Запрос содержит:
+Prieš publikuodami medžiagą, turinčią kritiškų teiginių apie **konkretų fizinį asmenį**, siunčiame šiam asmeniui prašymą komentaro. Tai standartinė žurnalistinė praktika. Prašyme yra:
 
-- Краткое описание готовящегося материала
-- Список конкретных утверждений, которые касаются адресата
-- Срок для ответа (обычно 5–7 рабочих дней)
-- Контакт для ответа
+- Trumpas rengiamos medžiagos aprašymas
+- Konkrečių adresatui taikomų teiginių sąrašas
+- Atsakymo terminas (paprastai 5–7 darbo dienos)
+- Atsakymo kontaktas
 
-Если ответ получен — он встраивается в публикацию.
-Если ответа не получено в срок — публикация выходит с пометкой «направлен запрос, на момент публикации ответа не получено».
-Если ответ приходит после публикации — добавляется апдейт с позицией фигуранта.
+Jei atsakymas gautas — jis integruojamas į publikaciją.
+Jei atsakymas laiku negautas — publikacija išeina su žyma „prašymas išsiųstas, publikacijos metu atsakymas negautas".
+Jei atsakymas ateina po publikacijos — pridedamas papildymas su asmens pozicija.
 
-Запрос на комментарий **не обязателен** в следующих случаях: критика касается структуры или коллективного решения, а не личного действия; материал основан целиком на публичных документах и публичных заявлениях самого фигуранта; речь идёт об отказе предоставить публичный отчёт, который уже многократно запрашивался публично.
+Prašymas komentaro **neprivalomas** šiais atvejais: kritika susijusi su struktūra ar kolektyviniu sprendimu, o ne asmeniniu veiksmu; medžiaga visiškai pagrįsta viešais dokumentais ir paties asmens viešais pareiškimais; kalbama apie atsisakymą pateikti viešąją ataskaitą, kurios jau ne kartą viešai reikalauta.
 
-## Что делает материал готовым к публикации
+## Kas daro medžiagą paruošta publikacijai
 
-Минимальный чек-лист, по которому мы проверяем материал перед выпуском:
+Minimalus kontrolinis sąrašas, pagal kurį tikriname medžiagą prieš išleidimą:
 
-1. У каждого утверждения уровня 1–2 есть ссылка на источник в архиве или на внешний материал
-2. Утверждения уровня 3 явно подписаны как свидетельства источника
-3. Утверждения уровня 4 явно маркированы как реконструкция или предположение
-4. Все упомянутые лица и организации, имеющие карточки на сайте, прилинкованы; новые карточки заведены если их не было
-5. Запрос на комментарий направлен (если применимо) и срок ответа истёк или ответ получен
-6. Метаданные первичных документов вычищены, если есть риск для источника
-7. Двусторонние связи в архиве и карточках обновлены (см. [правила архива](../archive/))
+1. Kiekvienas 1–2 lygio teiginys turi nuorodą į šaltinį archyve arba į išorinę medžiagą
+2. 3 lygio teiginiai atvirai įvardyti kaip šaltinio liudijimai
+3. 4 lygio teiginiai atvirai pažymėti kaip rekonstrukcija ar prielaida
+4. Visi paminėti asmenys ir organizacijos, turintys korteles svetainėje, sulinkuoti; naujos kortelės sukurtos, jei jų nebuvo
+5. Prašymas komentaro išsiųstas (jei taikytina) ir atsakymo terminas pasibaigė arba atsakymas gautas
+6. Pirminių dokumentų metaduomenys išvalyti, jei yra rizika šaltiniui
+7. Dvipusiai ryšiai archyve ir kortelėse atnaujinti (žr. [archyvo taisykles](../archive/))
 
-## Ошибки и исправления
+## Klaidos ir taisymai
 
-Если в опубликованном материале обнаружена фактическая неточность, мы:
+Jei paskelbtoje medžiagoje aptikta faktinė netikslybė, mes:
 
-- Вносим правку в текст
-- Добавляем пометку «исправлено [дата]» с кратким описанием, что было изменено
-- В критических случаях (например, материал содержал ошибочное утверждение о человеке) — публикуем отдельное объявление об исправлении
+- Įvedame pataisą į tekstą
+- Pridedame žymą „pataisyta [data]" su trumpu apibūdinimu, kas pakeista
+- Kritiniais atvejais (pavyzdžiui, medžiagoje buvo klaidingas teiginys apie žmogų) — skelbiame atskirą pranešimą apie taisymą
 
-Если правка изменяет смысл материала — оригинальная и исправленная версии сохраняются в истории git-репозитория и доступны через [архив изменений на GitHub](https://github.com/belarustransparency/belarus-transparency/commits/main).
+Jei pataisa keičia medžiagos prasmę — originali ir pataisyta versijos saugomos git repozitoriumo istorijoje ir prieinamos per [pakeitimų archyvą GitHub](https://github.com/belarustransparency/belarus-transparency/commits/main).
 
-## Конфликт интересов
+## Interesų konfliktas
 
-Авторы проекта не получают финансирования от структур, о которых пишут, и не работают с ними в иных формах. Если в будущем такая ситуация возникнет (например, источник финансирования проекта станет одновременно объектом исследования) — мы публикуем соответствующее заявление и отстраняем заинтересованного автора от соответствующих материалов.
+Projekto autoriai negauna finansavimo iš struktūrų, apie kurias rašo, ir nedirba su jomis kitomis formomis. Jei ateityje tokia situacija susiklostys (pavyzdžiui, projekto finansavimo šaltinis tuo pačiu metu taps tyrimo objektu) — paskelbsime atitinkamą pareiškimą ir atskirsime suinteresuotą autorių nuo atitinkamų medžiagų.
 
-## Чем мы не занимаемся
+## Kuo neužsiimame
 
-Belarus Transparency — это исследовательский проект. Мы:
+Belarus Transparency — tai tyrimų projektas. Mes:
 
-- **не занимаемся** обличением частной жизни, родственников и личных решений (если они не связаны напрямую с темой расследования)
-- **не публикуем** утечки персональных данных рядовых сотрудников и волонтёров организаций
-- **не оцениваем** взгляды и мотивы — только действия и их последствия
-- **не выступаем** в роли судебной инстанции — мы документируем, а не выносим приговоры
+- **neužsiimame** privataus gyvenimo, giminaičių ir asmeninių sprendimų demaskavimu (jei jie nesusiję tiesiogiai su tyrimo tema)
+- **neskelbiame** organizacijų eilinių darbuotojų ir savanorių asmens duomenų nutekėjimų
+- **nevertiname** požiūrių ir motyvų — tik veiksmus ir jų pasekmes
+- **neveikiame** teisminės instancijos vaidmenyje — mes dokumentuojame, o ne skelbiame nuosprendžius
 
 </div>
 

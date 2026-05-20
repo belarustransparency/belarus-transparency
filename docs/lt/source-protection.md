@@ -2,127 +2,126 @@
 hide:
   - navigation
   - toc
-title: Защита источников
+title: "Šaltinių apsauga — Belarus Transparency"
 ---
 
-<div class="bt-legal" markdown="1">
+<div class="bt-legal">
+<div class="bt-legal-kicker">Projekto etika</div>
+<h1 class="bt-legal-title">Šaltinių apsauga</h1>
+<p class="bt-legal-meta">2.0 versija · galioja nuo 2026 m. gegužės 15 d.</p>
+<div class="bt-legal-prose" markdown>
 
-<div class="bt-legal-kicker">Этика проекта</div>
-<h1 class="bt-legal-title">Защита источников</h1>
-<p class="bt-legal-meta">Версия 2.0 · действует с 15 мая 2026 года</p>
+## Jei atvykote čia iš atviro tyrimo { #open-investigations }
 
-<div class="bt-legal-prose" markdown="1">
+Kortelė, iš kurios atėjote, yra tyrimas, kuriam renkame medžiagą. Turime faktinę dalį, bet mums trūksta patvirtinančių dokumentų ar liudijimų.
 
-## Если вы пришли сюда с открытого расследования { #open-investigations }
+Jei turite informacijos — dokumentų, finansinių ataskaitų, susirašinėjimo, stebėjimų iš organizacijos vidaus — mielai ją gausime. Ryšio būdai, konfidencialumo garantijos ir techninė Jūsų duomenų apsaugos pusė — žemiau šiame puslapyje.
 
-Карточка, с которой вы перешли, — это расследование, по которому мы собираем материалы. У нас есть фактура, но не хватает подтверждающих документов или свидетельств.
+[Pereiti prie kontakto būdų →](#contact)
 
-Если у вас есть информация — документы, балансовые отчёты, переписка, наблюдения изнутри организации, — мы будем рады её получить. Способы связи, гарантии конфиденциальности и техническая сторона защиты ваших данных — ниже на этой странице.
+Šis puslapis skirtas tiems, kurie svarsto galimybę perduoti mums informaciją apie baltarusių emigracinės opozicijos struktūrų teisės pažeidimus. Dažniausiai pas mus ateina žmonės, kurie patys dirbo šiose struktūrose, iš vidaus matė finansinius ir personalo sprendimus, o dabar svarsto — ar verta apie tai pasakoti. Čia sąžiningai parašyta, ko realiai bijote, ką mes galime padaryti ir kur yra mūsų įsipareigojimų ribos.
 
-[Перейти к способам связи →](#contact)
+Esame tvirtai įsitikinę, kad demokratinės vertybės, taip pat mus priėmusių demokratinių valstybių teisės normos privalomos visiems.
 
-Эта страница для тех, кто рассматривает возможность передать нам информацию о нарушении законодательства со стороны структур беларуской оппозиции в эмиграции. Чаще всего к нам приходят люди, которые сами работали в этих структурах, видели изнутри финансовые и кадровые решения, и теперь думают - стоит ли об этом рассказывать. Здесь честно написано, чего вы реально опасаетесь, что мы можем сделать, и где границы наших обязательств.
-Мы твердо убеждены, что демократические ценности, а также нормы законодательства принявших нас демократических стран обязательны для всех.
-Важно помнить, что режим лукашенко возник только потому, что многим из нас долгое время было все равно, что "иногда не до законов".
+Svarbu prisiminti, kad lukašenkos režimas atsirado tik todėl, kad daugumai mūsų ilgą laiką buvo vis tiek, kad „kartais ne iki įstatymų".
 
-## Кто наша аудитория
+## Kas yra mūsų auditorija
 
-Мы понимаем, что значительная часть людей, у которых есть для нас релевантная информация, — это бывшие или действующие сотрудники, подрядчики, грантополучатели, волонтёры структур, о которых мы пишем. У вас другие риски, чем у диссидента, передающего материал из-под режима. Мы видим как минимум четыре типа опасений, и работаем с каждым.
+Suprantame, kad nemaža dalis žmonių, turinčių mums aktualios informacijos — tai buvę ar dabartiniai struktūrų, apie kurias rašome, darbuotojai, rangovai, dotacijų gavėjai, savanoriai. Jūsų rizikos kitokios nei disidento, perduodančio medžiagą iš po režimo. Matome bent keturių tipų nuogąstavimus, ir su kiekvienu dirbame.
 
-**Первый — личная причастность.** Вы могли быть участником процессов, о которых хотите рассказать: подписывать документы, распределять средства, нанимать людей по знакомству, закрывать глаза на отсутствие отчётности. Открытое обращение к нам — это, кроме всего прочего, вопрос о вашей собственной правовой позиции.
+**Pirmas — asmeninis susijungimas.** Galėjote būti procesų, apie kuriuos norite pasakoti, dalyviu: pasirašyti dokumentus, paskirstyti lėšas, samdyti žmones per pažintis, užmerkti akis prieš atskaitomybės trūkumą. Atviras kreipimasis į mus — tai, be visa kita, klausimas dėl Jūsų pačių teisinės padėties.
 
-**Второй — соглашение о неразглашении (NDA).** Многие из тех, кто работал с Офисом Светланы Тихановской и связанными структурами, подписывали NDA. В нём, как правило, прописаны денежные санкции за раскрытие внутренней информации.
+**Antras — neatskleidimo sutartis (NDA).** Daugelis tų, kurie dirbo su Svetlanos Cichanouskos Biuru ir susijusiomis struktūromis, pasirašė NDA. Jose paprastai numatytos pinigines sankcijos už vidaus informacijos atskleidimą.
 
-**Третий — нелегитимное давление со стороны самой оппозиции.** За последние годы зафиксированы случаи, когда Офис и связанные структуры обращались в правоохранительные и миграционные органы стран пребывания с жалобами, содержащими заведомо ложные или не подкреплённые доказательствами утверждения — в отношении бывших сотрудников, журналистов, конкурентов. Цель — добиться проблем с легализацией, депортации, давления через органы. Это реальный риск, который надо называть прямо.
+**Trečias — nelegitimus spaudimas iš pačios opozicijos.** Pastaraisiais metais užfiksuoti atvejai, kai Biuras ir susijusios struktūros kreipdavosi į priimančių šalių teisėsaugos ir migracijos institucijas su skundais, kuriuose būta sąmoningai melagingų arba įrodymais nepatvirtintų teiginių — buvusių darbuotojų, žurnalistų, konkurentų atžvilgiu. Tikslas — sukelti problemų su legalizacija, deportaciją, spaudimą per institucijas. Tai reali rizika, kurią reikia įvardyti tiesiogiai.
 
-**Четвёртый — привычный, иногда иррациональный страх.** Часть беларусов в эмиграции продолжает действовать так, как привыкла действовать в режиме слежки и репрессий. Этот рефлекс понятен, и его не нужно стыдиться. Но в эмиграции структура рисков другая, и часть страхов не соответствует реальности.
+**Ketvirtas — įprastas, kartais neracionalus baimingumas.** Dalis baltarusių emigracijoje toliau veikia taip, kaip įprato veikti sekimo ir represijų režimo sąlygomis. Šis refleksas suprantamas, ir jo nereikia gėdytis. Tačiau emigracijoje rizikos struktūra kitokia, ir dalis baimių neatitinka tikrovės.
 
-## Что мы делаем для защиты источника
+## Ką darome šaltinio apsaugai
 
-**Конфиденциальность личности — абсолютна.** Имя, контакты, должность, обстоятельства передачи материалов и любые сведения, по которым источник может быть идентифицирован, не разглашаются ни при каких обстоятельствах. Единственное исключение — если источник сам публично заявит о своей роли.
+**Tapatybės konfidencialumas — absoliutus.** Vardas, kontaktai, pareigos, medžiagos perdavimo aplinkybės ir bet kokie duomenys, pagal kuriuos šaltinį galima identifikuoti, jokiomis aplinkybėmis neatskleidžiami. Vienintelė išimtis — jei šaltinis pats viešai pareiškia apie savo vaidmenį.
 
-**Метаданные мы вычищаем.** Перед публикацией любого документа удаляются метаданные (EXIF в изображениях, авторство в Office-файлах, серверные заголовки писем), которые могли бы навести на источник. Скриншоты переснимаются, чтобы не было артефактов рендеринга, привязанных к конкретному устройству.
+**Metaduomenis išvalome.** Prieš publikuojant bet kurį dokumentą pašalinami metaduomenys (EXIF vaizduose, autorystės žymos Office failuose, laiškų serverio antraštės), kurie galėtų atvesti prie šaltinio. Ekrano nuotraukos perfotografuojamos, kad nebūtų renderio artefaktų, susietų su konkrečiu įrenginiu.
 
-**Подача с задержкой и расширение круга.** Если из контекста публикации можно установить, что информация могла попасть к нам только из небольшого круга лиц, мы откладываем материал, меняем его подачу, или комбинируем сведения из нескольких источников так, чтобы круг возможных источников был расширен.
+**Pateikimas su atidėjimu ir rato išplėtimas.** Jei iš publikacijos konteksto galima nustatyti, kad informacija pas mus galėjo patekti tik iš nedidelio žmonių rato, atidedame medžiagą, keičiame jos pateikimą arba derinant duomenis iš kelių šaltinių taip, kad galimų šaltinių ratas išsiplėstų.
 
-**Хранение.** Файлы хранятся в защищённом контуре редакции. Не дублируются в незащищённых местах, не пересылаются открытыми каналами, не упоминаются в чатах третьих лиц.
+**Saugojimas.** Failai saugomi apsaugotame redakcijos kontūre. Nedubliuojami nesaugiose vietose, nesiunčiami atvirais kanalais, neminimi trečiųjų asmenų pokalbiuose.
 
-**Мы не торгуем информацией.** Полученные материалы не передаются третьим лицам — ни другим журналистам, ни правозащитным организациям, ни государственным органам — без явного согласия источника. Если источник хочет, чтобы материал также попал в правоохранительные органы — это решение источника. Мы можем помочь с маршрутом, но не делаем этого за него.
+**Neprekiaujame informacija.** Gauta medžiaga neperduodama tretiesiems asmenims — nei kitiems žurnalistams, nei žmogaus teisių organizacijoms, nei valstybės institucijoms — be aiškaus šaltinio sutikimo. Jei šaltinis nori, kad medžiaga taip pat patektų į teisėsaugą — tai šaltinio sprendimas. Galime padėti su maršrutu, bet už jį to nedarome.
 
-## Юридическая помощь
+## Teisinė pagalba
 
-Это твёрдое обещание проекта, а не оговорка. Если в результате обращения к нам у вас возникает юридическая проблема — связанная с NDA, с угрозой иска, с попыткой использовать против вас правоохранительные или миграционные органы — мы помогаем найти юриста, разбирающегося в применимой юрисдикции (Польша, Литва, ЕС), и берём на себя поиск, координацию и, при необходимости, оплату первичной консультации.
+Tai tvirtas projekto pažadas, o ne išlyga. Jei dėl kreipimosi į mus Jums kyla teisinė problema — susijusi su NDA, ieškinio grėsme, mėginimu prieš Jus panaudoti teisėsaugą ar migracijos institucijas — padedame surasti teisininką, išmanantį atitinkamą jurisdikciją (Lenkija, Lietuva, ES), ir prisiimame paiešką, koordinavimą ir, esant poreikiui, pirminės konsultacijos apmokėjimą.
 
-Эта помощь не зависит от того, выйдет ли публикация на основе ваших материалов. Если по итогам разговора мы решили не публиковать — обязательство по юридической поддержке сохраняется.
+Ši pagalba nepriklauso nuo to, ar pasirodys publikacija Jūsų medžiagos pagrindu. Jei po pokalbio nuspręsime nepublikuoti — teisinio palaikymo įsipareigojimas išlieka.
 
-## Про NDA — что важно знать
+## Apie NDA — ką svarbu žinoti { #nda }
 
-Соглашение о неразглашении (NDA) — это гражданско-правовой договор между сторонами. Его ограничения не безусловны. В большинстве европейских юрисдикций (включая Польшу и Литву) действует принцип: **NDA не подлежит исполнению в части, которая касается информации о нарушении закона держателем NDA**.
+Neatskleidimo sutartis (NDA) — tai civilinė teisinė sutartis tarp šalių. Jos apribojimai nėra besąlygiški. Daugumoje Europos jurisdikcijų (įskaitant Lenkiją ir Lietuvą) galioja principas: **NDA nevykdoma toje dalyje, kuri susijusi su informacija apie NDA turėtojo įstatymo pažeidimą**.
 
-На практике это означает: если вы подписали NDA с организацией, и эта организация совершает действия, которые с высокой вероятностью являются нарушением закона страны регистрации (нецелевое расходование грантовых средств, налоговые нарушения, мошенничество, фальсификация отчётности донорам), — соглашение не запрещает вам сообщить об этих нарушениях третьим сторонам, включая журналистов и контролирующие органы. Попытка применить штрафные санкции по NDA в такой ситуации с высокой вероятностью будет отклонена судом.
+Praktikoje tai reiškia: jei pasirašėte NDA su organizacija, o ši organizacija atlieka veiksmus, kurie su didele tikimybe yra registracijos šalies įstatymo pažeidimas (nelegalus dotacijų lėšų panaudojimas, mokesčių pažeidimai, sukčiavimas, donorams skirtų ataskaitų klastojimas), — sutartis neuždraudžia Jums apie šiuos pažeidimus pranešti tretiesiems asmenims, įskaitant žurnalistus ir kontrolės institucijas. Bandymas pritaikyti NDA baudines sankcijas tokioje situacijoje su didele tikimybe bus teismo atmestas.
 
-Это не юридическая консультация по вашему конкретному случаю — для неё нужен юрист, читающий ваш конкретный договор. Но это общий принцип, который стоит учитывать, оценивая риск. В случае реальной угрозы иска по NDA — см. пункт выше про юридическую помощь.
+Tai nėra teisinė konsultacija dėl Jūsų konkretaus atvejo — jai reikalingas teisininkas, skaitantis Jūsų konkrečią sutartį. Bet tai bendrasis principas, kurį verta turėti omenyje vertinant riziką. Realios NDA ieškinio grėsmės atveju — žr. punktą aukščiau apie teisinę pagalbą.
 
-## Про личную причастность
+## Apie asmeninį susijungimą
 
-Если вы были участником процессов, о которых хотите рассказать, — это не закрывает для вас возможность обращения к нам, но требует более тщательной проработки. Мы:
+Jei buvote procesų, apie kuriuos norite pasakoti, dalyviu — tai Jums neuždaro galimybės kreiptis į mus, bet reikalauja kruopštesnio darbo. Mes:
 
-- Не публикуем сведения о вашей роли без вашего согласия. Решение о том, как ваша личная роль будет (или не будет) отражена в материале, остаётся за вами
-- При необходимости отделяем фактическую информацию о работе структуры от вопросов вашей личной правовой позиции — материал может быть построен так, чтобы вашей роли не быть в фокусе
-- Если по итогам разговора вы решите не передавать материал — мы не используем сказанное ранее в каких-либо публикациях
+- Neskelbiame informacijos apie Jūsų vaidmenį be Jūsų sutikimo. Sprendimas, kaip Jūsų asmeninis vaidmuo bus (ar nebus) atspindėtas medžiagoje, lieka Jums
+- Esant poreikiui atskiriame faktinę informaciją apie struktūros darbą nuo Jūsų asmeninės teisinės padėties klausimų — medžiaga gali būti sukonstruota taip, kad Jūsų vaidmuo nebūtų dėmesio centre
+- Jei po pokalbio nuspręsite neperduoti medžiagos — anksčiau pasakyta nenaudojama jokiose publikacijose
 
-Это не оборона нарушений и не «отмазка для жуликов». Если у вас были собственные действия, которые могут быть квалифицированы как преступление, — для адекватной оценки ваших рисков и стратегии нужна работа с юристом, и мы можем помочь его найти.
+Tai nėra pažeidimų gynimas ar „pasiteisinimas sukčiams". Jei turėjote savų veiksmų, kurie gali būti kvalifikuojami kaip nusikaltimas, — adekvačiam Jūsų rizikų ir strategijos įvertinimui reikia darbo su teisininku, ir mes galime padėti jį surasti.
 
-## Про ложные обращения в органы
+## Apie melagingus kreipimusis į institucijas
 
-Если в связи с вашим обращением к нам кто-либо из структур, о которых мы пишем, подаст жалобу в правоохранительные или миграционные органы страны вашего пребывания с заведомо ложными или не подкреплёнными утверждениями — мы реагируем публично и юридически. Это включает:
+Jei dėl Jūsų kreipimosi į mus kas nors iš struktūrų, apie kurias rašome, pateiks Jūsų gyvenamosios šalies teisėsaugai ar migracijos institucijoms skundą su sąmoningai melagingais ar nepagrįstais teiginiais — reaguojame viešai ir teisiškai. Tai apima:
 
-- Публикацию факта подачи и текста жалобы (с защитой ваших данных)
-- Помощь с юридической защитой по той же логике, что описана выше
-- Эскалацию в международные журналистские организации (RSF, CPJ, IPI) в случаях, когда давление имеет признаки преследования по журналистскому признаку
+- Skundo pateikimo fakto ir teksto publikavimą (su Jūsų duomenų apsauga)
+- Pagalbą teisinei gynybai pagal tą pačią logiką, kaip aprašyta aukščiau
+- Eskalavimą į tarptautines žurnalistų organizacijas (RSF, CPJ, IPI) tais atvejais, kai spaudimas turi persekiojimo dėl žurnalistinės veiklos požymių
 
-## Чего мы не можем
+## Ko negalime
 
-**Мы не можем защитить от следов на вашей стороне.** Если вы пишете нам с рабочей почты, с устройства, к которому у работодателя есть доступ, или из сети, которую видит ваш работодатель, — следы остаются у вас, не у нас. Используйте личный адрес и устройство.
+**Negalime apsaugoti nuo pėdsakų Jūsų pusėje.** Jei rašote mums iš darbo pašto, iš įrenginio, prie kurio darbdavys turi prieigą, arba iš tinklo, kurį mato Jūsų darbdavys — pėdsakai lieka pas Jus, ne pas mus. Naudokite asmeninį adresą ir įrenginį.
 
-**Мы не можем юридически отказаться давать показания.** Польское и литовское законодательство о защите журналистских источников сильнее, чем в большинстве стран, но абсолютной защиты не существует ни в одной юрисдикции. Если речь идёт об особо чувствительных материалах — лучше передать их так, чтобы мы сами не знали вашего имени. Способ описан ниже.
+**Negalime teisiškai atsisakyti duoti parodymų.** Lenkijos ir Lietuvos žurnalistinių šaltinių apsaugos teisės yra stipresnės nei daugumoje šalių, bet absoliučios apsaugos nėra nei vienoje jurisdikcijoje. Jei kalbama apie ypač jautrią medžiagą — geriau ją perduoti taip, kad mes patys nežinotume Jūsų vardo. Būdas aprašytas žemiau.
 
-**Мы не работаем со всеми материалами подряд.** Если материал не относится к теме проекта (внутренние дрязги, личные конфликты без публичного измерения, сведения о частной жизни без связи с деятельностью структур) — мы вежливо откажемся.
+**Nedirbame su visa medžiaga iš eilės.** Jei medžiaga nesusijusi su projekto tema (vidiniai kivirčai, asmeniniai konfliktai be viešo matmens, duomenys apie privatų gyvenimą be ryšio su struktūrų veikla) — mandagiai atsisakome.
 
-## Как с нами связаться { #contact }
+## Kaip su mumis susisiekti { #contact }
 
-**Основной канал:** transparency.belarus@gmail.com
+**Pagrindinis kanalas:** transparency.belarus@gmail.com
 
-Ящик защищён двухфакторной аутентификацией; пароль и ключ хранятся только у редакции и нигде не записаны в открытом виде. Этот канал подходит для большинства обращений: общих вопросов, обсуждения тем, передачи документов из публичных источников, передачи внутренней информации, замечаний к опубликованным материалам.
+Dėžutė apsaugota dviejų veiksnių autentifikacija; slaptažodis ir raktas saugomi tik pas redakciją ir niekur atviru pavidalu neužrašyti. Šis kanalas tinka daugumai kreipimųsi: bendrų klausimų, temų aptarimui, dokumentų iš viešų šaltinių perdavimui, vidaus informacijos perdavimui, pastabų publikuotai medžiagai.
 
-**Если хотите передать материал, не раскрывая имя даже нам:** напишите короткое сообщение «есть материал, прошу контакт без раскрытия личности». Мы объясним маршрут, как это сделать технически (одноразовые ящики, временные хранилища, передача через посредника).
+**Jei norite perduoti medžiagą neatskleidžiant vardo net mums:** parašykite trumpą žinutę „turiu medžiagos, prašau susisiekti neatskleidžiant tapatybės". Paaiškinsime maršrutą, kaip tai padaryti techniškai (vienkartinės dėžutės, laikinos saugyklos, perdavimas per tarpininką).
 
-**Анонимная передача документов.** Создайте новый email на ProtonMail (бесплатно, не привязан к телефону) с одноразового устройства или через VPN, загрузите файлы на временное хранилище (OnionShare, аналоги Firefox Send), пришлите ссылку. Мы скачиваем — линк уничтожается. Имя нам в этом случае не нужно и не должно быть указано.
+**Anoniminis dokumentų perdavimas.** Sukurkite naują el. paštą ProtonMail (nemokamai, nesusietas su telefonu) iš vienkartinio įrenginio ar per VPN, įkelkite failus į laikinąją saugyklą (OnionShare, Firefox Send analogai), atsiųskite nuorodą. Mes parsisiunčiame — nuoroda sunaikinama. Vardas mums šiuo atveju nereikalingas ir neturi būti nurodytas.
 
-## Что не нужно делать
+## Ko nereikia daryti
 
-- Не пишите нам с рабочего устройства или из рабочей сети
-- Не присылайте скриншоты, на которых видна ваша операционная система с открытыми вкладками, временем, заголовками окон
-- Не указывайте имя в письме, если вам важна анонимность — мы сами не будем выводить ваше имя «по умолчанию», и тут лишний риск ни к чему
-- Не повторяйте отправку через несколько каналов «на всякий случай» — это размножает следы
-- Не отправляйте материалы, которые вы могли получить с грубым нарушением закона (взлом чужих устройств, незаконный доступ к чужой переписке) — мы такое не используем
+- Nerašykite mums iš darbinio įrenginio ar darbo tinklo
+- Nesiųskite ekrano nuotraukų, kuriose matosi Jūsų operacinė sistema su atviromis kortelėmis, laiku, langų pavadinimais
+- Nenurodykite vardo laiške, jei Jums svarbus anonimiškumas — patys Jūsų vardo „pagal nutylėjimą" nepateiksime, o čia papildoma rizika nereikalinga
+- Nekartokite siuntimo per kelis kanalus „dėl viso pikto" — tai dauginia pėdsakus
+- Nesiųskite medžiagos, kurią galėjote gauti šiurkščiai pažeisdami įstatymą (kitų asmenų įrenginių laužimas, neteisėta prieiga prie kito asmens susirašinėjimo) — tokios nenaudojame
 
-## После передачи материала
+## Po medžiagos perdavimo
 
-Если на основании ваших материалов готовится публикация — мы заранее сообщаем дату и форму подачи, согласовываем формулировки, касающиеся вас лично (если ваша роль вообще упоминается), учитываем ваши соображения по таймингу.
+Jei Jūsų medžiagos pagrindu rengiama publikacija — iš anksto pranešame datą ir pateikimo formą, derame Jus asmeniškai liečiančias formuluotes (jei Jūsų vaidmuo apskritai minimas), atsižvelgiame į Jūsų pageidavimus dėl laiko.
 
-Если публикации не будет — мы тоже об этом сообщаем, с объяснением причины (не удалось верифицировать, есть риск для источника, информация уже опубликована другими, тема не подходит проекту).
+Jei publikacijos nebus — apie tai taip pat pranešame, paaiškindami priežastį (nepavyko patikrinti, yra rizika šaltiniui, informacija jau paskelbta kitų, tema netinka projektui).
 
-## О проекте
+## Apie projektą
 
-Belarus Transparency — независимый исследовательский проект. Наша рамка — научно-исследовательская и просветительская работа в правовом поле ЕС и США.
+Belarus Transparency — nepriklausomas tyrimų projektas. Mūsų rėmas — mokslinis-tiriamasis ir švietėjiškas darbas ES ir JAV teisinėje erdvėje.
 
-Мы исходим из того, что демократические ценности — подотчётность власти обществу, сменяемость лидеров, организационная и финансовая прозрачность, соблюдение законов страны пребывания — не могут быть предметом торговли «сейчас не до этого». Для тех, кто претендует на роль демократических политиков, эти стандарты должны выполняться неуклонно. Иначе слово «оппозиция» теряет смысл.
+Vadovaujamės nuostata, kad demokratinės vertybės — valdžios atskaitomybė visuomenei, lyderių keitimasis, organizacinis ir finansinis skaidrumas, gyvenamosios šalies įstatymų laikymasis — negali būti prekybos „dabar ne iki to" objektu. Tiems, kurie pretenduoja į demokratinių politikų vaidmenį, šie standartai turi būti vykdomi besąlygiškai. Kitaip žodis „opozicija" praranda prasmę.
 
-Этим объясняется и наш интерес к структурам беларуской оппозиции в эмиграции. Если организация декларирует, что строит «новую Беларусь» демократической, но при этом сама непрозрачна в финансах, не отчитывается перед обществом, не допускает сменяемости в собственных рядах, использует пробелы в законодательстве принимающих стран вместо того чтобы их соблюдать, организует травлю инакомыслящих — это противоречие нужно фиксировать и оценивать. 
+Tuo paaiškinamas ir mūsų domėjimasis baltarusių emigracinės opozicijos struktūromis. Jei organizacija deklaruoja statanti „naują Baltarusiją" demokratinę, bet pati nėra finansiškai skaidri, neatsiskaito visuomenei, neleidžia keitimosi savo gretose, naudoja priimančių šalių teisės spragas vietoj to, kad jų laikytųsi, organizuoja kitaip mąstančių persekiojimą — šį prieštaravimą reikia fiksuoti ir vertinti.
 
-Это не позиция против номинальной оппозиции; это позиция за то, чтобы оппозиция была тем, чем она себя называет.
+Tai nėra pozicija prieš nominalią opoziciją; tai pozicija už tai, kad opozicija būtų tuo, kuo save vadina.
 
 </div>
-
 </div>

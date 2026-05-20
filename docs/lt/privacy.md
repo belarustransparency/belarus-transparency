@@ -2,42 +2,42 @@
 hide:
   - navigation
   - toc
-title: Политика конфиденциальности
+title: Privatumo politika
 ---
 
-<div class="bt-legal" markdown="1">
+<div class="bt-legal" markdown>
 
-<div class="bt-legal-kicker">Юридическая информация</div>
-<h1 class="bt-legal-title">Политика конфиденциальности</h1>
-<p class="bt-legal-meta">Версия 1.0 · действует с 15 мая 2026 года · по вопросам: transparency.belarus@gmail.com</p>
+<div class="bt-legal-kicker">Teisinė informacija</div>
+<h1 class="bt-legal-title">Privatumo politika</h1>
+<p class="bt-legal-meta">1.0 versija · galioja nuo 2026 m. gegužės 15 d. · klausimais: transparency.belarus@gmail.com</p>
 
-<div class="bt-legal-prose" markdown="1">
+<div class="bt-legal-prose" markdown>
 
-Эта политика описывает, какие данные собирает сайт `belarus-transparency.org` при обычном посещении. Если вы хотите передать нам материалы как источник — действуют отдельные обязательства, описанные на странице [Защита источников](../source-protection/).
+Ši politika apibūdina, kokius duomenis renka svetainė `belarus-transparency.org` įprasto lankymo metu. Jei norite mums perduoti medžiagą kaip šaltinis — galioja atskiri įsipareigojimai, aprašyti puslapyje [Šaltinių apsauga](../source-protection/).
 
-## Что мы собираем
+## Ką renkame
 
-**Ничего самостоятельно.** Сайт не использует системы веб-аналитики (Google Analytics, Plausible и аналоги), не устанавливает собственные cookie и не имеет личных кабинетов или форм обратной связи.
+**Patys — nieko.** Svetainė nenaudoja internetinės analitikos sistemų (Google Analytics, Plausible ir analogiškų), nestato savo slapukų ir neturi vartotojo paskyrų ar grįžtamojo ryšio formų.
 
-## Что собирают третьи лица технически
+## Ką techniškai renka trečiosios šalys
 
-**Серверные логи GitHub Pages.** Сайт размещён на инфраструктуре GitHub (компания Microsoft). При обращении к любой странице GitHub автоматически записывает в логи IP-адрес, User-Agent (тип браузера и ОС), время запроса и URL запрошенной страницы. Эти логи хранятся у GitHub до 30 дней. У проекта нет к ним доступа. Подробнее — [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+**GitHub Pages serverio žurnalai.** Svetainė talpinama GitHub (Microsoft kompanijos) infrastruktūroje. Kreipiantis į bet kurį puslapį GitHub automatiškai įrašo į žurnalus IP adresą, User-Agent (naršyklės ir OS tipą), užklausos laiką ir užklausto puslapio URL. Šie žurnalai saugomi pas GitHub iki 30 dienų. Projektas neturi prie jų prieigos. Daugiau — [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-**Шрифты Google Fonts.** Сайт использует семейство шрифтов Roboto, загружаемое с инфраструктуры Google (`fonts.googleapis.com`, `fonts.gstatic.com`). При загрузке шрифтов ваш IP-адрес становится доступен Google. Подробнее — [Google Privacy Policy](https://policies.google.com/privacy).
+**Google Fonts šriftai.** Svetainė naudoja Roboto šriftų šeimą, kuri kraunama iš Google infrastruktūros (`fonts.googleapis.com`, `fonts.gstatic.com`). Kraunant šriftus Jūsų IP adresas tampa prieinamas Google. Daugiau — [Google Privacy Policy](https://policies.google.com/privacy).
 
-Если вы хотите избежать передачи технических данных в GitHub и Google — используйте сайт через Tor Browser или VPN.
+Jei norite išvengti techninių duomenų perdavimo į GitHub ir Google — naudokitės svetaine per Tor Browser arba VPN.
 
-## Ваши права по GDPR
+## Jūsų teisės pagal BDAR
 
-Согласно Общему регламенту защиты данных Европейского союза, у вас есть право запросить информацию о ваших данных, исправление, удаление, ограничение обработки и подачу жалобы в надзорный орган.
+Pagal Europos Sąjungos bendrąjį duomenų apsaugos reglamentą turite teisę paprašyti informacijos apie savo duomenis, juos pataisyti, ištrinti, apriboti tvarkymą ir paduoti skundą priežiūros institucijai.
 
-Поскольку проект не хранит ваши персональные данные самостоятельно, по техническим логам обращайтесь напрямую: GitHub — через [форму поддержки](https://support.github.com/contact/privacy), Google — через [страницу обращений](https://support.google.com/policies).
+Kadangi projektas pats nesaugo Jūsų asmens duomenų, dėl techninių žurnalų kreipkitės tiesiogiai: į GitHub — per [pagalbos formą](https://support.github.com/contact/privacy), į Google — per [kreipimosi puslapį](https://support.google.com/policies).
 
-По любым вопросам, связанным с упоминанием **вас лично или вашей организации в публикациях проекта** — обращайтесь на **transparency.belarus@gmail.com**. Журналистская и научно-исследовательская обработка персональных данных регулируется ст. 85 GDPR и национальными законами о свободе прессы. Если в публикации содержится фактическая неточность — направьте обоснованное возражение, мы рассмотрим его в разумные сроки и при подтверждении внесём правку.
+Visais klausimais, susijusiais su **Jūsų asmeniniu paminėjimu arba Jūsų organizacijos paminėjimu projekto publikacijose** — rašykite į **transparency.belarus@gmail.com**. Žurnalistinį ir mokslinį-tiriamąjį asmens duomenų tvarkymą reguliuoja BDAR 85 str. ir nacionaliniai įstatymai dėl spaudos laisvės. Jei publikacijoje yra faktinė netikslybė — atsiųskite pagrįstą prieštaravimą, apsvarstysime per protingą laiką ir, patvirtinus, įvesime pataisą.
 
-## Изменения
+## Pakeitimai
 
-Политика может обновляться. Дата текущей версии — в шапке документа. Существенные изменения отмечаются в новостях проекта.
+Politika gali būti atnaujinama. Dabartinės versijos data nurodyta dokumento antraštėje. Esminiai pakeitimai pažymimi projekto naujienose.
 
 </div>
 
