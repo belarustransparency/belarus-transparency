@@ -67,11 +67,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#persons" class="md-skip">
-          Перейти к содержанию
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -371,7 +366,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -588,7 +585,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -596,8 +595,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
   
-  
-    
   
   
 </nav>
@@ -612,20 +609,111 @@
               <article class="md-content__inner md-typeset">
                 
                   
-
-
-
-<h1 id="persons">Persons<a class="headerlink" href="#persons" title="Permanent link">&para;</a></h1>
-<p>Lorem ipsum dolor sit amet.</p>
+  
 
 
 
 
+<div class="bt-persons-index">
+
+<header class="bt-index-head">
+  <div class="bt-kicker">Section</div>
+  <h1>Persons</h1>
+  <p class="bt-lede">Profiles of public figures and related individuals, indicating their functional role and structural position in the primary organization. Use the filter to sort by activity type.</p>
+</header>
+
+<!-- ============================================================
+     ФИЛЬТРЫ ПО ФУНКЦИОНАЛЬНОЙ РОЛИ
+     data-filter совпадает с полем role в persons.yml.
+     ============================================================ -->
+
+<nav class="bt-persons-filters">
+  <a class="bt-filter bt-filter-active" data-filter="all" href="#">All</a>
+  <a class="bt-filter" data-filter="politician" href="#">Politicians</a>
+  <a class="bt-filter" data-filter="media" href="#">Media</a>
+  <a class="bt-filter" data-filter="expert" href="#">Experts</a>
+  <a class="bt-filter" data-filter="civic" href="#">Activists</a>
+  <a class="bt-filter" data-filter="business" href="#">Business</a>
+  <a class="bt-filter" data-filter="private" href="#">Private individuals</a>
+</nav>
+
+<!-- ============================================================
+     ЛЕНТА ПЛАШЕК
+     Каждая плашка — <div data-href="...">, не <a>, чтобы внутри
+     могли быть вложенные ссылки. Клик и доступность обрабатывает
+     inline-скрипт ниже.
+     ============================================================ -->
+
+<div class="bt-persons-list" markdown="0">
+<div class="bt-person-row" data-role="politician" data-position="nominal" data-href="artsiom-praskalovich/" role="link" tabindex="0" aria-label="Artsiom Praskalovich"><div class="bt-person-row-photo" style="background-image: url('./assets/artsiom-praskalovich-thumb.webp');"></div><div class="bt-person-row-info"><div class="bt-person-row-name">Artsiom Praskalovich</div><div class="bt-person-row-role">Chairman of the BP management board · Deputy UTC Representative for power transition</div></div><div class="bt-person-row-badges"><span class="bt-badge bt-badge-role-politician">politician</span><span class="bt-badge bt-badge-position-nominal">nominee</span></div></div>
+<div class="bt-person-row" data-role="politician" data-position="nominal" data-href="artsiom-brukhan/" role="link" tabindex="0" aria-label="Artsiom Brukhan"><div class="bt-person-row-photo" style="background-image: url('./assets/artsiom-brukhan-thumb.webp');"></div><div class="bt-person-row-info"><div class="bt-person-row-name">Artsiom Brukhan</div><div class="bt-person-row-role">Member of the BP supervisory board · Deputy head of NAM · spokesperson of the Coordination Council</div></div><div class="bt-person-row-badges"><span class="bt-badge bt-badge-role-politician">politician</span><span class="bt-badge bt-badge-position-nominal">nominee</span></div></div>
+<div class="bt-person-row" data-role="politician" data-position="nominal" data-href="vladzimir-astapenka/" role="link" tabindex="0" aria-label="Vladzimir Astapenka"><div class="bt-person-row-photo" style="background-image: url('./assets/vladzimir-astapenka-thumb.webp');"></div><div class="bt-person-row-info"><div class="bt-person-row-name">Vladzimir Astapenka</div><div class="bt-person-row-role">Member of the BP supervisory board · UTC Representative for International Cooperation</div></div><div class="bt-person-row-badges"><span class="bt-badge bt-badge-role-politician">politician</span><span class="bt-badge bt-badge-position-nominal">nominee</span></div></div>
+<div class="bt-person-row" data-role="private" data-position="kin" data-href="yana-latushka/" role="link" tabindex="0" aria-label="Yana Latushka"><div class="bt-person-row-photo" style="background-image: url('./assets/yana-latushka-thumb.webp');"></div><div class="bt-person-row-info"><div class="bt-person-row-name">Yana Latushka</div><div class="bt-person-row-role">Member of the BP supervisory board · daughter of Pavel Latushka</div></div><div class="bt-person-row-badges"><span class="bt-badge bt-badge-role-private">private individual</span><span class="bt-badge bt-badge-position-kin">relative</span></div></div>
+<div class="bt-person-row" data-role="politician" data-position="nominal" data-href="iryna-khalopitsa/" role="link" tabindex="0" aria-label="Iryna Khalopitsa"><div class="bt-person-row-photo" style="background-image: url('./assets/iryna-khalopitsa-thumb.webp');"></div><div class="bt-person-row-info"><div class="bt-person-row-name">Iryna Khalopitsa</div><div class="bt-person-row-role">Member of the BP supervisory board · Latushka's social media in NAM since 2023 · member of the Coordination Council</div></div><div class="bt-person-row-badges"><span class="bt-badge bt-badge-role-politician">politician</span><span class="bt-badge bt-badge-position-nominal">nominee</span></div></div>
+<div class="bt-person-row" data-role="private" data-position="witness" data-href="anna-panov/" role="link" tabindex="0" aria-label="Anna Panov"><div class="bt-person-row-photo" style="background-image: url('./assets/anna-panov-thumb.webp');"></div><div class="bt-person-row-info"><div class="bt-person-row-name">Anna Panov</div><div class="bt-person-row-role">Former member of the BP supervisory board (2022–2026)</div></div><div class="bt-person-row-badges"><span class="bt-badge bt-badge-role-private">private individual</span><span class="bt-badge bt-badge-position-witness">witness</span></div></div>
+
+</div>
+
+</div>
+
+<!-- ============================================================
+     СКРИПТ ФИЛЬТРАЦИИ И КЛИКА ПО ПЛАШКЕ
+     ============================================================ -->
+
+<script>
+(function() {
+  const filters = document.querySelectorAll('.bt-persons-filters .bt-filter');
+  const rows = document.querySelectorAll('.bt-persons-list .bt-person-row');
+
+  filters.forEach(f => {
+    f.addEventListener('click', e => {
+      e.preventDefault();
+      filters.forEach(x => x.classList.remove('bt-filter-active'));
+      f.classList.add('bt-filter-active');
+      const target = f.dataset.filter;
+      rows.forEach(r => {
+        if (target === 'all' || r.dataset.role === target) {
+          r.style.display = '';
+        } else {
+          r.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  rows.forEach(r => {
+    const href = r.dataset.href;
+    if (!href) return;
+
+    r.addEventListener('click', e => {
+      if (e.target.closest('a')) return;
+      window.location.href = href;
+    });
+
+    r.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        if (e.target.closest('a')) return;
+        e.preventDefault();
+        window.location.href = href;
+      }
+    });
+  });
+})();
+</script>
 
 
 
 
 
+
+
+  
+  
+
+
+
+
+  
 
 
 
