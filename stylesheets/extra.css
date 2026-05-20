@@ -3997,9 +3997,10 @@ img.bt-logo--dark,
   margin-left: 4px;
 }
 
-/* Порядок элементов в шапке справа: языки → разделитель → тема → поиск.
-   Material по умолчанию ставит переключатель темы первым. */
-.md-header__inner .md-header__option:has(.bt-lang-switcher) {
+/* Порядок: языки → тема → поиск.
+   Material рисует .md-header__option в .md-header__inner. 
+   Наш переключатель имеет класс bt-lang-switcher — двигаем его влево. */
+.md-header__inner .bt-lang-switcher {
   order: -1;
 }
 
