@@ -1,6 +1,13 @@
 """
-MkDocs macros hook — загружает данные расследований из investigations.yml
-в config.extra, откуда они доступны в шаблонах через {{ config.extra.investigations_data }}.
+MkDocs macros hook — загружает данные для витрин в config.extra.
+
+Сейчас грузит:
+- investigations.yml → config.extra.investigations_data
+- persons.yml → config.extra.persons_data
+
+В шаблонах данные доступны как
+    {{ config.extra.investigations_data }}
+    {{ config.extra.persons_data }}
 
 Подключается в mkdocs.yml:
     plugins:
@@ -14,22 +21,29 @@ import os
 import yaml
 
 
+def _load_yaml(path, fallback):
+    """Безопасно загрузить YAML-файл. При любых ошибках вернуть fallback."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return yaml.safe_load(f)
+    except FileNotFoundError:
+        print(f"⚠ {os.path.basename(path)} не найден по пути {path}")
+        return fallback
+    except yaml.YAMLError as e:
+        print(f"⚠ Ошибка чтения {os.path.basename(path)}: {e}")
+        return fallback
+
+
 def define_env(env):
     """Hook называется macros-плагином при сборке сайта."""
-    yml_path = os.path.join(os.path.dirname(__file__), "investigations.yml")
-    try:
-        with open(yml_path, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f)
-        env.conf["extra"]["investigations_data"] = data
-    except FileNotFoundError:
-        print(f"⚠ investigations.yml не найден по пути {yml_path}")
-        env.conf["extra"]["investigations_data"] = {
-            "investigations": [],
-            "filters": {"all": "Все"},
-        }
-    except yaml.YAMLError as e:
-        print(f"⚠ Ошибка чтения investigations.yml: {e}")
-        env.conf["extra"]["investigations_data"] = {
-            "investigations": [],
-            "filters": {"all": "Все"},
-        }
+    base = os.path.dirname(__file__)
+
+    env.conf["extra"]["investigations_data"] = _load_yaml(
+        os.path.join(base, "investigations.yml"),
+        {"investigations": [], "filters": {"all": {"ru": "Все", "en": "All"}}, "ui": {}},
+    )
+
+    env.conf["extra"]["persons_data"] = _load_yaml(
+        os.path.join(base, "persons.yml"),
+        {"persons": [], "filters": {"all": {"ru": "Все", "en": "All"}}, "badges": {"role": {}, "position": {}}, "ui": {}},
+    )

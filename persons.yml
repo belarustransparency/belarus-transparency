@@ -1,0 +1,194 @@
+# Витрина персоналий — данные.
+#
+# Каждая персона — блок под `- slug:`.
+# slug должен совпадать с именем .md-файла карточки персоны
+# во всех локалях: docs/<lang>/persons/<slug>.md
+#
+# Локализуемые поля имеют вложенные ключи ru/en/pl/lt.
+# Если перевода нет — fallback на en, затем на ru (логика в шаблоне).
+#
+# Не локализуются (одно значение):
+#   slug, role (фильтр), position (фильтр), thumbnail
+
+persons:
+
+  - slug: artsiom-praskalovich
+    name: Artsiom Praskalovich
+    role: politician
+    position: nominal
+    thumbnail: ./assets/artsiom-praskalovich-thumb.webp
+    role_short:
+      ru: Председатель правления BP · зам. Представителя UTC по транзиту власти
+      en: Chairman of the BP management board · Deputy UTC Representative for power transition
+      pl: Przewodniczący zarządu BP · zastępca Przedstawiciela UTC ds. tranzytu władzy
+      lt: BP valdybos pirmininkas · UTC atstovo valdžios perdavimo klausimais pavaduotojas
+
+  - slug: artsiom-brukhan
+    name: Artsiom Brukhan
+    role: politician
+    position: nominal
+    thumbnail: ./assets/artsiom-brukhan-thumb.webp
+    role_short:
+      ru: Член надзорного органа BP · зам. главы NAM · спикер Coordination Council
+      en: Member of the BP supervisory board · Deputy head of NAM · spokesperson of the Coordination Council
+      pl: Członek organu nadzorczego BP · zastępca szefa NAM · rzecznik Rady Koordynacyjnej
+      lt: BP priežiūros organo narys · NAM vadovo pavaduotojas · Koordinacinės tarybos atstovas spaudai
+
+  - slug: vladzimir-astapenka
+    name: Vladzimir Astapenka
+    role: politician
+    position: nominal
+    thumbnail: ./assets/vladzimir-astapenka-thumb.webp
+    role_short:
+      ru: Член надзорного органа BP · Представитель UTC по международному сотрудничеству
+      en: Member of the BP supervisory board · UTC Representative for International Cooperation
+      pl: Członek organu nadzorczego BP · Przedstawiciel UTC ds. współpracy międzynarodowej
+      lt: BP priežiūros organo narys · UTC atstovas tarptautiniam bendradarbiavimui
+
+  - slug: yana-latushka
+    name: Yana Latushka
+    role: private
+    position: kin
+    thumbnail: ./assets/yana-latushka-thumb.webp
+    role_short:
+      ru: Член надзорного органа BP · дочь Павла Латушко
+      en: Member of the BP supervisory board · daughter of Pavel Latushka
+      pl: Członkini organu nadzorczego BP · córka Pawła Łatuszki
+      lt: BP priežiūros organo narė · Pavlo Latuškos dukra
+
+  - slug: iryna-khalopitsa
+    name: Iryna Khalopitsa
+    role: politician
+    position: nominal
+    thumbnail: ./assets/iryna-khalopitsa-thumb.webp
+    role_short:
+      ru: Член надзорного органа BP · соцсети Латушко в NAM с 2023 · член Coordination Council
+      en: Member of the BP supervisory board · Latushka's social media in NAM since 2023 · member of the Coordination Council
+      pl: Członkini organu nadzorczego BP · social media Łatuszki w NAM od 2023 · członkini Rady Koordynacyjnej
+      lt: BP priežiūros organo narė · Latuškos socialiniai tinklai NAM nuo 2023 · Koordinacinės tarybos narė
+
+  - slug: anna-panov
+    name: Anna Panov
+    role: private
+    position: witness
+    thumbnail: ./assets/anna-panov-thumb.webp
+    role_short:
+      ru: Бывший член надзорного органа BP (2022–2026)
+      en: Former member of the BP supervisory board (2022–2026)
+      pl: Była członkini organu nadzorczego BP (2022–2026)
+      lt: Buvusi BP priežiūros organo narė (2022–2026)
+
+# === Фильтры по функциональной роли ===
+# Ключ совпадает с полем `role` персоны.
+
+filters:
+  all:
+    ru: Все
+    en: All
+    pl: Wszyscy
+    lt: Visi
+  politician:
+    ru: Политики
+    en: Politicians
+    pl: Politycy
+    lt: Politikai
+  media:
+    ru: Медиа
+    en: Media
+    pl: Media
+    lt: Žiniasklaida
+  expert:
+    ru: Эксперты
+    en: Experts
+    pl: Eksperci
+    lt: Ekspertai
+  civic:
+    ru: Активисты
+    en: Activists
+    pl: Aktywiści
+    lt: Aktyvistai
+  business:
+    ru: Бизнес
+    en: Business
+    pl: Biznes
+    lt: Verslas
+  private:
+    ru: Частные лица
+    en: Private individuals
+    pl: Osoby prywatne
+    lt: Privatūs asmenys
+
+# === Локализация бейджей роли и позиции ===
+
+badges:
+  role:
+    politician:
+      ru: политик
+      en: politician
+      pl: polityk
+      lt: politikas
+    media:
+      ru: медиа
+      en: media
+      pl: media
+      lt: žiniasklaida
+    expert:
+      ru: эксперт
+      en: expert
+      pl: ekspert
+      lt: ekspertas
+    civic:
+      ru: активист
+      en: activist
+      pl: aktywista
+      lt: aktyvistas
+    business:
+      ru: бизнес
+      en: business
+      pl: biznes
+      lt: verslas
+    private:
+      ru: частное лицо
+      en: private individual
+      pl: osoba prywatna
+      lt: privatus asmuo
+  position:
+    nominal:
+      ru: номинал
+      en: nominee
+      pl: nominat
+      lt: nominalas
+    kin:
+      ru: родственник
+      en: relative
+      pl: krewny
+      lt: giminaitis
+    witness:
+      ru: свидетель
+      en: witness
+      pl: świadek
+      lt: liudytojas
+    decisionmaker:
+      ru: решающий
+      en: decision-maker
+      pl: decydent
+      lt: sprendėjas
+
+# === UI элементы витрины ===
+
+ui:
+  kicker:
+    ru: Раздел
+    en: Section
+    pl: Sekcja
+    lt: Skiltis
+  h1:
+    ru: Персоналии
+    en: Persons
+    pl: Osoby
+    lt: Asmenys
+  lede:
+    ru: Карточки публичных фигур и связанных лиц с указанием функциональной роли и структурной позиции в основной организации. Используйте фильтр для отбора по типу деятельности.
+    en: Profiles of public figures and related individuals, indicating their functional role and structural position in the primary organization. Use the filter to sort by activity type.
+    pl: Karty postaci publicznych i osób powiązanych z określeniem ich roli funkcyjnej i pozycji strukturalnej w głównej organizacji. Użyj filtra, aby wybrać typ działalności.
+    lt: Viešų figūrų ir susijusių asmenų kortelės su jų funkcine veikla ir struktūrine pozicija pagrindinėje organizacijoje. Naudokite filtrą norėdami atrinkti pagal veiklos tipą.
