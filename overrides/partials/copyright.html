@@ -15,19 +15,37 @@
         .bt-footer-line             — горизонтальная кирпичная линия
         .bt-footer-after            — пустое пространство под линией
 
-  Иконки — inline SVG из simpleicons.org (24×24 viewBox). Они
-  наследуют currentColor через fill, и реагируют на hover как
-  обычные ссылки.
+  Локализация:
+    Префикс языка определяется по URL текущей страницы.
+    page.url имеет вид "ru/persons/ivanov/" — берём первый сегмент.
+    Если первого сегмента нет (это редирект-страница в корне) —
+    дефолт ru.
+
+  Подписи меню локализованы по этому же префиксу.
 -#}
+
+{%- set lang_prefix = page.url.split('/')[0] if page.url else 'ru' -%}
+{%- if lang_prefix not in ['ru', 'en', 'pl', 'lt'] -%}
+  {%- set lang_prefix = 'ru' -%}
+{%- endif -%}
+
+{%- set labels = {
+  'ru': {'archive': 'Архив документов', 'methodology': 'Методология', 'source': 'Защита источников', 'privacy': 'Конфиденциальность'},
+  'en': {'archive': 'Document archive', 'methodology': 'Methodology', 'source': 'Source protection', 'privacy': 'Privacy'},
+  'pl': {'archive': 'Archiwum dokumentów', 'methodology': 'Metodologia', 'source': 'Ochrona źródeł', 'privacy': 'Prywatność'},
+  'lt': {'archive': 'Dokumentų archyvas', 'methodology': 'Metodologija', 'source': 'Šaltinių apsauga', 'privacy': 'Privatumas'}
+} -%}
+{%- set L = labels[lang_prefix] -%}
+
 <div class="md-copyright">
   <div class="bt-footer">
     <div class="bt-footer-row">
       <span class="bt-footer-copy">© 2026 Belarus Transparency</span>
       <nav class="bt-footer-mid">
-        <a href="{{ '/archive/' | url }}">Архив документов</a>
-        <a href="{{ '/methodology/' | url }}">Методология</a>
-        <a href="{{ '/source-protection/' | url }}">Защита источников</a>
-        <a href="{{ '/privacy/' | url }}">Конфиденциальность</a>
+        <a href="{{ ('/' ~ lang_prefix ~ '/archive/') | url }}">{{ L.archive }}</a>
+        <a href="{{ ('/' ~ lang_prefix ~ '/methodology/') | url }}">{{ L.methodology }}</a>
+        <a href="{{ ('/' ~ lang_prefix ~ '/source-protection/') | url }}">{{ L.source }}</a>
+        <a href="{{ ('/' ~ lang_prefix ~ '/privacy/') | url }}">{{ L.privacy }}</a>
       </nav>
       <div class="bt-footer-right">
         <a href="https://www.linkedin.com/company/belarus-transparency" class="bt-footer-icon" aria-label="LinkedIn" target="_blank" rel="noopener">

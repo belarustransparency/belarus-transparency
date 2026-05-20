@@ -3896,3 +3896,59 @@ img.bt-logo--dark,
   margin-top:18px;font-size:var(--bt-fs-s5);
   color:var(--bt-color-meta,#6B6B6B);line-height:1.5;
 }
+
+/* === Языковой переключатель === */
+
+/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа */
+.bt-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  margin-right: 14px;
+}
+
+.bt-lang a {
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  font-weight: 400;
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.12s;
+  line-height: 1.2;
+}
+
+.bt-lang a:hover,
+.bt-lang a:focus {
+  color: var(--md-default-fg-color);
+}
+
+.bt-lang a.current {
+  color: var(--md-default-fg-color);
+  font-weight: 500;
+  border-bottom-color: #B8341E;  /* кирпичный, как в футере и логотипе */
+  pointer-events: none;          /* активный нельзя кликнуть */
+  cursor: default;
+}
+
+/* Кирпичная вертикальная чёрточка между языками и переключателем темы */
+.bt-lang-sep {
+  width: 1.5px;
+  height: 16px;
+  background: #B8341E;
+  display: inline-block;
+  margin: 0 14px 0 0;
+}
+
+/* На мобильном — компактнее */
+@media screen and (max-width: 480px) {
+  .bt-lang {
+    gap: 10px;
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  .bt-lang-sep {
+    margin: 0 10px 0 0;
+    height: 14px;
+  }
+}
