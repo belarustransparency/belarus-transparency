@@ -3899,16 +3899,16 @@ img.bt-logo--dark,
 
 /* === Языковой переключатель === */
 
-/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа */
-.bt-lang {
+/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа. */
+.bt-lang-switcher {
   display: inline-flex;
   align-items: center;
   gap: 14px;
   font-size: 12px;
-  margin-right: 14px;
+  margin-right: 4px;
 }
 
-.bt-lang a {
+.bt-lang-link {
   color: var(--md-default-fg-color--light);
   text-decoration: none;
   font-weight: 400;
@@ -3916,39 +3916,64 @@ img.bt-logo--dark,
   border-bottom: 1.5px solid transparent;
   transition: color 0.12s;
   line-height: 1.2;
+  cursor: pointer;
 }
 
-.bt-lang a:hover,
-.bt-lang a:focus {
+.bt-lang-link:hover,
+.bt-lang-link:focus {
   color: var(--md-default-fg-color);
 }
 
-.bt-lang a.current {
+.bt-lang-link.current {
   color: var(--md-default-fg-color);
   font-weight: 500;
-  border-bottom-color: #B8341E;  /* кирпичный, как в футере и логотипе */
-  pointer-events: none;          /* активный нельзя кликнуть */
+  border-bottom-color: #B8341E;
+  pointer-events: none;
   cursor: default;
 }
 
-/* Кирпичная вертикальная чёрточка между языками и переключателем темы */
+/* Кирпичная вертикальная чёрточка между языками и иконкой темы */
 .bt-lang-sep {
   width: 1.5px;
   height: 16px;
   background: #B8341E;
   display: inline-block;
-  margin: 0 14px 0 0;
+  margin-left: 4px;
 }
 
-/* На мобильном — компактнее */
-@media screen and (max-width: 480px) {
-  .bt-lang {
+/* === Порядок элементов в шапке ===
+   Material располагает элементы по DOM-порядку, мы переопределяем через order.
+   Целевая последовательность (слева направо):
+     [логотип] ... [языки RU EN PL LT | ] [тема] [поиск]
+
+   Используем большие положительные order для правых элементов:
+   - языки: 10
+   - переключатель темы (.md-header__button[for*="scheme"]): 20
+   - поиск (.md-search): 30
+   Логотип и заголовок имеют order: 0 — остаются слева. */
+.md-header__inner > .bt-lang-switcher,
+.md-header__inner > .md-header__option:has(.bt-lang-switcher) {
+  order: 10;
+}
+
+.md-header__inner > [data-md-component="palette"],
+.md-header__inner > .md-header__option:not(:has(.bt-lang-switcher)) {
+  order: 20;
+}
+
+.md-header__inner > .md-header__source,
+.md-header__inner > form,
+.md-header__inner > .md-search {
+  order: 30;
+}
+
+/* Адаптив: мобильный — компактнее */
+@media screen and (max-width: 600px) {
+  .bt-lang-switcher {
     gap: 10px;
     font-size: 11px;
-    margin-right: 10px;
   }
   .bt-lang-sep {
-    margin: 0 10px 0 0;
     height: 14px;
   }
 }
