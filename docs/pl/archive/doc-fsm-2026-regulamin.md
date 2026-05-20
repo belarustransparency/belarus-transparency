@@ -2,7 +2,7 @@
 hide:
   - navigation
   - toc
-title: "doc-fsm-2026-regulamin · Регламент конкурса грантов FSM 2026"
+title: "doc-fsm-2026-regulamin · Regulamin Konkursu Grantowego FSM 2026"
 id: doc-fsm-2026-regulamin
 doc_title: Regulamin uczestnictwa w Konkursie Grantowym na rzecz społeczeństwa białoruskiego (2026)
 date_original: 2026-03-26
@@ -21,9 +21,9 @@ related_events:
   - fsm-grant-competition-2026
 related_investigations:
 tags:
-  - регламент
-  - конкурс
-  - грант
+  - regulamin
+  - konkurs
+  - grant
   - fsm
   - 2026
 status: active
@@ -32,9 +32,9 @@ status: active
 <div class="bt-doc">
 
 <header class="bt-doc-head">
-  <div class="bt-kicker">Архив · Документ · doc-fsm-2026-regulamin</div>
-  <h1>Регламент конкурса грантов FSM 2026</h1>
-  <p class="bt-lede">Официальный регламент участия в конкурсе грантов на поддержку беларуского общества, изданный Fundacją Solidarności Międzynarodowej 26 марта 2026 года. 22 страницы, 29 разделов, 9 приложений.</p>
+  <div class="bt-kicker">Archiwum · Dokument · doc-fsm-2026-regulamin</div>
+  <h1>Regulamin Konkursu Grantowego FSM 2026</h1>
+  <p class="bt-lede">Oficjalny regulamin uczestnictwa w konkursie grantowym na rzecz społeczeństwa białoruskiego, wydany przez Fundację Solidarności Międzynarodowej 26 marca 2026 roku. 22 strony, 29 rozdziałów, 9 załączników.</p>
 </header>
 
 <section class="bt-doc-meta">
@@ -44,107 +44,107 @@ status: active
       <div class="bt-meta-value">doc-fsm-2026-regulamin</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Тип</div>
-      <div class="bt-meta-value">PDF · 22 страницы</div>
+      <div class="bt-meta-label">Typ</div>
+      <div class="bt-meta-value">PDF · 22 strony</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Дата документа</div>
-      <div class="bt-meta-value">26 марта 2026</div>
+      <div class="bt-meta-label">Data dokumentu</div>
+      <div class="bt-meta-value">26 marca 2026</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Когда захвачено</div>
-      <div class="bt-meta-value">17 мая 2026</div>
+      <div class="bt-meta-label">Pozyskano</div>
+      <div class="bt-meta-value">17 maja 2026</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Источник</div>
+      <div class="bt-meta-label">Źródło</div>
       <div class="bt-meta-value">
         <a href="https://solidarityfund.pl/procedures/konkurs-grantowy-na-rzecz-spoleczenstwa-bialoruskiego-2026/">solidarityfund.pl</a>
-        <span class="bt-status bt-status-alive">ссылка активна</span>
+        <span class="bt-status bt-status-alive">link aktywny</span>
       </div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Язык</div>
-      <div class="bt-meta-value">Польский</div>
+      <div class="bt-meta-label">Język</div>
+      <div class="bt-meta-value">Polski</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Издатель</div>
+      <div class="bt-meta-label">Wydawca</div>
       <div class="bt-meta-value"><a href="../../organizations/fundacja-solidarnosci-miedzynarodowej/">Fundacja Solidarności Międzynarodowej</a></div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Хранение</div>
-      <div class="bt-meta-value">В репозитории</div>
+      <div class="bt-meta-label">Przechowywanie</div>
+      <div class="bt-meta-value">W repozytorium</div>
     </div>
   </div>
 
   <div class="bt-doc-actions">
-    <a class="bt-doc-button bt-doc-primary" href="../files/Regulamin-Konkursu-Grantowego-2026.pdf" download>Скачать PDF</a>
-    <a class="bt-doc-button" href="https://solidarityfund.pl/procedures/konkurs-grantowy-na-rzecz-spoleczenstwa-bialoruskiego-2026/">Открыть на сайте FSM</a>
+    <a class="bt-doc-button bt-doc-primary" href="../files/Regulamin-Konkursu-Grantowego-2026.pdf" download>Pobierz PDF</a>
+    <a class="bt-doc-button" href="https://solidarityfund.pl/procedures/konkurs-grantowy-na-rzecz-spoleczenstwa-bialoruskiego-2026/">Otwórz na stronie FSM</a>
   </div>
 </section>
 
 <div class="bt-prose" markdown>
 
-Регламент — основной нормативный документ конкурса. Он определяет цели, приоритеты, круг участников, размеры грантов, расписание, формат подачи заявок, критерии оценки, основания исключения и обязательства грантополучателей. Конкурс финансируется из средств программы «Wsparcie Demokracji 2026» в рамках польского сотрудничества в области развития МИД РП.
+Regulamin to podstawowy dokument normatywny konkursu. Określa cele, priorytety, krąg uczestników, kwoty grantów, harmonogram, format składania wniosków, kryteria oceny, podstawy wykluczenia oraz zobowiązania beneficjentów. Konkurs jest finansowany ze środków programu „Wsparcie Demokracji 2026" w ramach polskiej współpracy rozwojowej MSZ RP.
 
-Общий бюджет — 7 480 000 zł. Размер одного гранта — от 500 000 до 1 000 000 zł. Период реализации проектов — с 1 января по 15 ноября 2026 года. Заявки принимались до 17 апреля 2026 года, результаты должны быть опубликованы до 29 мая 2026 года.
+Budżet ogólny — 7 480 000 zł. Wysokość pojedynczego grantu — od 500 000 do 1 000 000 zł. Okres realizacji projektów — od 1 stycznia do 15 listopada 2026 roku. Wnioski przyjmowano do 17 kwietnia 2026 roku, wyniki mają zostać opublikowane do 29 maja 2026 roku.
 
-### Структура документа
+### Struktura dokumentu
 
-Регламент включает 29 разделов и 9 приложений (включая образцы декларации заявителя, бюджета, таблицы показателей, апелляционной процедуры и образец грантового договора). Ниже — ключевые позиции, важные для понимания механики конкурса и сопоставления с предыдущими годами.
+Regulamin obejmuje 29 rozdziałów oraz 9 załączników (w tym wzory deklaracji wnioskodawcy, budżetu, tabel wskaźników, procedury odwoławczej oraz wzór umowy grantowej). Poniżej — kluczowe pozycje istotne dla zrozumienia mechaniki konkursu i porównania z latami poprzednimi.
 
-### Три приоритета (раздел 2)
+### Trzy priorytety (rozdział 2)
 
-**Приоритет I — защита прав человека и основных свобод.** Документирование преступлений режима для ООН, представительство граждан Беларуси в судах, развитие продемократических и правозащитных кругов, поддержка уязвимых групп (женщины, пожилые, люди с инвалидностью, этнические меньшинства), адвокация в Польше и на международной арене, стратегические правовые действия для привлечения белорусских властей к ответственности.
+**Priorytet I — ochrona praw człowieka i podstawowych wolności.** Dokumentowanie zbrodni reżimu dla ONZ, reprezentacja obywateli Białorusi w sądach, rozwój środowisk prodemokratycznych i obrońców praw człowieka, wsparcie grup wrażliwych (kobiety, osoby starsze, osoby z niepełnosprawnościami, mniejszości etniczne), działania adwokacyjne w Polsce i na arenie międzynarodowej, strategiczne działania prawne mające na celu pociągnięcie władz Białorusi do odpowiedzialności.
 
-**Приоритет II — помощь лицам, репрессированным по политическим причинам.** Финансовая, материальная, юридическая и психологическая помощь репрессированным и политзаключённым в Польше и за её пределами, поддержка их семей, профориентация, легализация пребывания. Построение сетей сотрудничества между организациями. Усиление НКО, работающих с репрессированными.
+**Priorytet II — pomoc osobom represjonowanym z przyczyn politycznych.** Pomoc finansowa, materialna, prawna i psychologiczna dla represjonowanych i więźniów politycznych w Polsce i poza jej granicami, wsparcie ich rodzin, doradztwo zawodowe, legalizacja pobytu. Budowanie sieci współpracy między organizacjami. Wzmocnienie NGO pracujących z represjonowanymi.
 
-**Приоритет III — доступ беларуского общества к достоверной информации.** Разоблачение пропаганды и расследовательская журналистика, финансирование редакций, обучение и модернизация редакций (включая закупку оборудования и ПО), кибербезопасность редакций и журналистов, психологическая поддержка журналистов.
+**Priorytet III — dostęp społeczeństwa białoruskiego do rzetelnych informacji.** Demaskowanie propagandy i dziennikarstwo śledcze, finansowanie redakcji, szkolenie i modernizacja redakcji (w tym zakup sprzętu i oprogramowania), cyberbezpieczeństwo redakcji i dziennikarzy, wsparcie psychologiczne dziennikarzy.
 
-### Кто может участвовать (раздел 6)
+### Kto może uczestniczyć (rozdział 6)
 
-Польские НКО, зарегистрированные в Польше и действующие в соответствии с законом «О деятельности общественной пользы и волонтариате». Также — религиозные организации, самоуправленческие ассоциации, социальные кооперативы и спортивные организации при соответствии требованиям того же закона.
+Polskie organizacje pozarządowe zarejestrowane w Polsce i działające zgodnie z ustawą „O działalności pożytku publicznego i o wolontariacie". Również — organizacje religijne, stowarzyszenia samorządowe, spółdzielnie socjalne i organizacje sportowe spełniające wymogi tej samej ustawy.
 
-**Ключевое требование пункта 6.3:** заявитель должен доказать, что в 2020–2025 годах он реализовал и отчитался по проектам на беларускую тематику на общую сумму ≥ 500 000 zł, включая минимум три проекта стоимостью свыше 125 000 zł каждый. Проекты, не закрытые в 2025 году, не учитываются. Это фактически замыкает конкурс на круг уже известных грантополучателей FSM.
+**Kluczowy wymóg punktu 6.3:** wnioskodawca musi udowodnić, że w latach 2020–2025 zrealizował i rozliczył projekty na tematykę białoruską na łączną kwotę ≥ 500 000 zł, w tym co najmniej trzy projekty o wartości powyżej 125 000 zł każdy. Projekty niezamknięte w 2025 roku nie są uwzględniane. Faktycznie zamyka to konkurs w gronie znanych już beneficjentów FSM.
 
-### Основания исключения (раздел 8)
+### Podstawy wykluczenia (rozdział 8)
 
-Помимо стандартных оснований (политические партии, профсоюзы, обвинительные приговоры за финансовые нарушения, коррупцию, отмывание денег, терроризм, торговлю людьми), регламент 2026 года содержит:
+Oprócz standardowych podstaw (partie polityczne, związki zawodowe, prawomocne wyroki skazujące za naruszenia finansowe, korupcję, pranie pieniędzy, terroryzm, handel ludźmi) regulamin 2026 zawiera:
 
-- **8.2.11** — дискриминация и преследования, включая сексуальные домогательства.
-- **8.3** — Фонд может исключить организацию даже без вступившего в силу приговора, при наличии «сильных доказательств» нарушения вышеуказанных принципов.
-- **8.4** — исключение организаций или их руководителей, подпадающих под международные санкции, санкции ЕС или санкции стран-доноров.
-- **8.6** — исключение организаций, в управляющих, контрольных или надзорных органах которых заседают члены Совета или Правления FSM, сотрудники МИД РП или сотрудники FSM либо «близкие лица» этих лиц (супруги, родственники в прямой линии, родственники второй степени бокового родства, лица в отношениях усыновления, опеки или попечительства).
+- **8.2.11** — dyskryminacja i prześladowania, w tym molestowanie seksualne.
+- **8.3** — Fundacja może wykluczyć organizację nawet bez prawomocnego wyroku, gdy istnieją „silne dowody" naruszenia powyższych zasad.
+- **8.4** — wykluczenie organizacji lub ich kierownictwa objętego sankcjami międzynarodowymi, sankcjami UE lub sankcjami krajów darczyńców.
+- **8.6** — wykluczenie organizacji, w których organach zarządczych, kontrolnych lub nadzorczych zasiadają członkowie Rady lub Zarządu FSM, pracownicy MSZ RP lub pracownicy FSM albo „osoby bliskie" tych osób (małżonkowie, krewni w linii prostej, krewni do drugiego stopnia linii bocznej, osoby pozostające w stosunku przysposobienia, opieki lub kurateli).
 
-### Процесс оценки (разделы 16–18)
+### Proces oceny (rozdziały 16–18)
 
-Оценка формальная — затем оценка содержательная двумя независимыми экспертами. При расхождении оценок ≥ 30% возможных баллов привлекается третий эксперт.
+Ocena formalna — następnie ocena merytoryczna przez dwóch niezależnych ekspertów. Przy rozbieżności ocen ≥ 30% możliwych punktów powoływany jest trzeci ekspert.
 
-Содержательная оценка идёт по трём критериям:
+Ocena merytoryczna odbywa się według trzech kryteriów:
 
-- **Адекватность проекта** — максимум 4 балла. Заявка с менее чем 50% баллов в этой категории отсеивается.
-- **Опыт заявителя** — максимум 2 балла.
-- **Эффективность проекта** — максимум 4 балла.
+- **Adekwatność projektu** — maksymalnie 4 punkty. Wniosek z mniej niż 50% punktów w tej kategorii jest odsiewany.
+- **Doświadczenie wnioskodawcy** — maksymalnie 2 punkty.
+- **Efektywność projektu** — maksymalnie 4 punkty.
 
-Максимально возможная сумма — 10 баллов. Заявки с общей оценкой ниже 50% не рассматриваются Оценочной комиссией. Окончательное решение принимает Правление Фонда; решение Правления — окончательное и обжалованию не подлежит.
+Maksymalna możliwa suma — 10 punktów. Wnioski z ogólną oceną poniżej 50% nie są rozpatrywane przez Komisję Oceniającą. Ostateczną decyzję podejmuje Zarząd Fundacji; decyzja Zarządu jest ostateczna i nie podlega odwołaniu.
 
-### Публикация результатов (пункт 18.5)
+### Publikacja wyników (punkt 18.5)
 
-Фонд публикует две таблицы — ранжированный список проектов, прошедших содержательную оценку, и список отклонённых на формальном этапе. **Важно:** «по соображениям безопасности» в этих списках не указываются полные данные заявителей — только номер заявки, приоритет, запрашиваемая сумма и количество баллов. Имена организаций-получателей в публичной таблице результатов отсутствуют. (В 2023 году, для сравнения, имена получателей публиковались в PDF на сайте FSM, который позже был удалён и доступен только через веб-архив.)
+Fundacja publikuje dwie tabele — listę rankingową projektów, które przeszły ocenę merytoryczną, oraz listę odrzuconych na etapie formalnym. **Istotne:** „ze względów bezpieczeństwa" w listach tych nie podaje się pełnych danych wnioskodawców — wyłącznie numer wniosku, priorytet, wnioskowaną kwotę i liczbę punktów. Nazw organizacji-beneficjentów w publicznej tabeli wyników nie ma. (Dla porównania, w 2023 roku nazwy beneficjentów były publikowane w PDF na stronie FSM, który został później usunięty i dostępny jest tylko przez archiwum internetowe.)
 
 </div>
 
 <section class="bt-doc-relations">
-  <div class="bt-block-label">Упоминается в</div>
+  <div class="bt-block-label">Wzmianki</div>
 
   <div class="bt-rel-group">
-    <div class="bt-rel-label">События</div>
+    <div class="bt-rel-label">Wydarzenia</div>
     <ul class="bt-rel-list">
-      <li><a href="../events/fsm-grant-competition-2026/">Конкурс грантов FSM на беларуское направление, 2026</a></li>
+      <li><a href="../events/fsm-grant-competition-2026/">Konkurs grantowy FSM na kierunek białoruski, 2026</a></li>
     </ul>
   </div>
 
   <div class="bt-rel-group">
-    <div class="bt-rel-label">Организации</div>
+    <div class="bt-rel-label">Organizacje</div>
     <ul class="bt-rel-list">
       <li><a href="../organizations/fundacja-solidarnosci-miedzynarodowej/">Fundacja Solidarności Międzynarodowej</a></li>
     </ul>
@@ -152,11 +152,11 @@ status: active
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Tagi</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">регламент</span>
-    <span class="bt-tag">конкурс</span>
-    <span class="bt-tag">грант</span>
+    <span class="bt-tag">regulamin</span>
+    <span class="bt-tag">konkurs</span>
+    <span class="bt-tag">grant</span>
     <span class="bt-tag">fsm</span>
     <span class="bt-tag">2026</span>
   </div>
