@@ -2,13 +2,17 @@
   Override: partials/alternate.html
   Belarus Transparency — плашка переключения языков "RU EN PL LT".
 
-  Внешний контейнер имеет ДВА класса:
-  - md-header__option — для базового позиционирования Material
-  - bt-lang-wrap — уникальный наш класс для точного CSS-таргетинга
-                   (Material нигде не использует это имя)
+  Логика: берём первый сегмент текущего URL (это языковой префикс),
+  для каждого языка из config.extra.alternate строим URL замены префикса:
+    /ru/persons/ivanov/ → /en/persons/ivanov/ при клике на EN
 
-  Логика построения парного URL:
-  /ru/persons/ivanov/ → /en/persons/ivanov/ при клике на EN
+  ВАЖНО: атрибут hreflang на <a> НЕ ставится.
+  Material использует его как сигнал "это языковой переключатель"
+  и перехватывает клик скриптом, отправляя на URL из
+  <link rel="alternate"> в <head>, который указывает на корень локали.
+  Без hreflang ссылка обычная, браузер переходит по href.
+  Для SEO достаточно <link rel="alternate"> в <head> — их Material
+  генерирует автоматически.
 -#}
 
 {%- set parts = (page.url or '').split('/') -%}
@@ -25,14 +29,12 @@
     {%- for alt in config.extra.alternate -%}
       {%- if alt.lang == current_lang -%}
         <a class="bt-lang-link current"
-           hreflang="{{ alt.lang }}"
            aria-current="page"
            aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
       {%- else -%}
         {%- set target = (base_url ~ '/' ~ alt.lang ~ '/' ~ path_tail) | replace('//', '/') -%}
         <a class="bt-lang-link"
            href="{{ target }}"
-           hreflang="{{ alt.lang }}"
            data-lang="{{ alt.lang }}"
            aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
       {%- endif -%}
