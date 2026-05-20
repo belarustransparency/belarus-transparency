@@ -2,10 +2,13 @@
   Override: partials/alternate.html
   Belarus Transparency — плашка переключения языков "RU EN PL LT".
 
-  Логика: берём первый сегмент текущего URL (это языковой префикс),
-  и для каждого языка из config.extra.alternate строим URL замены префикса.
-    /ru/persons/ivanov/ → /en/persons/ivanov/ при клике на EN
-  Сборка идёт через base_url, чтобы URL получались абсолютными от корня сайта.
+  Внешний контейнер имеет ДВА класса:
+  - md-header__option — для базового позиционирования Material
+  - bt-lang-wrap — уникальный наш класс для точного CSS-таргетинга
+                   (Material нигде не использует это имя)
+
+  Логика построения парного URL:
+  /ru/persons/ivanov/ → /en/persons/ivanov/ при клике на EN
 -#}
 
 {%- set parts = (page.url or '').split('/') -%}
@@ -17,21 +20,23 @@
 {%- endif -%}
 {%- set path_tail = tail_parts | join('/') -%}
 
-<div class="md-header__option bt-lang-switcher">
-  {%- for alt in config.extra.alternate -%}
-    {%- if alt.lang == current_lang -%}
-      <a class="bt-lang-link current"
-         hreflang="{{ alt.lang }}"
-         aria-current="page"
-         aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
-    {%- else -%}
-      {%- set target = (base_url ~ '/' ~ alt.lang ~ '/' ~ path_tail) | replace('//', '/') -%}
-      <a class="bt-lang-link"
-         href="{{ target }}"
-         hreflang="{{ alt.lang }}"
-         data-lang="{{ alt.lang }}"
-         aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
-    {%- endif -%}
-  {%- endfor %}
+<div class="md-header__option bt-lang-wrap">
+  <div class="bt-lang-switcher">
+    {%- for alt in config.extra.alternate -%}
+      {%- if alt.lang == current_lang -%}
+        <a class="bt-lang-link current"
+           hreflang="{{ alt.lang }}"
+           aria-current="page"
+           aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
+      {%- else -%}
+        {%- set target = (base_url ~ '/' ~ alt.lang ~ '/' ~ path_tail) | replace('//', '/') -%}
+        <a class="bt-lang-link"
+           href="{{ target }}"
+           hreflang="{{ alt.lang }}"
+           data-lang="{{ alt.lang }}"
+           aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
+      {%- endif -%}
+    {%- endfor %}
+  </div>
   <span class="bt-lang-sep" aria-hidden="true"></span>
 </div>
