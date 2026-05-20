@@ -3899,13 +3899,18 @@ img.bt-logo--dark,
 
 /* === Языковой переключатель === */
 
-/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа. */
+/* Внешняя обёртка — наш уникальный класс. По нему таргетим order. */
+.bt-lang-wrap {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Сама плашка с 4 языками */
 .bt-lang-switcher {
   display: inline-flex;
   align-items: center;
   gap: 14px;
   font-size: 12px;
-  margin-right: 4px;
 }
 
 .bt-lang-link {
@@ -3932,13 +3937,69 @@ img.bt-logo--dark,
   cursor: default;
 }
 
-/* Кирпичная вертикальная чёрточка между языками и иконкой темы */
+/* Кирпичная вертикальная чёрточка справа от языков, с отступами от соседей */
 .bt-lang-sep {
   width: 1.5px;
   height: 16px;
   background: #B8341E;
   display: inline-block;
-  margin-left: 4px;
+  margin: 0 14px;        /* отступы И слева И справа, чтобы не слипалось */
+  flex-shrink: 0;
+}
+
+/* === Порядок элементов в шапке: бургер | логотип | ... | языки | тема | поиск === */
+
+/* Языки — слева от темы, но справа от всего основного контента шапки. */
+.md-header__inner > .bt-lang-wrap {
+  order: 10;
+  margin-left: auto;     /* отжимает плашку и всё что справа к правому краю */
+}
+
+/* Иконка темы — после языков. Material рендерит её как <form> с кнопкой. */
+.md-header__inner > form[data-md-component="palette"] {
+  order: 20;
+  margin-left: 0;        /* не нужен auto, языки уже отжали */
+}
+
+/* Поиск — самый правый */
+.md-header__inner > .md-search {
+  order: 30;
+}
+
+/* === Минималистичная иконка темы === */
+
+/* Уменьшаем размер SVG-иконки внутри кнопки палитры, чтобы не доминировала */
+.md-header__inner [data-md-component="palette"] .md-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.5;
+}
+
+/* === Адаптив: мобильный === */
+@media screen and (max-width: 76.234375em) {
+  /* На мобильном Material показывает бургер слева, логотип-заголовок,
+     дальше элементы шапки. Растягиваем правую группу. */
+
+  .bt-lang-switcher {
+    gap: 12px;
+    font-size: 12px;
+  }
+
+  .bt-lang-sep {
+    margin: 0 10px;
+    height: 14px;
+  }
+}
+
+/* Очень узкие экраны — ещё компактнее */
+@media screen and (max-width: 480px) {
+  .bt-lang-switcher {
+    gap: 10px;
+    font-size: 11px;
+  }
+  .bt-lang-sep {
+    margin: 0 8px;
+  }
 }
 
 /* === Порядок элементов в шапке ===
