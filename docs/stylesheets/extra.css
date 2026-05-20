@@ -4037,3 +4037,13 @@ img.bt-logo--dark,
     height: 14px;
   }
 }
+/* === Pending-сущности (карточка ещё не создана) === */
+
+.bt-pending {
+  border-bottom: 1px dotted var(--md-default-fg-color--light);
+  cursor: help;
+}
+
+.bt-pending:hover {
+  border-bottom-color: var(--md-default-fg-color);
+}
