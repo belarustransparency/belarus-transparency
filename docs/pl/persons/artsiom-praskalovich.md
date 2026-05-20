@@ -36,7 +36,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Artsiom Praskalovich / Артём Праскалович</h1>
+  <h1>Artsiom Praskalovich</h1>
   <p class="bt-lede">Prezes zarządu Fundacji Białoruś Przyszłości od 26 sierpnia 2022 roku. Zastępca Przedstawiciela ds. tranzytu władzy Pawła Łatuszki w United Transitional Cabinet (do spraw nacisku prawnego).</p>
 </header>
 

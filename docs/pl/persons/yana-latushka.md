@@ -33,7 +33,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Yana Latushka / Яна Латушка</h1>
+  <h1>Yana Latushka</h1>
   <p class="bt-lede">Członkini organu nadzorczego Fundacji Białoruś Przyszłości od 5 września 2025 roku. Córka Pawła Łatuszki. Członkini Rady Koordynacyjnej III kadencji z ramienia frakcji „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 

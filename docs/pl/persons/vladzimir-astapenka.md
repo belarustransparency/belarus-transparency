@@ -34,7 +34,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Vladzimir Astapenka / Владимир Астапенко</h1>
+  <h1>Vladzimir Astapenka</h1>
   <p class="bt-lede">Członek organu nadzorczego Fundacji Białoruś Przyszłości od 26 sierpnia 2022 roku. Przedstawiciel United Transitional Cabinet ds. współpracy międzynarodowej i europejskiej, kierownik Misji Demokratycznej Białorusi w Brukseli.</p>
 </header>
 

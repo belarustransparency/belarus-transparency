@@ -32,7 +32,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Anna Panov / Анна Панов</h1>
+  <h1>Anna Panov</h1>
   <p class="bt-lede">Członkini organu nadzorczego Fundacji Białoruś Przyszłości od 26 sierpnia 2022 roku, wykreślona 26 stycznia 2026 roku.</p>
 </header>
 

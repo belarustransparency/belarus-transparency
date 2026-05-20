@@ -33,7 +33,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Iryna Khalopitsa / Ирина Халопица</h1>
+  <h1>Iryna Khalopitsa</h1>
   <p class="bt-lede">Członkini organu nadzorczego Fundacji Białoruś Przyszłości od 5 września 2025 roku. Od 2023 roku — pracowniczka Narodowego Zarządu Antykryzysowego (NAM) Pawła Łatuszki, odpowiedzialna za jego social media. Członkini Rady Koordynacyjnej III kadencji z ramienia frakcji „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 

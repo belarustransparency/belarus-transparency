@@ -34,7 +34,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Artsiom Brukhan / Артём Брухан</h1>
+  <h1>Artsiom Brukhan</h1>
   <p class="bt-lede">Członek organu nadzorczego Fundacji Białoruś Przyszłości od 29 maja 2023 roku. Rzecznik Rady Koordynacyjnej III kadencji z ramienia frakcji „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 
