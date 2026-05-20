@@ -2,9 +2,9 @@
 hide:
   - navigation
   - toc
-title: "doc-fsm-2024-results · Lista rankingowa Konkursu na rzecz społeczeństwa białoruskiego 2024"
+title: "doc-fsm-2024-results · Konkurso baltarusių visuomenei 2024 reitinguotas sąrašas"
 id: doc-fsm-2024-results
-doc_title: Listy rankingowe Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2024)
+doc_title: Konkurso baltarusių visuomenei (FSM, 2024) reitinguoti sąrašai
 date_original: 2024-01-01
 date_captured: 2026-05-17
 source_url:
@@ -19,164 +19,164 @@ related_orgs:
   - fundacja-solidarnosci-miedzynarodowej
   - msz-polska
 tags:
-  - грант
-  - конкурс
+  - dotacija
+  - konkursas
   - fsm
   - msz
-  - польша
+  - lenkija
   - 2024
-  - финансирование
-  - сокрытие
+  - finansavimas
+  - slepimas
 status: active
 ---
 
 <div class="bt-doc" markdown>
 
-<div class="bt-doc-kicker">Архив · документ · <span class="bt-doc-id">doc-fsm-2024-results</span></div>
-<h1 class="bt-doc-title">Listy rankingowe Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2024)</h1>
-<p class="bt-doc-lede">Результаты грантового конкурса FSM на беларуское направление 2024 года. Первый год, в котором применён регламент 15.9.2 — норма о сокрытии заявителей «по соображениям безопасности». Из 43 заявок 22 (51%) скрыты: имена заявителей, проекты и суммы не публикуются. Видимый бюджет победителей — 880 000 PLN на 5 организаций.</p>
+<div class="bt-doc-kicker">Archyvas · dokumentas · <span class="bt-doc-id">doc-fsm-2024-results</span></div>
+<h1 class="bt-doc-title">Konkurso baltarusių visuomenei (FSM, 2024) reitinguoti sąrašai</h1>
+<p class="bt-doc-lede">FSM dotacijų konkurso baltarusių kryptimi 2024 m. rezultatai. Pirmieji metai, kuriais pritaikytas reglamento 15.9.2 punktas — norma apie pareiškėjų slėpimą „saugumo sumetimais". Iš 43 paraiškų 22 (51%) paslėptos: pareiškėjų pavadinimai, projektai ir sumos neskelbiami. Matomas laimėtojų biudžetas — 880 000 PLN 5 organizacijoms.</p>
 
 <div class="bt-doc-meta">
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Тип</div><div class="bt-doc-meta-value">PDF, 10 страниц</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Распорядитель</div><div class="bt-doc-meta-value">Fundacja Solidarności Międzynarodowej (FSM)</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">По поручению</div><div class="bt-doc-meta-value">Ministerstwo Spraw Zagranicznych RP (МИД Польши)</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Программа</div><div class="bt-doc-meta-value">«Solidarni z Białorusią» / Wsparcie Demokracji</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Год конкурса</div><div class="bt-doc-meta-value">2024</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Захвачено</div><div class="bt-doc-meta-value">17 мая 2026</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Источник</div><div class="bt-doc-meta-value">URL первоисточника требует уточнения <span class="bt-doc-status bt-doc-status-dead">не зафиксирован</span></div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Хранение</div><div class="bt-doc-meta-value">В репозитории</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Tipas</div><div class="bt-doc-meta-value">PDF, 10 puslapių</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Tvarkytojas</div><div class="bt-doc-meta-value">Fundacja Solidarności Międzynarodowej (FSM)</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Užsakymu</div><div class="bt-doc-meta-value">Ministerstwo Spraw Zagranicznych RP (Lenkijos URM)</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Programa</div><div class="bt-doc-meta-value">„Solidarni z Białorusią" / Wsparcie Demokracji</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Konkurso metai</div><div class="bt-doc-meta-value">2024</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Užfiksuota</div><div class="bt-doc-meta-value">2026 m. gegužės 17 d.</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Šaltinis</div><div class="bt-doc-meta-value">Pirminio šaltinio URL reikia patikslinti <span class="bt-doc-status bt-doc-status-dead">neužfiksuotas</span></div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Saugojimas</div><div class="bt-doc-meta-value">Saugykloje</div></div>
 </div>
 
-<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/MSF_Lista-rankingowa_2024.pdf" download>Скачать PDF</a></div>
+<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/MSF_Lista-rankingowa_2024.pdf" download>Atsisiųsti PDF</a></div>
 
 <div class="bt-doc-prose" markdown>
 
-Документ — официальные ранжированные списки результатов грантового конкурса «Konkurs Grantowy na rzecz społeczeństwa białoruskiego» за 2024 год. Конкурс проводит Fundacja Solidarności Międzynarodowej (FSM) — польская государственная фундация, действующая по поручению МИД Польши в рамках программы «Wsparcie Demokracji» и пакета помощи «Solidarni z Białorusią». Три списка: получившие финансирование (раздел 1, 11 позиций), отклонённые по баллам (раздел 2, 16 позиций), отклонённые по формальным причинам (раздел 3, 28 позиций). Всего 55 уникальных номеров заявок (WD2024_001 — WD2024_055).
+Dokumentas — oficialūs dotacijų konkurso „Konkurs Grantowy na rzecz społeczeństwa białoruskiego" 2024 m. rezultatų reitinguoti sąrašai. Konkursą rengia Fundacja Solidarności Międzynarodowej (FSM) — Lenkijos valstybinis fondas, veikiantis Lenkijos URM užsakymu pagal programą „Wsparcie Demokracji" ir pagalbos paketą „Solidarni z Białorusią". Trys sąrašai: gavę finansavimą (1 skyrius, 11 pozicijų), atmesti pagal balus (2 skyrius, 16 pozicijų), atmesti dėl formalių priežasčių (3 skyrius, 28 pozicijos). Iš viso 55 unikalūs paraiškų numeriai (WD2024_001 — WD2024_055).
 
-**Поворотный год: введение режима сокрытия.** 2024 год — первый, в котором FSM в массовом порядке применила положение **pkt 15.9.2 Regulaminu Konkursu Grantowego** — норму, позволяющую скрывать информацию о заявителе, проекте, сумме и стране реализации по запросу самого заявителя «из-за особых политических условий в стране, к которой адресован проект (в особенности безопасности участников и реализаторов проекта)». В предыдущих ранжированных списках конкурса (2020, 2021, 2023 годов) этот механизм не использовался; видимыми были все заявители без исключения.
+**Lūžio metai: slėpimo režimo įvedimas.** 2024 m. — pirmieji, kuriais FSM masiškai pritaikė **Dotacijų konkurso reglamento 15.9.2 punkto** nuostatą — normą, leidžiančią slėpti informaciją apie pareiškėją, projektą, sumą ir įgyvendinimo šalį paties pareiškėjo prašymu „dėl ypatingų politinių sąlygų šalyje, kuriai skiriamas projektas (ypač projekto dalyvių ir vykdytojų saugumo)". Ankstesniuose konkurso reitinguotuose sąrašuose (2020, 2021, 2023 m.) šis mechanizmas nebuvo taikomas; visi pareiškėjai be išimties buvo matomi.
 
-В документе 2024 года из 43 позиций в разделах 1 и 2 (с баллами) **22 скрыты по пкт 15.9.2** — то есть **51% заявок с оцениванием анонимизированы**. В разделе 3 (формальные отклонения) из 28 позиций скрыты 9, то есть **32%**. По всем трём разделам суммарно: 31 из 55 позиций (56%) опубликована, 24 (44%) скрыта.
+2024 m. dokumente iš 43 pozicijų 1 ir 2 skyriuose (su balais) **22 paslėptos pagal 15.9.2 punktą** — t. y. **51% vertintų paraiškų anonimizuotos**. 3 skyriuje (formalūs atmetimai) iš 28 pozicijų paslėpta 9, t. y. **32%**. Iš viso visuose trijuose skyriuose: 31 paraiška iš 55 (56%) paskelbta, 24 (44%) — paslėpta.
 
-**Получили финансирование (видимая часть).** Пять организаций из 11 позиций в разделе 1; шесть позиций — анонимизированы.
+**Gavę finansavimą (matoma dalis).** Penkios organizacijos iš 11 pozicijų 1 skyriuje; šešios pozicijos — anonimizuotos.
 
-| Место | Организация | Проект | Приоритет | Балл | Сумма |
+| Vieta | Organizacija | Projektas | Prioritetas | Balai | Suma |
 |---|---|---|---|---|---|
 | 3 | Kolegium Europy Wschodniej | Wspieramy Białoruskie Przebudzenie'24 | II | 18 | 230 000 |
-| 4 | Fundacja «KARTA '97» | Доступ к независимой информации о Беларуси в 2024 | II | 18 | 300 000 |
-| 5 | Informacyjne Biuro Białoruś w Fokusie | Развитие беларуской журналистики в эмиграции | II | 18 | 100 000 |
-| 10 | Fundacja Strefa Solidarności | Поддержка репрессированных журналистов TV Биелсат | I | 16 | 250 000 |
+| 4 | Fundacja „KARTA '97" | Prieiga prie nepriklausomos informacijos apie Baltarusiją 2024 m. | II | 18 | 300 000 |
+| 5 | Informacyjne Biuro Białoruś w Fokusie | Baltarusių žurnalistikos emigracijoje plėtra | II | 18 | 100 000 |
+| 10 | Fundacja Strefa Solidarności | Represuotų TV Belsat žurnalistų parama | I | 16 | 250 000 |
 
-**Видимый бюджет победителей — 880 000 PLN** на 4 организации (Strefa Solidarności упомянута дважды в моей сводке — это технически одна позиция, итого 4 видимых грантополучателя). Суммы и заявители ещё 7 позиций (1, 2, 6, 7, 8, 9, 11) скрыты — реальный общий бюджет конкурса 2024 года из открытых данных не вычисляется.
+**Matomas laimėtojų biudžetas — 880 000 PLN** 4 organizacijoms (Strefa Solidarności mano suvestinėje paminėta — tai techniškai viena pozicija, iš viso 4 matomi dotacijų gavėjai). Dar 7 pozicijų (1, 2, 6, 7, 8, 9, 11) sumos ir pareiškėjai paslėpti — tikrojo bendro 2024 m. konkurso biudžeto iš atvirų duomenų neįmanoma apskaičiuoti.
 
-**Отклонённые по баллам (видимая часть, 7 из 16).** Эти проекты прошли по формальным требованиям, но получили недостаточно баллов для финансирования. Пять из семи видимых — проекты прямой поддержки беларуских общин в Польше:
+**Atmesti pagal balus (matoma dalis, 7 iš 16).** Šie projektai įveikė formalius reikalavimus, bet gavo per mažai balų finansavimui. Penki iš septynių matomų — tiesioginės baltarusių bendruomenių Lenkijoje paramos projektai:
 
-| Организация | Проект | Приоритет | Балл |
+| Organizacija | Projektas | Prioritetas | Balai |
 |---|---|---|---|
-| Stowarzyszenie Ruch Solidarności Białoruskiej | Беларусско-польский форум экспертов им. Скирмунта | III, I | 13 |
-| Fundacja Tutaka | Создавая беларускую культуру | III, I | 13 |
-| Fundacja Ośrodka KARTA | Беларуские дни в Витрине Восточного дома | III | 11 |
-| CASE-Centrum Analiz Społeczno-Ekonomicznych | Демократическая трансформация: поддержка лидеров беларуской диаспоры | III, II | 10,5 |
-| Stowarzyszenie Willa Decjusza | Культура на изгнании | III | 10 |
-| Fundacja «Linking Media» | Профессиональное совершенствование и поддержка журналистов из Беларуси | II | 9,5 |
-| Fundacja Młode Kresy | Виртуальная Беларусь 24: достоверные сведения во времена пропаганды | II | 4 |
-| Fundacja Sustainable Strategies Network | Час отсюда на восток — эксплоатация | II | 0,5 |
+| Stowarzyszenie Ruch Solidarności Białoruskiej | Baltarusių–lenkų ekspertų forumas Skirmunto v. | III, I | 13 |
+| Fundacja Tutaka | Kuriame baltarusių kultūrą | III, I | 13 |
+| Fundacja Ośrodka KARTA | Baltarusių dienos Rytų namo vitrinoje | III | 11 |
+| CASE-Centrum Analiz Społeczno-Ekonomicznych | Demokratinė transformacija: baltarusių diasporos lyderių parama | III, II | 10,5 |
+| Stowarzyszenie Willa Decjusza | Kultūra tremtyje | III | 10 |
+| Fundacja „Linking Media" | Žurnalistų iš Baltarusijos profesinis tobulinimas ir parama | II | 9,5 |
+| Fundacja Młode Kresy | Virtuali Baltarusija 24: patikima informacija propagandos laikais | II | 4 |
+| Fundacja Sustainable Strategies Network | Valanda iš čia į rytus — eksploatacija | II | 0,5 |
 
-**Отклонённые формально (видимая часть, 19 из 28).** Эти заявки отклонены до содержательной оценки — из-за неполных документов, неподходящих заявителей или иных формальных дефектов. Среди них — организации с практическим профилем работы с беларуской диаспорой в Польше: HumanDoc, Hub Novaja Ziamlia (Centrum Nowaja Ziamlia в Белостоке), Fundacja BY TEATR, Fundacja Solidarności Medycznej (юрпомощь беларуским медикам), Stowarzyszenie Muzeum Wolnej Białorusi, Klub Jagielloński, FUTURUM + Stowarzyszenie Nasza Szkoła (помощь беларуским детям в Польше) и другие.
+**Atmesti formaliai (matoma dalis, 19 iš 28).** Šios paraiškos atmestos prieš turinio vertinimą — dėl nepilnų dokumentų, netinkamų pareiškėjų ar kitų formalių trūkumų. Tarp jų — organizacijos, kurių praktinis profilis susijęs su darbu su baltarusių diaspora Lenkijoje: HumanDoc, Hub Novaja Ziamlia (Centrum Nowaja Ziamlia Balstogėje), Fundacja BY TEATR, Fundacja Solidarności Medycznej (teisinė pagalba baltarusiams medikams), Stowarzyszenie Muzeum Wolnej Białorusi, Klub Jagielloński, FUTURUM + Stowarzyszenie Nasza Szkoła (parama baltarusių vaikams Lenkijoje) ir kitos.
 
-**Значимое отсутствие: Fundacja Białoruś Przyszłości.** В видимой части списков 2024 года BP — единственный получатель 980 000 PLN в 2023 году — отсутствует. Поскольку в 2024 году в видимой части показано только 31 заявка из 55, а 24 анонимизированы, **по открытым данным невозможно определить**, подавал ли BP заявку в 2024 году, и если да — была ли она профинансирована. Это методологически значимый факт: после крупного гранта 2023 года и последующего отсутствия публичной отчётности фонда заявитель, ранее получавший 47% бюджета конкурса, попадает в зону, в которой его участие нельзя ни подтвердить, ни опровергнуть из публичных источников.
+**Reikšmingas nebuvimas: Fundacja Białoruś Przyszłości.** 2024 m. sąrašų matomoje dalyje BP — vienintelis 980 000 PLN gavėjas 2023 m. — nėra. Kadangi 2024 m. matomoje dalyje parodyta tik 31 paraiška iš 55, o 24 anonimizuotos, **iš atvirų duomenų neįmanoma nustatyti**, ar BP teikė paraišką 2024 m., o jei taip — ar ji buvo finansuojama. Tai metodologiškai reikšmingas faktas: po didelio 2023 m. granto ir vėlesnio fondo viešos atskaitomybės nebuvimo pareiškėjas, anksčiau gavęs 47% konkurso biudžeto, atsiduria zonoje, kurioje jo dalyvavimo iš viešų šaltinių nei patvirtinti, nei paneigti negalima.
 
-**Аналитическая ценность документа.**
+**Dokumento analitinė vertė.**
 
-1. **Хронологическая привязка введения режима сокрытия.** Документ — первое известное применение пкт 15.9.2 Регламента в массовом порядке. Это позволяет точно датировать момент перехода конкурса из режима полной прозрачности в режим частичной видимости — между публикацией результатов 2023 года (полностью открытых) и публикацией результатов 2024 года.
+1. **Slėpimo režimo įvedimo chronologinis fiksavimas.** Dokumentas — pirmasis žinomas masinis 15.9.2 punkto pritaikymas. Tai leidžia tiksliai datuoti momentą, kai konkursas perėjo iš visiško skaidrumo režimo į dalinio matomumo režimą — tarp 2023 m. (visiškai atvirų) rezultatų skelbimo ir 2024 m. rezultatų skelbimo.
 
-2. **Сохранение видимых паттернов 2023 года.** Среди видимых победителей по-прежнему те же организации, что и годом ранее: Kolegium Europy Wschodniej, Biuro Białoruś w Fokusie, Fundacja Strefa Solidarności (с другим проектом, но также под Биелсат). Это говорит об устойчивом ядре получателей, которое не зависит от режима прозрачности.
+2. **2023 m. matomų modelių išlikimas.** Tarp matomų laimėtojų tebėra tos pačios organizacijos kaip ir prieš metus: Kolegium Europy Wschodniej, Biuro Białoruś w Fokusie, Fundacja Strefa Solidarności (su kitu projektu, bet taip pat Belsat naudai). Tai rodo stabilų gavėjų branduolį, nepriklausantį nuo skaidrumo režimo.
 
-3. **Профиль отклонённых не изменился.** Как и в 2023 году, среди отклонённых преобладают организации, занимающиеся прямой работой с беларуской диаспорой в Польше: поддержка репрессированных, образование, медицинская и психологическая помощь, культурные центры, женские организации. Финансирование, наоборот, концентрируется в проектах для международной аудитории (медиа на эмиграции, аналитика, информационные платформы).
+3. **Atmestųjų profilis nepasikeitė.** Kaip ir 2023 m., tarp atmestų vyrauja organizacijos, dirbančios tiesioginį darbą su baltarusių diaspora Lenkijoje: represuotų parama, švietimas, medicininė ir psichologinė pagalba, kultūros centrai, moterų organizacijos. Finansavimas, priešingai, koncentruojasi tarptautinei auditorijai skirtuose projektuose (žiniasklaida emigracijoje, analitika, informacinės platformos).
 
-**Ограничения данных.** Документ не позволяет ответить на ключевые вопросы:
-- Общий бюджет конкурса (24 из 55 позиций со скрытыми суммами).
-- Полный список грантополучателей (6 из 11 победителей анонимизированы).
-- Содержательная мотивация конкретных оценок (балл оценки представлен без расшифровки).
-- Кто из членов оценочной комиссии участвовал в принятии решений.
+**Duomenų apribojimai.** Dokumentas neleidžia atsakyti į pagrindinius klausimus:
+- Bendras konkurso biudžetas (24 iš 55 pozicijų su paslėptomis sumomis).
+- Pilnas dotacijų gavėjų sąrašas (6 iš 11 laimėtojų anonimizuoti).
+- Konkrečių vertinimų esminis motyvavimas (vertinimo balas pateiktas be paaiškinimo).
+- Kas iš vertinimo komisijos narių dalyvavo priimant sprendimus.
 
-Анонимизация публикуется как механизм защиты безопасности участников проектов в Беларуси. Без анализа содержания скрытых заявок невозможно оценить, насколько этот аргумент применим во всех использованных случаях, либо в части — служит другим целям.
+Anonimizavimas skelbiamas kaip projektų dalyvių Baltarusijoje saugumo apsaugos mechanizmas. Be paslėptų paraiškų turinio analizės neįmanoma įvertinti, kiek šis argumentas taikytinas visais naudotais atvejais, ar dalimi — tarnauja kitiems tikslams.
 
 </div>
 
-<div class="bt-doc-block-label">Получили финансирование (видимая часть)</div>
+<div class="bt-doc-block-label">Gavę finansavimą (matoma dalis)</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li>Kolegium Europy Wschodniej im. Jana Nowaka-Jeziorańskiego <!-- TODO: link to org card --> · 230 000 PLN · «Wspieramy Białoruskie Przebudzenie'24» · II · 18</li>
-<li>Fundacja «KARTA '97» <!-- TODO: link to org card --> · 300 000 PLN · доступ к независимой информации о Беларуси · II · 18</li>
-<li>Informacyjne Biuro Białoruś w Fokusie <!-- TODO: link to org card --> · 100 000 PLN · журналистика в эмиграции · II · 18</li>
-<li>Fundacja Strefa Solidarności <!-- TODO: link to org card --> · 250 000 PLN · поддержка репрессированных журналистов TV Биелсат · I · 16</li>
+<li>Kolegium Europy Wschodniej im. Jana Nowaka-Jeziorańskiego <!-- TODO: link to org card --> · 230 000 PLN · „Wspieramy Białoruskie Przebudzenie'24" · II · 18</li>
+<li>Fundacja „KARTA '97" <!-- TODO: link to org card --> · 300 000 PLN · prieiga prie nepriklausomos informacijos apie Baltarusiją · II · 18</li>
+<li>Informacyjne Biuro Białoruś w Fokusie <!-- TODO: link to org card --> · 100 000 PLN · žurnalistika emigracijoje · II · 18</li>
+<li>Fundacja Strefa Solidarności <!-- TODO: link to org card --> · 250 000 PLN · represuotų TV Belsat žurnalistų parama · I · 16</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Отклонены по баллам (видимая часть)</div>
+<div class="bt-doc-block-label">Atmesti pagal balus (matoma dalis)</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li>Stowarzyszenie Ruch Solidarności Białoruskiej <!-- TODO: link to org card --> · 13 · форум экспертов им. Скирмунта</li>
-<li>Fundacja Tutaka <!-- TODO: link to org card --> · 13 · создавая беларускую культуру</li>
-<li>Fundacja Ośrodka KARTA <!-- TODO: link to org card --> · 11 · дни беларуской культуры в Витрине Восточного дома</li>
-<li>CASE-Centrum Analiz Społeczno-Ekonomicznych <!-- TODO: link to org card --> · 10,5 · поддержка лидеров беларуской диаспоры</li>
-<li>Stowarzyszenie Willa Decjusza <!-- TODO: link to org card --> · 10 · культура на изгнании</li>
-<li>Fundacja «Linking Media» <!-- TODO: link to org card --> · 9,5 · поддержка журналистов из Беларуси</li>
-<li>Fundacja Młode Kresy <!-- TODO: link to org card --> · 4 · виртуальная Беларусь</li>
-<li>Fundacja Sustainable Strategies Network <!-- TODO: link to org card --> · 0,5 · час отсюда на восток</li>
+<li>Stowarzyszenie Ruch Solidarności Białoruskiej <!-- TODO: link to org card --> · 13 · ekspertų forumas Skirmunto v.</li>
+<li>Fundacja Tutaka <!-- TODO: link to org card --> · 13 · kuriame baltarusių kultūrą</li>
+<li>Fundacja Ośrodka KARTA <!-- TODO: link to org card --> · 11 · baltarusių kultūros dienos Rytų namo vitrinoje</li>
+<li>CASE-Centrum Analiz Społeczno-Ekonomicznych <!-- TODO: link to org card --> · 10,5 · baltarusių diasporos lyderių parama</li>
+<li>Stowarzyszenie Willa Decjusza <!-- TODO: link to org card --> · 10 · kultūra tremtyje</li>
+<li>Fundacja „Linking Media" <!-- TODO: link to org card --> · 9,5 · žurnalistų iš Baltarusijos parama</li>
+<li>Fundacja Młode Kresy <!-- TODO: link to org card --> · 4 · virtuali Baltarusija</li>
+<li>Fundacja Sustainable Strategies Network <!-- TODO: link to org card --> · 0,5 · valanda iš čia į rytus</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Отклонены формально (видимая часть)</div>
+<div class="bt-doc-block-label">Atmesti formaliai (matoma dalis)</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li>FUNDACJA BIAŁORUŚ LIBERTY <!-- TODO: link to org card --> · документальная серия «Анализируя дно»</li>
-<li>Instytut Studiów Strategicznych <!-- TODO: link to org card --> · портал интеграции для беларуской молодёжи в Польше</li>
-<li>Fundacja «SWP Zdrowie» <!-- TODO: link to org card --> · поддержка беларуского общества</li>
-<li>Fundacja HumanDoc <!-- TODO: link to org card --> · поддержка беларуских женских организаций</li>
-<li>FUNDACJA DIW MEDIA <!-- TODO: link to org card --> · образовательный проект против диктатуры</li>
-<li>Fundacja «Nasze Pokolenie» <!-- TODO: link to org card --> · форум организаций сениоров Восточного партнёрства</li>
-<li>Fundacja «Nierusz Natura» + Green Network <!-- TODO: link to org card --> · лаборатория зелёного будущего</li>
-<li>FUNDACJA «DAR LOSU» <!-- TODO: link to org card --> · интеграция беларуской общины в Польше</li>
-<li>FUNDACJA «ROGATA» <!-- TODO: link to org card --> · Sojka — независимое онлайн-издание для беларуских женщин</li>
-<li>Most Life Media <!-- TODO: link to org card --> · «Строим MOST вместе»</li>
-<li>BY TEATR <!-- TODO: link to org card --> · театр в изгнании</li>
-<li>Fundacja Zachód Wschód Wsparcie <!-- TODO: link to org card --> · поддержка беларуских педагогов</li>
-<li>Fundacja Solidarności Medycznej <!-- TODO: link to org card --> · юрпомощь беларуским медикам</li>
-<li>Stowarzyszenie Muzeum Wolnej Białorusi <!-- TODO: link to org card --> · реконструкция традиционных костюмов</li>
-<li>DEMOCRATIC SYNERGY FUNDACJA <!-- TODO: link to org card --> · Help Desk для беларуских активистов в эмиграции</li>
-<li>FUTURUM + Stowarzyszenie Nasza Szkoła <!-- TODO: link to org card --> · образование беларуских детей в Польше</li>
-<li>Klub Jagielloński <!-- TODO: link to org card --> · день Орла и Погони, польско-беларуская интеграция</li>
-<li>FUNDACJA «HUB NOVAJA ZIAMLIA» <!-- TODO: link to org card --> · Centrum Nowaja Ziamlia в Белостоке</li>
-<li>STOWARZYSZENIE «BIAŁORUSKI MŁODZIEŻOWY HUB» <!-- TODO: link to org card --> · платформа беларуских, украинских и польских инициатив</li>
-<li>Wyższa Szkoła Kadr Menedżerskich w Koninie + Sustainable Strategies Network <!-- TODO: link to org card --> · школа устойчивого развития</li>
-<li>Polski Zespół Humanitarny <!-- TODO: link to org card --> · «Я из Беларуси. Познакомимся»</li>
+<li>FUNDACJA BIAŁORUŚ LIBERTY <!-- TODO: link to org card --> · dokumentinis serialas „Analizuojant dugną"</li>
+<li>Instytut Studiów Strategicznych <!-- TODO: link to org card --> · integracijos portalas baltarusių jaunimui Lenkijoje</li>
+<li>Fundacja „SWP Zdrowie" <!-- TODO: link to org card --> · baltarusių visuomenės parama</li>
+<li>Fundacja HumanDoc <!-- TODO: link to org card --> · baltarusių moterų organizacijų parama</li>
+<li>FUNDACJA DIW MEDIA <!-- TODO: link to org card --> · švietimo projektas prieš diktatūrą</li>
+<li>Fundacja „Nasze Pokolenie" <!-- TODO: link to org card --> · Rytų partnerystės senjorų organizacijų forumas</li>
+<li>Fundacja „Nierusz Natura" + Green Network <!-- TODO: link to org card --> · žaliosios ateities laboratorija</li>
+<li>FUNDACJA „DAR LOSU" <!-- TODO: link to org card --> · baltarusių bendruomenės integracija Lenkijoje</li>
+<li>FUNDACJA „ROGATA" <!-- TODO: link to org card --> · Sojka — nepriklausomas internetinis leidinys baltarusių moterims</li>
+<li>Most Life Media <!-- TODO: link to org card --> · „Statome MOST kartu"</li>
+<li>BY TEATR <!-- TODO: link to org card --> · teatras tremtyje</li>
+<li>Fundacja Zachód Wschód Wsparcie <!-- TODO: link to org card --> · baltarusių pedagogų parama</li>
+<li>Fundacja Solidarności Medycznej <!-- TODO: link to org card --> · teisinė pagalba baltarusiams medikams</li>
+<li>Stowarzyszenie Muzeum Wolnej Białorusi <!-- TODO: link to org card --> · tradicinių kostiumų rekonstrukcija</li>
+<li>DEMOCRATIC SYNERGY FUNDACJA <!-- TODO: link to org card --> · Help Desk baltarusių aktyvistams emigracijoje</li>
+<li>FUTURUM + Stowarzyszenie Nasza Szkoła <!-- TODO: link to org card --> · baltarusių vaikų švietimas Lenkijoje</li>
+<li>Klub Jagielloński <!-- TODO: link to org card --> · Erelio ir Vyties diena, Lenkijos–Baltarusijos integracija</li>
+<li>FUNDACJA „HUB NOVAJA ZIAMLIA" <!-- TODO: link to org card --> · Centrum Nowaja Ziamlia Balstogėje</li>
+<li>STOWARZYSZENIE „BIAŁORUSKI MŁODZIEŻOWY HUB" <!-- TODO: link to org card --> · baltarusių, ukrainiečių ir lenkų iniciatyvų platforma</li>
+<li>Wyższa Szkoła Kadr Menedżerskich w Koninie + Sustainable Strategies Network <!-- TODO: link to org card --> · darnaus vystymosi mokykla</li>
+<li>Polski Zespół Humanitarny <!-- TODO: link to org card --> · „Aš iš Baltarusijos. Susipažinkime"</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Скрытые заявки (по пкт 15.9.2)</div>
+<div class="bt-doc-block-label">Paslėptos paraiškos (pagal 15.9.2 punktą)</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li>22 заявки в разделах 1 и 2 (победители + отклонённые по баллам): WD2024_001, WD2024_004, WD2024_005, WD2024_008, WD2024_010, WD2024_011, WD2024_014, WD2024_015, WD2024_019, WD2024_028, WD2024_030, WD2024_033, WD2024_038, WD2024_042 (Wniosek w partnerstwie — CASE, партнёр анонимизирован), WD2024_043, WD2024_046</li>
-<li>9 заявок в разделе 3 (формальные отклонения): WD2024_003, WD2024_009, WD2024_023, WD2024_027, WD2024_031, WD2024_041, WD2024_047</li>
-<li>Итого: 31 заявка из 55 (56%) видимая, 24 (44%) — скрытая</li>
+<li>22 paraiškos 1 ir 2 skyriuose (laimėtojai + atmesti pagal balus): WD2024_001, WD2024_004, WD2024_005, WD2024_008, WD2024_010, WD2024_011, WD2024_014, WD2024_015, WD2024_019, WD2024_028, WD2024_030, WD2024_033, WD2024_038, WD2024_042 (Wniosek w partnerstwie — CASE, partneris anonimizuotas), WD2024_043, WD2024_046</li>
+<li>9 paraiškos 3 skyriuje (formalūs atmetimai): WD2024_003, WD2024_009, WD2024_023, WD2024_027, WD2024_031, WD2024_041, WD2024_047</li>
+<li>Iš viso: 31 paraiška iš 55 (56%) matoma, 24 (44%) — paslėpta</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Распорядители</div>
+<div class="bt-doc-block-label">Tvarkytojai</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li><a href="../organizations/fundacja-solidarnosci-miedzynarodowej/">Fundacja Solidarności Międzynarodowej (FSM)</a> · организатор конкурса, оператор финансирования, публикатор результатов</li>
-<li>Ministerstwo Spraw Zagranicznych RP <!-- TODO: link to org card --> · заказчик конкурса в рамках программы «Wsparcie Demokracji» и пакета «Solidarni z Białorusią»</li>
+<li><a href="../organizations/fundacja-solidarnosci-miedzynarodowej/">Fundacja Solidarności Międzynarodowej (FSM)</a> · konkurso organizatorius, finansavimo operatorius, rezultatų skelbėjas</li>
+<li>Ministerstwo Spraw Zagranicznych RP <!-- TODO: link to org card --> · konkurso užsakovas pagal programą „Wsparcie Demokracji" ir paketą „Solidarni z Białorusią"</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Теги</div>
-<div class="bt-doc-tags"><span class="bt-doc-tag">грант</span> <span class="bt-doc-tag">конкурс</span> <span class="bt-doc-tag">fsm</span> <span class="bt-doc-tag">msz</span> <span class="bt-doc-tag">польша</span> <span class="bt-doc-tag">2024</span> <span class="bt-doc-tag">финансирование</span> <span class="bt-doc-tag">сокрытие</span></div>
+<div class="bt-doc-block-label">Žymos</div>
+<div class="bt-doc-tags"><span class="bt-doc-tag">dotacija</span> <span class="bt-doc-tag">konkursas</span> <span class="bt-doc-tag">fsm</span> <span class="bt-doc-tag">msz</span> <span class="bt-doc-tag">lenkija</span> <span class="bt-doc-tag">2024</span> <span class="bt-doc-tag">finansavimas</span> <span class="bt-doc-tag">slepimas</span></div>
 
 </div>
