@@ -2,50 +2,32 @@
   Override: partials/alternate.html
   Belarus Transparency — плашка переключения языков "RU EN PL LT".
 
-  Логика:
-  - Определяем текущий язык по первому сегменту page.url.
-  - Для каждого языка строим парную ссылку: убираем текущий
-    языковой префикс из URL и подставляем нужный.
-    Пример: /ru/persons/ivanov/ → /en/persons/ivanov/
-
-  Подмена префикса работает потому что структура симметричная:
-  все четыре локали имеют одинаковую структуру подкаталогов.
-  Если соответствующего файла нет в целевой локали — Material
-  отдаст 404, и сработает JS-фоллбэк на coming-soon (см. extra.js).
-
-  Стили в extra.css, секция === Языковой переключатель ===
+  Логика: берём первый сегмент текущего URL (это языковой префикс),
+  и для каждого языка из config.extra.alternate строим URL замены префикса.
+    /ru/persons/ivanov/ → /en/persons/ivanov/ при клике на EN
+  Сборка идёт через base_url, чтобы URL получались абсолютными от корня сайта.
 -#}
 
+{%- set parts = (page.url or '').split('/') -%}
 {%- set current_lang = 'ru' -%}
-{%- if page and page.url -%}
-  {%- set first_seg = page.url.split('/')[0] -%}
-  {%- if first_seg in ['ru', 'en', 'pl', 'lt'] -%}
-    {%- set current_lang = first_seg -%}
-  {%- endif -%}
+{%- set tail_parts = parts -%}
+{%- if parts[0] in ['ru', 'en', 'pl', 'lt'] -%}
+  {%- set current_lang = parts[0] -%}
+  {%- set tail_parts = parts[1:] -%}
 {%- endif -%}
-
-{#- Путь без языкового префикса (то, что после /ru/, /en/ и т.д.) -#}
-{%- set path_tail = '' -%}
-{%- if page and page.url -%}
-  {%- set parts = page.url.split('/') -%}
-  {%- if parts[0] in ['ru', 'en', 'pl', 'lt'] -%}
-    {%- set path_tail = parts[1:] | join('/') -%}
-  {%- else -%}
-    {%- set path_tail = page.url -%}
-  {%- endif -%}
-{%- endif -%}
+{%- set path_tail = tail_parts | join('/') -%}
 
 <div class="md-header__option bt-lang-switcher">
-  {%- for alt in config.extra.alternate %}
-    {%- set target_url = '/' ~ alt.lang ~ '/' ~ path_tail -%}
-    {%- if alt.lang == current_lang %}
+  {%- for alt in config.extra.alternate -%}
+    {%- if alt.lang == current_lang -%}
       <a class="bt-lang-link current"
          hreflang="{{ alt.lang }}"
          aria-current="page"
          aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
-    {%- else %}
+    {%- else -%}
+      {%- set target = (base_url ~ '/' ~ alt.lang ~ '/' ~ path_tail) | replace('//', '/') -%}
       <a class="bt-lang-link"
-         href="{{ target_url | url }}"
+         href="{{ target }}"
          hreflang="{{ alt.lang }}"
          data-lang="{{ alt.lang }}"
          aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
