@@ -20,9 +20,9 @@ related_events:
 related_docs:
   - doc-krs-bp
 tags:
-  - персоналия
-  - беларуская эмиграция
-  - координационная рада
+  - asmuo
+  - baltarusių emigracija
+  - koordinacinė taryba
 status: active
 ---
 
@@ -35,47 +35,47 @@ status: active
 
 <header class="bt-person-head">
   <h1>Artsiom Brukhan / Артём Брухан</h1>
-  <p class="bt-lede">Член надзорного органа Fundacji Białoruś Przyszłości с 29 мая 2023 года. Спикер Координационной рады III созыва от фракции «Каманда Латушкі і Рух За свабоду!».</p>
+  <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narys nuo 2023 m. gegužės 29 d. III šaukimo Koordinacinės tarybos atstovas spaudai nuo frakcijos „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Pareigos</div>
 
-* **Член надзорного органа Fundacji Białoruś Przyszłości** · с 29 мая 2023 года
-* **Спикер Координационной рады** III созыва · фракция «Каманда Латушкі і Рух За свабоду!» · действующая позиция
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Artsiom Brukhan вписан в надзорный орган BP 29 мая 2023 года — через 11 дней после публикации результатов конкурса грантов Fundacji Solidarności Międzynarodowej на беларуское направление 2023 года, в котором BP получила 980 000 zł.
-
-В тот же wpis 29 мая 2023 года из управляющих органов BP одновременно вычеркнуты Valery Matskevich (правление) и Mikhail Kiryliuk (надзорный орган). Содержательная связь между этими событиями не объяснена.
+* **Fundacji Białoruś Przyszłości priežiūros organo narys** · nuo 2023 m. gegužės 29 d.
+* **Koordinacinės tarybos atstovas spaudai** III šaukimo · frakcija „Каманда Латушкі і Рух За свабоду!" · dabartinės pareigos
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Ryšys su Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Artsiom Brukhan į BP priežiūros organą įrašytas 2023 m. gegužės 29 d. — 11 dienų po Fundacji Solidarności Międzynarodowej 2023 m. konkurso Baltarusijos kryptimi rezultatų paskelbimo, kuriame BP gavo 980 000 zł.
+
+Tuo pačiu 2023 m. gegužės 29 d. įrašu iš BP valdymo organų vienu metu išbraukti Valery Matskevich (valdyba) ir Mikhail Kiryliuk (priežiūros organas). Esminis ryšys tarp šių įvykių nepaaiškintas.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Minimas tyrimuose</div>
 
-* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — официальный сайт КР
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości ir Lenkijos viešieji pinigai](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Šaltiniai</div>
+
+* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — oficiali Koordinacinės tarybos svetainė
+* KRS 0000877364 — Fundacji Białoruś Przyszłości išrašas · `doc-krs-bp`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Žymos</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
-    <span class="bt-tag">координационная рада</span>
+    <span class="bt-tag">asmuo</span>
+    <span class="bt-tag">baltarusių emigracija</span>
+    <span class="bt-tag">koordinacinė taryba</span>
   </div>
 </footer>
 

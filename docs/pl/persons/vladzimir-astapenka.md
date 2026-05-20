@@ -19,10 +19,10 @@ related_events:
 related_docs:
   - doc-krs-bp
 tags:
-  - персоналия
-  - беларуская эмиграция
-  - опк
-  - координационная рада
+  - osoba
+  - białoruska emigracja
+  - UTC
+  - rada koordynacyjna
 status: active
 ---
 
@@ -35,48 +35,48 @@ status: active
 
 <header class="bt-person-head">
   <h1>Vladzimir Astapenka / Владимир Астапенко</h1>
-  <p class="bt-lede">Член надзорного органа Fundacji Białoruś Przyszłości с 26 августа 2022 года. Представитель Объединённого переходного кабинета по международному и европейскому сотрудничеству, руководитель Миссии демократической Беларуси в Брюсселе.</p>
+  <p class="bt-lede">Członek organu nadzorczego Fundacji Białoruś Przyszłości od 26 sierpnia 2022 roku. Przedstawiciel United Transitional Cabinet ds. współpracy międzynarodowej i europejskiej, kierownik Misji Demokratycznej Białorusi w Brukseli.</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Stanowiska</div>
 
-* **Член надзорного органа Fundacji Białoruś Przyszłości** · с 26 августа 2022 года
-* **Представитель по международному и европейскому сотрудничеству** Объединённого переходного кабинета · руководитель Миссии демократической Беларуси в Брюсселе · действующая позиция
-* **Член Координационной рады** III созыва · фракция «Каманда Латушкі і Рух За свабоду!» · действующая позиция
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Vladzimir Astapenka вписан в надзорный орган BP 26 августа 2022 года — в составе полного обновления управляющих органов фонда после ухода учредителей. На момент получения BP гранта Fundacji Solidarności Międzynarodowej на 980 000 zł в мае 2023 года Astapenka находился в надзорном органе.
+* **Członek organu nadzorczego Fundacji Białoruś Przyszłości** · od 26 sierpnia 2022 roku
+* **Przedstawiciel ds. współpracy międzynarodowej i europejskiej** United Transitional Cabinet · kierownik Misji Demokratycznej Białorusi w Brukseli · stanowisko obecne
+* **Członek Rady Koordynacyjnej** III kadencji · frakcja „Каманда Латушкі і Рух За свабоду!" · stanowisko obecne
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Powiązanie z Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Vladzimir Astapenka został wpisany do organu nadzorczego BP 26 sierpnia 2022 roku — w ramach pełnej wymiany organów zarządzających fundacji po odejściu założycieli. W chwili otrzymania przez BP grantu Fundacji Solidarności Międzynarodowej w wysokości 980 000 zł w maju 2023 roku Astapenka zasiadał w organie nadzorczym.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Wzmiankowany w śledztwach</div>
 
-* [Прадстаўніцтва па міжнародным і еўрапейскім супрацоўніцтве](https://belaruscabinet.org/europa) — официальный сайт ОПК
-* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — официальный сайт КР
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości i polskie pieniądze publiczne](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Źródła</div>
+
+* [Прадстаўніцтва па міжнародным і еўрапейскім супрацоўніцтве](https://belaruscabinet.org/europa) — oficjalna strona United Transitional Cabinet
+* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — oficjalna strona Rady Koordynacyjnej
+* KRS 0000877364 — odpis Fundacji Białoruś Przyszłości · `doc-krs-bp`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Tagi</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
-    <span class="bt-tag">опк</span>
-    <span class="bt-tag">координационная рада</span>
+    <span class="bt-tag">osoba</span>
+    <span class="bt-tag">białoruska emigracja</span>
+    <span class="bt-tag">UTC</span>
+    <span class="bt-tag">rada koordynacyjna</span>
   </div>
 </footer>
 

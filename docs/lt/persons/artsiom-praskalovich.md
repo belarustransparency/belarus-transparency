@@ -22,9 +22,9 @@ related_docs:
   - doc-krs-bp
   - doc-fsm-2023-results
 tags:
-  - персоналия
-  - беларуская эмиграция
-  - опк
+  - asmuo
+  - baltarusių emigracija
+  - UTC
 status: active
 ---
 
@@ -37,50 +37,50 @@ status: active
 
 <header class="bt-person-head">
   <h1>Artsiom Praskalovich / Артём Праскалович</h1>
-  <p class="bt-lede">Председатель правления Fundacji Białoruś Przyszłości с 26 августа 2022 года. Заместитель Представителя по транзиту власти Павла Латушко в Объединённом переходном кабинете (по вопросам правового давления).</p>
+  <p class="bt-lede">Fundacji Białoruś Przyszłości valdybos pirmininkas nuo 2022 m. rugpjūčio 26 d. Pavlo Latuškos atstovo valdžios perdavimo klausimais pavaduotojas United Transitional Cabinet (teisinio spaudimo klausimais).</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Pareigos</div>
 
-* **Председатель правления Fundacji Białoruś Przyszłości** · с 26 августа 2022 года
-* **Заместитель Представителя по транзиту власти** (по вопросам правового давления) в Объединённом переходном кабинете Павла Латушко · действующая позиция
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Artsiom Praskalovich вступил в должность председателя правления BP 26 августа 2022 года в составе полной замены управления фонда. До него правление возглавляла Elena Zhilochkina (с 12 января 2022 по 26 августа 2022), а до неё — учредитель фонда Anatol Kotau (с 11 января 2021 по 12 января 2022). Котов покинул фонд на фоне выявленного партнёрами фонда документального дефицита по расходам — см. секцию 5 расследования inv-0001.
-
-Praskalovich — подписант грантового договора 2023 года между BP и Fundacją Solidarności Międzynarodowej на 980 000 zł по проекту разработки дорожной карты защиты прав жертв преступлений против человечности. Финансовая отчётность фонда за 2023 и 2024 годы в Krajowym Rejestrze Sądowym отсутствует, дорожная карта публично не представлена.
-
-С 12 января 2022 года BP размещён по адресу офиса НАУ Павла Латушко (ul. Mazowiecka 12, Варшава). 5 сентября 2025 года, в день добавления в коды PKD деятельности фонда позиции 68.20.Z «аренда и управление недвижимостью» в качестве основного вида деятельности, Praskalovich сохраняет должность председателя правления.
+* **Fundacji Białoruś Przyszłości valdybos pirmininkas** · nuo 2022 m. rugpjūčio 26 d.
+* **Atstovo valdžios perdavimo klausimais pavaduotojas** (teisinio spaudimo klausimais) Pavlo Latuškos United Transitional Cabinet · dabartinės pareigos
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Ryšys su Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Artsiom Praskalovich BP valdybos pirmininko pareigas pradėjo eiti 2022 m. rugpjūčio 26 d. pilnos fondo vadovybės kaitos metu. Iki jo valdybai vadovavo Elena Zhilochkina (nuo 2022 m. sausio 12 d. iki 2022 m. rugpjūčio 26 d.), o iki jos — fondo steigėjas Anatol Kotau (nuo 2021 m. sausio 11 d. iki 2022 m. sausio 12 d.). Kotau iš fondo pasitraukė, kai jo partneriai nustatė išlaidų dokumentacijos trūkumą — žr. tyrimo inv-0001 5 skyrių.
+
+Praskalovich yra 2023 m. dotacijos sutarties tarp BP ir Fundacji Solidarności Międzynarodowej dėl 980 000 zł projekto „nusikaltimų žmoniškumui aukų teisių apsaugos veiksmų plano rengimas" pasirašytojas. Fondo finansinių ataskaitų už 2023 ir 2024 metus Krajowym Rejestrze Sądowym nėra, veiksmų planas viešai nepristatytas.
+
+Nuo 2022 m. sausio 12 d. BP buveinė yra Pavlo Latuškos NAM biuro adresu (ul. Mazowiecka 12, Varšuva). 2025 m. rugsėjo 5 d., kai prie fondo veiklos PKD kodų buvo pridėta pozicija 68.20.Z „nekilnojamojo turto nuoma ir valdymas" kaip pagrindinė veiklos rūšis, Praskalovich išlieka valdybos pirmininku.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Minimas tyrimuose</div>
 
-* [Прадстаўніцтва па транзіце ўлады](https://belaruscabinet.org/tranzit-ulady) — официальный сайт Объединённого переходного кабинета
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości ir Lenkijos viešieji pinigai](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Šaltiniai</div>
+
+* [Прадстаўніцтва па транзіце ўлады](https://belaruscabinet.org/tranzit-ulady) — oficiali United Transitional Cabinet svetainė
+* KRS 0000877364 — Fundacji Białoruś Przyszłości išrašas · `doc-krs-bp`
 * Wyniki Konkursu Grantowego na rzecz Białorusi 2023 · `doc-fsm-2023-results`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Žymos</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
-    <span class="bt-tag">опк</span>
+    <span class="bt-tag">asmuo</span>
+    <span class="bt-tag">baltarusių emigracija</span>
+    <span class="bt-tag">UTC</span>
   </div>
 </footer>
 

@@ -19,9 +19,9 @@ related_events:
 related_docs:
   - doc-krs-bp
 tags:
-  - персоналия
-  - беларуская эмиграция
-  - координационная рада
+  - asmuo
+  - baltarusių emigracija
+  - koordinacinė taryba
 status: active
 ---
 
@@ -34,51 +34,51 @@ status: active
 
 <header class="bt-person-head">
   <h1>Iryna Khalopitsa / Ирина Халопица</h1>
-  <p class="bt-lede">Член надзорного органа Fundacji Białoruś Przyszłości с 5 сентября 2025 года. С 2023 года — сотрудник Народного антикризисного управления Павла Латушко, ответственная за его социальные сети. Член Координационной рады III созыва от фракции «Каманда Латушкі і Рух За свабоду!».</p>
+  <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narė nuo 2025 m. rugsėjo 5 d. Nuo 2023 m. — Pavlo Latuškos Nacionalinio antikrizinio valdymo (NAM) darbuotoja, atsakinga už jo socialinius tinklus. III šaukimo Koordinacinės tarybos narė nuo frakcijos „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Pareigos</div>
 
-* **Член надзорного органа Fundacji Białoruś Przyszłości** · с 5 сентября 2025 года
-* **Сотрудник Народного антикризисного управления Павла Латушко, ответственная за его социальные сети** · по состоянию на 29 мая 2023 года
-* **Член Координационной рады** III созыва · фракция «Каманда Латушкі і Рух За свабоду!» · действующая позиция
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Iryna Khalopitsa вписана в надзорный орган BP 5 сентября 2025 года в составе единого пакета изменений: в тот же день в надзорный орган вошла Yana Latushka (дочь Павла Латушко), а в коды PKD деятельности фонда добавлен 68.20.Z — «аренда и управление недвижимостью» — как основной вид деятельности.
-
-Должность Халопицы в Народном антикризисном управлении на момент мая 2023 года зафиксирована в официальном письме ОПК на бланке Кабинета от 29 мая 2023 года, направленном Послу Республики Польша в Украине Бартошу Цихоцкому, с запросом разрешения на пересечение польско-украинской границы делегацией НАУ. В составе делегации, указанной самим Павлом Латушко, Халопица обозначена как «odpowiedzialna za media społecznościowe Pawła Łatuszki w NZA» — ответственная за социальные сети Павла Латушко в НАУ. Письмо стало публичным через публикацию Telegram-канала SOTA от 29 мая 2023 года в рамках более широкой утечки переписки приближённых Латушко; на основании содержания письма факт работы Халопицы в НАУ Латушко с 2023 года фиксируется как опровергаемый только самой стороной Латушко, до настоящего момента не опровергнутый.
-
-То есть с 2023 года Халопица — сотрудница политической структуры Павла Латушко; в сентябре 2025 года введена в надзорный орган фонда, физически размещённого по адресу офиса той же структуры.
+* **Fundacji Białoruś Przyszłości priežiūros organo narė** · nuo 2025 m. rugsėjo 5 d.
+* **Pavlo Latuškos Nacionalinio antikrizinio valdymo (NAM) darbuotoja, atsakinga už jo socialinius tinklus** · 2023 m. gegužės 29 d. būklės duomenimis
+* **Koordinacinės tarybos narė** III šaukimo · frakcija „Каманда Латушкі і Рух За свабоду!" · dabartinės pareigos
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Ryšys su Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Iryna Khalopitsa į BP priežiūros organą įrašyta 2025 m. rugsėjo 5 d. vieningame pakeitimų pakete: tą pačią dieną į priežiūros organą įstojo Yana Latushka (Pavlo Latuškos dukra), o į fondo veiklos PKD kodus pridėtas 68.20.Z — „nekilnojamojo turto nuoma ir valdymas" — kaip pagrindinė veiklos rūšis.
+
+Khalopitsos pareigos Nacionaliniame antikriziniame valdyme (NAM) 2023 m. gegužės būklės duomenimis užfiksuotos oficialiame United Transitional Cabinet rašte ant Kabineto firminio blanko, datuotame 2023 m. gegužės 29 d. ir adresuotame Lenkijos Respublikos ambasadoriui Ukrainoje Bartoszui Cichockiui, prašant leidimo NAM delegacijai kirsti Lenkijos–Ukrainos sieną. Delegacijos sudėtyje, paties Pavlo Latuškos nurodytame, Khalopitsa pažymėta kaip „odpowiedzialna za media społecznościowe Pawła Łatuszki w NZA" — atsakinga už Pavlo Latuškos socialinius tinklus NAM. Raštas tapo viešas per SOTA Telegram kanalo 2023 m. gegužės 29 d. publikaciją platesnio Latuškos artimųjų susirašinėjimo nutekėjimo kontekste; remiantis rašto turiniu Khalopitsos darbo Latuškos NAM nuo 2023 m. faktas fiksuojamas kaip paneigtinas tik pačios Latuškos pusės, iki šiol nepaneigtas.
+
+Tai reiškia, kad nuo 2023 m. Khalopitsa yra Pavlo Latuškos politinės struktūros darbuotoja; 2025 m. rugsėjį įvesta į fondo, fiziškai esančio tos pačios struktūros biuro adresu, priežiūros organą.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Minima tyrimuose</div>
 
-* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — официальный сайт КР
-* [Telegram-канал SOTA, публикация от 29 мая 2023](https://t.me/s/sotaproject?q=халопица) — официальное письмо ОПК на имя Посла РП в Украине, в составе делегации НАУ указана Халопица как ответственная за соцсети Латушко; публикация в рамках утечки переписки приближённых Латушко
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości ir Lenkijos viešieji pinigai](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Šaltiniai</div>
+
+* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — oficiali Koordinacinės tarybos svetainė
+* [SOTA Telegram kanalas, 2023 m. gegužės 29 d. publikacija](https://t.me/s/sotaproject?q=халопица) — oficialus United Transitional Cabinet raštas Lenkijos Respublikos ambasadoriui Ukrainoje, NAM delegacijos sudėtyje nurodyta Khalopitsa kaip atsakinga už Latuškos socialinius tinklus; publikacija Latuškos artimųjų susirašinėjimo nutekėjimo kontekste
+* KRS 0000877364 — Fundacji Białoruś Przyszłości išrašas · `doc-krs-bp`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Žymos</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
-    <span class="bt-tag">координационная рада</span>
+    <span class="bt-tag">asmuo</span>
+    <span class="bt-tag">baltarusių emigracija</span>
+    <span class="bt-tag">koordinacinė taryba</span>
   </div>
 </footer>
 

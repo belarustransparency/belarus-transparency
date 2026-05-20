@@ -19,9 +19,9 @@ related_events:
 related_docs:
   - doc-krs-bp
 tags:
-  - персоналия
-  - беларуская эмиграция
-  - координационная рада
+  - asmuo
+  - baltarusių emigracija
+  - koordinacinė taryba
 status: active
 ---
 
@@ -34,49 +34,49 @@ status: active
 
 <header class="bt-person-head">
   <h1>Yana Latushka / Яна Латушка</h1>
-  <p class="bt-lede">Член надзорного органа Fundacji Białoruś Przyszłości с 5 сентября 2025 года. Дочь Павла Латушко. Член Координационной рады III созыва от фракции «Каманда Латушкі і Рух За свабоду!».</p>
+  <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narė nuo 2025 m. rugsėjo 5 d. Pavlo Latuškos dukra. III šaukimo Koordinacinės tarybos narė nuo frakcijos „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Pareigos</div>
 
-* **Член надзорного органа Fundacji Białoruś Przyszłości** · с 5 сентября 2025 года
-* **Член Координационной рады** III созыва · фракция «Каманда Латушкі і Рух За свабоду!» · действующая позиция
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Yana Latushka — дочь Павла Латушко, Представителя по транзиту власти Объединённого переходного кабинета и руководителя Народного антикризисного управления.
-
-Вписана в надзорный орган BP 5 сентября 2025 года в составе единого пакета изменений: в тот же день в надзорный орган вошла Iryna Khalopitsa, а в коды PKD деятельности фонда добавлен 68.20.Z — «аренда и управление недвижимостью» — как **основной вид деятельности** (с заменой прежнего «издание книг»).
-
-Содержательная связь между добавлением вида деятельности по управлению недвижимостью и одновременным введением в надзорный орган дочери Павла Латушко не объяснена.
+* **Fundacji Białoruś Przyszłości priežiūros organo narė** · nuo 2025 m. rugsėjo 5 d.
+* **Koordinacinės tarybos narė** III šaukimo · frakcija „Каманда Латушкі і Рух За свабоду!" · dabartinės pareigos
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Ryšys su Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Yana Latushka yra Pavlo Latuškos, United Transitional Cabinet atstovo valdžios perdavimo klausimais ir Nacionalinio antikrizinio valdymo (NAM) vadovo, dukra.
+
+Į BP priežiūros organą įrašyta 2025 m. rugsėjo 5 d. vieningame pakeitimų pakete: tą pačią dieną į priežiūros organą įstojo Iryna Khalopitsa, o į fondo veiklos PKD kodus pridėtas 68.20.Z — „nekilnojamojo turto nuoma ir valdymas" — kaip **pagrindinė veiklos rūšis** (vietoj ankstesnės „knygų leidybos").
+
+Esminis ryšys tarp veiklos rūšies dėl nekilnojamojo turto valdymo pridėjimo ir Pavlo Latuškos dukros vienalaikio įvedimo į priežiūros organą nepaaiškintas.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Minima tyrimuose</div>
 
-* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — официальный сайт КР
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości ir Lenkijos viešieji pinigai](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Šaltiniai</div>
+
+* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — oficiali Koordinacinės tarybos svetainė
+* KRS 0000877364 — Fundacji Białoruś Przyszłości išrašas · `doc-krs-bp`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Žymos</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
-    <span class="bt-tag">координационная рада</span>
+    <span class="bt-tag">asmuo</span>
+    <span class="bt-tag">baltarusių emigracija</span>
+    <span class="bt-tag">koordinacinė taryba</span>
   </div>
 </footer>
 

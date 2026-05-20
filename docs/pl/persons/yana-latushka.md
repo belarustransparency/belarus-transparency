@@ -19,9 +19,9 @@ related_events:
 related_docs:
   - doc-krs-bp
 tags:
-  - персоналия
-  - беларуская эмиграция
-  - координационная рада
+  - osoba
+  - białoruska emigracja
+  - rada koordynacyjna
 status: active
 ---
 
@@ -34,49 +34,49 @@ status: active
 
 <header class="bt-person-head">
   <h1>Yana Latushka / Яна Латушка</h1>
-  <p class="bt-lede">Член надзорного органа Fundacji Białoruś Przyszłości с 5 сентября 2025 года. Дочь Павла Латушко. Член Координационной рады III созыва от фракции «Каманда Латушкі і Рух За свабоду!».</p>
+  <p class="bt-lede">Członkini organu nadzorczego Fundacji Białoruś Przyszłości od 5 września 2025 roku. Córka Pawła Łatuszki. Członkini Rady Koordynacyjnej III kadencji z ramienia frakcji „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Stanowiska</div>
 
-* **Член надзорного органа Fundacji Białoruś Przyszłości** · с 5 сентября 2025 года
-* **Член Координационной рады** III созыва · фракция «Каманда Латушкі і Рух За свабоду!» · действующая позиция
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Yana Latushka — дочь Павла Латушко, Представителя по транзиту власти Объединённого переходного кабинета и руководителя Народного антикризисного управления.
-
-Вписана в надзорный орган BP 5 сентября 2025 года в составе единого пакета изменений: в тот же день в надзорный орган вошла Iryna Khalopitsa, а в коды PKD деятельности фонда добавлен 68.20.Z — «аренда и управление недвижимостью» — как **основной вид деятельности** (с заменой прежнего «издание книг»).
-
-Содержательная связь между добавлением вида деятельности по управлению недвижимостью и одновременным введением в надзорный орган дочери Павла Латушко не объяснена.
+* **Członkini organu nadzorczego Fundacji Białoruś Przyszłości** · od 5 września 2025 roku
+* **Członkini Rady Koordynacyjnej** III kadencji · frakcja „Каманда Латушкі і Рух За свабоду!" · stanowisko obecne
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Powiązanie z Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Yana Latushka jest córką Pawła Łatuszki, Przedstawiciela ds. tranzytu władzy United Transitional Cabinet oraz kierownika Narodowego Zarządu Antykryzysowego (NAM).
+
+Wpisana do organu nadzorczego BP 5 września 2025 roku w ramach jednolitego pakietu zmian: tego samego dnia do organu nadzorczego weszła Iryna Khalopitsa, a do kodów PKD działalności fundacji dodano 68.20.Z — „wynajem i zarządzanie nieruchomościami" — jako **główny przedmiot działalności** (zastępując dotychczasowe „wydawanie książek").
+
+Merytoryczny związek między dodaniem przedmiotu działalności w zakresie zarządzania nieruchomościami a jednoczesnym wprowadzeniem do organu nadzorczego córki Pawła Łatuszki nie został wyjaśniony.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Wzmiankowana w śledztwach</div>
 
-* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — официальный сайт КР
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości i polskie pieniądze publiczne](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Źródła</div>
+
+* [Сябры Каардынацыйнай Рады III складу](https://rada.vision/members-3) — oficjalna strona Rady Koordynacyjnej
+* KRS 0000877364 — odpis Fundacji Białoruś Przyszłości · `doc-krs-bp`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Tagi</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
-    <span class="bt-tag">координационная рада</span>
+    <span class="bt-tag">osoba</span>
+    <span class="bt-tag">białoruska emigracja</span>
+    <span class="bt-tag">rada koordynacyjna</span>
   </div>
 </footer>
 

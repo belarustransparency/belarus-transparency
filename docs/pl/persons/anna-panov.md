@@ -19,8 +19,8 @@ related_events:
 related_docs:
   - doc-krs-bp
 tags:
-  - персоналия
-  - беларуская эмиграция
+  - osoba
+  - białoruska emigracja
 status: active
 ---
 
@@ -33,44 +33,44 @@ status: active
 
 <header class="bt-person-head">
   <h1>Anna Panov / Анна Панов</h1>
-  <p class="bt-lede">Член надзорного органа Fundacji Białoruś Przyszłości с 26 августа 2022 года, вычеркнута 26 января 2026 года.</p>
+  <p class="bt-lede">Członkini organu nadzorczego Fundacji Białoruś Przyszłości od 26 sierpnia 2022 roku, wykreślona 26 stycznia 2026 roku.</p>
 </header>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Должностные позиции</div>
+<div class="bt-block-label">Stanowiska</div>
 
-* **Член надзорного органа Fundacji Białoruś Przyszłości** · с 26 августа 2022 года по 26 января 2026 года
-
-</section>
-
-<section class="bt-block" markdown>
-<div class="bt-block-label">Связь с Fundacją Białoruś Przyszłości</div>
-
-Anna Panov вписана в надзорный орган BP 26 августа 2022 года — в составе полного обновления управляющих органов фонда после ухода учредителей. На момент получения BP гранта Fundacji Solidarności Międzynarodowej на 980 000 zł в мае 2023 года Panov находилась в надзорном органе.
-
-26 января 2026 года Anna Panov вычеркнута из надзорного органа. С 5 сентября 2025 года по 26 января 2026 года в надзорном органе одновременно присутствовали Panov, Astapenka, Brukhan, Latushka и Khalopitsa.
+* **Członkini organu nadzorczego Fundacji Białoruś Przyszłości** · od 26 sierpnia 2022 do 26 stycznia 2026 roku
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Упоминается в кейсах</div>
+<div class="bt-block-label">Powiązanie z Fundacją Białoruś Przyszłości</div>
 
-* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+Anna Panov została wpisana do organu nadzorczego BP 26 sierpnia 2022 roku — w ramach pełnej wymiany organów zarządzających fundacji po odejściu założycieli. W chwili otrzymania przez BP grantu Fundacji Solidarności Międzynarodowej w wysokości 980 000 zł w maju 2023 roku Panov zasiadała w organie nadzorczym.
+
+26 stycznia 2026 roku Anna Panov została wykreślona z organu nadzorczego. Od 5 września 2025 do 26 stycznia 2026 roku w organie nadzorczym jednocześnie zasiadali Panov, Astapenka, Brukhan, Latushka i Khalopitsa.
 
 </section>
 
 <section class="bt-block" markdown>
-<div class="bt-block-label">Источники</div>
+<div class="bt-block-label">Wzmiankowana w śledztwach</div>
 
-* KRS 0000877364 — выписка по Fundacji Białoruś Przyszłości · `doc-krs-bp`
+* [Białoruś Przyszłości i polskie pieniądze publiczne](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+
+</section>
+
+<section class="bt-block" markdown>
+<div class="bt-block-label">Źródła</div>
+
+* KRS 0000877364 — odpis Fundacji Białoruś Przyszłości · `doc-krs-bp`
 
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Tagi</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">персоналия</span>
-    <span class="bt-tag">беларуская эмиграция</span>
+    <span class="bt-tag">osoba</span>
+    <span class="bt-tag">białoruska emigracja</span>
   </div>
 </footer>
 
