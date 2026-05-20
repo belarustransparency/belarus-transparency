@@ -1,0 +1,222 @@
+# Витрина архива первичных документов — данные.
+#
+# Каждый документ — блок под `- id:`.
+# id должен совпадать с именем .md-файла карточки документа во всех локалях:
+#   docs/<lang>/archive/<id>.md
+#
+# Подход к названиям:
+#   title_original   — название документа на языке оригинала (НЕ локализуется).
+#   lang_original    — технический язык документа (pl, en, ru, de, ...).
+#                      На витрине, открытой в той же локали — перевод не показывается.
+#   title_translated — ОПЦИОНАЛЬНЫЕ переводы. Показываются мелким шрифтом
+#                      под оригиналом, если язык витрины ≠ lang_original.
+#                      Если перевода нет — отображается только оригинал.
+#
+# Локализуемые поля: title_translated, source_label (для "не зафиксирован").
+# Не локализуются:   id, title_original, lang_original, year, type, source_domain.
+#
+# type — фильтр-категория: pdf | screenshot | webpage | video | other
+#
+# Порядок блоков = порядок на витрине (свежее — сверху).
+
+documents:
+
+  - id: doc-nik-kap-430-7-2024
+    type: pdf
+    year: "2025"
+    lang_original: pl
+    title_original: Informacja o wynikach kontroli NIK — Polska pomoc 2021-2024
+    title_translated:
+      ru: Информация о результатах контроля NIK — Польская помощь 2021–2024
+      en: Information on the results of the NIK audit — Polish aid 2021–2024
+      lt: Informacija apie NIK kontrolės rezultatus — Lenkijos parama 2021–2024
+    source_alive: true
+    source_domain: nik.gov.pl
+
+  - id: doc-fsm-2026-regulamin
+    type: pdf
+    year: "2026"
+    lang_original: pl
+    title_original: Regulamin Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2026)
+    title_translated:
+      ru: Регламент конкурса грантов для беларуского общества (FSM, 2026)
+      en: Rules of the Grant Competition for Belarusian society (FSM, 2026)
+      lt: Dotacijų konkurso baltarusių visuomenei reglamentas (FSM, 2026)
+    source_alive: true
+    source_domain: solidarityfund.pl
+
+  - id: doc-regulamin-fsm-2025
+    type: pdf
+    year: "2025"
+    lang_original: pl
+    title_original: Regulamin Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2025)
+    title_translated:
+      ru: Регламент конкурса грантов для беларуского общества (FSM, 2025)
+      en: Rules of the Grant Competition for Belarusian society (FSM, 2025)
+      lt: Dotacijų konkurso baltarusių visuomenei reglamentas (FSM, 2025)
+    source_alive: true
+    source_domain: solidarityfund.pl
+
+  - id: doc-fsm-2025-results
+    type: pdf
+    year: "2025"
+    lang_original: pl
+    title_original: Listy rankingowe Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2025)
+    title_translated:
+      ru: Ранжированные списки конкурса грантов для беларуского общества (FSM, 2025)
+      en: Ranked lists of the Grant Competition for Belarusian society (FSM, 2025)
+      lt: Dotacijų konkurso baltarusių visuomenei reitinguoti sąrašai (FSM, 2025)
+    source_alive: false
+
+  - id: doc-fsm-2024-results
+    type: pdf
+    year: "2024"
+    lang_original: pl
+    title_original: Listy rankingowe Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2024)
+    title_translated:
+      ru: Ранжированные списки конкурса грантов для беларуского общества (FSM, 2024)
+      en: Ranked lists of the Grant Competition for Belarusian society (FSM, 2024)
+      lt: Dotacijų konkurso baltarusių visuomenei reitinguoti sąrašai (FSM, 2024)
+    source_alive: false
+
+  - id: doc-fsm-2023-results
+    type: pdf
+    year: "2023"
+    lang_original: pl
+    title_original: Lista rankingowa Konkursu Grantowego na rzecz Białorusi (FSM, 2023)
+    title_translated:
+      ru: Ранжированный список конкурса грантов на беларуское направление (FSM, 2023)
+      en: Ranked list of the Grant Competition for Belarus (FSM, 2023)
+      lt: Dotacijų konkurso Baltarusijos kryptimi reitinguotas sąrašas (FSM, 2023)
+    source_alive: false
+
+  - id: doc-fsm-2021-results
+    type: pdf
+    year: "2021"
+    lang_original: pl
+    title_original: Lista rankingowa Konkursu Grantowego na rzecz Białorusi (FSM, 2021)
+    title_translated:
+      ru: Ранжированный список конкурса грантов на беларуское направление (FSM, 2021)
+      en: Ranked list of the Grant Competition for Belarus (FSM, 2021)
+      lt: Dotacijų konkurso Baltarusijos kryptimi reitinguotas sąrašas (FSM, 2021)
+    source_alive: false
+
+  - id: doc-fsm-2020-results
+    type: pdf
+    year: "2020"
+    lang_original: pl
+    title_original: Lista organizacji wspartych w pakiecie «Solidarni z Białorusią» (FSM, 2020)
+    title_translated:
+      ru: Список организаций, поддержанных в пакете «Solidarni z Białorusią» (FSM, 2020)
+      en: List of organizations supported in the «Solidarni z Białorusią» package (FSM, 2020)
+      lt: Organizacijų, paremtų „Solidarni z Białorusią" pakete, sąrašas (FSM, 2020)
+    source_alive: false
+
+  - id: doc-krs-bp
+    type: pdf
+    year: "2026"
+    lang_original: pl
+    title_original: Odpis pełny KRS — Fundacja Białoruś Przyszłości
+    title_translated:
+      ru: Полная выписка KRS — Fundacja Białoruś Przyszłości
+      en: Full KRS extract — Fundacja Białoruś Przyszłości
+      lt: Pilnas KRS išrašas — Fundacja Białoruś Przyszłości
+    source_alive: true
+    source_domain: prs.ms.gov.pl
+
+  - id: doc-krs-fsm
+    type: pdf
+    year: "2026"
+    lang_original: pl
+    title_original: Odpis pełny KRS — Fundacja Solidarności Międzynarodowej
+    title_translated:
+      ru: Полная выписка KRS — Fundacja Solidarności Międzynarodowej
+      en: Full KRS extract — Fundacja Solidarności Międzynarodowej
+      lt: Pilnas KRS išrašas — Fundacja Solidarności Międzynarodowej
+    source_alive: true
+    source_domain: prs.ms.gov.pl
+
+# === Фильтры по типу документа ===
+
+filters:
+  all:
+    ru: Все
+    en: All
+    pl: Wszystkie
+    lt: Visi
+  pdf:
+    ru: PDF
+    en: PDF
+    pl: PDF
+    lt: PDF
+  screenshot:
+    ru: Скриншоты
+    en: Screenshots
+    pl: Zrzuty ekranu
+    lt: Ekrano nuotraukos
+  webpage:
+    ru: Веб-страницы
+    en: Web pages
+    pl: Strony WWW
+    lt: Tinklalapiai
+  video:
+    ru: Видео
+    en: Video
+    pl: Wideo
+    lt: Vaizdo įrašai
+  other:
+    ru: Прочее
+    en: Other
+    pl: Inne
+    lt: Kita
+
+# === Локализация надписей таблицы и статусов ===
+
+ui:
+  kicker:
+    ru: Служебный раздел
+    en: Service section
+    pl: Sekcja techniczna
+    lt: Techninė skiltis
+  h1:
+    ru: Архив первичных документов
+    en: Archive of primary documents
+    pl: Archiwum dokumentów źródłowych
+    lt: Pirminių dokumentų archyvas
+  lede:
+    ru: Программы, отчёты, скриншоты, ссылки на исходные публикации. Все материалы, на которые опираются карточки и расследования.
+    en: Programs, reports, screenshots, links to original publications. All materials underpinning the cards and investigations.
+    pl: Programy, sprawozdania, zrzuty ekranu, linki do publikacji źródłowych. Wszystkie materiały, na których opierają się karty i śledztwa.
+    lt: Programos, ataskaitos, ekrano nuotraukos, nuorodos į pirminius leidinius. Visa medžiaga, kuria remiasi kortelės ir tyrimai.
+
+  col_id:
+    ru: ID
+    en: ID
+    pl: ID
+    lt: ID
+  col_doc:
+    ru: Документ
+    en: Document
+    pl: Dokument
+    lt: Dokumentas
+  col_type:
+    ru: Тип
+    en: Type
+    pl: Typ
+    lt: Tipas
+  col_date:
+    ru: Дата
+    en: Date
+    pl: Data
+    lt: Data
+  col_source:
+    ru: Источник
+    en: Source
+    pl: Źródło
+    lt: Šaltinis
+
+  source_dead:
+    ru: не зафиксирован
+    en: not recorded
+    pl: nie zarejestrowane
+    lt: neužfiksuota

@@ -6,12 +6,14 @@ MkDocs macros hook — загружает данные для витрин в co
 - persons.yml → config.extra.persons_data
 - organizations.yml → config.extra.organizations_data
 - events.yml → config.extra.events_data
+- archive.yml → config.extra.archive_data
 
 В шаблонах данные доступны как:
     {{ config.extra.investigations_data }}
     {{ config.extra.persons_data }}
     {{ config.extra.organizations_data }}
     {{ config.extra.events_data }}
+    {{ config.extra.archive_data }}
 
 Подключается в mkdocs.yml:
     plugins:
@@ -60,4 +62,9 @@ def define_env(env):
     env.conf["extra"]["events_data"] = _load_yaml(
         os.path.join(base, "events.yml"),
         {"events": [], "filters": {"all": {"ru": "Все", "en": "All"}}, "types": {}, "months": {}, "ui": {}},
+    )
+
+    env.conf["extra"]["archive_data"] = _load_yaml(
+        os.path.join(base, "archive.yml"),
+        {"documents": [], "filters": {"all": {"ru": "Все", "en": "All"}}, "ui": {}},
     )
