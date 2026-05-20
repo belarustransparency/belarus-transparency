@@ -326,6 +326,26 @@ body, .md-typeset {
   padding-top: 0.3rem;
 }
 
+/* === Контактный email на лендинге === */
+
+.bt-contact-email {
+  margin-top: 1rem;
+  font-size: var(--bt-fs-s4);
+  color: var(--md-default-fg-color--light);
+}
+
+.bt-contact-email a {
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  border-bottom: 1px solid #B8341E;
+  padding-bottom: 1px;
+  transition: color 0.12s, border-bottom-color 0.12s;
+}
+
+.bt-contact-email a:hover {
+  color: #B8341E;
+}
+
 /* === КЕЙСОВЫЙ СЛОЙ ===
    Длинная проза. Только здесь line-height: 1.65. */
 .bt-body p {
