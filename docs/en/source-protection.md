@@ -9,7 +9,7 @@ title: "Source Protection — Belarus Transparency"
 <div class="bt-legal-kicker">Project ethics</div>
 <h1 class="bt-legal-title">Source protection</h1>
 <p class="bt-legal-meta">Version 2.0 · effective from 15 May 2026</p>
-<div class="bt-legal-prose" markdown>
+<div class="bt-legal-prose" markdown="1">
 
 ## If you arrived here from an open investigation { #open-investigations }
 

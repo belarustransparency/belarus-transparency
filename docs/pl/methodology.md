@@ -5,7 +5,7 @@ hide:
 title: Metodologia
 ---
 
-<div class="bt-legal" markdown>
+<div class="bt-legal" markdown="1">
 
 <div class="bt-legal-kicker">Etyka projektu</div>
 <h1 class="bt-legal-title">Metodologia</h1>

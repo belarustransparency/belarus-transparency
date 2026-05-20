@@ -5,7 +5,7 @@ hide:
 title: Polityka prywatności
 ---
 
-<div class="bt-legal" markdown>
+<div class="bt-legal" markdown="1">
 
 <div class="bt-legal-kicker">Informacje prawne</div>
 <h1 class="bt-legal-title">Polityka prywatności</h1>

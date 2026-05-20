@@ -11,7 +11,7 @@ title: Privacy Policy
 <h1 class="bt-legal-title">Privacy Policy</h1>
 <p class="bt-legal-meta">Version 1.0 · effective from 15 May 2026 · contact: transparency.belarus@gmail.com</p>
 
-<div class="bt-legal-prose" markdown>
+<div class="bt-legal-prose" markdown="1">
 
 This policy describes what data the site `belarus-transparency.org` collects during an ordinary visit. If you wish to pass material to us as a source, separate obligations apply, set out on the page [Source protection](../source-protection/).
 

@@ -11,7 +11,7 @@ title: Privatumo politika
 <h1 class="bt-legal-title">Privatumo politika</h1>
 <p class="bt-legal-meta">1.0 versija · galioja nuo 2026 m. gegužės 15 d. · klausimais: transparency.belarus@gmail.com</p>
 
-<div class="bt-legal-prose" markdown>
+<div class="bt-legal-prose" markdown="1">
 
 Ši politika apibūdina, kokius duomenis renka svetainė `belarus-transparency.org` įprasto lankymo metu. Jei norite mums perduoti medžiagą kaip šaltinis — galioja atskiri įsipareigojimai, aprašyti puslapyje [Šaltinių apsauga](../source-protection/).
 

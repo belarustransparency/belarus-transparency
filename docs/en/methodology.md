@@ -11,7 +11,7 @@ title: Methodology
 <h1 class="bt-legal-title">Methodology</h1>
 <p class="bt-legal-meta">Version 1.1 · effective from 15 May 2026</p>
 
-<div class="bt-legal-prose" markdown>
+<div class="bt-legal-prose" markdown="1">
 
 This page describes how the project works with information: how we verify, how we rank degree of proof, how we distinguish a fact from a testimony, how we respond to errors.
 

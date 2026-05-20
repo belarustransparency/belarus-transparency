@@ -11,7 +11,7 @@ title: Metodologija
 <h1 class="bt-legal-title">Metodologija</h1>
 <p class="bt-legal-meta">1.1 versija · galioja nuo 2026 m. gegužės 15 d.</p>
 
-<div class="bt-legal-prose" markdown>
+<div class="bt-legal-prose" markdown="1">
 
 Šis puslapis aprašo, kaip projektas dirba su informacija: kaip ją tikrina, kaip reitinguoja įrodomumo laipsnį, kaip atskiria faktą nuo liudijimo, kaip reaguoja į klaidas.
 
