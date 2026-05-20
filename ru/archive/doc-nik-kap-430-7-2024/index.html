@@ -199,78 +199,27 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-      <!-- Site language selector -->
-<div class="md-header__option">
-  <div class="md-select"><button
-      class="md-header__button md-icon"
-      aria-label="Выберите язык"
-    >
-      <span class="bt-lang bt-lang--light">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <line x1="0" y1="4" x2="0" y2="20" stroke="#B8341E" stroke-width="1.5"/>
-  <text x="12" y="16.5"
-        font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif"
-        font-size="10" font-weight="700" fill="#0A0A0A"
-        text-anchor="middle">EN</text>
-</svg>
-      </span>
-      <span class="bt-lang bt-lang--dark">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <line x1="0" y1="4" x2="0" y2="20" stroke="#D85A30" stroke-width="1.5"/>
-  <text x="12" y="16.5"
-        font-family="Arial, Helvetica, 'DejaVu Sans', sans-serif"
-        font-size="10" font-weight="700" fill="#FFFFFF"
-        text-anchor="middle">EN</text>
-</svg>
-      </span>
-    </button>
-
-    <div class="md-select__inner">
-      <ul class="md-select__list">
-        
-          <li class="md-select__item">
-            <a
-              href="/ru/"
-              hreflang="ru"
-              class="md-select__link"
-            >
-              Русский
-            </a>
-          </li>
-        
-          <li class="md-select__item">
-            <a
-              href="/en/"
-              hreflang="en"
-              class="md-select__link"
-            >
-              English
-            </a>
-          </li>
-        
-          <li class="md-select__item">
-            <a
-              href="/pl/"
-              hreflang="pl"
-              class="md-select__link"
-            >
-              Polski
-            </a>
-          </li>
-        
-          <li class="md-select__item">
-            <a
-              href="/lt/"
-              hreflang="lt"
-              class="md-select__link"
-            >
-              Lietuvių
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+      <div class="md-header__option bt-lang-switcher">
+      <a class="bt-lang-link current"
+         hreflang="ru"
+         aria-current="page"
+         aria-label="Русский">RU</a>
+      <a class="bt-lang-link"
+         href="/en/archive/doc-nik-kap-430-7-2024/"
+         hreflang="en"
+         data-lang="en"
+         aria-label="English">EN</a>
+      <a class="bt-lang-link"
+         href="/pl/archive/doc-nik-kap-430-7-2024/"
+         hreflang="pl"
+         data-lang="pl"
+         aria-label="Polski">PL</a>
+      <a class="bt-lang-link"
+         href="/lt/archive/doc-nik-kap-430-7-2024/"
+         hreflang="lt"
+         data-lang="lt"
+         aria-label="Lietuvių">LT</a>
+  <span class="bt-lang-sep" aria-hidden="true"></span>
 </div>
     
     
