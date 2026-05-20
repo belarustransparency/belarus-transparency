@@ -1,52 +1,55 @@
 {#-
   Override: partials/alternate.html
-  Belarus Transparency — иконка языка, переключаемая по URL и по теме.
+  Belarus Transparency — плашка переключения языков "RU EN PL LT".
 
   Логика:
-  - На /en/* показываем RU (намёк "есть русская").
-  - На остальных (русских) — EN.
-  - Внутри каждого варианта — две версии (для светлой и тёмной темы),
-    CSS показывает нужную через [data-md-color-scheme].
+  - Определяем текущий язык по первому сегменту page.url.
+  - Для каждого языка строим парную ссылку: убираем текущий
+    языковой префикс из URL и подставляем нужный.
+    Пример: /ru/persons/ivanov/ → /en/persons/ivanov/
+
+  Подмена префикса работает потому что структура симметричная:
+  все четыре локали имеют одинаковую структуру подкаталогов.
+  Если соответствующего файла нет в целевой локали — Material
+  отдаст 404, и сработает JS-фоллбэк на coming-soon (см. extra.js).
+
+  Стили в extra.css, секция === Языковой переключатель ===
 -#}
 
-<!-- Site language selector -->
-<div class="md-header__option">
-  <div class="md-select">
+{%- set current_lang = 'ru' -%}
+{%- if page and page.url -%}
+  {%- set first_seg = page.url.split('/')[0] -%}
+  {%- if first_seg in ['ru', 'en', 'pl', 'lt'] -%}
+    {%- set current_lang = first_seg -%}
+  {%- endif -%}
+{%- endif -%}
 
-    {%- if page and page.url.startswith("en/") -%}
-      {%- set icon_light = "bt/lang-ru-light" -%}
-      {%- set icon_dark  = "bt/lang-ru-dark" -%}
-    {%- else -%}
-      {%- set icon_light = "bt/lang-en-light" -%}
-      {%- set icon_dark  = "bt/lang-en-dark" -%}
+{#- Путь без языкового префикса (то, что после /ru/, /en/ и т.д.) -#}
+{%- set path_tail = '' -%}
+{%- if page and page.url -%}
+  {%- set parts = page.url.split('/') -%}
+  {%- if parts[0] in ['ru', 'en', 'pl', 'lt'] -%}
+    {%- set path_tail = parts[1:] | join('/') -%}
+  {%- else -%}
+    {%- set path_tail = page.url -%}
+  {%- endif -%}
+{%- endif -%}
+
+<div class="md-header__option bt-lang-switcher">
+  {%- for alt in config.extra.alternate %}
+    {%- set target_url = '/' ~ alt.lang ~ '/' ~ path_tail -%}
+    {%- if alt.lang == current_lang %}
+      <a class="bt-lang-link current"
+         hreflang="{{ alt.lang }}"
+         aria-current="page"
+         aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
+    {%- else %}
+      <a class="bt-lang-link"
+         href="{{ target_url | url }}"
+         hreflang="{{ alt.lang }}"
+         data-lang="{{ alt.lang }}"
+         aria-label="{{ alt.name }}">{{ alt.lang | upper }}</a>
     {%- endif -%}
-
-    <button
-      class="md-header__button md-icon"
-      aria-label="{{ lang.t('select.language') }}"
-    >
-      <span class="bt-lang bt-lang--light">
-        {% include ".icons/" ~ icon_light ~ ".svg" %}
-      </span>
-      <span class="bt-lang bt-lang--dark">
-        {% include ".icons/" ~ icon_dark ~ ".svg" %}
-      </span>
-    </button>
-
-    <div class="md-select__inner">
-      <ul class="md-select__list">
-        {% for alt in config.extra.alternate %}
-          <li class="md-select__item">
-            <a
-              href="{{ alt.link | url }}"
-              hreflang="{{ alt.lang }}"
-              class="md-select__link"
-            >
-              {{ alt.name }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  {%- endfor %}
+  <span class="bt-lang-sep" aria-hidden="true"></span>
 </div>

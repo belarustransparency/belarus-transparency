@@ -3952,3 +3952,58 @@ img.bt-logo--dark,
     height: 14px;
   }
 }
+/* === Языковой переключатель === */
+
+/* Контейнер: четыре языка в ряд + кирпичная вертикальная чёрточка справа.
+   Сидит в .md-header__option, который Material уже размещает в шапке. */
+.bt-lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.bt-lang-link {
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  font-weight: 400;
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.12s;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.bt-lang-link:hover,
+.bt-lang-link:focus {
+  color: var(--md-default-fg-color);
+}
+
+.bt-lang-link.current {
+  color: var(--md-default-fg-color);
+  font-weight: 500;
+  border-bottom-color: #B8341E;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Кирпичная вертикальная чёрточка между языками и иконкой темы */
+.bt-lang-sep {
+  width: 1.5px;
+  height: 16px;
+  background: #B8341E;
+  display: inline-block;
+  margin-left: 4px;
+}
+
+/* Адаптив: мобильный — компактнее */
+@media screen and (max-width: 600px) {
+  .bt-lang-switcher {
+    gap: 10px;
+    font-size: 11px;
+  }
+  .bt-lang-sep {
+    height: 14px;
+  }
+}

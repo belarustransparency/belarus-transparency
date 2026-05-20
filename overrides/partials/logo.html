@@ -1,20 +1,37 @@
 {#-
   Override: partials/logo.html
-  Belarus Transparency — двойной логотип для светлой и тёмной темы.
+  Belarus Transparency — двойной логотип для светлой и тёмной темы,
+  с поддержкой четырёх языковых версий.
 
   Material принимает только одну ссылку в theme.logo и не умеет автоматически
   переключать логотип при смене темы. Решение: вставить оба <img>,
   один из них скрыть через CSS в зависимости от [data-md-color-scheme].
+
+  Логотип выбирается по префиксу URL: /ru/*, /en/*, /pl/*, /lt/*.
+  Для каждого языка нужна пара файлов:
+    assets/logo-horizontal-{lang}-light.svg
+    assets/logo-horizontal-{lang}-dark.svg
+
+  Пока существуют только RU и EN. Для PL и LT временно используется EN
+  (латиница нейтральнее, чем кириллица для польского/литовского читателя).
+  Когда нарисуем настоящие PL/LT логотипы — заменить в маппинге ниже.
 -#}
 
-{%- set logo_light = "assets/logo-horizontal-ru-light.svg" -%}
-{%- set logo_dark  = "assets/logo-horizontal-ru-dark.svg" -%}
-
-{#- На английских страницах берём английский логотип -#}
-{%- if page and page.url.startswith("en/") -%}
-  {%- set logo_light = "assets/logo-horizontal-en-light.svg" -%}
-  {%- set logo_dark  = "assets/logo-horizontal-en-dark.svg" -%}
+{%- set lang = 'ru' -%}
+{%- if page and page.url -%}
+  {%- set first_seg = page.url.split('/')[0] -%}
+  {%- if first_seg in ['ru', 'en', 'pl', 'lt'] -%}
+    {%- set lang = first_seg -%}
+  {%- endif -%}
 {%- endif -%}
+
+{#- Маппинг язык → суффикс файла логотипа.
+    Для PL и LT пока используется EN-логотип как fallback. -#}
+{%- set logo_suffix_map = {'ru': 'ru', 'en': 'en', 'pl': 'en', 'lt': 'en'} -%}
+{%- set suffix = logo_suffix_map[lang] -%}
+
+{%- set logo_light = 'assets/logo-horizontal-' ~ suffix ~ '-light.svg' -%}
+{%- set logo_dark  = 'assets/logo-horizontal-' ~ suffix ~ '-dark.svg' -%}
 
 <img src="{{ logo_light | url }}" alt="logo" class="bt-logo bt-logo--light" />
 <img src="{{ logo_dark  | url }}" alt="logo" class="bt-logo bt-logo--dark" />
