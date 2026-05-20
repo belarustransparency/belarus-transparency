@@ -3943,7 +3943,7 @@ img.bt-logo--dark,
   height: 16px;
   background: #B8341E;
   display: inline-block;
-  margin: 0 12px 0 18px;  /* больше слева (от LT), меньше справа (до иконки) */
+  margin: 0 8px 0 22px;   /* ещё больше слева, меньше справа */
   flex-shrink: 0;
 }
 
