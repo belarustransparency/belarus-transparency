@@ -67,11 +67,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#events" class="md-skip">
-          Перейти к содержанию
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -371,7 +366,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -588,7 +585,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -596,8 +595,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
   
-  
-    
   
   
 </nav>
@@ -612,20 +609,91 @@
               <article class="md-content__inner md-typeset">
                 
                   
-
-
-
-<h1 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h1>
-<p>Lorem ipsum dolor sit amet.</p>
+  
 
 
 
 
+<div class="bt-index">
+
+<header class="bt-index-head">
+  <div class="bt-kicker">Section</div>
+  <h1>Events</h1>
+  <p class="bt-lede">Events, publications, competitions, statements, and other activities of Belarusian opposition structures in exile.</p>
+</header>
+
+<!-- ============================================================
+     ФИЛЬТРЫ ПО ТИПУ СОБЫТИЯ
+     data-filter совпадает с event_type в events.yml.
+     ============================================================ -->
+
+<div class="bt-event-filters" markdown="0">
+<span class="bt-filter active" data-filter="all">All</span>
+<span class="bt-filter" data-filter="conference">Events</span>
+<span class="bt-filter" data-filter="publication">Publications</span>
+<span class="bt-filter" data-filter="grant">Grants and tenders</span>
+<span class="bt-filter" data-filter="statement">Statements</span>
+<span class="bt-filter" data-filter="meeting">Meetings</span>
+<span class="bt-filter" data-filter="finance">Finance</span>
+<span class="bt-filter" data-filter="personnel">Personnel</span>
+<span class="bt-filter" data-filter="election">Elections</span>
+</div>
+
+<!-- ============================================================
+     ЛЕНТА СОБЫТИЙ
+     Каждая плашка — ОДНОЙ строкой HTML, иначе markdown-парсер
+     развалит грид (известная проблема).
+     ============================================================ -->
+
+<div class="bt-events-list" markdown="0">
+<a class="bt-event-row" data-type="election" href="vybory-ks-2026/"><div class="bt-event-date"><span class="bt-event-day">11</span><span class="bt-event-month">May 26</span></div><div class="bt-event-type">Elections</div><div class="bt-event-info"><div class="bt-event-title">Coordination Council elections — 4th convocation</div><div class="bt-event-summary">Of 171 candidates, 130 ran on six lists built around staff of the UTC, the Tsikhanouskaya Office, and NAM. Result — 69 of 76 distributed seats went to the office lists.</div></div><div class="bt-event-place">Online</div></a>
+<a class="bt-event-row" data-type="grant" href="fsm-grant-competition-2026/"><div class="bt-event-date"><span class="bt-event-day">26</span><span class="bt-event-month">Mar 26</span></div><div class="bt-event-type">Grant competition</div><div class="bt-event-info"><div class="bt-event-title">FSM Grant Competition for Belarus, 2026</div><div class="bt-event-summary">Annual competition of Fundacja Solidarności Międzynarodowej with a budget of 7.48&nbsp;million&nbsp;PLN. Application deadline — April 17, results — by May 29, 2026. Grant size — from 500,000 to 1,000,000 PLN.</div></div><div class="bt-event-place">Warsaw, Poland</div></a>
+<a class="bt-event-row" data-type="grant" href="fsm-grant-competition-2023/"><div class="bt-event-date"><span class="bt-event-day">18</span><span class="bt-event-month">May 23</span></div><div class="bt-event-type">Grant competition</div><div class="bt-event-info"><div class="bt-event-title">FSM Grant Competition for Belarus, 2023</div><div class="bt-event-summary">Fundacja Solidarności Międzynarodowej distributed ≈ 2.07&nbsp;million&nbsp;PLN among five recipients. The largest individual grant — 980,000&nbsp;PLN, or 47.3% of the budget — was awarded to Fundacja Białoruś Przyszłości.</div></div><div class="bt-event-place">Warsaw, Poland</div></a>
+
+</div>
+
+</div>
+
+<!-- ============================================================
+     СКРИПТ ФИЛЬТРАЦИИ
+     ============================================================ -->
+
+<script>
+(function() {
+  const filters = document.querySelectorAll('.bt-event-filters .bt-filter');
+  const rows = document.querySelectorAll('.bt-events-list .bt-event-row');
+
+  filters.forEach(f => {
+    f.addEventListener('click', e => {
+      e.preventDefault();
+      filters.forEach(x => x.classList.remove('active'));
+      f.classList.add('active');
+      const target = f.dataset.filter;
+      rows.forEach(r => {
+        if (target === 'all' || r.dataset.type === target) {
+          r.style.display = '';
+        } else {
+          r.style.display = 'none';
+        }
+      });
+    });
+  });
+})();
+</script>
 
 
 
 
 
+
+
+  
+  
+
+
+
+
+  
 
 
 
