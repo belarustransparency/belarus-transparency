@@ -19,95 +19,95 @@ related_orgs:
   - fundacja-solidarnosci-miedzynarodowej
   - msz-polska
 tags:
-  - грант
+  - grant
   - fsm
   - msz
-  - польша
+  - polska
   - 2020
-  - финансирование
+  - finansowanie
   - solidarni-z-bialorusia
 status: active
 ---
 
 <div class="bt-doc" markdown>
 
-<div class="bt-doc-kicker">Архив · документ · <span class="bt-doc-id">doc-fsm-2020-results</span></div>
+<div class="bt-doc-kicker">Archiwum · dokument · <span class="bt-doc-id">doc-fsm-2020-results</span></div>
 <h1 class="bt-doc-title">Lista organizacji wspartych w pakiecie «Solidarni z Białorusią» (FSM, 2020)</h1>
-<p class="bt-doc-lede">Запускающий список беларуского пакета помощи 2020 года. Семь организаций, получивших поддержку FSM сразу после президентских выборов в Беларуси 9 августа 2020 года. Документ не содержит ни сумм, ни баллов, ни регламентной разбивки — это списочный перечень, в отличие от ранжированных таблиц 2021–2025 годов.</p>
+<p class="bt-doc-lede">Lista otwierająca białoruski pakiet pomocowy z 2020 roku. Siedem organizacji, które otrzymały wsparcie FSM tuż po wyborach prezydenckich na Białorusi 9 sierpnia 2020 roku. Dokument nie zawiera ani kwot, ani punktacji, ani podziału regulaminowego — jest to wyłącznie wykaz, w odróżnieniu od list rankingowych z lat 2021–2025.</p>
 
 <div class="bt-doc-meta">
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Тип</div><div class="bt-doc-meta-value">PDF, 1 страница</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Распорядитель</div><div class="bt-doc-meta-value">Fundacja Solidarności Międzynarodowej (FSM)</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">По поручению</div><div class="bt-doc-meta-value">Ministerstwo Spraw Zagranicznych RP (МИД Польши)</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Программа</div><div class="bt-doc-meta-value">Пакет помощи «Solidarni z Białorusią»</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Год</div><div class="bt-doc-meta-value">2020</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Захвачено</div><div class="bt-doc-meta-value">17 мая 2026</div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Источник</div><div class="bt-doc-meta-value">URL первоисточника требует уточнения <span class="bt-doc-status bt-doc-status-dead">не зафиксирован</span></div></div>
-<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Хранение</div><div class="bt-doc-meta-value">В репозитории</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Typ</div><div class="bt-doc-meta-value">PDF, 1 strona</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Dysponent</div><div class="bt-doc-meta-value">Fundacja Solidarności Międzynarodowej (FSM)</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Na zlecenie</div><div class="bt-doc-meta-value">Ministerstwo Spraw Zagranicznych RP (MSZ)</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Program</div><div class="bt-doc-meta-value">Pakiet pomocowy „Solidarni z Białorusią"</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Rok</div><div class="bt-doc-meta-value">2020</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Pozyskano</div><div class="bt-doc-meta-value">17 maja 2026</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Źródło</div><div class="bt-doc-meta-value">URL pierwotnego źródła wymaga ustalenia <span class="bt-doc-status bt-doc-status-dead">nieustalone</span></div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Przechowywanie</div><div class="bt-doc-meta-value">W repozytorium</div></div>
 </div>
 
-<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/MSF_Lista-rankingowa_2020.pdf" download>Скачать PDF</a></div>
+<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/MSF_Lista-rankingowa_2020.pdf" download>Pobierz PDF</a></div>
 
 <div class="bt-doc-prose" markdown>
 
-Документ — список из семи организаций, получивших поддержку в рамках пакета «Solidarni z Białorusią». Пакет — экстренная реакция польского государства на массовые протесты в Беларуси после президентских выборов 9 августа 2020 года, оператором которого выступила Fundacja Solidarności Międzynarodowej (FSM) по поручению МИД Польши. От ранжированных списков последующих лет документ отличается принципиально: в нём нет ни сумм финансирования, ни баллов оценочной комиссии, ни разбивки по приоритетам и регламентным процедурам. Это просто перечень — без указания, на каких условиях и в каком объёме каждая организация получила поддержку.
+Dokument to wykaz siedmiu organizacji, które otrzymały wsparcie w ramach pakietu „Solidarni z Białorusią". Pakiet był nadzwyczajną reakcją państwa polskiego na masowe protesty na Białorusi po wyborach prezydenckich 9 sierpnia 2020 roku, a jego operatorem była Fundacja Solidarności Międzynarodowej (FSM) działająca na zlecenie MSZ RP. Od list rankingowych z lat następnych dokument różni się zasadniczo: nie zawiera ani kwot finansowania, ani punktacji komisji oceniającej, ani podziału według priorytetów i procedur regulaminowych. To po prostu wykaz — bez wskazania, na jakich warunkach i w jakim zakresie każda z organizacji otrzymała wsparcie.
 
-**Профиль получателей пакета 2020 года.** Семь организаций:
+**Profil beneficjentów pakietu 2020.** Siedem organizacji:
 
-1. **Fundacja HumanDoc** — «Польско-Беларуский Центр Поддержки и Интеграции в Варшаве». Прямая работа с беларуской диаспорой в Польше.
-2. **Kolegium Europy Wschodniej** — «Z Białorusi w świat. Общество как неожиданный лидер протестов». Стратегическая медийно-аналитическая работа.
-3. **Fundacja ePaństwo** — «Białoruś 2020/2021». Технологическая платформа.
-4. **Fundacja Strefa Solidarności** — «Поддержка независимых медиа на Беларуси — восстановление технической базы». Поддержка TV Биелсат.
-5. **Fundacja Karta '97** — «Поддержка текущей деятельности портала charter97.org в постизбирательный период».
-6. **Centrum Edukacji Obywatelskiej Polska-Białoruś** — «Промо-кампания и оснащение Беларуского радио «Рация»».
-7. **Fundacja ADRA Polska** — «Многофункциональная инновационная платформа GrupaWsparcia.pl для Беларуси».
+1. **Fundacja HumanDoc** — „Polsko-Białoruskie Centrum Wsparcia i Integracji w Warszawie". Bezpośrednia praca z diasporą białoruską w Polsce.
+2. **Kolegium Europy Wschodniej** — „Z Białorusi w świat. Społeczeństwo jako nieoczekiwany lider protestów". Strategiczna praca medialno-analityczna.
+3. **Fundacja ePaństwo** — „Białoruś 2020/2021". Platforma technologiczna.
+4. **Fundacja Strefa Solidarności** — „Wsparcie niezależnych mediów na Białorusi — odtworzenie bazy technicznej". Wsparcie TV Biełsat.
+5. **Fundacja Karta '97** — „Wsparcie bieżącej działalności portalu charter97.org w okresie powyborczym".
+6. **Centrum Edukacji Obywatelskiej Polska-Białoruś** — „Kampania promocyjna i wyposażenie Białoruskiego Radia «Racyja»".
+7. **Fundacja ADRA Polska** — „Wielofunkcyjna innowacyjna platforma GrupaWsparcia.pl dla Białorusi".
 
-**Аналитическая ценность документа.**
+**Wartość analityczna dokumentu.**
 
-1. **Базовая точка отсчёта.** Документ показывает, кто был включён в систему распределения польской государственной помощи беларускому направлению в самый первый момент — сразу после 9 августа 2020 года. Это нулевая точка экосистемы, относительно которой можно отслеживать, кто остался, кто отвалился, кто добавился в последующие годы.
+1. **Bazowy punkt odniesienia.** Dokument pokazuje, kto został włączony do systemu dystrybucji polskiej pomocy państwowej na kierunek białoruski w pierwszym momencie — tuż po 9 sierpnia 2020 roku. To punkt zerowy ekosystemu, względem którego można śledzić, kto pozostał, kto odpadł, a kto dołączył w kolejnych latach.
 
-2. **Профиль получателей: смешанный, не пере-кошенный.** Среди семи организаций — два проекта прямой помощи диаспоре в Польше (HumanDoc, ADRA), два медийных (Strefa Solidarności для Биелсат, Karta '97 для charter97.org), один аналитический (Kolegium), одна радиостанция (Polska-Białoruś / Radio Racja), одна технологическая платформа (ePaństwo). В отличие от 2023 и последующих годов, когда видимая часть конкурса концентрируется на медиа и аналитике, в 2020 году присутствуют и проекты прямой работы с беларусами в эмиграции.
+2. **Profil beneficjentów: mieszany, bez przechyłu.** Wśród siedmiu organizacji — dwa projekty bezpośredniej pomocy diasporze w Polsce (HumanDoc, ADRA), dwa medialne (Strefa Solidarności dla Biełsatu, Karta '97 dla charter97.org), jeden analityczny (Kolegium), jedna radiostacja (Polska-Białoruś / Radio Racyja), jedna platforma technologiczna (ePaństwo). W odróżnieniu od roku 2023 i lat następnych, gdy widoczna część konkursu koncentruje się na mediach i analityce, w 2020 roku obecne są również projekty bezpośredniej pracy z Białorusinami na emigracji.
 
-3. **Отсутствие BP.** Fundacja Białoruś Przyszłości зарегистрирована в KRS 11 января 2021 года (см. [doc-krs-bp](doc-krs-bp.md)) — то есть на момент 2020 года ещё не существовала. Поэтому её отсутствие в списке естественно. Это позиция отсчёта: BP появляется в системе распределения FSM с конкурса 2023 года.
+3. **Brak BP.** Fundacja Białoruś Przyszłości została zarejestrowana w KRS 11 stycznia 2021 roku (zob. [doc-krs-bp](doc-krs-bp.md)) — czyli w 2020 roku jeszcze nie istniała. Dlatego jej brak na liście jest naturalny. To pozycja odniesienia: BP pojawia się w systemie dystrybucji FSM od konkursu z 2023 roku.
 
-4. **Изменение организаций в последующие годы.** В списках конкурсов 2021, 2023, 2024 и 2025 годов из семи организаций 2020 года в качестве отдельных видимых заявителей появляются: Fundacja HumanDoc, Kolegium Europy Wschodniej, Fundacja Strefa Solidarności, Fundacja Karta '97. Fundacja ePaństwo, Centrum Edukacji Obywatelskiej Polska-Białoruś и ADRA Polska в видимых частях последующих ранжированных списков FSM не фигурируют (отслежено по доступным PDF: [doc-fsm-2021-results](doc-fsm-2021-results.md), [doc-fsm-2023-results](doc-fsm-2023-results.md), [doc-fsm-2024-results](doc-fsm-2024-results.md), [doc-fsm-2025-results](doc-fsm-2025-results.md)).
+4. **Zmiany organizacji w kolejnych latach.** Na listach konkursów z lat 2021, 2023, 2024 i 2025 z siedmiu organizacji z 2020 roku jako odrębni widoczni wnioskodawcy pojawiają się: Fundacja HumanDoc, Kolegium Europy Wschodniej, Fundacja Strefa Solidarności, Fundacja Karta '97. Fundacja ePaństwo, Centrum Edukacji Obywatelskiej Polska-Białoruś oraz ADRA Polska w widocznych częściach kolejnych list rankingowych FSM nie figurują (prześledzono według dostępnych PDF: [doc-fsm-2021-results](doc-fsm-2021-results.md), [doc-fsm-2023-results](doc-fsm-2023-results.md), [doc-fsm-2024-results](doc-fsm-2024-results.md), [doc-fsm-2025-results](doc-fsm-2025-results.md)).
 
-**Ограничения данных.** Документ не содержит:
+**Ograniczenia danych.** Dokument nie zawiera:
 
-- Сумм, выделенных каждой из семи организаций.
-- Информации о том, был ли это конкурсный отбор или решение по другой процедуре.
-- Балльной оценки.
-- Полного списка заявителей (если процедура была конкурсной — список отклонённых не публиковался).
-- Сведений о результатах реализации проектов.
+- Kwot przyznanych każdej z siedmiu organizacji.
+- Informacji, czy był to nabór konkursowy, czy decyzja podjęta w innym trybie.
+- Punktacji.
+- Pełnej listy wnioskodawców (jeśli procedura była konkursowa — lista odrzuconych nie była publikowana).
+- Danych o wynikach realizacji projektów.
 
-Без сумм и оценочной структуры документ имеет ограниченную фактологическую ценность по сравнению с ранжированными таблицами 2021–2025 годов, но остаётся важной хронологической точкой — он фиксирует начало работы текущей системы распределения средств FSM на беларуское направление.
+Bez kwot i struktury oceny dokument ma ograniczoną wartość faktograficzną w porównaniu z listami rankingowymi z lat 2021–2025, pozostaje jednak ważnym punktem chronologicznym — fiksuje początek funkcjonowania obecnego systemu dystrybucji środków FSM na kierunek białoruski.
 
 </div>
 
-<div class="bt-doc-block-label">Организации в пакете 2020 года</div>
+<div class="bt-doc-block-label">Organizacje w pakiecie 2020</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li>Fundacja HumanDoc <!-- TODO: link to org card --> · Польско-Беларуский Центр Поддержки и Интеграции в Варшаве</li>
-<li>Kolegium Europy Wschodniej im. Jana Nowaka-Jeziorańskiego <!-- TODO: link to org card --> · «Z Białorusi w świat»</li>
-<li>Fundacja ePaństwo <!-- TODO: link to org card --> · «Białoruś 2020/2021»</li>
-<li>Fundacja Strefa Solidarności <!-- TODO: link to org card --> · поддержка независимых медиа, восстановление базы TV Биелсат</li>
-<li>Fundacja Karta '97 <!-- TODO: link to org card --> · поддержка портала charter97.org в постизбирательный период</li>
-<li>Centrum Edukacji Obywatelskiej Polska-Białoruś <!-- TODO: link to org card --> · оснащение Беларуского радио «Рация»</li>
-<li>Fundacja ADRA Polska <!-- TODO: link to org card --> · платформа GrupaWsparcia.pl для Беларуси</li>
+<li>Fundacja HumanDoc <!-- TODO: link to org card --> · Polsko-Białoruskie Centrum Wsparcia i Integracji w Warszawie</li>
+<li>Kolegium Europy Wschodniej im. Jana Nowaka-Jeziorańskiego <!-- TODO: link to org card --> · „Z Białorusi w świat"</li>
+<li>Fundacja ePaństwo <!-- TODO: link to org card --> · „Białoruś 2020/2021"</li>
+<li>Fundacja Strefa Solidarności <!-- TODO: link to org card --> · wsparcie niezależnych mediów, odtworzenie bazy TV Biełsat</li>
+<li>Fundacja Karta '97 <!-- TODO: link to org card --> · wsparcie portalu charter97.org w okresie powyborczym</li>
+<li>Centrum Edukacji Obywatelskiej Polska-Białoruś <!-- TODO: link to org card --> · wyposażenie Białoruskiego Radia „Racyja"</li>
+<li>Fundacja ADRA Polska <!-- TODO: link to org card --> · platforma GrupaWsparcia.pl dla Białorusi</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Распорядители</div>
+<div class="bt-doc-block-label">Dysponenci</div>
 
 <div class="bt-doc-rel-group">
 <ul class="bt-doc-rel-list">
-<li><a href="../organizations/fundacja-solidarnosci-miedzynarodowej/">Fundacja Solidarności Międzynarodowej (FSM)</a> · оператор пакета помощи</li>
-<li>Ministerstwo Spraw Zagranicznych RP <!-- TODO: link to org card --> · заказчик пакета «Solidarni z Białorusią»</li>
+<li><a href="../organizations/fundacja-solidarnosci-miedzynarodowej/">Fundacja Solidarności Międzynarodowej (FSM)</a> · operator pakietu pomocowego</li>
+<li>Ministerstwo Spraw Zagranicznych RP <!-- TODO: link to org card --> · zleceniodawca pakietu „Solidarni z Białorusią"</li>
 </ul>
 </div>
 
-<div class="bt-doc-block-label">Теги</div>
-<div class="bt-doc-tags"><span class="bt-doc-tag">грант</span> <span class="bt-doc-tag">fsm</span> <span class="bt-doc-tag">msz</span> <span class="bt-doc-tag">польша</span> <span class="bt-doc-tag">2020</span> <span class="bt-doc-tag">финансирование</span> <span class="bt-doc-tag">solidarni-z-bialorusia</span></div>
+<div class="bt-doc-block-label">Tagi</div>
+<div class="bt-doc-tags"><span class="bt-doc-tag">grant</span> <span class="bt-doc-tag">fsm</span> <span class="bt-doc-tag">msz</span> <span class="bt-doc-tag">polska</span> <span class="bt-doc-tag">2020</span> <span class="bt-doc-tag">finansowanie</span> <span class="bt-doc-tag">solidarni-z-bialorusia</span></div>
 
 </div>
