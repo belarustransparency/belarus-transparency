@@ -1,0 +1,16 @@
+---
+hide:
+  - navigation
+  - toc
+title: Дашборды
+description: "Интерактивные дашборды Belarus Transparency — структуры демократических сил в эмиграции, их связи и доли влияния."
+---
+
+<div class="bt-index-head">
+  <h1>Дашборды</h1>
+  <p class="bt-lede">Интерактивные визуализации связей и долей влияния в структурах беларуской оппозиции в эмиграции. Каждый дашборд опирается на открытые источники, имеет JSON-данные рядом с страницей и допускает скачивание статичной PDF-версии.</p>
+</div>
+
+<div class="bt-events-list bt-events-list--dashboards" markdown="0">
+<a class="bt-event-row" href="kc-2026/"><div class="bt-event-date"><div class="bt-event-day">11</div><div class="bt-event-month">05</div><div class="bt-event-year">26</div></div><div class="bt-event-info"><div class="bt-event-title">Захват Координационного совета</div><div class="bt-event-summary">До выборов: 130 из 171 кандидата в 6 из 9 списков были выстроены вокруг сотрудников Офиса Тихановской, ОПК и НАУ. По итогам голосования: 69 из 76 распределённых мест заняли депутаты офисных списков, Коалиция Латушко в одиночку — 33 места из 80.</div></div></a>
+</div>
