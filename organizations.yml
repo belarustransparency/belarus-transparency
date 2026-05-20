@@ -1,0 +1,149 @@
+# Витрина организаций — данные.
+#
+# Каждая организация — блок под `- slug:`.
+# slug должен совпадать с именем .md-файла карточки во всех локалях:
+#   docs/<lang>/organizations/<slug>.md
+#
+# Локализуемые поля имеют вложенные ключи ru/en/pl/lt.
+# Если перевода нет — fallback на en, затем на ru.
+#
+# Не локализуются (одно значение):
+#   slug, name, type, status, transparency, thumbnail
+#
+# Поле name — НЕ локализуется намеренно. Названия организаций
+# даются в оригинальной форме (Fundacja Białoruś Przyszłości),
+# как принято в международной прессе.
+#
+# type — фильтр-категория: foundation | political-structure | media | initiative
+# transparency.charter/reports/audit/control — yes | no | unk | part
+
+organizations:
+
+  - slug: bialorus-przyszlosci
+    name: Fundacja Białoruś Przyszłości
+    type: foundation
+    type_label:
+      ru: Фонд
+      en: Foundation
+      pl: Fundacja
+      lt: Fondas
+    status: active
+    role_short:
+      ru: Польский фонд, грантополучатель FSM 2023 на 980 000 zł
+      en: Polish foundation, recipient of the FSM 2023 grant for 980,000 PLN
+      pl: Polska fundacja, beneficjent grantu FSM 2023 w wysokości 980 000 zł
+      lt: Lenkijos fondas, FSM 2023 dotacijos gavėjas (980 000 zł)
+    transparency:
+      charter: "no"
+      reports: "no"
+      audit: "unk"
+      control: "part"
+
+  - slug: fundacja-solidarnosci-miedzynarodowej
+    name: Fundacja Solidarności Międzynarodowej
+    type: foundation
+    type_label:
+      ru: Государственный фонд
+      en: State foundation
+      pl: Fundacja państwowa
+      lt: Valstybinis fondas
+    status: active
+    role_short:
+      ru: Государственный фонд Польши, оператор помощи развитию по линии MSZ
+      en: Polish state foundation, operator of development aid through the MFA
+      pl: Polska fundacja państwowa, operator pomocy rozwojowej z ramienia MSZ
+      lt: Lenkijos valstybinis fondas, paramos plėtrai operatorius per URM
+    transparency:
+      charter: "yes"
+      reports: "yes"
+      audit: "yes"
+      control: "part"
+
+# === Фильтры по типу организации ===
+# Ключ совпадает с полем `type` организации.
+
+filters:
+  all:
+    ru: Все
+    en: All
+    pl: Wszystkie
+    lt: Visos
+  political-structure:
+    ru: Политические структуры
+    en: Political structures
+    pl: Struktury polityczne
+    lt: Politinės struktūros
+  foundation:
+    ru: Фонды
+    en: Foundations
+    pl: Fundacje
+    lt: Fondai
+  media:
+    ru: Медиа
+    en: Media
+    pl: Media
+    lt: Žiniasklaida
+  initiative:
+    ru: Инициативы
+    en: Initiatives
+    pl: Inicjatywy
+    lt: Iniciatyvos
+
+# === Локализация статусов ===
+
+statuses:
+  active:
+    ru: действует
+    en: active
+    pl: aktywna
+    lt: veikia
+  closed:
+    ru: закрыта
+    en: closed
+    pl: zamknięta
+    lt: uždaryta
+  paused:
+    ru: приостановлена
+    en: paused
+    pl: zawieszona
+    lt: sustabdyta
+
+# === UI элементы витрины ===
+
+ui:
+  kicker:
+    ru: Раздел
+    en: Section
+    pl: Sekcja
+    lt: Skiltis
+  h1:
+    ru: Организации
+    en: Organizations
+    pl: Organizacje
+    lt: Organizacijos
+  lede:
+    ru: Структуры беларуской оппозиции в эмиграции. Каждая карточка показывает четыре индикатора прозрачности — устав, финансовая отчётность, внешний аудит, контрольный орган.
+    en: Structures of the Belarusian opposition in exile. Each card displays four transparency indicators — bylaws, financial reporting, external audit, oversight body.
+    pl: Struktury białoruskiej opozycji na emigracji. Każda karta pokazuje cztery wskaźniki przejrzystości — statut, sprawozdawczość finansowa, audyt zewnętrzny, organ kontrolny.
+    lt: Baltarusių opozicijos struktūros emigracijoje. Kiekvienoje kortelėje rodomi keturi skaidrumo rodikliai — įstatai, finansinė atskaitomybė, išorinis auditas, priežiūros organas.
+  tp_legend:
+    charter:
+      ru: устав
+      en: bylaws
+      pl: statut
+      lt: įstatai
+    reports:
+      ru: отчёты
+      en: reports
+      pl: sprawozdania
+      lt: ataskaitos
+    audit:
+      ru: аудит
+      en: audit
+      pl: audyt
+      lt: auditas
+    control:
+      ru: контроль
+      en: oversight
+      pl: kontrola
+      lt: priežiūra

@@ -2,51 +2,71 @@
 hide:
   - navigation
   - toc
-title: Организации
+title: Organizations
 ---
+
+{#- ===========================================================
+    Универсальный шаблон витрины организаций для всех 4 локалей.
+    Файл идентичен в docs/ru/, docs/en/, docs/pl/, docs/lt/.
+
+    Локализация:
+    - Текущий язык определяется по первому сегменту page.url.
+    - UI-надписи берутся из config.extra.organizations_data.ui[поле][lang].
+    - Данные организаций — из organizations_data.organizations[i].
+    - Fallback: lang → en → ru. Логика — макрос tr() ниже.
+=========================================================== -#}
+
+{%- set data = config.extra.organizations_data -%}
+
+{%- set parts = (page.url or '').split('/') -%}
+{%- set lang = 'ru' -%}
+{%- if parts[0] in ['ru', 'en', 'pl', 'lt'] -%}
+  {%- set lang = parts[0] -%}
+{%- endif -%}
+
+{%- macro tr(field) -%}
+  {%- if field is mapping -%}
+    {%- if field[lang] is defined and field[lang] -%}{{ field[lang] }}
+    {%- elif field['en'] is defined and field['en'] -%}{{ field['en'] }}
+    {%- elif field['ru'] is defined and field['ru'] -%}{{ field['ru'] }}
+    {%- endif -%}
+  {%- else -%}
+    {{ field }}
+  {%- endif -%}
+{%- endmacro -%}
 
 <div class="bt-orgs-index">
 
 <header class="bt-index-head">
-  <div class="bt-kicker">Раздел</div>
-  <h1>Организации</h1>
-  <p class="bt-lede">Структуры беларуской оппозиции в эмиграции. Каждая карточка показывает четыре индикатора прозрачности: устав, финансовая отчётность, внешний аудит, контрольный орган.</p>
+  <div class="bt-kicker">{{ tr(data.ui.kicker) }}</div>
+  <h1>{{ tr(data.ui.h1) }}</h1>
+  <p class="bt-lede">{{ tr(data.ui.lede) }}</p>
 </header>
 
 <!-- ============================================================
      ФИЛЬТРЫ ПО ТИПУ ОРГАНИЗАЦИИ
-     data-filter совпадает с org_type из frontmatter карточки.
+     data-filter совпадает с полем type из organizations.yml.
      ============================================================ -->
 
 <nav class="bt-org-filters">
-  <a class="bt-filter bt-filter-active" data-filter="all" href="#">Все</a>
-  <a class="bt-filter" data-filter="political-structure" href="#">Политические структуры</a>
-  <a class="bt-filter" data-filter="foundation" href="#">Фонды</a>
-  <a class="bt-filter" data-filter="media" href="#">Медиа</a>
-  <a class="bt-filter" data-filter="initiative" href="#">Инициативы</a>
+  {%- for key, label in data.filters.items() %}
+  <a class="bt-filter{% if key == 'all' %} bt-filter-active{% endif %}" data-filter="{{ key }}" href="#">{{ tr(label) }}</a>
+  {%- endfor %}
 </nav>
 
 <!-- ============================================================
      ЛЕНТА КАРТОЧЕК
-
-     ВАЖНО: карточка — это <div data-href="...">, НЕ <a>.
-     Причина: внутри карточки есть вложенная ссылка на персону
-     (.bt-org-eq для one-person организаций), а <a> внутри <a>
-     запрещён HTML-спецификацией — браузер закрывает внешнюю
-     ссылку перед открытием внутренней, что разваливает вёрстку.
-
-     Клик по карточке обрабатывает JS внизу страницы. Он же
-     обеспечивает доступность с клавиатуры (Enter/Space).
-
-     Каждая карточка пишется ОДНОЙ строкой HTML без переносов —
-     иначе markdown-парсер развалит структуру (известная проблема).
+     ВАЖНО: карточка — <div data-href="...">, не <a>, чтобы внутри
+     могли быть вложенные ссылки. Клик и доступность с клавиатуры —
+     inline-скрипт ниже.
+     Каждая карточка пишется ОДНОЙ строкой HTML без переносов.
      ============================================================ -->
 
 <div class="bt-orgs-list" markdown="0">
 
-<div class="bt-org-row" data-type="foundation" data-href="bialorus-przyszlosci/" role="link" tabindex="0" aria-label="Fundacja Białoruś Przyszłości"><div class="bt-org-row-head"><div class="bt-org-row-type">Фонд</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Fundacja Białoruś Przyszłości</div><div class="bt-org-row-role">Польский фонд, грантополучатель FSM 2023 на 980 000 zł</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-no"></span><span class="bt-tp-seg bt-tp-unk"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
-
-<div class="bt-org-row" data-type="foundation" data-href="fundacja-solidarnosci-miedzynarodowej/" role="link" tabindex="0" aria-label="Fundacja Solidarności Międzynarodowej"><div class="bt-org-row-head"><div class="bt-org-row-type">Государственный фонд</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-active">действует</span></div></div><div class="bt-org-row-name">Fundacja Solidarności Międzynarodowej</div><div class="bt-org-row-role">Государственный фонд Польши, оператор помощи развитию по линии MSZ</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-yes"></span><span class="bt-tp-seg bt-tp-part"></span></div><div class="bt-tp-legend"><span>устав</span><span>отчёты</span><span>аудит</span><span>контроль</span></div></div>
+{%- for org in data.organizations %}
+<div class="bt-org-row" data-type="{{ org.type }}" data-href="{{ org.slug }}/" role="link" tabindex="0" aria-label="{{ org.name }}"><div class="bt-org-row-head"><div class="bt-org-row-type">{{ tr(org.type_label) }}</div><div class="bt-org-row-status-line"><span class="bt-status bt-status-{{ org.status }}">{{ tr(data.statuses[org.status]) }}</span></div></div><div class="bt-org-row-name">{{ org.name }}</div><div class="bt-org-row-role">{{ tr(org.role_short) }}</div><div class="bt-tp-bar"><span class="bt-tp-seg bt-tp-{{ org.transparency.charter }}"></span><span class="bt-tp-seg bt-tp-{{ org.transparency.reports }}"></span><span class="bt-tp-seg bt-tp-{{ org.transparency.audit }}"></span><span class="bt-tp-seg bt-tp-{{ org.transparency.control }}"></span></div><div class="bt-tp-legend"><span>{{ tr(data.ui.tp_legend.charter) }}</span><span>{{ tr(data.ui.tp_legend.reports) }}</span><span>{{ tr(data.ui.tp_legend.audit) }}</span><span>{{ tr(data.ui.tp_legend.control) }}</span></div></div>
+{%- endfor %}
 
 </div>
 
@@ -54,11 +74,6 @@ title: Организации
 
 <!-- ============================================================
      СКРИПТ ФИЛЬТРАЦИИ И КЛИКА ПО КАРТОЧКЕ
-     - Фильтры переключают видимость карточек по data-type.
-     - Клик по карточке ведёт на data-href.
-     - НЕ перехватываем клики по вложенным <a> (напр. ≡ Имя) —
-       такие клики ведут на свой собственный href.
-     - Клавиатура: Enter / Space на карточке = клик.
      ============================================================ -->
 
 <script>
