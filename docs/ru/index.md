@@ -65,6 +65,7 @@ title: Belarus Transparency
   <div class="bt-body">
     <h3 class="bt-h3">Есть информация для публикации?</h3>
     <p>Мы принимаем материалы, документы и косвенно верифицируемую инсайдерскую информацию от тех, кто хочет внести вклад в прозрачность. Все обращения конфиденциальны.</p>
+    <p class="bt-contact-email">Пишите: <a href="mailto:transparency.belarus@gmail.com">transparency.belarus@gmail.com</a></p>
   </div>
 </div>
 
