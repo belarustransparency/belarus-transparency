@@ -60,7 +60,7 @@ Iryna Khalopitsa вписана в надзорный орган BP 5 сентя
 <section class="bt-block" markdown>
 <div class="bt-block-label">Упоминается в кейсах</div>
 
-* [Беларусь Будущего и польские публичные деньги](../../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
+* [Беларусь Будущего и польские публичные деньги](../investigations/bialorus-przyszlosci-fsm.md) · inv-0001
 
 </section>
 
