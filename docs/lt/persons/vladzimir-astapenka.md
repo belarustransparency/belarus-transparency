@@ -34,7 +34,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Vladzimir Astapenka / Владимир Астапенко</h1>
+  <h1>Vladzimir Astapenka</h1>
   <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narys nuo 2022 m. rugpjūčio 26 d. United Transitional Cabinet atstovas tarptautiniam ir Europos bendradarbiavimui, Demokratinės Baltarusijos misijos Briuselyje vadovas.</p>
 </header>
 

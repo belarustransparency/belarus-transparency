@@ -36,7 +36,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Artsiom Praskalovich / Артём Праскалович</h1>
+  <h1>Artsiom Praskalovich</h1>
   <p class="bt-lede">Fundacji Białoruś Przyszłości valdybos pirmininkas nuo 2022 m. rugpjūčio 26 d. Pavlo Latuškos atstovo valdžios perdavimo klausimais pavaduotojas United Transitional Cabinet (teisinio spaudimo klausimais).</p>
 </header>
 

@@ -33,7 +33,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Yana Latushka / Яна Латушка</h1>
+  <h1>Yana Latushka</h1>
   <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narė nuo 2025 m. rugsėjo 5 d. Pavlo Latuškos dukra. III šaukimo Koordinacinės tarybos narė nuo frakcijos „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 

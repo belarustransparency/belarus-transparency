@@ -34,7 +34,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Artsiom Brukhan / Артём Брухан</h1>
+  <h1>Artsiom Brukhan</h1>
   <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narys nuo 2023 m. gegužės 29 d. III šaukimo Koordinacinės tarybos atstovas spaudai nuo frakcijos „Каманда Латушкі і Рух За свабоду!".</p>
 </header>
 

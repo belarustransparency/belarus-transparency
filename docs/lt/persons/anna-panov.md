@@ -32,7 +32,7 @@ status: active
 </div>
 
 <header class="bt-person-head">
-  <h1>Anna Panov / Анна Панов</h1>
+  <h1>Anna Panov</h1>
   <p class="bt-lede">Fundacji Białoruś Przyszłości priežiūros organo narė nuo 2022 m. rugpjūčio 26 d., išbraukta 2026 m. sausio 26 d.</p>
 </header>
 
