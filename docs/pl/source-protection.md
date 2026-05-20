@@ -5,11 +5,11 @@ hide:
 title: "Ochrona źródeł — Belarus Transparency"
 ---
 
-<div class="bt-legal">
+<div class="bt-legal" markdown>
 <div class="bt-legal-kicker">Etyka projektu</div>
 <h1 class="bt-legal-title">Ochrona źródeł</h1>
 <p class="bt-legal-meta">Wersja 2.0 · obowiązuje od 15 maja 2026 roku</p>
-<div class="bt-legal-prose" markdown="1">
+<div class="bt-legal-prose" markdown>
 
 ## Jeżeli trafiłeś tu z otwartego śledztwa { #open-investigations }
 

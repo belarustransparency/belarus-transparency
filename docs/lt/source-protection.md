@@ -5,11 +5,11 @@ hide:
 title: "Šaltinių apsauga — Belarus Transparency"
 ---
 
-<div class="bt-legal">
+<div class="bt-legal" markdown>
 <div class="bt-legal-kicker">Projekto etika</div>
 <h1 class="bt-legal-title">Šaltinių apsauga</h1>
 <p class="bt-legal-meta">2.0 versija · galioja nuo 2026 m. gegužės 15 d.</p>
-<div class="bt-legal-prose" markdown="1">
+<div class="bt-legal-prose" markdown>
 
 ## Jei atvykote čia iš atviro tyrimo { #open-investigations }
 
