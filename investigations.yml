@@ -1,46 +1,96 @@
 # Витрина расследований — данные.
-# Каждая карточка — блок полей, начинающийся с "- code:".
-# Чтобы добавить новое расследование — скопируй блок одного из существующих
-# и поменяй значения. Порядок блоков в файле = порядок на витрине.
+#
+# Каждое расследование — блок полей под `- code:`.
+# Чтобы добавить новое — скопируй блок и поменяй значения.
+# Порядок блоков = порядок на витрине.
+#
+# Локализуемые поля имеют вложенные ключи ru/en/pl/lt.
+# Если для какого-то языка перевода нет, шаблон витрины
+# fallback'нется на en (или ru, если и en нет).
+#
+# Не локализуются (одно значение):
+#   code, href, status, filter_tags,
+#   grants_eur, grants_pct, cover, cover_gradient
 
 investigations:
 
   - code: CASE-001
     href: bialorus-przyszlosci-fsm/
-    title: Фонд "Беларусь будущего"
-    lede: >-
-
-      Польша в 2023 году выделила частной организации грант 980.000&nbsp;zł на "дорожную карту" по защите прав человека.
-      Органы управления и надзора фонда состоят из сотрудников и членов семьи заместителя главы ОПК Павла Латушко.
-      Устав организации, финансовая отчётность скрыты или отсутствуют.
-
-    date: май 2026
+    title:
+      ru: Фонд "Беларусь будущего"
+      en: "\"Belarus of the Future\" Foundation"
+      pl: Fundacja "Białoruś Przyszłości"
+      lt: Fondas "Ateities Baltarusija"
+    lede:
+      ru: >-
+        Польша в 2023 году выделила частной организации грант 980.000&nbsp;zł на "дорожную карту" по защите прав человека.
+        Органы управления и надзора фонда состоят из сотрудников и членов семьи заместителя главы ОПК Павла Латушко.
+        Устав организации, финансовая отчётность скрыты или отсутствуют.
+      en: >-
+        In 2023, Poland awarded a private organization a grant of 980,000&nbsp;PLN for a "roadmap" on human rights protection.
+        The foundation's management and supervisory bodies consist of staff and family members of Pavel Latushka, deputy head of the UTC.
+        The organization's bylaws and financial statements are hidden or absent.
+      pl: >-
+        W 2023 roku Polska przyznała prywatnej organizacji grant w wysokości 980&nbsp;000&nbsp;zł na "mapę drogową" ochrony praw człowieka.
+        Organy zarządcze i nadzorcze fundacji składają się z pracowników oraz członków rodziny Pawła Łatuszki, zastępcy przewodniczącego UTC.
+        Statut organizacji oraz sprawozdania finansowe są ukryte lub nie istnieją.
+      lt: >-
+        2023 metais Lenkija privačiai organizacijai skyrė 980&nbsp;000&nbsp;zł dotaciją „žmogaus teisių apsaugos veiksmų planui".
+        Fondo valdymo ir priežiūros organus sudaro Pavlo Latuškos, OPK pirmininko pavaduotojo, darbuotojai ir šeimos nariai.
+        Organizacijos įstatai ir finansinės ataskaitos paslėpti arba jų nėra.
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
     status: published     # published | collecting | draft
-    tags:                 # видимые теги (можно по-русски)
-      - Польша
-      - Эпизод
-      - Коррупция
-    filter_tags:          # технические теги для фильтра (латиницей, lowercase)
+    tags:
+      ru: [Польша, Эпизод, Коррупция]
+      en: [Poland, Episode, Corruption]
+      pl: [Polska, Epizod, Korupcja]
+      lt: [Lenkija, Epizodas, Korupcija]
+    filter_tags:
       - democracy
-    grants_eur: 0.22      # сумма в млн €
-    grants_pct: 1         # процент от 170 млн € (бюджет ЕС 2020–2024)
+    grants_eur: 0.22
+    grants_pct: 1
     cover: "/assets/covers/brukhan.webp"
     cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
 
   - code: CASE-002
     href: abba/
-    title: "ABBA - Ассоциации белорусского бизнеса за рубежом"
-    lede: >-
-      Сеть частных организаций, получивших в 2022-2024 годах - 1.05&nbsp;млн&nbsp;€ от Еврокомиссии и ~1 млн&nbsp;$ от американских доноров. 
-      Сейчас - участник Belarusian Diaspora Initiative с фондом 3&nbsp;млн&nbsp;€. Беларускому бизнесу выдано не более 100 тысяч&nbsp;€. 
-      Устав не опубликован, аудит не проводился.
-    date: май 2026
+    title:
+      ru: "ABBA — Ассоциации белорусского бизнеса за рубежом"
+      en: "ABBA — Associations of Belarusian Business Abroad"
+      pl: "ABBA — Stowarzyszenia Białoruskiego Biznesu za Granicą"
+      lt: "ABBA — Baltarusių verslo užsienyje asociacijos"
+    lede:
+      ru: >-
+        Сеть частных организаций, получивших в 2022-2024 годах - 1.05&nbsp;млн&nbsp;€ от Еврокомиссии и ~1&nbsp;млн&nbsp;$ от американских доноров.
+        Сейчас - участник Belarusian Diaspora Initiative с фондом 3&nbsp;млн&nbsp;€. Беларускому бизнесу выдано не более 100 тысяч&nbsp;€.
+        Устав не опубликован, аудит не проводился.
+      en: >-
+        A network of private organizations that received €1.05&nbsp;million from the European Commission and ~$1&nbsp;million from US donors in 2022–2024.
+        Now a participant in the Belarusian Diaspora Initiative with a €3&nbsp;million fund. No more than €100,000 has been distributed to Belarusian businesses.
+        Bylaws have not been published; no audit has been conducted.
+      pl: >-
+        Sieć prywatnych organizacji, które w latach 2022–2024 otrzymały 1,05&nbsp;mln&nbsp;€ od Komisji Europejskiej i ~1&nbsp;mln&nbsp;$ od darczyńców amerykańskich.
+        Obecnie uczestnik Belarusian Diaspora Initiative z funduszem 3&nbsp;mln&nbsp;€. Białoruskiemu biznesowi przekazano nie więcej niż 100&nbsp;tys.&nbsp;€.
+        Statut nie został opublikowany, audyt nie był przeprowadzany.
+      lt: >-
+        Privačių organizacijų tinklas, 2022–2024&nbsp;m. gavęs 1,05&nbsp;mln.&nbsp;€ iš Europos Komisijos ir ~1&nbsp;mln.&nbsp;$ iš JAV donorų.
+        Šiuo metu dalyvauja Belarusian Diaspora Initiative su 3&nbsp;mln.&nbsp;€ fondu. Baltarusių verslui paskirstyta ne daugiau kaip 100&nbsp;tūkst.&nbsp;€.
+        Įstatai nepaskelbti, auditas neatliktas.
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
     status: collecting
     tags:
-      - США
-      - ЕК
-      - Деятельность
-      - Лоббизм
+      ru: [США, ЕК, Деятельность, Лоббизм]
+      en: [USA, EC, Operations, Lobbying]
+      pl: [USA, KE, Działalność, Lobbing]
+      lt: [JAV, EK, Veikla, Lobizmas]
     filter_tags:
       - business
     grants_eur: 4.98
@@ -50,17 +100,39 @@ investigations:
 
   - code: CASE-003
     href: imaguru/
-    title: "Imaguru / Belbiz — гранты ЕК 2022–2025"
-    lede: >-
-      Сеть фондов в Литве, Латвии, Польше и Испании c одним бенефициаром - Татьяной Маринич. В 2022 году получила грант
-      Еврокомиссии на 2&nbsp;млн&nbsp;€. С 2025 года - участник Belarusian Diaspora Initiative с фондом 3&nbsp;млн&nbsp;€. 
-      Отчётность - отсутствует, фонд - получатель гранта ЕК спешно ликвидирован.
-    date: май 2026
+    title:
+      ru: "Imaguru / Belbiz — гранты ЕК 2022–2025"
+      en: "Imaguru / Belbiz — EC grants 2022–2025"
+      pl: "Imaguru / Belbiz — granty KE 2022–2025"
+      lt: "Imaguru / Belbiz — EK dotacijos 2022–2025"
+    lede:
+      ru: >-
+        Сеть фондов в Литве, Латвии, Польше и Испании c одним бенефициаром - Татьяной Маринич. В 2022 году получила грант
+        Еврокомиссии на 2&nbsp;млн&nbsp;€. С 2025 года - участник Belarusian Diaspora Initiative с фондом 3&nbsp;млн&nbsp;€.
+        Отчётность - отсутствует, фонд - получатель гранта ЕК спешно ликвидирован.
+      en: >-
+        A network of foundations in Lithuania, Latvia, Poland, and Spain with a single beneficiary — Tatyana Marinich. In 2022, it received
+        a €2&nbsp;million grant from the European Commission. Since 2025 a participant in the Belarusian Diaspora Initiative with a €3&nbsp;million fund.
+        No reporting is available; the foundation that received the EC grant was hastily liquidated.
+      pl: >-
+        Sieć fundacji na Litwie, Łotwie, w Polsce i Hiszpanii z jednym beneficjentem — Tatyaną Marinich. W 2022 roku otrzymała grant
+        Komisji Europejskiej w wysokości 2&nbsp;mln&nbsp;€. Od 2025 roku uczestnik Belarusian Diaspora Initiative z funduszem 3&nbsp;mln&nbsp;€.
+        Sprawozdawczości brak, fundacja będąca beneficjentem grantu KE została pośpiesznie zlikwidowana.
+      lt: >-
+        Fondų tinklas Lietuvoje, Latvijoje, Lenkijoje ir Ispanijoje su vienu naudos gavėju — Tatjana Marinič. 2022&nbsp;m. gavo
+        Europos Komisijos 2&nbsp;mln.&nbsp;€ dotaciją. Nuo 2025&nbsp;m. dalyvauja Belarusian Diaspora Initiative su 3&nbsp;mln.&nbsp;€ fondu.
+        Atskaitomybės nėra, EK dotaciją gavęs fondas paskubomis likviduotas.
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
     status: collecting
     tags:
-      - ЕК
-      - Деятельность
-      - Лоббизм
+      ru: [ЕК, Деятельность, Лоббизм]
+      en: [EC, Operations, Lobbying]
+      pl: [KE, Działalność, Lobbing]
+      lt: [EK, Veikla, Lobizmas]
     filter_tags:
       - business
     grants_eur: 5.06
@@ -69,15 +141,82 @@ investigations:
     cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
 
 # === Список фильтров сверху витрины ===
-# Каждый фильтр — пара "ключ : подпись".
-# Ключ должен совпадать с одним из filter_tags выше.
-# "all" — обязательный первый, остальные в любом порядке.
+# Ключ должен совпадать с filter_tags в расследованиях.
+# all — обязательно первый.
 
 filters:
-  all: Все
-  business: Бизнес
-  democracy: Гражданское общество
-  political_prisoners: Политзаключённые
-  media: Медиа
-  culture: Культура
-  relocation: Релокация
+  all:
+    ru: Все
+    en: All
+    pl: Wszystkie
+    lt: Visi
+  business:
+    ru: Бизнес
+    en: Business
+    pl: Biznes
+    lt: Verslas
+  democracy:
+    ru: Гражданское общество
+    en: Civil society
+    pl: Społeczeństwo obywatelskie
+    lt: Pilietinė visuomenė
+  political_prisoners:
+    ru: Политзаключённые
+    en: Political prisoners
+    pl: Więźniowie polityczni
+    lt: Politiniai kaliniai
+  media:
+    ru: Медиа
+    en: Media
+    pl: Media
+    lt: Žiniasklaida
+  culture:
+    ru: Культура
+    en: Culture
+    pl: Kultura
+    lt: Kultūra
+  relocation:
+    ru: Релокация
+    en: Relocation
+    pl: Relokacja
+    lt: Perkėlimas
+
+# === Локализация UI элементов витрины ===
+# Используется в шаблоне docs/<lang>/investigations/index.md
+
+ui:
+  kicker:
+    ru: Раздел сайта
+    en: Section
+    pl: Sekcja
+    lt: Skiltis
+  h1:
+    ru: Расследования
+    en: Investigations
+    pl: Śledztwa
+    lt: Tyrimai
+  lede:
+    ru: Реконструкции движения денег ЕС и США, выделенных на поддержку беларуской демократии после гражданского протеста 2020 года.
+    en: Reconstructions of the flow of EU and US funds allocated to support Belarusian democracy after the 2020 civic protest.
+    pl: Rekonstrukcje przepływu środków UE i USA przeznaczonych na wsparcie białoruskiej demokracji po protestach obywatelskich 2020 roku.
+    lt: EBS ir JAV lėšų, skirtų baltarusių demokratijai paremti po 2020 m. pilietinių protestų, judėjimo rekonstrukcijos.
+  filter_label:
+    ru: "Фильтр:"
+    en: "Filter:"
+    pl: "Filtr:"
+    lt: "Filtras:"
+  status_published:
+    ru: Опубликовано
+    en: Published
+    pl: Opublikowane
+    lt: Paskelbta
+  status_collecting:
+    ru: Сбор данных
+    en: Data collection
+    pl: Zbieranie danych
+    lt: Duomenų rinkimas
+  grants_unit:
+    ru: млн&nbsp;€
+    en: million&nbsp;€
+    pl: mln&nbsp;€
+    lt: mln.&nbsp;€
