@@ -192,10 +192,10 @@ graph LR
     CC --> IK
 
     AP --board--> BPZ
-    AB --oversight--> BPZ
-    VA --oversight--> BPZ
-    IK --oversight--> BPZ
-    YL --oversight--> BPZ
+    AB --> BPZ
+    VA --> BPZ
+    IK --> BPZ
+    YL --> BPZ
 
     FSM ==grant 47% of budget==> BPZ
     MFA --funds--> FSM
