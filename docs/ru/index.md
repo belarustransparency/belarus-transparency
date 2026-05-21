@@ -25,7 +25,7 @@ title: Belarus Transparency
 <div class="bt-row bt-row--sections">
   <div class="bt-label">База</div>
   <div class="bt-body">
-    <h2 class="bt-h2">Четыре информационный направления платформы</h2>
+    <h2 class="bt-h2">Четыре информационных направления платформы</h2>
     <div class="bt-grid">
 
       <a class="bt-card" href="investigations/">
