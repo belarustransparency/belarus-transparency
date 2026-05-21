@@ -1,12 +1,12 @@
 ---
 hide:
   - navigation
-title: "Беларусь Будущего и деньги польских налогоплательщиков"
+title: "Belarus of the Future and Polish taxpayers' money"
 investigation_id: inv-0001
 date_published: 2026-05-16
 date_updated: 2026-05-16
-lede: "Только один небольшой грант 2023 года и система, в которой он стал возможен"
-authors: "Редакция Belarus Transparency"
+lede: "Just one small grant from 2023 and the system in which it became possible"
+authors: "Belarus Transparency editorial team"
 related_orgs:
   - bialorus-przyszlosci
   - fundacja-solidarnosci-miedzynarodowej
@@ -26,335 +26,352 @@ related_docs:
   - doc-krs-fsm
 status: active
 tags:
-  - расследование
+  - investigation
   - fsm
-  - беларусь-будущего
-  - латушко
-  - польские-публичные-деньги
+  - belarus-of-the-future
+  - latushka
+  - polish-public-money
 ---
 
 <div class="bt-investigation" markdown>
 
 <header class="bt-investigation-hero">
-  <p class="bt-kicker">Расследование · inv-0001 · опубликовано 16 мая 2026</p>
+  <p class="bt-kicker">Investigation · inv-0001 · published 16 May 2026</p>
 
-  # Беларусь Будущего и польские публичные деньги
+  # Belarus of the Future and Polish public money
 
-  <p class="bt-lede">Один грант 2023 года и система, в которой он стал возможен</p>
+  <p class="bt-lede">One grant from 2023 and the system in which it became possible</p>
 </header>
 
-## Преамбула
+## Preamble
 
-Прозрачность распоряжения публичными деньгами — условие, при котором демократические институты работают так, как они задуманы. Когда информация о расходах налогоплательщиков и зарубежных доноров недоступна — а тем более когда она сознательно скрывается — создаётся среда, благоприятная в лучшем случае для непрофессионализма и неэффективного использования средств, в худшем — для коррупции. Эта же среда вооружает популистов и противников демократических ценностей: тех, кто способен указать на отсутствие отчётности как на доказательство того, что демократия — лишь декорация.
+The transparency of public-money disposition is the condition under which democratic institutions work as intended. When information about the spending of taxpayer and foreign-donor funds is unavailable — and especially when it is deliberately hidden — an environment forms that, at best, favours unprofessionalism and inefficient use of money, and at worst, corruption. The same environment arms populists and opponents of democratic values: those who can point to the absence of accountability as proof that democracy is mere decoration.
 
-Особенно в случаях, когда эти средства предназначались для противостояния диктатуре.
+This is particularly true when the money was intended to counter a dictatorship.
 
-В отношении беларуской политической эмиграции этот вопрос стал острым к 2025 году. После пяти лет, в течение которых через структуры в Польше, Литве и Чехии прошли сотни миллионов евро от ЕС, США и национальных доноров, в диаспоре нарастает запрос: куда идут эти деньги, кто их распределяет, кому они достаются, и как соотносятся декларируемые приоритеты с фактическим распределением. 
+For Belarusian political emigration, this question came to a head by 2025. After five years during which hundreds of millions of euros from the EU, the United States, and national donors passed through structures in Poland, Lithuania, and the Czech Republic, the diaspora is increasingly asking: where does this money go, who distributes it, who receives it, and how do the declared priorities relate to the actual allocation.
 
-По стечению обстоятельств тренд закрытости конкурсов польского донора, фигурирующего в этом расследовании, нарастает синхронно с этим запросом: с 2024 года скрытыми остаются от 81% до 89% бюджета программы — это около **10,9 миллионов zł (~2,5 миллиона евро) за два года**, распределённых в режиме, исключающем независимую проверку. И это только в рамках одной программы одного донора.
+By coincidence, the trend towards opacity in the competitions of the Polish donor featured in this investigation has been growing in parallel with that demand: since 2024 between 81% and 89% of the programme budget has remained hidden — about **10.9 million zł (~2.5 million euros) over two years**, distributed in a regime that excludes independent verification. And this is only within one programme of one donor.
 
-Это расследование — первое в серии. Оно построено на принципе, который определяет рамку всех публикаций проекта Belarus Transparency: **бремя доказательства обратного лежит на той стороне, которая распоряжается публичными деньгами**. Если организация получает грант и не публикует отчёт — это прямой сигнал о том, что менеджеры этой структуры не готовы поделиться своими успехами с беларусами. Если фонд оперирует публичными деньгами и не имеет публичных контактов — это не техническая деталь. Если 88,75% грантов скрыты на странице донора — это уже не «соображения безопасности», а непосредственная угроза возникновения коррупционной среды.
+This investigation is the first in a series. It is built on a principle that frames every publication of the Belarus Transparency project: **the burden of proof of the contrary rests on the side that disposes of public money**. If an organization receives a grant and does not publish a report, that is a direct signal that the managers of this structure are not ready to share their successes with Belarusians. If a foundation operates with public money and has no public contact details, that is not a technical detail. If 88.75% of grants are hidden on the donor's page, that is no longer "security considerations" but a direct threat of a corruption-prone environment.
 
-Здесь документируется одна конкретная история — один грант, одна организация, один донор. Все факты подтверждены первоисточниками и относятся к одному из четырёх уровней доказанности, принятых проектом. Открытые вопросы сформулированы в адрес каждой стороны. 
+Here we document one specific story — one grant, one organization, one donor. All facts are confirmed by primary sources and assigned to one of the four levels of evidence adopted by the project. Open questions are addressed to each party.
 
-Что делать с этими вопросами дальше — решать гражданским активистам, журналистам, демократическим политикам, донорам.
-
----
-
-## Резюме фактов
-
-* **Май 2023.** Польская [Fundacja Solidarności Międzynarodowej](../organizations/fundacja-solidarnosci-miedzynarodowej.md) (FSM) — государственный фонд, действующий по заказу МИД Польши, — присуждает [Fundacji Białoruś Przyszłości](../organizations/bialorus-przyszlosci.md) (BP) грант на 980 000 zł — **47,3% всего видимого бюджета конкурса**. Сумма в 6,9 раза превышает грант организации с лучшим баллом оценки.
-* **Управление BP.** Председатель правления — [Артём Праскалович](../persons/artsiom-praskalovich.md), действующий заместитель главы Объединённого переходного кабинета Павла Латушко. Надзорный орган в разные периоды — [Брухан](../persons/artsiom-brukhan.md), [Астапенко](../persons/vladzimir-astapenka.md), [Яна Латушка](../persons/yana-latushka.md), [Халопица](../persons/iryna-khalopitsa.md), [Панов](../persons/anna-panov.md) — все связаны должностной либо родственной связью с Латушко.
-* **Отчётность.** Финансовая отчётность BP за 2023–2025 годы в KRS отсутствует. Дорожная карта, на которую получен грант, публично не представлена.
-* **5 сентября 2025.** В KRS внесён пакет изменений: введены Яна Латушка и Ирина Халопица, добавлен код PKD 68.20.Z — «аренда и управление недвижимостью» — как основной вид деятельности. 26 января 2026 года из надзорного органа выведена Анна Панов.
-* **Динамика прозрачности FSM.** С 2023 по 2025 год бюджет конкурса вырос в 4 раза (с 2,07 до 8 миллионов zł); прозрачность распределения упала со 100% до 11,25%. В 2024 году скрыто 81,3% бюджета, в 2025 — 88,75%.
+What to do with these questions next is up to civic activists, journalists, democratic politicians, and donors.
 
 ---
 
-## 1. Грант 2023 года: хронология
+## Summary of facts
 
-### Подача заявки
+* **May 2023.** The Polish [Fundacja Solidarności Międzynarodowej](../organizations/fundacja-solidarnosci-miedzynarodowej.md) (FSM) — a state foundation acting on behalf of the Polish Ministry of Foreign Affairs — awards [Fundacja Białoruś Przyszłości](../organizations/bialorus-przyszlosci.md) (BP) a grant of 980 000 zł — **47.3% of the entire visible competition budget**. The amount is 6.9 times the grant of the organization with the highest evaluation score.
+* **BP governance.** The board chairman is [Artsiom Praskalovich](../persons/artsiom-praskalovich.md), the acting deputy head of the United Transitional Cabinet (UTC) of Paweł Łatuszko. The oversight body across different periods — [Brukhan](../persons/artsiom-brukhan.md), [Astapenka](../persons/vladzimir-astapenka.md), [Yana Latushka](../persons/yana-latushka.md), [Khalopitsa](../persons/iryna-khalopitsa.md), [Panov](../persons/anna-panov.md) — all of them tied to Łatuszko by employment or family.
+* **Reporting.** BP's financial reports for 2023–2025 are absent from the KRS. The roadmap for which the grant was received has not been publicly presented.
+* **5 September 2025.** A package of changes is entered in the KRS: Yana Latushka and Iryna Khalopitsa are introduced, and PKD code 68.20.Z — "renting and management of real estate" — is added as the principal activity. On 26 January 2026 Anna Panov is removed from the oversight body.
+* **FSM transparency trend.** From 2023 to 2025 the competition budget grew fourfold (from 2.07 to 8 million zł); the transparency of distribution fell from 100% to 11.25%. In 2024, 81.3% of the budget was hidden; in 2025, 88.75%.
 
-31 марта 2023 года FSM объявила открытый [«Konkurs Grantowy na rzecz Białorusi 2023»](https://old.solidarityfund.pl/2023/03/31/konkurs-grantowy-na-rzecz-bialorusi-2/) — в рамках программы «Wsparcie Demokracji 2023», которая входит в программу польского сотрудничества для развития (Polska współpraca rozwojowa) МИД Польши.
+---
 
-Параметры конкурса 2023 года:
+## 1. The 2023 grant: a chronology
 
-* три приоритета: права человека и демократические институты; свободные медиа; общественные организации и диаспора;
-* два формата гранта: малый — от 50 до 250 тысяч zł; крупный — от 251 тысячи до 1,5 миллиона zł.
+### The application
 
-BP подала заявку на проект «Opracowanie mapy drogowej dla ochrony praw podstawowych ofiar zbrodni przeciwko ludzkości na Białorusi od 2020 roku, a także zbrodni agresji wobec Ukrainy» («Разработка дорожной карты защиты основных прав жертв преступлений против человечности на Беларуси с 2020 года, а также преступлений агрессии против Украины»). Заявка отнесена к приоритету I — права человека и демократические институты.
+On 31 March 2023 FSM announced the open ["Konkurs Grantowy na rzecz Białorusi 2023"](https://old.solidarityfund.pl/2023/03/31/konkurs-grantowy-na-rzecz-bialorusi-2/) — under the "Wsparcie Demokracji 2023" programme, which is part of the Polish development cooperation programme (Polska współpraca rozwojowa) of the Polish MFA.
 
-На момент подачи заявки правление BP возглавлял Артём Праскалович (действует в этой должности с 26 августа 2022 года); вторым членом правления был Валерий Мацкевич. В надзорный орган входили Михаил Кирилюк (с момента основания фонда), Владимир Астапенко и Анна Панов (оба — с 26 августа 2022 года).
+Parameters of the 2023 competition:
 
-### Решение и распределение сумм
+* three priorities: human rights and democratic institutions; free media; civil-society organizations and diaspora;
+* two grant formats: small — from 50 to 250 thousand zł; large — from 251 thousand to 1.5 million zł.
 
-18 мая 2023 года FSM [опубликовала результаты конкурса](https://old.solidarityfund.pl/2023/05/18/wyniki-konkursu-grantowego-na-rzecz-bialorusi-2/) ([полный ранжированный список](https://old.solidarityfund.pl/wp-content/uploads/2023/05/Wyniki-Konkursu-Grantowego-na-rzecz-Bialorusi-2023.pdf)):
+BP submitted an application for the project "Opracowanie mapy drogowej dla ochrony praw podstawowych ofiar zbrodni przeciwko ludzkości na Białorusi od 2020 roku, a także zbrodni agresji wobec Ukrainy" ("Development of a roadmap for protecting the fundamental rights of victims of crimes against humanity in Belarus since 2020, as well as crimes of aggression against Ukraine"). The application was assigned to priority I — human rights and democratic institutions.
 
-| Место | Организация | Проект | Приоритет | Балл | Сумма (zł) |
+At the time of the application BP's board was chaired by Artsiom Praskalovich (in this office since 26 August 2022); the second board member was Valery Matskevich. The oversight body comprised Mikhail Kiryliuk (from the foundation's establishment), Vladimir Astapenko, and Anna Panov (both from 26 August 2022).
+
+### Decision and allocation of amounts
+
+On 18 May 2023 FSM [published the competition results](https://old.solidarityfund.pl/2023/05/18/wyniki-konkursu-grantowego-na-rzecz-bialorusi-2/) ([full ranked list](https://old.solidarityfund.pl/wp-content/uploads/2023/05/Wyniki-Konkursu-Grantowego-na-rzecz-Bialorusi-2023.pdf)):
+
+| Place | Organization | Project | Priority | Score | Amount (zł) |
 |---|---|---|---|---|---|
-| 1 | Kolegium Europy Wschodniej im. J. Nowaka-Jeziorańskiego | Wspieramy Białoruskie Przebudzenie | II, III | **19,5** | 142 000 |
-| 2 | Fundacja Strefa Solidarności (TV Biełsat) | Поддержка платформы TV Биелсат | II, III | 16,5 | 300 000 |
-| 2 | **Fundacja Białoruś Przyszłości** | **Дорожная карта защиты прав жертв преступлений** | **I** | **16,5** | **980 000** |
-| 4 | Fundacja Informacyjne Biuro Białoruś w Fokusie | Развитие журналистики в эмиграции | II | 16,0 | 400 000 |
-| 5 | Fundacja BYPOL | Развитие демократии на Беларуси | II | 15,5 | 251 460 |
+| 1 | Kolegium Europy Wschodniej im. J. Nowaka-Jeziorańskiego | Wspieramy Białoruskie Przebudzenie | II, III | **19.5** | 142 000 |
+| 2 | Fundacja Strefa Solidarności (TV Biełsat) | Support for the TV Belsat platform | II, III | 16.5 | 300 000 |
+| 2 | **Fundacja Białoruś Przyszłości** | **Roadmap for the protection of victims' rights** | **I** | **16.5** | **980 000** |
+| 4 | Fundacja Informacyjne Biuro Białoruś w Fokusie | Development of journalism in emigration | II | 16.0 | 400 000 |
+| 5 | Fundacja BYPOL | Development of democracy in Belarus | II | 15.5 | 251 460 |
 
-BP с 16,5 балла (поделённое 2–3 место) получил 980 000 zł — **47,3% всего видимого бюджета конкурса**. Остальные четыре победителя поделили оставшиеся 52,7%. Методика распределения сумм между заявителями с равными или близкими баллами в публичных материалах не описана — регламент задаёт критерии оценки заявок, но не принцип распределения общего бюджета.
+BP, with 16.5 points (a shared 2nd–3rd place), received 980 000 zł — **47.3% of the entire visible competition budget**. The other four winners shared the remaining 52.7%. The methodology for distributing amounts among applicants with equal or close scores is not described in any public materials — the regulations set criteria for evaluating applications but not a principle for distributing the overall budget.
 
-### Профиль победителей и проигравших
+### Profile of winners and losers
 
-Конкурс имел три приоритета: **I — права человека и демократические институты**, **II — свободные медиа**, **III — общественные организации и беларуская диаспора**.
+The competition had three priorities: **I — human rights and democratic institutions**, **II — free media**, **III — civil-society organizations and the Belarusian diaspora**.
 
-BP заявил единственный приоритет — I. Все остальные победители — медиа (приоритет II). Kolegium и Strefa Solidarności формально указали приоритеты II+III, но содержательно — «дорожная карта пробуждения» Kolegium и TV-платформа Biełsat — это стратегические и медиапроекты, а не работа с конкретной диаспорой. **Ни один проект, специально направленный на работу с диаспорой по существу, не получил финансирования.**
+BP declared a single priority — I. All the other winners are media (priority II). Kolegium and Strefa Solidarności formally indicated priorities II+III, but in substance — Kolegium's "roadmap of awakening" and the Belsat TV platform — these are strategic and media projects, not work with a specific diaspora community. **Not a single project specifically directed at substantive work with the diaspora received funding.**
 
-Среди отклонённых заявок 2023 года — поддержка репрессированных учителей, культура в эмиграции, поддержка уже существующих беларуских общин, профессиональный уход и прямая помощь репрессированным, трудоустройство и переквалификация беженцев. Расхождение между декларированным приоритетом III и фактическим распределением не объяснено.
+Among the rejected applications of 2023 were support for repressed teachers, culture in emigration, support for existing Belarusian communities, professional care and direct help for the repressed, employment and retraining of refugees. The discrepancy between the declared priority III and the actual distribution is not explained.
 
-### Реализация и публичный результат
+### Implementation and the public result
 
-Срок реализации проекта по регламенту — до 30 ноября 2023 года.
+The deadline for project implementation under the regulations was 30 November 2023.
 
-Публично «дорожная карта защиты прав жертв преступлений против человечности на Беларуси» в виде самостоятельного документа не представлена. 
+The "roadmap for the protection of the rights of victims of crimes against humanity in Belarus" has not been presented publicly as a standalone document.
 
-У BP нет публичного сайта; в записях KRS не указаны ни веб-адрес, ни электронная почта. Презентации проекта на публичной площадке или в какой-либо международной правозащитной организации не зафиксировано. Поисковые запросы по названию проекта в открытых источниках не дают результата, отличного от самого объявления о гранте.
+BP has no public website; the KRS records list neither a web address nor an email. No presentation of the project at any public venue or any international human-rights organization has been recorded. Searches by the project's name in open sources produce no result other than the grant announcement itself.
 
-Среди семи юрисдикций, в которых по заявке должны были вестись действия — Польша, Литва, Германия, Чехия, Норвегия, Швейцария, Украина — публичных следов работы по теме в 2023 году не найдено.
+Among the seven jurisdictions in which, according to the application, activities were to take place — Poland, Lithuania, Germany, the Czech Republic, Norway, Switzerland, Ukraine — no public traces of work on the topic in 2023 have been found.
 
-Финансовая отчётность BP за 2023 год в KRS отсутствует. Это означает, что годовой отчёт фонда (предусмотренный польским законодательством о фондах) либо не сдан, либо сдан с опозданием на срок более двух лет.
+BP's financial report for 2023 is absent from the KRS. This means that the foundation's annual report (required by Polish law on foundations) has either not been submitted or has been submitted with a delay of more than two years.
 
 </section>
 
 ---
 
-## 2. Акторы фонда в период исследования
+## 2. Actors of the foundation during the period under study
 
-### Действующие лица фонда
+### Active figures of the foundation
 
-[**Артём Праскалович**](../persons/artsiom-praskalovich.md) — председатель правления BP с 26 августа 2022 года. Одновременно — заместитель Павла Латушко в Объединённом переходном кабинете. Подписант грантового договора 2023 года с FSM на 980 000 zł.
+[**Artsiom Praskalovich**](../persons/artsiom-praskalovich.md) — BP board chairman since 26 August 2022. At the same time, the deputy of Paweł Łatuszko in the United Transitional Cabinet. Signatory of the 2023 grant agreement with FSM for 980 000 zł.
 
-[**Артём Брухан**](../persons/artsiom-brukhan.md) — член надзорного органа BP с 29 мая 2023 года. Заместитель Латушко в Народном антикризисном управлении. Спикер Координационной рады; представляет в КР фракцию Латушко.
+[**Artsiom Brukhan**](../persons/artsiom-brukhan.md) — member of BP's oversight body since 29 May 2023. Łatuszko's deputy at the National Anti-Crisis Management (NAM). Spokesperson of the Coordination Council; represents the Łatuszko faction in the CC.
 
-[**Владимир Астапенко**](../persons/vladzimir-astapenka.md) — член надзорного органа BP с 26 августа 2022 года. Заместитель Латушко в Народном антикризисном управлении. Глава демократической миссии ОПК в Брюсселе.
+[**Vladzimir Astapenka**](../persons/vladzimir-astapenka.md) — member of BP's oversight body since 26 August 2022. Łatuszko's deputy at the National Anti-Crisis Management. Head of the UTC democratic mission in Brussels.
 
-[**Яна Латушка**](../persons/yana-latushka.md) — член надзорного органа BP с 5 сентября 2025 года. Дочь Павла Латушко. Представляет в Координационной раде фракцию Латушко.
+[**Yana Latushka**](../persons/yana-latushka.md) — member of BP's oversight body since 5 September 2025. Daughter of Paweł Łatuszko. Represents the Łatuszko faction in the Coordination Council.
 
-[**Ирина Халопица**](../persons/iryna-khalopitsa.md) — член надзорного органа BP с 5 сентября 2025 года. С 2023 года — сотрудница НАУ Латушко, ответственная за его социальные сети (по официальному письму ОПК от 29 мая 2023 года, опубликованному Telegram-каналом SOTA). Член Координационной рады, фракция Латушко.
+[**Iryna Khalopitsa**](../persons/iryna-khalopitsa.md) — member of BP's oversight body since 5 September 2025. Since 2023, a staff member of Łatuszko's NAM, responsible for his social media (according to the official UTC letter of 29 May 2023, published by the SOTA Telegram channel). Member of the Coordination Council, Łatuszko faction.
 
-[**Анна Панов**](../persons/anna-panov.md) — член надзорного органа BP с 26 августа 2022 года, исключена 26 января 2026 года.
+[**Anna Panov**](../persons/anna-panov.md) — member of BP's oversight body since 26 August 2022, removed on 26 January 2026.
 
-### Свидетели
+### Witnesses
 
-Учредители BP, не вошедшие в действующее управление либо вышедшие из него до момента получения гранта FSM 2023 года:
+BP founders who did not join the current governance or who left it before the FSM 2023 grant was received:
 
-* **Анатолий Котов** (в реестре — Anatol Kotau) — учредитель и первый председатель правления BP, ушёл 12 января 2022 года. В НАУ Латушко отвечал за внешнюю политику и торговлю. С 2021 года между Латушко и Котовым идёт публичный гражданский процесс по поводу денег BP — см. секцию 5;
-* **Вадим Прокопьев** — учредитель; член надзорного органа с момента основания, вычеркнут 12 января 2022 года;
-* **Михаил Кирилюк** — учредитель; член надзорного органа с момента основания, вычеркнут 29 мая 2023 года. Известен в публичном поле как советник Латушко в НАУ;
-* **Валерий Мацкевич** — член правления BP с 26 августа 2022 года, вычеркнут 29 мая 2023 года; с конца 2023 года — глава аппарата Объединённого переходного кабинета (структура, в которой Тихановская — глава, Латушко — заместитель);
-* **Елена Жилочкина (Живоглод)** — учредитель; член правления с момента основания, затем председатель правления с 12 января 2022 года по 26 августа 2022 года. Связана с НГО «Честные люди».
+* **Anatol Kotau** — founder and first board chairman of BP, departed on 12 January 2022. At Łatuszko's NAM he was responsible for foreign policy and trade. Since 2021 a public civil case has been ongoing between Łatuszko and Kotau over BP's money — see section 5;
+* **Vadim Prokopiev** — founder; member of the oversight body since the foundation's establishment, struck off on 12 January 2022;
+* **Mikhail Kiryliuk** — founder; member of the oversight body since the foundation's establishment, struck off on 29 May 2023. Publicly known as Łatuszko's adviser at the NAM;
+* **Valery Matskevich** — BP board member since 26 August 2022, struck off on 29 May 2023; since late 2023, head of the apparatus of the United Transitional Cabinet (the structure of which Tsikhanouskaya is head and Łatuszko is deputy);
+* **Elena Zhilochkina (Zhyvahlod)** — founder; board member from the foundation's establishment, then board chairman from 12 January 2022 to 26 August 2022. Linked to the NGO "Honest People".
 
-Совпадение мая 2023 года в нескольких траекториях — публикация результатов конкурса FSM 18 мая, в одном wpisie 29 мая 2023 года из управляющих органов BP одновременно вычеркнуты Валерий Мацкевич (правление) и Михаил Кирилюк (надзор), а в надзорный орган вписан Артём Брухан, заместитель Латушко в НАУ. Содержательная связь между этими событиями не объяснена.
+The coincidence of May 2023 across several trajectories — the publication of the FSM competition results on 18 May, the single KRS entry of 29 May 2023 in which Valery Matskevich (board) and Mikhail Kiryliuk (oversight) are simultaneously struck off BP's governing bodies while Artsiom Brukhan, Łatuszko's deputy at the NAM, is added to the oversight body. The substantive connection between these events is not explained.
 
-### Адрес фонда
+### The foundation's address
 
-С 12 января 2022 года BP размещён по адресу **ul. Mazowiecka 12 в Варшаве — по адресу офиса Народного антикризисного управления Павла Латушко**. Адрес сменён в один день с вычеркиванием Анатолия Котова с должности председателя правления и Вадима Прокопьева из надзорного органа. До 12 января 2022 года адрес фонда был ul. Wincentego Rzymowskiego 28 в районе Mokotów.
+Since 12 January 2022, BP has been located at **ul. Mazowiecka 12 in Warsaw — at the office of Paweł Łatuszko's National Anti-Crisis Management**. The address was changed on the same day Anatol Kotau was struck off as board chairman and Vadim Prokopiev was struck off the oversight body. Before 12 January 2022 the foundation's address was ul. Wincentego Rzymowskiego 28 in the Mokotów district.
 
-То есть с момента, когда из состава учредителей ушёл фактический инициатор фонда, физическое местоположение организации совпадает с офисом политической структуры Латушко.
+That is, from the moment the actual initiator of the foundation departed from the founders' group, the physical location of the organization coincides with the office of Łatuszko's political structure.
 
-### Связи акторов
+### Connections among the actors
 
 ```mermaid
 graph LR
-    PL["Павел Латушко<br/>зам главы ОПК<br/>руководитель НАУ"]
-    OPK["Объединённый<br/>переходный кабинет"]
-    BPZ["Fundacja Białoruś Przyszłości<br/>грант 980 тыс zł<br/>от FSM 2023"]
-    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>гос фонд MSZ"]
-    YL["Яна Латушка<br/>надзор BP с 09 2025"]
-    AP["Артём Праскалович<br/>предс правления BP"]
-    VA["Владимир Астапенко<br/>надзор BP"]
-    AB["Артём Брухан<br/>спикер КР<br/>экс-зам в НАУ"]
-    MSZ["МИД Польши"]
+    PL["Paweł Łatuszko<br/>UTC deputy head<br/>NAM head"]
+    NAM["NAM<br/>National Anti-Crisis<br/>Management"]
+    UTC["UTC<br/>United Transitional<br/>Cabinet"]
+    CC["CC<br/>Coordination Council<br/>Latushka faction"]
 
-    PL -.руководит.-> OPK
-    PL -.отец.-> YL
-    OPK -.зам главы.-> AP
-    OPK -.междунар сотр.-> VA
-    AP --правление--> BPZ
-    VA --надзор--> BPZ
-    YL --надзор--> BPZ
-    AB --надзор с 29 05 2023--> BPZ
-    FSM ==грант 47% бюджета конкурса==> BPZ
-    MSZ --финансирует--> FSM
+    AP["Artsiom Praskalovich<br/>UTC deputy head<br/>BP board chairman"]
+    AB["Artsiom Brukhan<br/>NAM deputy<br/>CC spokesperson"]
+    VA["Vladzimir Astapenka<br/>NAM deputy<br/>UTC mission in Brussels"]
+    IK["Iryna Khalopitsa<br/>NAM staff<br/>CC member"]
+    YL["Yana Latushka<br/>Latushka's daughter<br/>CC member"]
+
+    BPZ["Fundacja Białoruś<br/>Przyszłości<br/>grant 980 000 zł"]
+    FSM["Fundacja Solidarności<br/>Międzynarodowej"]
+    MFA["Polish MFA"]
+
+    PL --> NAM
+    PL --> UTC
+    PL --> CC
+
+    NAM --> AB
+    NAM --> VA
+    NAM --> IK
+
+    UTC --> AP
+
+    CC --> AB
+    CC --> YL
+    CC --> IK
+
+    AP --board--> BPZ
+    AB --oversight--> BPZ
+    VA --oversight--> BPZ
+    IK --oversight--> BPZ
+    YL --oversight--> BPZ
+
+    FSM ==grant 47% of budget==> BPZ
+    MFA --funds--> FSM
 
     classDef person fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB person;
-    class OPK,BPZ,FSM org;
-    class MSZ money;
+    class PL,AP,AB,VA,IK,YL person;
+    class NAM,UTC,CC,BPZ,FSM org;
+    class MFA money;
 ```
 
 ---
 
-## 3. Системный контекст: FSM 2020–2025
+## 3. Systemic context: FSM 2020–2025
 
-Давайте предположим, что грант BP 2023 года — единственный документально подтверждённый случай в публикациях FSM по беларускому направлению, требующий объяснения по существу. Чтобы понять, насколько случай уникален, мы проследили все шесть конкурсов с 2020 по 2025 год.
+Suppose that BP's 2023 grant is the only documented case in FSM publications on the Belarusian track that requires substantive explanation. To understand how unique this case is, we have traced all six competitions from 2020 to 2025.
 
-### Динамика прозрачности
+### Transparency dynamics
 
-| Год | Бюджет видимый | Грантов всего | Получателей открыто | Прозрачность бюджета |
+| Year | Visible budget | Total grants | Recipients disclosed | Budget transparency |
 |---|---|---|---|---|
-| 2020 | не указан | 7 | 7 (без сумм) | имена есть, сумм нет |
-| 2021 | не указан | 5 | 5 (без сумм) | имена есть, сумм нет |
-| 2022 | результаты конкурса не опубликованы | — | — | страница отсутствует |
-| 2023 | ≈ 2,07 млн zł | 5 | **5 (с суммами и баллами)** | **100% открыто** |
-| 2024 | 4,7 млн zł | 11 | 4 (с суммами и баллами) | **18,7% открыто** |
-| 2025 | 8 млн zł | 11 | 2 (с суммами и баллами) | **11,25% открыто** |
+| 2020 | not stated | 7 | 7 (no amounts) | names yes, amounts no |
+| 2021 | not stated | 5 | 5 (no amounts) | names yes, amounts no |
+| 2022 | results not published | — | — | page absent |
+| 2023 | ≈ 2.07 million zł | 5 | **5 (with amounts and scores)** | **100% open** |
+| 2024 | 4.7 million zł | 11 | 4 (with amounts and scores) | **18.7% open** |
+| 2025 | 8 million zł | 11 | 2 (with amounts and scores) | **11.25% open** |
 
-С 2023 по 2025 год бюджет конкурса вырос почти в 4 раза — с 2,07 до 8 миллионов zł. Одновременно прозрачность распределения упала со 100% до 11,25%. Два противоположно направленных тренда.
+From 2023 to 2025 the competition budget grew almost fourfold — from 2.07 to 8 million zł. At the same time, the transparency of distribution fell from 100% to 11.25%. Two oppositely directed trends.
 
-Поскольку за 2020–2022 годы FSM не публиковал ни сумм, ни общего бюджета, точную полную сумму, прошедшую через FSM по беларускому направлению за 2020–2025 годы, установить нельзя. Из публично подтверждённого можно утверждать: за 2023–2025 годы выделено **не менее 14,77 миллиона zł**, а на BP только в 2023 году пришлось **почти 7% этой суммы** — больше, чем некоторые годовые бюджеты конкурса в целом.
+Since for 2020–2022 FSM published neither amounts nor a total budget, the exact total sum that has passed through FSM on the Belarusian track over 2020–2025 cannot be established. From what is publicly confirmed, one can state: between 2023 and 2025 **at least 14.77 million zł** were awarded, and BP alone in 2023 accounted for **almost 7% of this sum** — more than some annual competition budgets in their entirety.
 
-В 2024 году скрыто 7 из 11 грантов на 3,82 миллиона zł (81,3% бюджета). Средняя сумма скрытого гранта — 546 тысяч zł, открытого — 220 тысяч zł; скрытые в среднем в 2,48 раза крупнее. В публичный список попадают мелкие гранты, основной массив крупных распределений — вне публичного контроля. В 2025 году скрыто 9 из 11 грантов; открыто названы только Karta '97 (Charter97, 550 тысяч zł) и Informacyjne Biuro Białoruś w Fokusie (350 тысяч zł) — обе работают в публичном медиапространстве.
+In 2024, 7 of 11 grants were hidden, totalling 3.82 million zł (81.3% of the budget). The average amount of a hidden grant is 546 thousand zł, of an open one — 220 thousand zł; the hidden ones are on average 2.48 times larger. Small grants enter the public list; the bulk of large allocations remain beyond public scrutiny. In 2025, 9 of 11 grants were hidden; openly named are only Karta '97 (Charter97, 550 thousand zł) and Informacyjne Biuro Białoruś w Fokusie (350 thousand zł) — both operating in the public media space.
 
-Формальное основание сокрытия — нормы регламента, позволяющие по просьбе заявителей не публиковать данные о выбранных проектах в связи с особыми политическими условиями страны проекта. Норма обоснована соображениями безопасности. Вопрос — в её применении: в 2023 году все пять получателей сочли публикацию совместимой с безопасностью, в 2025 году — только два из одиннадцати. Что изменилось — ситуация безопасности или режим публикации — не объяснено.
+The formal basis for non-disclosure is regulatory provisions that allow, at applicants' request, withholding information about selected projects on account of the special political conditions of the project's country. The provision is justified on security grounds. The question is how it is applied: in 2023 all five recipients judged publication compatible with safety; in 2025, only two out of eleven did so. What has changed — the security situation or the publication regime — is not explained.
 
-### Закрытие круга получателей
+### Closing the recipient circle
 
-В регламент конкурса 2025 года введён критерий формальной оценки заявок: заявитель должен подтвердить документально реализацию не менее трёх проектов по беларускому направлению на сумму более 200 тысяч zł каждый, общим объёмом более 600 тысяч zł. Организация, впервые подающая заявку, формально не может получить грант. Чтобы соответствовать критерию, нужно уже несколько лет получать крупные польские гранты — в первую очередь от той же FSM. По существу — структурный механизм самовоспроизводства круга получателей: чтобы попасть в него, нужно уже в нём быть.
+The 2025 competition regulations introduced a formal application-eligibility criterion: the applicant must document the implementation of at least three projects on the Belarusian track of more than 200 thousand zł each, with a combined value of more than 600 thousand zł. An organization applying for the first time formally cannot receive a grant. To meet the criterion, one must have already been receiving large Polish grants for several years — primarily from this same FSM. In essence, this is a structural mechanism for self-reproduction of the recipient circle: to enter it, one must already be in it.
 
-Критерий введён под руководством нового президента правления FSM — Justyny Janiszewskiej, назначенной 21 ноября 2024 года. До прихода в FSM Janiszewska с 2010 по 2016 год возглавляла Fundację Edukacja dla Demokracji (FED) — ту самую организацию, которая в конкурсе FSM 2023 года подавала заявку на поддержку репрессированных учителей по приоритетам I и III, получила 14 баллов и не получила финансирования. То есть руководитель FSM, который вводит в 2025 году критерий, закрывающий конкурс для новых заявителей с проектами в области поддержки диаспоры, лично связан с организацией, которая два года назад была среди отклонённых заявителей с проектом ровно такого типа. Этот факт не объясняет содержательную природу критерия, но фиксирует структурную закономерность: новое руководство FSM закрепляет логику распределения, которая в 2023 году исключила её собственную бывшую организацию.
+The criterion was introduced under the new president of FSM's board — Justyna Janiszewska, appointed on 21 November 2024. Before joining FSM, Janiszewska headed Fundacja Edukacja dla Demokracji (FED) from 2010 to 2016 — the very organization that in the 2023 FSM competition submitted an application to support repressed teachers under priorities I and III, received 14 points, and did not receive funding. That is: the head of FSM, who in 2025 introduces a criterion that closes the competition to new applicants with projects in the area of diaspora support, is personally connected to an organization that two years earlier was among the rejected applicants with a project of precisely this type. This fact does not explain the substantive nature of the criterion but documents a structural regularity: the new FSM leadership cements a distribution logic that in 2023 had excluded its own former organization.
 
-Параллельно резко падают баллы исторических победителей, разошедшихся с офисом и кабинетом. Kolegium Europy Wschodniej — победитель конкурса 2023 года с 19,5 балла — в 2024 году получило 18 баллов и грант на 230 тысяч zł, в 2025 году — 11 баллов и 0 zł. Fundacja BYPOL — победитель 2023 года (15,5 балла, 251 460 zł) — в 2025 году получила 4,5 балла и 0 zł. К 2025 году BYPOL утратил протекцию ОПК и офиса Тихановской: связанный с организацией координатор плана «Перамога» Александр Азаров [был уволен из Переходного кабинета в 2024 году](https://ru.belsat.eu/80847271/azarova-uvolili-iz-perehodnogo-kabineta-no-on-prodolzhit-rabotat-s-podpolem).
+In parallel, the scores of historical winners who have parted ways with the office and the cabinet are sharply falling. Kolegium Europy Wschodniej — the 2023 competition winner with 19.5 points — received 18 points and a grant of 230 thousand zł in 2024, and 11 points and 0 zł in 2025. Fundacja BYPOL — the 2023 winner (15.5 points, 251 460 zł) — received 4.5 points and 0 zł in 2025. By 2025 BYPOL had lost the patronage of the UTC and of Tsikhanouskaya's office: the organization-linked coordinator of the "Peramoga" plan, Aliaksandr Azarau, [was dismissed from the Transitional Cabinet in 2024](https://ru.belsat.eu/80847271/azarova-uvolili-iz-perehodnogo-kabineta-no-on-prodolzhit-rabotat-s-podpolem).
 
-[Подробная карта конкурсов FSM 2020–2025 с расшифровкой каждого года](../organizations/fundacja-solidarnosci-miedzynarodowej.md#konkursy) — на странице карточки организации.
-
----
-
-## 4. Внешний аудит NIK 2024 года
-
-В 2024 году Najwyższa Izba Kontroli (Высшая контрольная палата Польши, NIK) провела аудит реализации многолетней программы развития сотрудничества MSZ за 2021–2024 годы. Аудит охватил MSZ, FSM, MNiSW и 15 организаций-исполнителей по 10 приоритетным странам, включая Беларусь. Отчёт [KAP.430.7.2024](../archive/doc-nik-kap-430-7-2024.md) зафиксировал ряд существенных нарушений на уровне всей системы польской помощи развитию. Отдельно NIK направил в прокуратуру уведомление о возможном превышении полномочий на сумму более 7 миллионов zł — это решение замминистра иностранных дел в конкурсе «Polska pomoc rozwojowa 2023» о финансировании проектов в Палестине, Камеруне, Кении и Танзании в обход рекомендаций конкурсной комиссии. К FSM и беларускому направлению это уведомление не относится.
-
-### Системные замечания к финансовой дисциплине FSM
-
-В рамках программы Wsparcie Demokracji 2022 (общая дотация 40,55 миллиона zł, охватывающая Беларусь, Украину, Молдову, Грузию и гуманитарные действия) NIK провела детальную проверку выборки из 30 договоров; в 7 из них зафиксированы нарушения, в двух случаях это привело к нерациональному расходованию средств дотации на сумму 187,6 тысячи zł, из них 129,9 тысячи zł — выплата за проект «Gra dla demokracji – Etap II» при недостижении целей и показателей договора. Все конкретные нарушения в проверенной выборке, по которым в отчёте названы партнёры, касаются медийных контрактов на закупку эфирного времени (Radio Wnet Sp. z o.o. — договор на 2,6 миллиона zł с неточно определённым предметом; Białoruskie Centrum Informacyjne Sp. z o.o. — ретроактивное повышение суточной ставки производства и эфира радиопередач) и одного украинского проекта (по теме медицинской помощи травматическим расстройствам — выплата средств выше суммы договора и до утверждения итогового отчёта). Имена беларуских грантополучателей в перечне нарушений в проверенной выборке не названы.
-
-Параллельно NIK зафиксировала нарушения в дисциплине финансовых операций самой FSM. По выборке из 21 счёта административных расходов главного офиса в Варшаве (общая стоимость выборки — 432,7 тысячи zł, 15,1% административных расходов): 7 счетов оплачены с опозданием от 3 до 55 дней, на 3 счетах содержательное описание подготовлено выставившим счёт лицом (то есть выполнявшим работу для FSM по договору заказа), на всех 21 счёте отсутствует подтверждение, кто проводил формально-расчётную проверку. NIK также зафиксировала, что FSM в семи случаях выплатил последние транши партнёрам, не сдавшим итоговый отчёт в установленный срок либо до утверждения отчёта Фондацией; в одном проекте средства выплачены в сумме большей, чем предусмотрено договором дотации (per saldo на 28,8 тысячи zł).
-
-Общая оценка NIK по FSM: «Скала и важность нарушений, выявленных в рамках охваченного исследованием договора на реализацию программы Wsparcie demokracji в 2022 году, свидетельствуют о несоблюдении Фондацией должной заботы о правильном распоряжении публичными средствами и их надлежащем использовании, а также о недостаточном надзоре Председателя этой Фондации над выполняемыми задачами».
-
-### Беларуско-украинский грантовый конкурс 2022 года
-
-В отдельном разделе акта (пункт 4.5) NIK прямо констатирует: «Fundacja prawidłowo przeprowadziła Konkurs grantowy na rzecz Białorusi i Ukrainy oraz dopełniła obowiązków związanych z przekazaniem grantów podmiotom wybranym w konkursie» — то есть конкурс грантов на Беларусь и Украину 2022 года проведён правильно. Эту констатацию важно прочитать с учётом её фактического основания. Конкурс 2022 года рекомендовал к финансированию 17 проектов — 11 беларуских на общую сумму 7 026,3 тысячи zł и 6 украинских на 1 000,0 тысячи zł. Из этих 17 проектов NIK детально проверила **три**, то есть менее 18% по числу проектов; имена выбранных трёх проектов в публичной части отчёта не приведены. По этим трём проектам нарушений в расходовании грантовых средств не выявлено. Таким образом, формулировка «конкурс проведён правильно» в акте опирается на проверку процедуры самой комиссии и трёх случайно выбранных грантовых договоров, а не на полное исследование всех 17 финансированных проектов.
-
-При этом единственное замечание NIK, относящееся непосредственно к беларуско-украинскому конкурсу: тогдашний Председатель Правления FSM не подал декларацию об отсутствии конфликта интересов, утверждая результаты конкурса, что нарушает пункт 7 части II Правил конкурса. Этот факт особенно важен в контексте настоящего расследования. На момент утверждения результатов конкурса 2023 года, в котором BP получил 980 000 zł, Председателем Правления FSM был тот же Rafał Dzięciołowski (на посту с 19 сентября 2019 года по 30 июля 2024 года). Формально-процедурный недостаток, зафиксированный NIK для конкурса 2022 года — отсутствие декларации о конфликте интересов от лица, утверждающего результаты — структурный, а не случайный: вопрос, подавал ли Председатель аналогичную декларацию по конкурсу 2023 года, открытый.
-
-### Хронология ухода Председателя FSM
-
-11 июня 2024 года министр иностранных дел Польши Radosław Sikorski назначил Henryka Litwina новым Председателем Правления FSM; в официальном коммюнике Rafał Dzięciołowski охарактеризован как «завершивший свою миссию», его вклад описан позитивно, признаков отставки в связи с проверкой публичная коммуникация не содержит. Формальная регистрация смены в KRS произошла 30 июля 2024 года.
-
-Хронологически уход Дзенциоловского случился на фоне продолжающейся проверки NIK: контроль охватывал период с 1 января 2021 года по 30 сентября 2024 года, последнее формальное постконтрольное обращение по аудиту P/24/003 NIK подписала 18 октября 2024 года, финальный отчёт опубликован в апреле 2025 года. На момент назначения преемника замечаний NIK ещё не было сформулировано в виде формального документа. Henryk Litwin, остававшийся Председателем менее пяти месяцев — до 21 ноября 2024 года, когда министр Sikorski назначил на этот пост Justynę Janiszewską, — формально и принимал постконтрольное обращение NIK от лица FSM. Уход Дзенциоловского по времени совпал с общей сменой руководства государственных фондов после смены правительства в Польше в декабре 2023 года — стандартная политическая ротация. Установить, были ли Дзенциоловскому известны предварительные замечания NIK до подачи прошения об отставке, по открытым документам невозможно: контрольные действия NIK на месте велись параллельно процессу смены руководства, но формальная коммуникация с объектом проверки ведётся через wystąpienie pokontrolne, которое в данном случае было подписано позже.
-
-Конкретный грант BP на 980 000 zł в аудите отдельно не выделен — детальная проверка касалась договорной выборки 2022 года. Системные замечания NIK к управленческой дисциплине FSM и к процедуре конкурса (отсутствие декларации о конфликте интересов от Председателя) делают запрос о методике распределения сумм в конкурсе 2023 года правомерным — тем более что Председатель, утверждавший результаты конкурса 2023 года, был тем же лицом, в отношении которого NIK зафиксировала тот же процедурный недостаток годом ранее.
+[A detailed map of FSM competitions 2020–2025 with a year-by-year breakdown](../organizations/fundacja-solidarnosci-miedzynarodowej.md#konkursy) — on the organization's card page.
 
 ---
 
-## 5. Параллельный сюжет: судебный конфликт Латушко с первым председателем правления фонда
+## 4. The 2024 external audit by NIK
 
-В мае 2025 года в интервью «Еврорадио» Павел Латушко публично признал, что с 2021 года продолжается гражданский процесс с Анатолием Котовым — первым председателем правления BP ([Наша Ніва, 14 мая 2025](https://nashaniva.com/ru/367893)). По словам Латушко, в 2021 году у партнёров BP возник вопрос о недостаточном количестве документов, подтверждающих расходы. Котов ушёл, BP подал заявление в полицию; полиция и суд отказали в уголовном производстве, рекомендовав гражданский процесс, который идёт до сих пор.
+In 2024, the Najwyższa Izba Kontroli (Supreme Audit Office of Poland, NIK) audited the implementation of the Polish MFA's multi-year development cooperation programme for 2021–2024. The audit covered the MFA, FSM, MNiSW, and 15 implementing organizations across 10 priority countries, including Belarus. The report [KAP.430.7.2024](../archive/doc-nik-kap-430-7-2024.md) records a number of substantial irregularities at the level of the entire Polish development aid system. Separately, NIK referred to the prosecutor's office a notice of possible abuse of authority for more than 7 million zł — concerning a decision by a deputy minister of foreign affairs in the "Polska pomoc rozwojowa 2023" competition to fund projects in Palestine, Cameroon, Kenya, and Tanzania bypassing the recommendations of the competition committee. This referral does not concern FSM or the Belarusian track.
 
-Что из этого следует:
+### Systemic remarks on FSM's financial discipline
 
-**Первое.** BP, судящийся с собственным бывшим председателем правления по поводу пропавших документов о расходах, одновременно не публикует собственную финансовую отчётность за 2023–2025 годы. Стороны судятся между собой; общество не имеет возможности оценить движение средств фонда из первоисточника.
+Within the framework of Wsparcie Demokracji 2022 (a total grant of 40.55 million zł covering Belarus, Ukraine, Moldova, Georgia, and humanitarian actions), NIK conducted a detailed inspection of a sample of 30 contracts; in 7 of them, irregularities were recorded, and in two cases this led to wasteful expenditure of grant funds amounting to 187.6 thousand zł, of which 129.9 thousand zł was a payment for the "Gra dla demokracji – Etap II" project despite failure to meet the contract's goals and indicators. All the specific irregularities in the inspected sample where partners are named in the report concern media contracts for the purchase of airtime (Radio Wnet Sp. z o.o. — a 2.6 million zł contract with an imprecisely defined subject; Białoruskie Centrum Informacyjne Sp. z o.o. — a retroactive increase in the daily rate for production and broadcast of radio programmes) and one Ukrainian project (on the topic of medical assistance for trauma disorders — payment of funds exceeding the contract amount and before the final report was approved). The names of Belarusian grantees are not given in the list of irregularities in the inspected sample.
 
-**Второе.** Латушко в интервью проводит параллель с делом Анжелики Мельниковой и фонда Białoruś Liberty, представляя ситуацию с Котовым как образец юридически корректного реагирования. Встречный вопрос остаётся: если внутри BP был случай документального дефицита, потребовавший заявления в полицию, почему финансовая отчётность фонда за последующие годы публично не доступна?
+In parallel, NIK recorded irregularities in the financial-operations discipline of FSM itself. From a sample of 21 invoices of administrative expenses of the head office in Warsaw (total sample value — 432.7 thousand zł, 15.1% of administrative expenses): 7 invoices were paid late, from 3 to 55 days; on 3 invoices the substantive description was prepared by the person who issued the invoice (i.e., a person performing work for FSM on a service contract); on all 21 invoices there is no confirmation of who carried out the formal accounting check. NIK also recorded that in seven cases FSM paid the final tranches to partners who had failed to submit a final report by the deadline or before the report had been approved by the Foundation; in one project funds were paid in an amount greater than provided for in the grant agreement (per saldo by 28.8 thousand zł).
 
-**Третье.** Правовая природа процесса не ясна. Латушко формально не связан с BP должностной позицией — не учредитель, не член правления, не член надзорного органа. В интервью он попеременно говорит «фонд подал», «мы обжаловали», «мы идём правовым путём». Кто формально истец — юрлицо BP или Павел Латушко как физическое лицо — из публичных материалов установить нельзя. Этот вопрос определяет, чьи именно деньги стороны считают предметом спора.
+NIK's general assessment of FSM: "The scale and significance of the irregularities identified within the contract examined for the implementation of the Wsparcie demokracji programme in 2022 attest to a failure on the part of the Foundation to exercise due care in the proper management of public funds and their proper use, and to insufficient supervision by the President of this Foundation over the tasks performed."
+
+### The 2022 Belarus–Ukraine grant competition
+
+In a separate section of the act (point 4.5) NIK states directly: "Fundacja prawidłowo przeprowadziła Konkurs grantowy na rzecz Białorusi i Ukrainy oraz dopełniła obowiązków związanych z przekazaniem grantów podmiotom wybranym w konkursie" — that is, the 2022 grant competition for Belarus and Ukraine was conducted correctly. This statement should be read in light of its factual basis. The 2022 competition recommended for funding 17 projects — 11 Belarusian for a total of 7,026.3 thousand zł and 6 Ukrainian for 1,000.0 thousand zł. Of these 17 projects, NIK examined in detail **three**, that is less than 18% by number of projects; the names of the three selected projects are not given in the public part of the report. No irregularities in the spending of grant funds were detected in these three projects. Thus the statement "the competition was conducted correctly" in the act rests on a check of the committee procedure itself and three randomly chosen grant agreements, not on a full examination of all 17 funded projects.
+
+At the same time, the only NIK remark directly relating to the Belarus–Ukraine competition: the then Chair of the FSM Board did not submit a declaration of the absence of a conflict of interest when approving the competition results, in breach of point 7 of part II of the Competition Rules. This fact is particularly important in the context of the present investigation. At the time of the approval of the 2023 competition results, in which BP received 980 000 zł, the Chair of the FSM Board was the same Rafał Dzięciołowski (in office from 19 September 2019 to 30 July 2024). The formal-procedural deficiency that NIK fixed for the 2022 competition — the absence of a conflict-of-interest declaration from the person approving the results — is structural rather than incidental: the question of whether the Chair filed an analogous declaration for the 2023 competition remains open.
+
+### Chronology of the FSM Chair's departure
+
+On 11 June 2024 the Polish Minister of Foreign Affairs Radosław Sikorski appointed Henryk Litwin as the new Chair of the FSM Board; in the official communique Rafał Dzięciołowski is characterised as "having completed his mission", his contribution is described positively, and the public communication contains no signs of a resignation linked to the audit. The formal registration of the change in the KRS took place on 30 July 2024.
+
+Chronologically, Dzięciołowski's departure occurred against the background of the ongoing NIK audit: the audit covered the period from 1 January 2021 to 30 September 2024; the last formal post-audit address (wystąpienie pokontrolne) under audit P/24/003 was signed by NIK on 18 October 2024; the final report was published in April 2025. At the time of the successor's appointment, NIK's remarks had not yet been formulated as a formal document. Henryk Litwin, who remained Chair for less than five months — until 21 November 2024, when Minister Sikorski appointed Justyna Janiszewska to the post — also formally received the NIK post-audit address on behalf of FSM. Dzięciołowski's departure coincided in time with a general turnover of leadership at state foundations following the change of government in Poland in December 2023 — a standard political rotation. Whether Dzięciołowski was aware of NIK's preliminary remarks before tendering his resignation cannot be established from open documents: NIK's on-site audit actions were carried out in parallel with the leadership transition, but formal communication with the audit subject is conducted via the wystąpienie pokontrolne, which in this case was signed later.
+
+The specific BP grant of 980 000 zł is not separately singled out in the audit — the detailed inspection concerned the 2022 contract sample. NIK's systemic remarks on FSM's management discipline and on the competition procedure (the absence of a conflict-of-interest declaration from the Chair) make a query about the methodology for distributing amounts in the 2023 competition legitimate — all the more so because the Chair who approved the 2023 competition results was the same person against whom NIK had recorded the same procedural deficiency a year earlier.
+
+---
+
+## 5. A parallel storyline: Łatuszko's court conflict with the foundation's first board chairman
+
+In May 2025, in an interview with "Euroradio", Paweł Łatuszko publicly acknowledged that since 2021 a civil case has been ongoing with Anatol Kotau — the first BP board chairman ([Nasha Niva, 14 May 2025](https://nashaniva.com/ru/367893)). According to Łatuszko, in 2021 BP's partners raised a question about an insufficient number of documents supporting expenditures. Kotau left, BP filed a complaint with the police; the police and the court refused to open criminal proceedings, recommending a civil case, which is still ongoing.
+
+What follows from this:
+
+**First.** BP, in litigation with its own former board chairman over missing documents on expenditures, does not at the same time publish its own financial reports for 2023–2025. The parties are litigating among themselves; the public has no means of assessing the foundation's movement of funds from primary sources.
+
+**Second.** In the interview, Łatuszko draws a parallel with the case of Anzhelika Melnikava and the Białoruś Liberty foundation, presenting the Kotau situation as a model of legally correct response. The reciprocal question remains: if there was a case of documentary deficit inside BP that required a police complaint, why are the foundation's financial reports for subsequent years not publicly accessible?
+
+**Third.** The legal nature of the case is unclear. Formally Łatuszko is not connected with BP in any official capacity — he is not a founder, not a board member, not a member of the oversight body. In the interview he says interchangeably "the foundation filed", "we appealed", "we are taking the legal route". Who formally is the claimant — the legal person BP or Paweł Łatuszko as a natural person — cannot be established from public materials. That question determines whose money the parties consider to be the subject of the dispute.
 
 ---
 
 <aside class="bt-level-4" markdown>
 
-## 6. Реконструкция · уровень 4
+## 6. Reconstruction · level 4
 
-Гипотезы, поступившие от источников, не подтверждаются открытыми документами, но имеют объяснительную силу. Отделены от документальной части расследования.
+Hypotheses received from sources, not supported by open documents but with explanatory force. Separated from the documentary part of the investigation.
 
-### Гипотеза: фонд как инфраструктурный актив
+### Hypothesis: the foundation as an infrastructure asset
 
-По источникам в беларуской диаспоре, BP может выступать инфраструктурным держателем недвижимости, приобретаемой или арендуемой для нужд политической структуры Латушко или лично семьи Латушко. Косвенные индикаторы:
+According to sources in the Belarusian diaspora, BP may function as an infrastructural holder of real estate acquired or rented for the needs of Łatuszko's political structure or for Łatuszko's family personally. Indirect indicators:
 
-* **с 12 января 2022 года BP размещён по адресу офиса НАУ Павла Латушко** (ul. Mazowiecka 12, центр Варшавы) — переезд произошёл в один день с вычеркиванием первого председателя правления Анатолия Котова;
-* 5 сентября 2025 года в KRS одновременно добавлен код PKD 68.20.Z (управление недвижимостью) как **основной вид деятельности** и в надзорный орган введена Яна Латушка;
-* финансовая отчётность BP за 2023–2024 годы отсутствует;
-* на что тратились 980 000 zł гранта 2023 года, публично не показано.
+* **since 12 January 2022 BP has been located at the address of Paweł Łatuszko's NAM office** (ul. Mazowiecka 12, central Warsaw) — the relocation occurred on the same day Anatol Kotau, the first board chairman, was struck off;
+* on 5 September 2025, the KRS simultaneously added PKD code 68.20.Z (real-estate management) as the **principal activity** and introduced Yana Latushka into the oversight body;
+* BP's financial reports for 2023–2024 are absent;
+* what the 2023 grant of 980 000 zł was spent on has not been publicly shown.
 
-Сам по себе вид деятельности 68.20.Z вписывается в реестр организации, как правило, при наличии доходной недвижимости в её распоряжении. Грант FSM 2023 года на 980 000 zł в контексте всей деятельности BP — лишь эпизод; из всего вышеописанного следует, что BP по сути является фондом политической структуры (НАУ, ОПК, лично Латушко), и масштаб её операций может существенно превышать единственный публично известный грант.
+In itself, activity code 68.20.Z is generally registered for an organization when it has revenue-producing real estate at its disposal. The FSM 2023 grant of 980 000 zł, in the context of BP's overall activity, is only an episode; from everything described above it follows that BP is essentially a foundation of a political structure (NAM, UTC, Łatuszko personally), and the scale of its operations may significantly exceed the single publicly known grant.
 
-Документальных оснований утверждать, что грант 2023 года прямо или косвенно использован на недвижимость, нет. Публичных объяснений со стороны BP также нет.
+There are no documentary grounds to assert that the 2023 grant was directly or indirectly used for real estate. There is also no public explanation from BP.
 
 </aside>
 
 ---
 
-## 7. Открытые вопросы
+## 7. Open questions
 
-### К Fundacji Białoruś Przyszłości
+### To Fundacja Białoruś Przyszłości
 
-1. Где опубликована «дорожная карта защиты основных прав жертв преступлений против человечности на Беларуси», на разработку которой получены 980 000 zł?
-2. Где опубликована финансовая отчётность BP за 2023, 2024 и 2025 годы?
-3. Подавал ли BP заявку в FSM в конкурсах 2024 и 2025 годов; если да — с каким результатом?
-4. Какова содержательная связь между внесением кода PKD 68.20.Z и введением Яны Латушки в надзорный орган в один день 5 сентября 2025 года?
-5. Почему у BP, оперирующего публичными деньгами, отсутствуют публичные контактные данные — в записях KRS не указаны ни веб-адрес, ни электронная почта?
+1. Where is the published "roadmap for the protection of fundamental rights of victims of crimes against humanity in Belarus", for the development of which 980 000 zł were received?
+2. Where are BP's published financial reports for 2023, 2024, and 2025?
+3. Did BP submit applications to FSM in the 2024 and 2025 competitions; if so, with what outcome?
+4. What is the substantive connection between entering PKD code 68.20.Z and introducing Yana Latushka into the oversight body on the same day, 5 September 2025?
+5. Why does BP, which operates with public money, have no public contact details — neither a web address nor an email is listed in its KRS records?
 
-### К Fundacji Solidarności Międzynarodowej
+### To Fundacja Solidarności Międzynarodowej
 
-1. Существует ли описанная методика распределения общего бюджета конкурса между финансированными заявками при равных или близких баллах оценки?
-2. На каком основании в конкурсе 2023 года ни один проект по приоритету III (поддержка диаспоры) не получил финансирования, при том что среди отклонённых были организации с подтверждённой историей работы с диаспорой (HumanDoc, Willa Decjusza)?
-3. Чем обосновано введение в регламент 2025 года формального критерия о трёх предыдущих проектах на 200+ тысяч zł каждый — требования, которое исключает из участия любого нового заявителя и закрепляет финансирование за уже сложившимся узким кругом получателей?
-4. Почему результаты беларуского компонента объединённого конкурса 2022 года («Białoruś i Ukraina») не опубликованы на сайте FSM так, как опубликованы результаты всех других лет?
-5. Чем объясняется падение балла Kolegium Europy Wschodniej с 18 (2024) до 11 (2025) при сопоставимых проектах того же заявителя?
+1. Does there exist a described methodology for distributing the overall competition budget among funded applications when scores are equal or close?
+2. On what basis did no project under priority III (diaspora support) receive funding in the 2023 competition, even though among the rejected were organizations with a confirmed history of work with the diaspora (HumanDoc, Willa Decjusza)?
+3. What is the justification for introducing into the 2025 regulations the formal criterion of three prior projects of 200+ thousand zł each — a requirement that excludes any new applicant and entrenches funding within an already established narrow circle of recipients?
+4. Why are the results of the Belarusian component of the joint 2022 competition ("Białoruś i Ukraina") not published on the FSM website in the way the results of all other years are published?
+5. How is the drop in Kolegium Europy Wschodniej's score from 18 (2024) to 11 (2025) explained, given comparable projects from the same applicant?
 
-### К Министерству иностранных дел Польши
+### To the Polish Ministry of Foreign Affairs
 
-1. На каком этапе MSZ согласует параметры конкурсного регламента FSM по беларускому направлению, включая формальные критерии и диапазоны сумм?
-2. Согласовал ли MSZ введение в регламент 2025 года критерия о трёх предыдущих проектах на 200+ тысяч zł, который фактически закрывает конкурс для новых участников и закрепляет финансирование за узким сложившимся кругом получателей?
-3. Считает ли MSZ корректной практику публикации результатов с раскрытием 11,25% бюджета (конкурс 2025 года)?
-4. Какие шаги предприняты MSZ после публикации отчёта NIK KAP.430.7.2024 в отношении прозрачности конкурсного механизма FSM?
+1. At what stage does the MFA agree on the parameters of FSM's competition regulations on the Belarusian track, including formal criteria and ranges of amounts?
+2. Did the MFA agree to the introduction in the 2025 regulations of the criterion of three prior projects of 200+ thousand zł, which in effect closes the competition to new participants and entrenches funding within a narrow established circle of recipients?
+3. Does the MFA consider correct the practice of publishing results with 11.25% of the budget disclosed (the 2025 competition)?
+4. What steps has the MFA taken after the publication of the NIK report KAP.430.7.2024 with regard to the transparency of FSM's competition mechanism?
 
 ---
 
-## 8. Источники и архивные документы
+## 8. Sources and archive documents
 
-### Первоисточники по гранту 2023 года
+### Primary sources on the 2023 grant
 
-* [Объявление конкурса на сайте FSM](https://old.solidarityfund.pl/2023/03/31/konkurs-grantowy-na-rzecz-bialorusi-2/) (31 марта 2023)
-* [Перенос даты объявления результатов](https://old.solidarityfund.pl/2023/05/17/zmiana-terminu-ogloszenia-wynikow-konkursu-grantowego-na-rzecz-bialorusi/) (17 мая 2023)
-* [Объявление результатов конкурса](https://old.solidarityfund.pl/2023/05/18/wyniki-konkursu-grantowego-na-rzecz-bialorusi-2/) (18 мая 2023)
-* [Полный ранжированный список конкурса 2023 года (PDF на сайте FSM)](https://old.solidarityfund.pl/wp-content/uploads/2023/05/Wyniki-Konkursu-Grantowego-na-rzecz-Bialorusi-2023.pdf) → [архивная копия](../archive/doc-fsm-2023-results.md)
+* [Competition announcement on the FSM website](https://old.solidarityfund.pl/2023/03/31/konkurs-grantowy-na-rzecz-bialorusi-2/) (31 March 2023)
+* [Rescheduling of the results announcement](https://old.solidarityfund.pl/2023/05/17/zmiana-terminu-ogloszenia-wynikow-konkursu-grantowego-na-rzecz-bialorusi/) (17 May 2023)
+* [Announcement of the competition results](https://old.solidarityfund.pl/2023/05/18/wyniki-konkursu-grantowego-na-rzecz-bialorusi-2/) (18 May 2023)
+* [Full ranked list of the 2023 competition (PDF on the FSM website)](https://old.solidarityfund.pl/wp-content/uploads/2023/05/Wyniki-Konkursu-Grantowego-na-rzecz-Bialorusi-2023.pdf) → [archive copy](../archive/doc-fsm-2023-results.md)
 
-### Результаты конкурсов 2024 и 2025 годов
+### Results of the 2024 and 2025 competitions
 
-* Конкурс 2024: [объявление результатов на сайте FSM](https://old.solidarityfund.pl/2024/08/07/wyniki-konkursu-grantowego-na-rzecz-spoleczenstwa-bialoruskiego/), [полный список (DOCX)](https://old.solidarityfund.pl/wp-content/uploads/2024/08/Wyniki-Konkursu-na-rzecz-spoleczenstwa-bialoruskiego-2024.docx) → [архивная копия](../archive/doc-fsm-2024-results.md)
-* Конкурс 2025: [объявление результатов на сайте FSM](https://old.solidarityfund.pl/2025/07/29/wyniki-konkursu-grantowego-na-rzecz-spoleczenstwa-bialoruskiego-2/), [полный список (PDF)](https://old.solidarityfund.pl/wp-content/uploads/2025/07/Wyniki-Konkursu-na-rzecz-spoleczenstwa-bialoruskiego-2025.pdf) → [архивная копия](../archive/doc-fsm-2025-results.md)
+* 2024 competition: [results announcement on the FSM website](https://old.solidarityfund.pl/2024/08/07/wyniki-konkursu-grantowego-na-rzecz-spoleczenstwa-bialoruskiego/), [full list (DOCX)](https://old.solidarityfund.pl/wp-content/uploads/2024/08/Wyniki-Konkursu-na-rzecz-spoleczenstwa-bialoruskiego-2024.docx) → [archive copy](../archive/doc-fsm-2024-results.md)
+* 2025 competition: [results announcement on the FSM website](https://old.solidarityfund.pl/2025/07/29/wyniki-konkursu-grantowego-na-rzecz-spoleczenstwa-bialoruskiego-2/), [full list (PDF)](https://old.solidarityfund.pl/wp-content/uploads/2025/07/Wyniki-Konkursu-na-rzecz-spoleczenstwa-bialoruskiego-2025.pdf) → [archive copy](../archive/doc-fsm-2025-results.md)
 
-### Прозрачность FSM как институции
+### Transparency of FSM as an institution
 
-* [Годовые отчёты FSM 2012–2024](https://solidarityfund.pl/raporty-roczne/)
-* [Устав и закон о фонде](https://solidarityfund.pl/statut-i-ustawa/)
-* [Состав властей фонда](https://solidarityfund.pl/wladze-fsm/)
-* [Канал sygnalisci (whistleblower) на сайте FSM](https://solidarityfund.pl/sygnalisci/)
+* [FSM annual reports 2012–2024](https://solidarityfund.pl/raporty-roczne/)
+* [Statute and law on the foundation](https://solidarityfund.pl/statut-i-ustawa/)
+* [Composition of the foundation's authorities](https://solidarityfund.pl/wladze-fsm/)
+* [The sygnalisci (whistleblower) channel on the FSM website](https://solidarityfund.pl/sygnalisci/)
 
-### Регистрационные данные
+### Registration data
 
-* KRS Fundacji Białoruś Przyszłości: 0000877364 → [архивная копия выписки](../archive/doc-krs-bp.md)
-* KRS Fundacji Solidarności Międzynarodowej: 0000024453 → [архивная копия выписки](../archive/doc-krs-fsm.md)
+* KRS of Fundacja Białoruś Przyszłości: 0000877364 → [archive copy of the extract](../archive/doc-krs-bp.md)
+* KRS of Fundacja Solidarności Międzynarodowej: 0000024453 → [archive copy of the extract](../archive/doc-krs-fsm.md)
 
-### Аудит и контроль
+### Audit and oversight
 
-* Отчёт NIK KAP.430.7.2024 о реализации программы польской помощи развитию → [архивная копия](../archive/doc-nik-kap-430-7-2024.md)
+* NIK report KAP.430.7.2024 on the implementation of the Polish development aid programme → [archive copy](../archive/doc-nik-kap-430-7-2024.md)
 
-### Параллельный сюжет: суд с Котовым
+### Parallel storyline: the litigation with Kotau
 
-* [«Латушко признался, что уже несколько лет судится со своим бывшим соратником Анатолием Котовым» — Наша Нива, 14 мая 2025](https://nashaniva.com/ru/367893)
-* [Интервью Павла Латушко «Еврорадио» на YouTube (источник цитат)](https://youtu.be/fhM8FrQHzKc?t=2881)
+* ["Łatuszko admitted that he has been in litigation with his former associate Anatol Kotau for several years" — Nasha Niva, 14 May 2025](https://nashaniva.com/ru/367893)
+* [Paweł Łatuszko's interview with "Euroradio" on YouTube (source of the quotes)](https://youtu.be/fhM8FrQHzKc?t=2881)
 
 ---
 
