@@ -5,7 +5,7 @@
   Словарь menu содержит подписи и относительные ссылки для каждой локали.
 -#}
 
-{%- set parts = page.url.split('/') -%}
+{%- set parts = (page.url if page else '').split('/') -%}
 {%- set lang = parts[0] if parts[0] in ['ru', 'en', 'pl', 'lt'] else 'ru' -%}
 
 {%- set menu = {
@@ -47,7 +47,7 @@
   ]
 } -%}
 
-{%- set current_url = '/' ~ page.url -%}
+{%- set current_url = '/' ~ (page.url if page else '') -%}
 
 <nav class="md-tabs bt-tabs" aria-label="Главная навигация">
   <div class="md-grid">
