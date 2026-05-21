@@ -162,37 +162,51 @@ Tai reiškia: nuo to momento, kai iš steigėjų sudėties pasitraukė faktinis 
 
 ```mermaid
 graph LR
-    PL["Paweł Łatuszko<br/>UTC vadovo pavaduotojas<br/>NAM vadovas"]
-    OPK["United Transitional<br/>Cabinet (UTC)"]
-    BPZ["Fundacja Białoruś Przyszłości<br/>dotacija 980 000 zł<br/>iš FSM 2023"]
-    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>valstybinis URM fondas"]
-    YL["Yana Latushka<br/>BP priežiūra nuo 09 2025"]
-    AP["Artsiom Praskalovich<br/>BP valdybos pirmininkas"]
-    VA["Vladzimir Astapenka<br/>BP priežiūra"]
-    AB["Artsiom Brukhan<br/>KT atstovas spaudai<br/>buves pavaduotojas NAM"]
-    IK["Iryna Khalopitsa<br/>BP priežiūra nuo 09 2025<br/>NAM darbuotoja"]
-    MSZ["Lenkijos URM"]
+    PL["Paweł Łatuszko<br/>UTC vadovo pavaduotojas<br/>NAV vadovas"]
+    NAV["NAV<br/>Nacionalinis antikrizinis<br/>valdymas"]
+    UTC["UTC<br/>United Transitional<br/>Cabinet"]
+    KT["KT<br/>Koordinacinė taryba<br/>Latuškos frakcija"]
 
-    PL -.vadovauja.-> OPK
-    PL -.tėvas.-> YL
-    OPK -.vadovo pavaduotojas.-> AP
-    OPK -.tarptautinis bendradarbiavimas.-> VA
-    OPK -.NAM darbuotoja.-> IK
+    AP["Artsiom Praskalovich<br/>UTC vadovo pavaduotojas<br/>BP valdybos pirmininkas"]
+    AB["Artsiom Brukhan<br/>NAV pavaduotojas<br/>KT atstovas spaudai"]
+    VA["Vladzimir Astapenka<br/>NAV pavaduotojas<br/>UTC misija Briuselyje"]
+    IK["Iryna Khalopitsa<br/>NAV darbuotoja<br/>KT narė"]
+    YL["Yana Latushka<br/>Latuškos dukra<br/>KT narė"]
+
+    BPZ["Fundacja Białoruś<br/>Przyszłości<br/>dotacija 980 000 zł"]
+    FSM["Fundacja Solidarności<br/>Międzynarodowej"]
+    URM["Lenkijos URM"]
+
+    PL --> NAV
+    PL --> UTC
+    PL --> KT
+
+    NAV --> AB
+    NAV --> VA
+    NAV --> IK
+
+    UTC --> AP
+
+    KT --> AB
+    KT --> YL
+    KT --> IK
+
     AP --valdyba--> BPZ
+    AB --priežiūra--> BPZ
     VA --priežiūra--> BPZ
+    IK --priežiūra--> BPZ
     YL --priežiūra--> BPZ
-    AB --priežiūra nuo 29 05 2023--> BPZ
-    IK --priežiūra nuo 05 09 2025--> BPZ
-    FSM ==dotacija 47% konkurso biudžeto==> BPZ
-    MSZ --finansuoja--> FSM
+
+    FSM ==dotacija 47% biudžeto==> BPZ
+    URM --finansuoja--> FSM
 
     classDef person fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB,IK person;
-    class OPK,BPZ,FSM org;
-    class MSZ money;
+    class PL,AP,AB,VA,IK,YL person;
+    class NAV,UTC,KT,BPZ,FSM org;
+    class URM money;
 ```
 
 ---
