@@ -1036,24 +1036,27 @@
 <p>То есть с момента, когда из состава учредителей ушёл фактический инициатор фонда, физическое местоположение организации совпадает с офисом политической структуры Латушко.</p>
 <h3 id="_10">Связи акторов<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <pre class="mermaid"><code>graph LR
-    PL["Павел Латушко&lt;br/&gt;зам главы ОПК&lt;br/&gt;руководитель НАУ"]
-    OPK["Объединённый&lt;br/&gt;переходный кабинет"]
-    BPZ["Fundacja Białoruś Przyszłości&lt;br/&gt;грант 980 тыс zł&lt;br/&gt;от FSM 2023"]
-    FSM["Fundacja Solidarności&lt;br/&gt;Międzynarodowej&lt;br/&gt;гос фонд MSZ"]
-    YL["Яна Латушка&lt;br/&gt;надзор BP с 09 2025"]
-    AP["Артём Праскалович&lt;br/&gt;предс правления BP"]
-    VA["Владимир Астапенко&lt;br/&gt;надзор BP"]
-    AB["Артём Брухан&lt;br/&gt;спикер КР&lt;br/&gt;экс-зам в НАУ"]
+    PL["Paweł Łatuszko&lt;br/&gt;зам. главы UTC&lt;br/&gt;руководитель НАУ"]
+    OPK["United Transitional&lt;br/&gt;Cabinet (UTC)"]
+    BPZ["Fundacja Białoruś Przyszłości&lt;br/&gt;грант 980 000 zł&lt;br/&gt;от FSM 2023"]
+    FSM["Fundacja Solidarności&lt;br/&gt;Międzynarodowej&lt;br/&gt;гос фонд МИД"]
+    YL["Yana Latushka&lt;br/&gt;надзор BP с 09 2025"]
+    AP["Artsiom Praskalovich&lt;br/&gt;председатель правления BP"]
+    VA["Vladzimir Astapenka&lt;br/&gt;надзор BP"]
+    AB["Artsiom Brukhan&lt;br/&gt;спикер КР&lt;br/&gt;бывший зам в НАУ"]
+    IK["Iryna Khalopitsa&lt;br/&gt;надзор BP с 09 2025&lt;br/&gt;сотрудница НАУ"]
     MSZ["МИД Польши"]
 
     PL -.руководит.-&gt; OPK
     PL -.отец.-&gt; YL
     OPK -.зам главы.-&gt; AP
-    OPK -.междунар сотр.-&gt; VA
+    OPK -.межд сотрудничество.-&gt; VA
+    OPK -.сотрудница НАУ.-&gt; IK
     AP --правление--&gt; BPZ
     VA --надзор--&gt; BPZ
     YL --надзор--&gt; BPZ
     AB --надзор с 29 05 2023--&gt; BPZ
+    IK --надзор с 05 09 2025--&gt; BPZ
     FSM ==грант 47% бюджета конкурса==&gt; BPZ
     MSZ --финансирует--&gt; FSM
 
@@ -1061,7 +1064,7 @@
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB person;
+    class PL,YL,AP,VA,AB,IK person;
     class OPK,BPZ,FSM org;
     class MSZ money;</code></pre>
 <hr />
