@@ -162,32 +162,35 @@ BP заявил единственный приоритет — I. Все ост
 
 ```mermaid
 graph LR
-    PL["Павел Латушко<br/>зам главы ОПК<br/>руководитель НАУ"]
-    OPK["Объединённый<br/>переходный кабинет"]
-    BPZ["Fundacja Białoruś Przyszłości<br/>грант 980 тыс zł<br/>от FSM 2023"]
-    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>гос фонд MSZ"]
-    YL["Яна Латушка<br/>надзор BP с 09 2025"]
-    AP["Артём Праскалович<br/>предс правления BP"]
-    VA["Владимир Астапенко<br/>надзор BP"]
-    AB["Артём Брухан<br/>спикер КР<br/>экс-зам в НАУ"]
+    PL["Paweł Łatuszko<br/>зам. главы UTC<br/>руководитель НАУ"]
+    OPK["United Transitional<br/>Cabinet (UTC)"]
+    BPZ["Fundacja Białoruś Przyszłości<br/>грант 980 000 zł<br/>от FSM 2023"]
+    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>гос фонд МИД"]
+    YL["Yana Latushka<br/>надзор BP с 09 2025"]
+    AP["Artsiom Praskalovich<br/>председатель правления BP"]
+    VA["Vladzimir Astapenka<br/>надзор BP"]
+    AB["Artsiom Brukhan<br/>спикер КР<br/>бывший зам в НАУ"]
+    IK["Iryna Khalopitsa<br/>надзор BP с 09 2025<br/>сотрудница НАУ"]
     MSZ["МИД Польши"]
-
+ 
     PL -.руководит.-> OPK
     PL -.отец.-> YL
     OPK -.зам главы.-> AP
-    OPK -.междунар сотр.-> VA
+    OPK -.межд сотрудничество.-> VA
+    OPK -.сотрудница НАУ.-> IK
     AP --правление--> BPZ
     VA --надзор--> BPZ
     YL --надзор--> BPZ
     AB --надзор с 29 05 2023--> BPZ
+    IK --надзор с 05 09 2025--> BPZ
     FSM ==грант 47% бюджета конкурса==> BPZ
     MSZ --финансирует--> FSM
-
+ 
     classDef person fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
-
-    class PL,YL,AP,VA,AB person;
+ 
+    class PL,YL,AP,VA,AB,IK person;
     class OPK,BPZ,FSM org;
     class MSZ money;
 ```

@@ -164,22 +164,25 @@ To znaczy: od momentu, gdy ze składu założycieli odszedł faktyczny inicjator
 graph LR
     PL["Paweł Łatuszko<br/>zastępca szefa UTC<br/>kierownik NAM"]
     OPK["United Transitional<br/>Cabinet (UTC)"]
-    BPZ["Fundacja Białoruś Przyszłości<br/>grant 980 tys. zł<br/>od FSM 2023"]
-    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>fundacja państw. MSZ"]
+    BPZ["Fundacja Białoruś Przyszłości<br/>grant 980 000 zł<br/>od FSM 2023"]
+    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>fundacja państwowa MSZ"]
     YL["Yana Latushka<br/>nadzór BP od 09 2025"]
     AP["Artsiom Praskalovich<br/>prezes zarządu BP"]
     VA["Vladzimir Astapenka<br/>nadzór BP"]
     AB["Artsiom Brukhan<br/>rzecznik RK<br/>były zastępca w NAM"]
+    IK["Iryna Khalopitsa<br/>nadzór BP od 09 2025<br/>pracownica NAM"]
     MSZ["MSZ RP"]
 
     PL -.kieruje.-> OPK
     PL -.ojciec.-> YL
     OPK -.zastępca szefa.-> AP
     OPK -.wspolpraca miedzynarodowa.-> VA
+    OPK -.pracownica NAM.-> IK
     AP --zarząd--> BPZ
     VA --nadzór--> BPZ
     YL --nadzór--> BPZ
     AB --nadzór od 29 05 2023--> BPZ
+    IK --nadzór od 05 09 2025--> BPZ
     FSM ==grant 47% budżetu konkursu==> BPZ
     MSZ --finansuje--> FSM
 
@@ -187,7 +190,7 @@ graph LR
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB person;
+    class PL,YL,AP,VA,AB,IK person;
     class OPK,BPZ,FSM org;
     class MSZ money;
 ```

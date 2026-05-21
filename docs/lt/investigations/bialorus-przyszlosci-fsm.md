@@ -170,16 +170,19 @@ graph LR
     AP["Artsiom Praskalovich<br/>BP valdybos pirmininkas"]
     VA["Vladzimir Astapenka<br/>BP priežiūra"]
     AB["Artsiom Brukhan<br/>KT atstovas spaudai<br/>buves pavaduotojas NAM"]
+    IK["Iryna Khalopitsa<br/>BP priežiūra nuo 09 2025<br/>NAM darbuotoja"]
     MSZ["Lenkijos URM"]
 
     PL -.vadovauja.-> OPK
     PL -.tėvas.-> YL
     OPK -.vadovo pavaduotojas.-> AP
     OPK -.tarptautinis bendradarbiavimas.-> VA
+    OPK -.NAM darbuotoja.-> IK
     AP --valdyba--> BPZ
     VA --priežiūra--> BPZ
     YL --priežiūra--> BPZ
     AB --priežiūra nuo 29 05 2023--> BPZ
+    IK --priežiūra nuo 05 09 2025--> BPZ
     FSM ==dotacija 47% konkurso biudžeto==> BPZ
     MSZ --finansuoja--> FSM
 
@@ -187,7 +190,7 @@ graph LR
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB person;
+    class PL,YL,AP,VA,AB,IK person;
     class OPK,BPZ,FSM org;
     class MSZ money;
 ```
