@@ -162,14 +162,14 @@ Tai reiškia: nuo to momento, kai iš steigėjų sudėties pasitraukė faktinis 
 
 ```mermaid
 graph LR
-    PL["Paweł Łatuszko<br/>UTC vad. pavaduotojas<br/>NAM vadovas"]
+    PL["Paweł Łatuszko<br/>UTC vadovo pavaduotojas<br/>NAM vadovas"]
     OPK["United Transitional<br/>Cabinet (UTC)"]
-    BPZ["Fundacja Białoruś Przyszłości<br/>dotacija 980 tūkst. zł<br/>iš FSM 2023"]
-    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>URM valst. fondas"]
+    BPZ["Fundacja Białoruś Przyszłości<br/>dotacija 980 000 zł<br/>iš FSM 2023"]
+    FSM["Fundacja Solidarności<br/>Międzynarodowej<br/>valstybinis URM fondas"]
     YL["Yana Latushka<br/>BP priežiūra nuo 09 2025"]
-    AP["Artsiom Praskalovich<br/>BP valdybos pirm."]
+    AP["Artsiom Praskalovich<br/>BP valdybos pirmininkas"]
     VA["Vladzimir Astapenka<br/>BP priežiūra"]
-    AB["Artsiom Brukhan<br/>KT atst. spaudai<br/>buv. pavad. NAM"]
+    AB["Artsiom Brukhan<br/>KT atstovas spaudai<br/>buves pavaduotojas NAM"]
     MSZ["Lenkijos URM"]
 
     PL -.vadovauja.-> OPK
