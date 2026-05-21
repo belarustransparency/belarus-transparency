@@ -1036,36 +1036,50 @@
 <p>То есть с момента, когда из состава учредителей ушёл фактический инициатор фонда, физическое местоположение организации совпадает с офисом политической структуры Латушко.</p>
 <h3 id="_10">Связи акторов<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <pre class="mermaid"><code>graph LR
-    PL["Paweł Łatuszko&lt;br/&gt;зам. главы UTC&lt;br/&gt;руководитель НАУ"]
-    OPK["United Transitional&lt;br/&gt;Cabinet (UTC)"]
-    BPZ["Fundacja Białoruś Przyszłości&lt;br/&gt;грант 980 000 zł&lt;br/&gt;от FSM 2023"]
-    FSM["Fundacja Solidarności&lt;br/&gt;Międzynarodowej&lt;br/&gt;гос фонд МИД"]
-    YL["Yana Latushka&lt;br/&gt;надзор BP с 09 2025"]
-    AP["Artsiom Praskalovich&lt;br/&gt;председатель правления BP"]
-    VA["Vladzimir Astapenka&lt;br/&gt;надзор BP"]
-    AB["Artsiom Brukhan&lt;br/&gt;спикер КР&lt;br/&gt;бывший зам в НАУ"]
-    IK["Iryna Khalopitsa&lt;br/&gt;надзор BP с 09 2025&lt;br/&gt;сотрудница НАУ"]
+    PL["Павел Латушко&lt;br/&gt;зам руководителя ОПК&lt;br/&gt;руководитель НАУ"]
+    NAU["НАУ&lt;br/&gt;Народное Антикризисное&lt;br/&gt;Управление"]
+    OPK["ОПК&lt;br/&gt;Объединённый&lt;br/&gt;Переходный Кабинет"]
+    KS["КС&lt;br/&gt;Координационный совет&lt;br/&gt;фракция Латушко"]
+
+    AP["Артём Праскалович&lt;br/&gt;зам руководителя ОПК&lt;br/&gt;председатель правления BP"]
+    AB["Артём Брухан&lt;br/&gt;зам в НАУ&lt;br/&gt;спикер КС"]
+    VA["Владимир Астапенко&lt;br/&gt;зам в НАУ&lt;br/&gt;миссия ОПК в Брюсселе"]
+    IK["Ирина Халопица&lt;br/&gt;сотрудница НАУ&lt;br/&gt;член КС"]
+    YL["Яна Латушка&lt;br/&gt;дочь Латушко&lt;br/&gt;член КС"]
+
+    BPZ["Fundacja Białoruś&lt;br/&gt;Przyszłości&lt;br/&gt;грант 980 000 zł"]
+    FSM["Fundacja Solidarności&lt;br/&gt;Międzynarodowej"]
     MSZ["МИД Польши"]
 
-    PL -.руководит.-&gt; OPK
-    PL -.отец.-&gt; YL
-    OPK -.зам главы.-&gt; AP
-    OPK -.межд сотрудничество.-&gt; VA
-    OPK -.сотрудница НАУ.-&gt; IK
+    PL --&gt; NAU
+    PL --&gt; OPK
+    PL --&gt; KS
+
+    NAU --&gt; AB
+    NAU --&gt; VA
+    NAU --&gt; IK
+
+    OPK --&gt; AP
+
+    KS --&gt; AB
+    KS --&gt; YL
+    KS --&gt; IK
+
     AP --правление--&gt; BPZ
+    AB --надзор--&gt; BPZ
     VA --надзор--&gt; BPZ
+    IK --надзор--&gt; BPZ
     YL --надзор--&gt; BPZ
-    AB --надзор с 29 05 2023--&gt; BPZ
-    IK --надзор с 05 09 2025--&gt; BPZ
-    FSM ==грант 47% бюджета конкурса==&gt; BPZ
+
+    FSM ==грант 47% бюджета==&gt; BPZ
     MSZ --финансирует--&gt; FSM
 
     classDef person fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB,IK person;
-    class OPK,BPZ,FSM org;
+    class PL,AP,AB,VA,IK,YL person;
+    class NAU,OPK,KS,BPZ,FSM org;
     class MSZ money;</code></pre>
 <hr />
 <h2 id="3-fsm-20202025">3. Системный контекст: FSM 2020–2025<a class="headerlink" href="#3-fsm-20202025" title="Permanent link">&para;</a></h2>

@@ -1036,37 +1036,51 @@
 <p>Tai reiškia: nuo to momento, kai iš steigėjų sudėties pasitraukė faktinis fondo iniciatorius, fizinė organizacijos vieta sutampa su Latuškos politinės struktūros biuru.</p>
 <h3 id="aktoriu-rysiai">Aktorių ryšiai<a class="headerlink" href="#aktoriu-rysiai" title="Permanent link">&para;</a></h3>
 <pre class="mermaid"><code>graph LR
-    PL["Paweł Łatuszko&lt;br/&gt;UTC vadovo pavaduotojas&lt;br/&gt;NAM vadovas"]
-    OPK["United Transitional&lt;br/&gt;Cabinet (UTC)"]
-    BPZ["Fundacja Białoruś Przyszłości&lt;br/&gt;dotacija 980 000 zł&lt;br/&gt;iš FSM 2023"]
-    FSM["Fundacja Solidarności&lt;br/&gt;Międzynarodowej&lt;br/&gt;valstybinis URM fondas"]
-    YL["Yana Latushka&lt;br/&gt;BP priežiūra nuo 09 2025"]
-    AP["Artsiom Praskalovich&lt;br/&gt;BP valdybos pirmininkas"]
-    VA["Vladzimir Astapenka&lt;br/&gt;BP priežiūra"]
-    AB["Artsiom Brukhan&lt;br/&gt;KT atstovas spaudai&lt;br/&gt;buves pavaduotojas NAM"]
-    IK["Iryna Khalopitsa&lt;br/&gt;BP priežiūra nuo 09 2025&lt;br/&gt;NAM darbuotoja"]
-    MSZ["Lenkijos URM"]
+    PL["Paweł Łatuszko&lt;br/&gt;UTC vadovo pavaduotojas&lt;br/&gt;NAV vadovas"]
+    NAV["NAV&lt;br/&gt;Nacionalinis antikrizinis&lt;br/&gt;valdymas"]
+    UTC["UTC&lt;br/&gt;United Transitional&lt;br/&gt;Cabinet"]
+    KT["KT&lt;br/&gt;Koordinacinė taryba&lt;br/&gt;Latuškos frakcija"]
 
-    PL -.vadovauja.-&gt; OPK
-    PL -.tėvas.-&gt; YL
-    OPK -.vadovo pavaduotojas.-&gt; AP
-    OPK -.tarptautinis bendradarbiavimas.-&gt; VA
-    OPK -.NAM darbuotoja.-&gt; IK
+    AP["Artsiom Praskalovich&lt;br/&gt;UTC vadovo pavaduotojas&lt;br/&gt;BP valdybos pirmininkas"]
+    AB["Artsiom Brukhan&lt;br/&gt;NAV pavaduotojas&lt;br/&gt;KT atstovas spaudai"]
+    VA["Vladzimir Astapenka&lt;br/&gt;NAV pavaduotojas&lt;br/&gt;UTC misija Briuselyje"]
+    IK["Iryna Khalopitsa&lt;br/&gt;NAV darbuotoja&lt;br/&gt;KT narė"]
+    YL["Yana Latushka&lt;br/&gt;Latuškos dukra&lt;br/&gt;KT narė"]
+
+    BPZ["Fundacja Białoruś&lt;br/&gt;Przyszłości&lt;br/&gt;dotacija 980 000 zł"]
+    FSM["Fundacja Solidarności&lt;br/&gt;Międzynarodowej"]
+    URM["Lenkijos URM"]
+
+    PL --&gt; NAV
+    PL --&gt; UTC
+    PL --&gt; KT
+
+    NAV --&gt; AB
+    NAV --&gt; VA
+    NAV --&gt; IK
+
+    UTC --&gt; AP
+
+    KT --&gt; AB
+    KT --&gt; YL
+    KT --&gt; IK
+
     AP --valdyba--&gt; BPZ
+    AB --priežiūra--&gt; BPZ
     VA --priežiūra--&gt; BPZ
+    IK --priežiūra--&gt; BPZ
     YL --priežiūra--&gt; BPZ
-    AB --priežiūra nuo 29 05 2023--&gt; BPZ
-    IK --priežiūra nuo 05 09 2025--&gt; BPZ
-    FSM ==dotacija 47% konkurso biudžeto==&gt; BPZ
-    MSZ --finansuoja--&gt; FSM
+
+    FSM ==dotacija 47% biudžeto==&gt; BPZ
+    URM --finansuoja--&gt; FSM
 
     classDef person fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1px,color:#0A0A0A;
     classDef money fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#6B6B6B,stroke-dasharray: 3 3;
 
-    class PL,YL,AP,VA,AB,IK person;
-    class OPK,BPZ,FSM org;
-    class MSZ money;</code></pre>
+    class PL,AP,AB,VA,IK,YL person;
+    class NAV,UTC,KT,BPZ,FSM org;
+    class URM money;</code></pre>
 <hr />
 <h2 id="3-sisteminis-kontekstas-fsm-20202025">3. Sisteminis kontekstas: FSM 2020–2025<a class="headerlink" href="#3-sisteminis-kontekstas-fsm-20202025" title="Permanent link">&para;</a></h2>
 <p>Tarkim, kad BP 2023 m. dotacija yra vienintelis dokumentuotas atvejis FSM publikacijose baltarusių kryptimi, reikalaujantis esminio paaiškinimo. Norėdami suprasti, kiek šis atvejis yra unikalus, atsekėme visus šešis konkursus nuo 2020 iki 2025 m.</p>
