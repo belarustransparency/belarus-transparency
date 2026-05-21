@@ -1,0 +1,64 @@
+{#-
+  Локализованное главное меню (overrides/partials/tabs.html)
+  Переопределяет блок tabs темы Material — рендерит меню для текущей локали.
+  Локаль определяется из первого сегмента page.url (ru / en / pl / lt).
+  Словарь menu содержит подписи и относительные ссылки для каждой локали.
+-#}
+
+{%- set parts = page.url.split('/') -%}
+{%- set lang = parts[0] if parts[0] in ['ru', 'en', 'pl', 'lt'] else 'ru' -%}
+
+{%- set menu = {
+  'ru': [
+    ('Главная',     'ru/'),
+    ('Кейсы',       'ru/investigations/'),
+    ('Персоналии',  'ru/persons/'),
+    ('Организации', 'ru/organizations/'),
+    ('События',     'ru/events/'),
+    ('Дашборды',    'ru/dashboards/'),
+    ('Архив',       'ru/archive/')
+  ],
+  'en': [
+    ('Home',          'en/'),
+    ('Cases',         'en/investigations/'),
+    ('People',        'en/persons/'),
+    ('Organizations', 'en/organizations/'),
+    ('Events',        'en/events/'),
+    ('Dashboards',    'en/dashboards/'),
+    ('Archive',       'en/archive/')
+  ],
+  'pl': [
+    ('Strona główna', 'pl/'),
+    ('Sprawy',        'pl/investigations/'),
+    ('Osoby',         'pl/persons/'),
+    ('Organizacje',   'pl/organizations/'),
+    ('Wydarzenia',    'pl/events/'),
+    ('Dashboardy',    'pl/dashboards/'),
+    ('Archiwum',      'pl/archive/')
+  ],
+  'lt': [
+    ('Pradžia',       'lt/'),
+    ('Bylos',         'lt/investigations/'),
+    ('Asmenys',       'lt/persons/'),
+    ('Organizacijos', 'lt/organizations/'),
+    ('Įvykiai',       'lt/events/'),
+    ('Skydeliai',     'lt/dashboards/'),
+    ('Archyvas',      'lt/archive/')
+  ]
+} -%}
+
+{%- set current_url = '/' ~ page.url -%}
+
+<nav class="md-tabs bt-tabs" aria-label="Главная навигация">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      {%- for label, path in menu[lang] -%}
+        {%- set href = '/' ~ path -%}
+        {%- set is_active = (current_url == href) or (path != lang ~ '/' and current_url.startswith(href)) -%}
+        <li class="md-tabs__item">
+          <a href="{{ href }}" class="md-tabs__link{% if is_active %} md-tabs__link--active{% endif %}">{{ label }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</nav>
