@@ -174,8 +174,8 @@ graph LR
 
     PL -.vadovauja.-> OPK
     PL -.tėvas.-> YL
-    OPK -.vad. pavad..-> AP
-    OPK -.tarpt. bendrad..-> VA
+    OPK -.vadovo pavaduotojas.-> AP
+    OPK -.tarptautinis bendradarbiavimas.-> VA
     AP --valdyba--> BPZ
     VA --priežiūra--> BPZ
     YL --priežiūra--> BPZ

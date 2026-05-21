@@ -175,7 +175,7 @@ graph LR
     PL -.kieruje.-> OPK
     PL -.ojciec.-> YL
     OPK -.zastępca szefa.-> AP
-    OPK -.współpr. międz..-> VA
+    OPK -.wspolpraca miedzynarodowa.-> VA
     AP --zarząd--> BPZ
     VA --nadzór--> BPZ
     YL --nadzór--> BPZ
