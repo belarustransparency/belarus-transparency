@@ -4294,11 +4294,11 @@ img.bt-logo--dark,
   gap: 0;
 }
 .bt-ftm-sb-block {
-  flex: 1;
   padding-bottom: 14px;
   padding-left: 12px;
   margin-bottom: 14px;
   border-left: 1px solid #B8341E;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 .bt-ftm-sb-block:last-child {
   border-bottom: 0;
@@ -4318,6 +4318,10 @@ img.bt-logo--dark,
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+  max-height: 120px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #B8341E rgba(255,255,255,0.06);
 }
 .bt-ftm-chip {
   display: inline-flex;
