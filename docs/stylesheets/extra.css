@@ -4298,7 +4298,6 @@ img.bt-logo--dark,
   padding-left: 12px;
   margin-bottom: 14px;
   border-left: 1px solid #B8341E;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 .bt-ftm-sb-block:last-child {
   border-bottom: 0;
@@ -4318,10 +4317,14 @@ img.bt-logo--dark,
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  max-height: 120px;
+  align-content: flex-start;
+}
+
+.bt-ftm-sb-block > .bt-ftm-chips {
+  max-height: 130px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #B8341E rgba(255,255,255,0.06);
+  scrollbar-color: rgba(184,52,30,0.5) transparent;
 }
 .bt-ftm-chip {
   display: inline-flex;
