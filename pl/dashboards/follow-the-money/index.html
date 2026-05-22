@@ -628,7 +628,7 @@ obywatelskie</div>
             data-title="Fundacja "Białoruś Przyszłości""
             data-orgs="Фонд "Беларусь будущего""
             data-persons="Павел Латушко"
-            data-href="bialorus-przyszlosci-fsm/"></span></div>
+            data-href="/pl/investigations/bialorus-przyszlosci-fsm/"></span></div>
     </div>
     <div class="bt-ftm-sector">
       <div class="bt-ftm-sector-label">
@@ -661,35 +661,35 @@ człowieka</div>
             data-title="ABBA — Stowarzyszenia Białoruskiego Biznesu za Granicą"
             data-orgs="ABBA Foundation, ОПК"
             data-persons="Павел Латушко, Валерий Вечерко"
-            data-href="abba/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/abba/"></span><span class="bt-ftm-dot collecting"
             data-title="ABBA — Stowarzyszenia Białoruskiego Biznesu za Granicą"
             data-orgs="ABBA Foundation, ОПК"
             data-persons="Павел Латушко, Валерий Вечерко"
-            data-href="abba/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/abba/"></span><span class="bt-ftm-dot collecting"
             data-title="ABBA — Stowarzyszenia Białoruskiego Biznesu za Granicą"
             data-orgs="ABBA Foundation, ОПК"
             data-persons="Павел Латушко, Валерий Вечерко"
-            data-href="abba/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/abba/"></span><span class="bt-ftm-dot collecting"
             data-title="ABBA — Stowarzyszenia Białoruskiego Biznesu za Granicą"
             data-orgs="ABBA Foundation, ОПК"
             data-persons="Павел Латушко, Валерий Вечерко"
-            data-href="abba/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/abba/"></span><span class="bt-ftm-dot collecting"
             data-title="Imaguru / Belbiz — granty KE 2022–2025"
             data-orgs="Imaguru, Belbiz"
             data-persons="Татьяна Маринич"
-            data-href="imaguru/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/imaguru/"></span><span class="bt-ftm-dot collecting"
             data-title="Imaguru / Belbiz — granty KE 2022–2025"
             data-orgs="Imaguru, Belbiz"
             data-persons="Татьяна Маринич"
-            data-href="imaguru/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/imaguru/"></span><span class="bt-ftm-dot collecting"
             data-title="Imaguru / Belbiz — granty KE 2022–2025"
             data-orgs="Imaguru, Belbiz"
             data-persons="Татьяна Маринич"
-            data-href="imaguru/"></span><span class="bt-ftm-dot collecting"
+            data-href="/pl/investigations/imaguru/"></span><span class="bt-ftm-dot collecting"
             data-title="Imaguru / Belbiz — granty KE 2022–2025"
             data-orgs="Imaguru, Belbiz"
             data-persons="Татьяна Маринич"
-            data-href="imaguru/"></span></div>
+            data-href="/pl/investigations/imaguru/"></span></div>
     </div>
     <div class="bt-ftm-sector">
       <div class="bt-ftm-sector-label">
@@ -745,14 +745,15 @@ człowieka</div>
     }
 
     dot.addEventListener('mouseenter', function(e) {
-      if (!dot.dataset.title) return;
+      var d = e.currentTarget;
+      if (!d.dataset.title) return;
       var status = dot.classList.contains('published') ? '● Нарушения подтверждены' :
-                   dot.classList.contains('collecting') ? '◐ Расследование идёт' : '';
-      var html = '<div class="bt-ftm-tt-status ' + (dot.classList.contains('published') ? 'confirmed' : 'investigating') + '">' + status + '</div>';
-      html += '<div class="bt-ftm-tt-title">' + dot.dataset.title + '</div>';
-      if (dot.dataset.orgs) html += '<div class="bt-ftm-tt-sub">' + dot.dataset.orgs + '</div>';
-      if (dot.dataset.persons) html += '<div class="bt-ftm-tt-sub">' + dot.dataset.persons + '</div>';
-      if (dot.dataset.href) html += '<div class="bt-ftm-tt-link">→ Читать расследование</div>';
+                   d.classList.contains('collecting') ? '◐ Расследование идёт' : '';
+      var html = '<div class="bt-ftm-tt-status ' + (d.classList.contains('published') ? 'confirmed' : 'investigating') + '">' + status + '</div>';
+      html += '<div class="bt-ftm-tt-title">' + d.dataset.title + '</div>';
+      if (d.dataset.orgs) html += '<div class="bt-ftm-tt-sub">' + d.dataset.orgs + '</div>';
+      if (d.dataset.persons) html += '<div class="bt-ftm-tt-sub">' + d.dataset.persons + '</div>';
+      if (d.dataset.href) html += '<div class="bt-ftm-tt-link">→ Читать расследование</div>';
       tooltip.innerHTML = html;
       tooltip.classList.add('show');
     });
@@ -762,7 +763,7 @@ człowieka</div>
       tooltip.style.top = (e.clientY - 10) + 'px';
     });
     if (dot.dataset.href) {
-      dot.addEventListener('click', function() { window.location = dot.dataset.href; });
+      dot.addEventListener('click', function(e) { window.location = e.currentTarget.dataset.href; });
     }
   });
 
