@@ -4639,8 +4639,11 @@ img.bt-logo--dark,
 
 @media (max-width: 600px) {
   .bt-mf-table thead { display: none; }
-  .bt-mf-table tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+  .bt-mf-table, .bt-mf-table tbody, .bt-mf-table tr, .bt-mf-table td { display: block; width: 100%; }
+  .bt-mf-table tr { padding: 10px 0; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
   .bt-mf-table tr:last-child { border-bottom: 0; }
-  .bt-mf-table td { display: block; padding: 2px 0; border: none; }
+  .bt-mf-table td { padding: 2px 0; border: none; text-align: left !important; }
+  .bt-mf-table .bt-mf-year { display: inline; margin-right: 8px; }
+  .bt-mf-table .bt-mf-amount { display: inline; }
   .bt-mf-table .bt-mf-transp { margin: 4px 0; }
 }
