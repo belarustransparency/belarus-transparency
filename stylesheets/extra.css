@@ -4092,8 +4092,8 @@ img.bt-logo--dark,
 /* Растягиваем на весь max-width контейнера, компенсируя padding */
 .md-content__inner:has(.bt-ftm) {
   max-width: none !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
 }
 .md-content__inner:has(.bt-ftm) h1 {
   display: none;
