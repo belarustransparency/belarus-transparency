@@ -119,7 +119,11 @@ extra_css_body_class: bt-ftm-page
           {%- for org in inv.orgs -%}
             {%- if org.slug not in seen_orgs -%}
               {%- set _ = seen_orgs.append(org.slug) -%}
+              {%- if org.slug -%}
               <a class="bt-ftm-chip {{ inv.status }}" href="/{{ lang }}/organizations/{{ org.slug }}/"><span class="bt-ftm-chip-dot {{ inv.status }}"></span>{{ org.name }}</a>
+              {%- else -%}
+              <span class="bt-ftm-chip {{ inv.status }}"><span class="bt-ftm-chip-dot {{ inv.status }}"></span>{{ org.name }}</span>
+              {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
         {%- endfor -%}
@@ -133,7 +137,11 @@ extra_css_body_class: bt-ftm-page
           {%- for person in inv.persons -%}
             {%- if person.slug not in seen_persons -%}
               {%- set _ = seen_persons.append(person.slug) -%}
+              {%- if person.slug -%}
               <a class="bt-ftm-chip {{ inv.status }}" href="/{{ lang }}/persons/{{ person.slug }}/"><span class="bt-ftm-chip-dot {{ inv.status }}"></span>{{ person.name }}</a>
+              {%- else -%}
+              <span class="bt-ftm-chip {{ inv.status }}"><span class="bt-ftm-chip-dot {{ inv.status }}"></span>{{ person.name }}</span>
+              {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
         {%- endfor -%}
