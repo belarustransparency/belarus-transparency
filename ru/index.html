@@ -514,6 +514,18 @@
   </div>
 </div>
 
+<script>
+(function(){
+  var d=document.getElementById('ftm-lb-dots');
+  if(!d)return;
+  for(var i=0;i<28;i++){
+    var s=document.createElement('span');
+    s.className='bt-ftm-lb-dot'+(i<1?' published':i<3?' collecting':'');
+    d.appendChild(s);
+  }
+})();
+</script>
+
 <div class="bt-row bt-row--sections">
   <div class="bt-label">База</div>
   <div class="bt-body">
@@ -548,6 +560,23 @@
         <div class="bt-card-arrow">Перейти</div>
       </a>
 
+    </div>
+  </div>
+</div>
+
+<div class="bt-row">
+  <div class="bt-label">Следуй за деньгами</div>
+  <div class="bt-body">
+    <div class="bt-ftm-lb">
+      <div class="bt-ftm-lb-left">
+        <div class="bt-kicker">Спецпроект</div>
+        <div class="bt-ftm-lb-title">Западные налогоплательщики отдали сотни миллионов евро на беларускую демократию в эмиграции.</div>
+        <div class="bt-ftm-lb-tagline">Поможем отчитаться об успехах — если найдём.</div>
+      </div>
+      <div class="bt-ftm-lb-right">
+        <div class="bt-ftm-lb-dots" id="ftm-lb-dots"></div>
+        <a class="bt-ftm-lb-link" href="dashboards/follow-the-money/">Открыть карту →</a>
+      </div>
     </div>
   </div>
 </div>
