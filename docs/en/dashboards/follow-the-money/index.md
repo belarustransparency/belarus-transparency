@@ -101,7 +101,7 @@ extra_css_body_class: bt-ftm-page
             data-title="{{ tr(inv.title) }}"
             data-orgs="{%- for o in inv.orgs %}{%- if not loop.first %}, {% endif %}{{ o.name }}{%- endfor %}"
             data-persons="{%- for p in inv.persons %}{%- if not loop.first %}, {% endif %}{{ p.name }}{%- endfor %}"
-            data-href="/{{ lang }}/investigations/{{ inv.href }}"></span>
+            {%- if inv.status == 'published' %}data-href="/{{ lang }}/investigations/{{ inv.href }}"{%- endif %}></span>
           {%- endfor -%}
         {%- endif -%}
       {%- endfor -%}
