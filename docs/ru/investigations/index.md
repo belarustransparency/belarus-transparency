@@ -72,10 +72,10 @@ title: Investigations
       {%- for t in tag_list %}<span class="bt-inv-tag">{{ t }}</span>{%- endfor %}
     </div>
     <div class="bt-inv-grants">
-      <div class="bt-inv-bar"><div class="bt-inv-bar-fill" style="width: {{ inv.grants_pct }}%;"></div></div>
-      <span class="bt-inv-sum"><span class="bt-inv-sum-val">≈&nbsp;{{ inv.grants_eur }}&nbsp;{{ tr(data.ui.grants_unit) | safe }}</span><span class="bt-inv-pct">·&nbsp;{{ inv.grants_pct }}%</span></span>
+      <span class="bt-inv-sum"><span class="bt-inv-sum-val">{{ inv.grants_eur }}&nbsp;{{ tr(data.ui.grants_unit) | safe }}</span></span>
     </div>
-    <span class="bt-inv-status {{ inv.status }}">{% if inv.status == 'published' %}{{ tr(data.ui.status_published) }}{% else %}{{ tr(data.ui.status_collecting) }}{% endif %}</span>
+    <span class="bt-inv-sep"></span>
+    <span class="bt-inv-status {{ inv.status }}">{% if inv.status == 'published' %}{{ tr(data.ui.status_published) }}{% elif inv.status == 'draft' %}{{ tr(data.ui.status_draft) }}{% else %}{{ tr(data.ui.status_collecting) }}{% endif %}</span>
   </div>
 </a>
 {%- endfor %}

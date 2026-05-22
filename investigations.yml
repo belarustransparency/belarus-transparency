@@ -215,6 +215,11 @@ ui:
     en: Data collection
     pl: Zbieranie danych
     lt: Duomenų rinkimas
+  status_draft:
+    ru: Черновик
+    en: Draft
+    pl: Szkic
+    lt: Juodraštis
   grants_unit:
     ru: млн&nbsp;€
     en: million&nbsp;€
