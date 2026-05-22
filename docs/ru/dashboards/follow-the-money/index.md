@@ -2,7 +2,8 @@
 hide:
   - navigation
   - toc
-title: Follow the Money
+  - tags
+title: ""
 ---
 
 {#- ===========================================================
