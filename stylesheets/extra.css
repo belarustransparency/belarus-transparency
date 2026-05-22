@@ -385,28 +385,32 @@ body, .md-typeset {
 }
 
 .bt-card {
-  background: #EDEAE0;
-  padding: 1.5rem;
+  background: transparent;
+  padding: 1rem 1.25rem;
   text-decoration: none !important;
   color: inherit !important;
-  border: none !important;
+  border: 0.5px solid var(--md-default-fg-color--lightest) !important;
   display: block;
-  transition: background 0.15s;
+  transition: border-color 0.15s;
 }
 
 .bt-card:hover {
-  background: #E5E1D4 !important;
+  background: transparent !important;
+  border-color: var(--md-default-fg-color--lighter) !important;
 }
 
 [data-md-color-scheme="slate"] .bt-card {
-  background: #1A1A19;
+  background: transparent;
+  border-color: rgba(255,255,255,0.08) !important;
 }
 
 [data-md-color-scheme="slate"] .bt-card:hover {
-  background: #232321 !important;
+  background: transparent !important;
+  border-color: rgba(255,255,255,0.18) !important;
 }
 
 .bt-card-count {
+  display: none;
   font-size: var(--bt-fs-s1);
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -4443,7 +4447,6 @@ img.bt-logo--dark,
 .bt-ftm-lb-tagline {
   font-size: var(--bt-fs-s4);
   color: var(--md-default-fg-color--light);
-  font-style: italic;
 }
 .bt-ftm-lb-right {
   display: flex;
@@ -4476,7 +4479,6 @@ img.bt-logo--dark,
 .bt-ftm-lb-link {
   font-size: var(--bt-fs-s5);
   color: #B8341E !important;
-  font-style: italic;
   border-bottom: 1px solid #B8341E !important;
   text-decoration: none !important;
   white-space: nowrap;
@@ -4485,9 +4487,9 @@ img.bt-logo--dark,
 /* === Баннер "Следуй за деньгами" на витрине расследований === */
 
 .bt-ftm-inv-banner {
-  background: #0F1419;
+  background: #1A1A19;
   border-top: 2px solid #B8341E;
-  padding: 16px 20px;
+  padding: 22px 20px;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 20px;
@@ -4512,7 +4514,6 @@ img.bt-logo--dark,
 .bt-ftm-ib-tagline {
   font-size: var(--bt-fs-s4);
   color: #9A9690;
-  font-style: italic;
 }
 .bt-ftm-ib-right {
   display: flex;
@@ -4545,7 +4546,6 @@ img.bt-logo--dark,
 .bt-ftm-ib-link {
   font-size: var(--bt-fs-s5);
   color: #B8341E !important;
-  font-style: italic;
   border-bottom: 0.5px solid #B8341E !important;
   text-decoration: none !important;
   white-space: nowrap;
