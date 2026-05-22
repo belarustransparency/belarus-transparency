@@ -73,9 +73,9 @@ title: Investigations
     </div>
     <div class="bt-inv-grants">
       <span class="bt-inv-sum"><span class="bt-inv-sum-val">{{ inv.grants_eur }}&nbsp;{{ tr(data.ui.grants_unit) | safe }}</span></span>
+      <span class="bt-inv-sep"></span>
+      <span class="bt-inv-status {{ inv.status }}">{% if inv.status == 'published' %}{{ tr(data.ui.status_published) }}{% elif inv.status == 'draft' %}{{ tr(data.ui.status_draft) }}{% else %}{{ tr(data.ui.status_collecting) }}{% endif %}</span>
     </div>
-    <span class="bt-inv-sep"></span>
-    <span class="bt-inv-status {{ inv.status }}">{% if inv.status == 'published' %}{{ tr(data.ui.status_published) }}{% elif inv.status == 'draft' %}{{ tr(data.ui.status_draft) }}{% else %}{{ tr(data.ui.status_collecting) }}{% endif %}</span>
   </div>
 </a>
 {%- endfor %}

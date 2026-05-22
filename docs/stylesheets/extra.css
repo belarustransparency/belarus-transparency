@@ -1056,7 +1056,7 @@ img.bt-logo--dark,
   z-index: 2;
   padding: 12px 22px;
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto;
   gap: 18px;
   align-items: center;
   background: rgba(247, 245, 240, 0.88);
