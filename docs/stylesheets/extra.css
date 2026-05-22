@@ -379,9 +379,9 @@ body, .md-typeset {
 .bt-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
-  background: var(--md-default-fg-color--lightest);
-  border: 1px solid var(--md-default-fg-color--lightest);
+  gap: 8px;
+  background: transparent;
+  border: none;
 }
 
 .bt-grid .bt-card,
