@@ -1079,16 +1079,7 @@ img.bt-logo--dark,
 .bt-inv-grants {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-.bt-inv-bar {
-  width: 70px;
-  height: 3px;
-  background: #E5E5E0;
-}
-.bt-inv-bar-fill {
-  height: 100%;
-  background: #B8341E;
+  gap: 0;
 }
 .bt-inv-sum {
   font-size: var(--bt-fs-s5);
@@ -1098,26 +1089,35 @@ img.bt-logo--dark,
   white-space: nowrap;
   display: flex;
   align-items: baseline;
-  gap: 6px;
+  gap: 4px;
 }
-.bt-inv-pct {
+.bt-inv-sum::before {
+  content: "не менее";
   font-size: var(--bt-fs-s6);
-  color: #6B6B6B;
   font-weight: 400;
+  color: #6B6B6B;
+  margin-right: 2px;
 }
 .bt-inv-sum-val {
   white-space: nowrap;
 }
+/* Кирпичный разделитель между суммой и статусом */
+.bt-inv-sep {
+  width: 1.5px;
+  height: 14px;
+  background: #B8341E;
+  flex-shrink: 0;
+  margin: 0 12px;
+}
 .bt-inv-status {
   font-size: var(--bt-fs-s6);
-  padding: 2px 8px;
-  border: 1px solid currentColor;
   letter-spacing: 0.04em;
   white-space: nowrap;
+  font-weight: 500;
 }
-.bt-inv-status.published { color: #0F6E56; }
+.bt-inv-status.published  { color: #0F6E56; }
 .bt-inv-status.collecting { color: #BA7517; }
-.bt-inv-status.draft { color: #888780; }
+.bt-inv-status.draft      { color: #888780; }
 
 /* Мобильная адаптация */
 @media (max-width: 600px) {
@@ -1140,10 +1140,8 @@ img.bt-logo--dark,
   .bt-inv-tags { display: none; }
   .bt-inv-grants {
     justify-content: flex-start;
-    gap: 8px;                    /* было 10px — экономим горизонталь */
-    min-width: 0;                /* разрешаем flex-элементу сжиматься */
+    min-width: 0;
   }
-  .bt-inv-bar { width: 50px; }   /* было 70px — узкому экрану нужна более короткая полоска */
 
   /* Заголовок чуть меньше, чем на десктопе */
   .bt-inv-title { font-size: var(--bt-fs-s3); }
