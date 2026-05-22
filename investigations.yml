@@ -59,11 +59,13 @@ investigations:
     grants_pct: 1
     sector: civil             # civil | rights | media | education | business | culture
     orgs:
-      - slug: belarus-future-foundation
-        name: Фонд "Беларусь будущего"
+      - slug: bialorus-przyszlosci
+        name: F. Białoruś Przyszłości
+      - slug: fundacja-solidarnosci-miedzynarodowej
+        name: F. Solidarności Międzynarodowej
     persons:
       - slug: latushko
-        name: Павел Латушко
+        name: Pavel Latushko
 
 
   - # --- ВИТРИНА ---
