@@ -64,8 +64,20 @@ investigations:
       - slug: fundacja-solidarnosci-miedzynarodowej
         name: F. Solidarności Międzynarodowej
     persons:
-      - slug: latushko
+      - slug: 
         name: Pavel Latushko
+      - slug: artsiom-brukhan
+        name: Artsiom Brukhan
+      - slug: artsiom-praskalovich
+        name: Artsiom Praskalovich
+      - slug: vladzimir-astapenka
+        name: Vladzimir Astapenka
+      - slug: yana-latushka
+        name: Yana Latushka
+      - slug: iryna-khalopitsa
+        name: Iryna Khalopitsa
+      - slug: anna-panov
+        name: Anna Panov
 
 
   - # --- ВИТРИНА ---
