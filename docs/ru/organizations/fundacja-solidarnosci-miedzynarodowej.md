@@ -203,14 +203,22 @@ graph LR
     OV2["Vladzimir Astapenka<br/>с 26 авг. 2022"]
     OV3["Yana Latushka<br/>с 5 сент. 2025"]
     OV4["Iryna Khalopitsa<br/>с 5 сент. 2025"]
+    
+    ORG --> MGMT
+    ORG --> OVS
+    MGMT --> PRES
+    OVS --> OV1
+    OVS --> OV2
+    OVS --> OV3
+    OVS --> OV4
 
-    classDef state fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1.5px,color:#0A0A0A;
-    classDef control fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#0A0A0A;
+    classDef unit fill:#EDEAE0,stroke:#888780,stroke-width:1px,color:#0A0A0A;
+    classDef person fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#0A0A0A;
 
-    class MSZ state;
-    class FSM,BP org;
-    class NIK control;
+    class ORG org;
+    class MGMT,OVS unit;
+    class PRES,OV1,OV2,OV3,OV4 person;
 ```
 
 </section>
