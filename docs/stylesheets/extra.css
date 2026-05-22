@@ -4086,6 +4086,14 @@ img.bt-logo--dark,
 .bt-ftm-page .md-typeset h1 {
   display: none;
 }
+.bt-ftm-page .md-content__inner {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.bt-ftm-page .md-content__inner > style {
+  display: none;
+}
 
 /* === Дашборд "Следи за деньгами" === */
 
@@ -4095,7 +4103,7 @@ img.bt-logo--dark,
   color: #E8E6E0;
   font-family: var(--md-text-font);
   font-size: 14px;
-  margin: 1.5rem -36px 0;
+  margin: 1.5rem 0 0;
   border-top: 3px solid #B8341E;
 }
 
