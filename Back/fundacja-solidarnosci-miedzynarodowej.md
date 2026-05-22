@@ -193,13 +193,13 @@ graph LR
     FSM ==конкурсы 2020–2025==> BP
     NIK -.аудит KAP.430.7.2024.-> FSM
 
+    classDef state fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1.5px,color:#0A0A0A;
-    classDef unit fill:#EDEAE0,stroke:#888780,stroke-width:1px,color:#0A0A0A;
-    classDef person fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#0A0A0A;
+    classDef control fill:#F7F5F0,stroke:#888780,stroke-width:1px,color:#0A0A0A;
 
-    class ORG org;
-    class MGMT,OVS unit;
-    class PRES,OV1,OV2,OV3,OV4 person;
+    class MSZ state;
+    class FSM,BP org;
+    class NIK control;
 ```
 
 </section>
