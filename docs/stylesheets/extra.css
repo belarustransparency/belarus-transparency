@@ -4086,18 +4086,19 @@ img.bt-logo--dark,
 .bt-ftm-page .md-typeset h1 {
   display: none;
 }
-.bt-ftm-page .md-content__inner {
-  max-width: none;
-  padding-left: 0;
-  padding-right: 0;
-}
-.bt-ftm-page .md-content__inner > style {
-  display: none;
-}
 
 /* === Дашборд "Следи за деньгами" === */
 
 /* Растягиваем на весь max-width контейнера, компенсируя padding */
+.md-content__inner:has(.bt-ftm) {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.md-content__inner:has(.bt-ftm) h1 {
+  display: none;
+}
+
 .bt-ftm {
   background: #0F1419;
   color: #E8E6E0;
