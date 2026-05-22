@@ -384,7 +384,9 @@ body, .md-typeset {
   border: 1px solid var(--md-default-fg-color--lightest);
 }
 
-.bt-card {
+.bt-grid .bt-card,
+.bt-landing .bt-card,
+.md-typeset .bt-card {
   background: transparent !important;
   padding: 1rem 1.25rem;
   text-decoration: none !important;
@@ -394,12 +396,15 @@ body, .md-typeset {
   transition: border-color 0.15s;
 }
 
-.bt-card:hover {
+.bt-grid .bt-card:hover,
+.bt-landing .bt-card:hover,
+.md-typeset .bt-card:hover {
   background: transparent !important;
   border-color: var(--md-default-fg-color--light) !important;
 }
 
-[data-md-color-scheme="slate"] .bt-card {
+[data-md-color-scheme="slate"] .bt-grid .bt-card,
+[data-md-color-scheme="slate"] .md-typeset .bt-card {
   background: transparent !important;
   border-color: rgba(255,255,255,0.1) !important;
 }
