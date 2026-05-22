@@ -1081,6 +1081,13 @@ img.bt-logo--dark,
   align-items: center;
   gap: 0;
 }
+.bt-inv-prefix {
+  font-size: var(--bt-fs-s6);
+  font-weight: 400;
+  color: #6B6B6B;
+  margin-right: 4px;
+  white-space: nowrap;
+}
 .bt-inv-sum {
   font-size: var(--bt-fs-s5);
   font-weight: 500;
@@ -1090,13 +1097,6 @@ img.bt-logo--dark,
   display: flex;
   align-items: baseline;
   gap: 4px;
-}
-.bt-inv-sum::before {
-  content: "не менее";
-  font-size: var(--bt-fs-s6);
-  font-weight: 400;
-  color: #6B6B6B;
-  margin-right: 2px;
 }
 .bt-inv-sum-val {
   white-space: nowrap;
