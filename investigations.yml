@@ -220,6 +220,11 @@ ui:
     en: Draft
     pl: Szkic
     lt: Juodraštis
+  grants_prefix:
+    ru: не менее
+    en: at least
+    pl: co najmniej
+    lt: ne mažiau kaip
   grants_unit:
     ru: млн&nbsp;€
     en: million&nbsp;€
