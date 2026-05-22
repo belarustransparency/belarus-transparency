@@ -54,7 +54,7 @@ investigations:
     grants_eur: 0.22
     grants_bar_eur: 0.22
     grants_pct: 1
-    sector: democracy
+    sector: civil
     orgs:
       - slug: belarus-future-foundation
         name: Фонд "Беларусь будущего"
