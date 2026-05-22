@@ -190,7 +190,7 @@ graph LR
     NIK["Najwyższa Izba<br/>Kontroli (NIK)"]
 
     MSZ -.финансирует и надзирает.-> FSM
-    FSM ==конкурсы 2020–2025==> BP
+    FSM ==конкурсы 2020-2025==> BP
     NIK -.аудит KAP.430.7.2024.-> FSM
 
     classDef state fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
