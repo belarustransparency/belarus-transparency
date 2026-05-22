@@ -2853,89 +2853,6 @@ img.bt-logo--dark,
 }
 
 /* Режим Б — список фрагментов */
-
-/* === Таблица финансов bt-mf-table === */
-.bt-mf-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: var(--bt-fs-s5);
-  margin: 1rem 0;
-}
-.bt-mf-table th {
-  font-size: var(--bt-fs-s6);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--md-default-fg-color--light);
-  padding: 6px 8px;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  text-align: left;
-  font-weight: 400;
-}
-.bt-mf-table td {
-  padding: 8px;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  vertical-align: top;
-}
-.bt-mf-table tr:last-child td {
-  border-bottom: 0;
-}
-.bt-mf-table .bt-mf-year {
-  color: #B8341E;
-  font-weight: 500;
-  white-space: nowrap;
-  font-size: var(--bt-fs-s5);
-}
-.bt-mf-table .bt-mf-amount {
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-  font-weight: 500;
-  font-size: var(--bt-fs-s5);
-}
-.bt-mf-table .bt-mf-amount--na {
-  color: var(--md-default-fg-color--light);
-  font-weight: 400;
-  font-style: italic;
-}
-.bt-mf-table .bt-mf-transp {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  white-space: nowrap;
-}
-.bt-mf-bar-wrap {
-  flex-shrink: 0;
-}
-.bt-mf-bar-track {
-  width: 52px;
-  height: 4px;
-  background: var(--md-default-fg-color--lightest);
-  border-radius: 2px;
-  overflow: hidden;
-}
-.bt-mf-bar-fill {
-  height: 100%;
-  background: #B8341E;
-  border-radius: 2px;
-}
-.bt-mf-pct {
-  font-size: var(--bt-fs-s6);
-  color: var(--md-default-fg-color--light);
-  min-width: 36px;
-}
-.bt-mf-table .bt-mf-note {
-  font-size: var(--bt-fs-s5);
-  color: var(--md-default-fg-color--light);
-  line-height: 1.5;
-}
-
-@media (max-width: 600px) {
-  .bt-mf-table thead { display: none; }
-  .bt-mf-table tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
-  .bt-mf-table tr:last-child { border-bottom: 0; }
-  .bt-mf-table td { display: block; padding: 2px 0; border: none; }
-  .bt-mf-table .bt-mf-transp { margin: 4px 0; }
-}
-
 .bt-money-fragments-list {
   list-style: none;
   padding: 0;
@@ -4644,4 +4561,86 @@ img.bt-logo--dark,
   border-bottom: 0.5px solid #B8341E !important;
   text-decoration: none !important;
   white-space: nowrap;
+}
+
+/* === Таблица финансов bt-mf-table === */
+.bt-mf-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--bt-fs-s5);
+  margin: 1rem 0;
+}
+.bt-mf-table th {
+  font-size: var(--bt-fs-s6);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  text-align: left;
+  font-weight: 400;
+}
+.bt-mf-table td {
+  padding: 8px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  vertical-align: top;
+}
+.bt-mf-table tr:last-child td { border-bottom: 0; }
+.bt-mf-table .bt-mf-year {
+  color: #B8341E;
+  font-weight: 500;
+  white-space: nowrap;
+  font-size: var(--bt-fs-s5);
+}
+.bt-mf-table .bt-mf-amount {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: var(--bt-fs-s5);
+}
+.bt-mf-table .bt-mf-amount--na {
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+.bt-mf-table .bt-mf-transp {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+.bt-mf-bar-wrap { flex-shrink: 0; }
+.bt-mf-bar-track {
+  width: 52px;
+  height: 4px;
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.bt-mf-bar-fill {
+  height: 100%;
+  background: #B8341E;
+  border-radius: 2px;
+}
+.bt-mf-pct {
+  font-size: var(--bt-fs-s6);
+  color: var(--md-default-fg-color--light);
+  min-width: 36px;
+}
+.bt-mf-table .bt-mf-note {
+  font-size: var(--bt-fs-s5);
+  color: var(--md-default-fg-color--light);
+  line-height: 1.5;
+}
+.bt-mf-table .bt-mf-doc {
+  font-size: var(--bt-fs-s6);
+  white-space: nowrap;
+  color: var(--md-default-fg-color--light);
+}
+
+@media (max-width: 600px) {
+  .bt-mf-table thead { display: none; }
+  .bt-mf-table tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+  .bt-mf-table tr:last-child { border-bottom: 0; }
+  .bt-mf-table td { display: block; padding: 2px 0; border: none; }
+  .bt-mf-table .bt-mf-transp { margin: 4px 0; }
 }
