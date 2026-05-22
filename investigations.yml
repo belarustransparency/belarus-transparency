@@ -52,7 +52,15 @@ investigations:
     filter_tags:
       - democracy
     grants_eur: 0.22
+    grants_bar_eur: 0.22
     grants_pct: 1
+    sector: democracy
+    orgs:
+      - slug: belarus-future-foundation
+        name: Фонд "Беларусь будущего"
+    persons:
+      - slug: latushko
+        name: Павел Латушко
     cover: "/assets/covers/brukhan.webp"
     cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
 
@@ -94,7 +102,19 @@ investigations:
     filter_tags:
       - business
     grants_eur: 4.98
+    grants_bar_eur: 4.98
     grants_pct: 3
+    sector: business
+    orgs:
+      - slug: abba
+        name: ABBA Foundation
+      - slug: opk
+        name: ОПК
+    persons:
+      - slug: latushko
+        name: Павел Латушко
+      - slug: vecherko
+        name: Валерий Вечерко
     cover: "/assets/covers/alekhnovich.webp"
     cover_gradient: "linear-gradient(135deg, #3d3530 0%, #20191a 100%)"
 
@@ -136,9 +156,73 @@ investigations:
     filter_tags:
       - business
     grants_eur: 5.06
+    grants_bar_eur: 3.06
     grants_pct: 3
+    sector: business
+    orgs:
+      - slug: imaguru
+        name: Imaguru
+      - slug: belbiz
+        name: Belbiz
+    persons:
+      - slug: marinich
+        name: Татьяна Маринич
     cover: "/assets/covers/marinich.webp"
     cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
+
+# === Секторы для дашборда "Следи за деньгами" ===
+
+sectors:
+  - id: civil
+    total: 105
+    name:
+      ru: "Гражданское
+общество"
+      en: "Civil
+society"
+      pl: "Społeczeństwo
+obywatelskie"
+      lt: "Pilietinė
+visuomenė"
+  - id: rights
+    total: 45
+    name:
+      ru: "Права
+человека"
+      en: "Human
+rights"
+      pl: "Prawa
+człowieka"
+      lt: "Žmogaus
+teisės"
+  - id: media
+    total: 45
+    name:
+      ru: Медиа
+      en: Media
+      pl: Media
+      lt: Žiniasklaida
+  - id: education
+    total: 60
+    name:
+      ru: Образование
+      en: Education
+      pl: Edukacja
+      lt: Švietimas
+  - id: business
+    total: 30
+    name:
+      ru: Бизнес
+      en: Business
+      pl: Biznes
+      lt: Verslas
+  - id: culture
+    total: 15
+    name:
+      ru: Культура
+      en: Culture
+      pl: Kultura
+      lt: Kultūra
 
 # === Список фильтров сверху витрины ===
 # Ключ должен совпадать с filter_tags в расследованиях.
@@ -220,6 +304,84 @@ ui:
     en: Draft
     pl: Szkic
     lt: Juodraštis
+  # === Дашборд "Следи за деньгами" ===
+  dashboard_budget: 300
+  ftm_kicker:
+    ru: Следи за деньгами
+    en: Follow the Money
+    pl: Śledź pieniądze
+    lt: Sek pinigus
+  ftm_title:
+    ru: Куда ушли €300 млн на беларускую демократию
+    en: Where did €300M for Belarusian democracy go
+    pl: Gdzie trafiło €300M na białoruską demokrację
+    lt: Kur dingo €300 mln Baltarusijos demokratijai
+  ftm_sub:
+    ru: Каждый кружок — €1 млн помощи ЕС и США за 2020–2025 гг.
+    en: Each circle represents €1M in EU and US aid for 2020–2025.
+    pl: Każde kółko to €1M pomocy UE i USA w latach 2020–2025.
+    lt: Kiekvienas apskritimas — €1 mln. ES ir JAV paramos 2020–2025 m.
+  ftm_stat_total:
+    ru: Выделено
+    en: Total allocated
+    pl: Łącznie
+    lt: Iš viso
+  ftm_stat_investigating:
+    ru: Расследуется
+    en: Under investigation
+    pl: W trakcie
+    lt: Tiriama
+  ftm_stat_confirmed:
+    ru: Нарушения
+    en: Violations found
+    pl: Naruszenia
+    lt: Pažeidimai
+  ftm_stat_covered:
+    ru: Охвачено
+    en: Covered
+    pl: Zbadano
+    lt: Ištirta
+  ftm_quote_text:
+    ru: "«Мы не умеем продавать себя, продавать свои успехи»"
+    en: ""We don't know how to sell ourselves, to sell our achievements""
+    pl: "«Nie umiemy sprzedawać siebie, sprzedawać swoich sukcesów»"
+    lt: "«Mes nemokame parduoti savęs, parduoti savo pasiekimų»"
+  ftm_quote_cite:
+    ru: Франак Вечерко, куратор Тихановской
+    en: Franak Viačorka, Tsikhanouskaya's adviser
+    pl: Franak Wiaczorka, doradca Cichanouskiej
+    lt: Franak Viačorka, Cichanouskos patarėjas
+  ftm_orgs_label:
+    ru: Организации
+    en: Organizations
+    pl: Organizacje
+    lt: Organizacijos
+  ftm_persons_label:
+    ru: Персоны
+    en: Persons
+    pl: Osoby
+    lt: Asmenys
+  ftm_legend_uninvestigated:
+    ru: Не расследовано
+    en: Not investigated
+    pl: Nie zbadano
+    lt: Netirta
+  ftm_legend_investigating:
+    ru: Расследуется
+    en: Under investigation
+    pl: W trakcie
+    lt: Tiriama
+  ftm_legend_confirmed:
+    ru: Нарушения подтверждены
+    en: Violations confirmed
+    pl: Naruszenia potwierdzone
+    lt: Pažeidimai patvirtinti
+  ftm_footer_note:
+    ru: Источники: EC NDICI, US State Dept. Обновляется по мере публикации расследований.
+    en: Sources: EC NDICI, US State Dept. Updated as investigations are published.
+    pl: Źródła: EC NDICI, US State Dept. Aktualizowane wraz z publikacją śledztw.
+    lt: Šaltiniai: EC NDICI, US State Dept. Atnaujinama skelbtinant tyrimus.
+
   grants_prefix:
     ru: не менее
     en: at least
