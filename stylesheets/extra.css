@@ -4110,7 +4110,7 @@ img.bt-logo--dark,
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: start;
-  gap: 24px;
+  gap: 0;
 }
 .bt-ftm-kicker {
   font-size: 10px;
