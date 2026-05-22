@@ -45,7 +45,9 @@ nav:
   - Персоналии: ru/persons/index.md
   - Организации: ru/organizations/index.md
   - События: ru/events/index.md
-  - Дашборды: ru/dashboards/index.md
+  - Дашборды:
+    - Обзор: ru/dashboards/index.md
+    - Следи за деньгами: ru/dashboards/follow-the-money/index.md
   - Архив: ru/archive/index.md
 
 plugins:
