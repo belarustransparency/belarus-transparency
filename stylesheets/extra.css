@@ -4100,9 +4100,9 @@ img.bt-logo--dark,
 .bt-ftm-header {
   padding: 24px 40px 20px;
   border-bottom: 1px solid rgba(255,255,255,0.06);
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
   gap: 28px;
 }
 .bt-ftm-kicker {
@@ -4129,13 +4129,13 @@ img.bt-logo--dark,
 .bt-ftm-stats {
   display: flex;
   gap: 2px;
-  flex-shrink: 0;
+  width: 100%;
 }
 .bt-ftm-stat {
   background: #161C23;
   padding: 10px 16px;
   text-align: center;
-  min-width: 82px;
+  flex: 1;
 }
 .bt-ftm-stat-val {
   font-size: 17px;
@@ -4189,7 +4189,7 @@ img.bt-logo--dark,
 /* Body grid */
 .bt-ftm-body {
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 2fr 1fr;
 }
 
 /* Matrix */
@@ -4327,9 +4327,9 @@ img.bt-logo--dark,
 .bt-ftm-footer {
   padding: 10px 40px;
   border-top: 1px solid rgba(255,255,255,0.06);
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
 }
 .bt-ftm-legend {
