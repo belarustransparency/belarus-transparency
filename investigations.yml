@@ -325,7 +325,7 @@ ui:
   # --- Дашборд "Следи за деньгами" ---
   dashboard_budget: 300
   ftm_kicker:
-    ru: Следи за деньгами
+    ru: Следуй за деньгами
     en: Follow the Money
     pl: Śledź pieniądze
     lt: Sek pinigus
