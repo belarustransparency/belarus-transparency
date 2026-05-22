@@ -2864,12 +2864,12 @@ img.bt-logo--dark,
 
 .bt-money-fragments-list li {
   display: grid;
-  grid-template-columns: 56px 110px 1fr auto;
-  gap: 12px;
+  grid-template-columns: 48px 140px 1fr auto;
+  gap: 10px;
   align-items: baseline;
-  padding: 0.5rem 0;
+  padding: 0.4rem 0;
   border-bottom: 1px solid #F1EFE8;
-  font-size: var(--bt-fs-s4);
+  font-size: var(--bt-fs-s5);
   line-height: var(--bt-lh-tight);
 }
 
@@ -2896,11 +2896,11 @@ img.bt-logo--dark,
 
 .bt-mf-context {
   grid-column: 1 / -1;
-  font-size: var(--bt-fs-s5);
+  font-size: var(--bt-fs-s6);
   color: #6B6B6B;
   font-style: italic;
   margin-top: -3px;
-  margin-left: 68px;
+  margin-left: 58px;
 }
 
 [data-md-color-scheme="slate"] .bt-money-fragments-list li {
