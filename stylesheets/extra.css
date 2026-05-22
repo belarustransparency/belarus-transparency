@@ -633,7 +633,7 @@ body, .md-typeset {
   /* Скрываем mermaid-схемы на мобильном — некорректно рендерится в узком viewport,
      показывает сырой код вместо схемы. Текстовая часть карточки при этом не страдает. */
   .bt-ties,
-  .bt-org-structure .mermaid,
+  .bt-org-structure,
   pre.mermaid,
   .mermaid { display: none; }
 }
