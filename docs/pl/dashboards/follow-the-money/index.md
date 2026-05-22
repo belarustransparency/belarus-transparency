@@ -4,7 +4,10 @@ hide:
   - toc
   - tags
 title: ""
+extra_css_body_class: bt-ftm-page
 ---
+
+<style>.md-typeset h1, .md-content__inner > h1 { display: none !important; }</style>
 
 {#- ===========================================================
     Дашборд "Следи за деньгами" — универсальный для 4 локалей.
