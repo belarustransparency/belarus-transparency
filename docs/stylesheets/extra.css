@@ -4097,6 +4097,17 @@ img.bt-logo--dark,
   font-size: 14px;
   margin: 1.5rem -1.5rem 0;
   border-top: 3px solid #B8341E;
+  position: relative;
+}
+.bt-ftm::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc((2 / 3) * 100%);
+  width: 1px;
+  background: rgba(255,255,255,0.06);
+  pointer-events: none;
 }
 
 /* Единая трёхколоночная сетка на весь дашборд */
