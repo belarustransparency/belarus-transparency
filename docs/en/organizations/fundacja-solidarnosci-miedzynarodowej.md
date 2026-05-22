@@ -26,9 +26,9 @@ related_docs:
   - doc-fsm-2025-results
   - doc-nik-kap-430-7-2024
 tags:
-  - фонд
-  - польша
-  - государственный фонд
+  - foundation
+  - poland
+  - state foundation
   - msz
 status_note:
 ---
@@ -36,46 +36,46 @@ status_note:
 <div class="bt-org">
 
 <header class="bt-org-head">
-  <div class="bt-kicker">Организация · Государственный фонд</div>
+  <div class="bt-kicker">Organization · State Foundation</div>
   <h1>Fundacja Solidarności Międzynarodowej</h1>
-  <p class="bt-lede">Государственный фонд Польши (Skarbu Państwa) под надзором Министра иностранных дел РП. Основной оператор польской помощи развитию по линии «Wsparcie Demokracji» — в том числе на беларуское направление.</p>
+  <p class="bt-lede">Polish state foundation (Skarbu Państwa) under the supervision of the Minister of Foreign Affairs. Main operator of Polish development aid under the "Wsparcie Demokracji" programme — including the Belarusian direction.</p>
   <div class="bt-org-status">
-    <span class="bt-status bt-status-active">действует</span>
+    <span class="bt-status bt-status-active">active</span>
   </div>
 </header>
 
 <section class="bt-org-transparency">
-  <div class="bt-block-label">Прозрачность</div>
+  <div class="bt-block-label">Transparency</div>
 
   <div class="bt-tp-bar">
-    <span class="bt-tp-seg bt-tp-yes" title="Устав опубликован"></span>
-    <span class="bt-tp-seg bt-tp-yes" title="Годовые отчёты публикуются"></span>
-    <span class="bt-tp-seg bt-tp-yes" title="Аудит NIK 2024 года опубликован"></span>
-    <span class="bt-tp-seg bt-tp-part" title="Надзор формальный — структура MSZ"></span>
+    <span class="bt-tp-seg bt-tp-yes" title="Charter published"></span>
+    <span class="bt-tp-seg bt-tp-yes" title="Annual reports published"></span>
+    <span class="bt-tp-seg bt-tp-yes" title="NIK 2024 audit published"></span>
+    <span class="bt-tp-seg bt-tp-part" title="Formal oversight — MSZ structure"></span>
   </div>
   <div class="bt-tp-legend">
-    <span>устав</span>
-    <span>отчёты</span>
-    <span>аудит</span>
-    <span>контроль</span>
+    <span>charter</span>
+    <span>reports</span>
+    <span>audit</span>
+    <span>oversight</span>
   </div>
 
   <div class="bt-tp-details">
     <div class="bt-tp-row">
-      <div class="bt-tp-label">Устав публичен</div>
-      <div class="bt-tp-value bt-tp-value-yes">Да · устав и Ustawa o współpracy rozwojowej опубликованы на <a href="https://solidarityfund.pl/statut-i-ustawa/">solidarityfund.pl/statut-i-ustawa</a></div>
+      <div class="bt-tp-label">Charter public</div>
+      <div class="bt-tp-value bt-tp-value-yes">Yes · charter and Ustawa o współpracy rozwojowej published at <a href="https://solidarityfund.pl/statut-i-ustawa/">solidarityfund.pl/statut-i-ustawa</a></div>
     </div>
     <div class="bt-tp-row">
-      <div class="bt-tp-label">Финансовая отчётность</div>
-      <div class="bt-tp-value bt-tp-value-yes">Да · годовые отчёты с 2012 по 2024 год публикуются на <a href="https://solidarityfund.pl/raporty-roczne/">solidarityfund.pl/raporty-roczne</a></div>
+      <div class="bt-tp-label">Financial reporting</div>
+      <div class="bt-tp-value bt-tp-value-yes">Yes · annual reports from 2012 to 2024 published at <a href="https://solidarityfund.pl/raporty-roczne/">solidarityfund.pl/raporty-roczne</a></div>
     </div>
     <div class="bt-tp-row">
-      <div class="bt-tp-label">Внешний аудит</div>
-      <div class="bt-tp-value bt-tp-value-yes">Да · отчёт NIK KAP.430.7.2024, опубликован 28 апреля 2025 года</div>
+      <div class="bt-tp-label">External audit</div>
+      <div class="bt-tp-value bt-tp-value-yes">Yes · NIK KAP.430.7.2024 report, published 28 April 2025</div>
     </div>
     <div class="bt-tp-row">
-      <div class="bt-tp-label">Контрольный орган</div>
-      <div class="bt-tp-value bt-tp-value-part">Существует формально · Rada FSM действует постоянно, её состав публикуется. Президент правления и члены Rady назначаются министром иностранных дел РП — то есть тем же органом, который является донором программ FSM. Это даёт формальный, но не независимый контроль.</div>
+      <div class="bt-tp-label">Oversight body</div>
+      <div class="bt-tp-value bt-tp-value-part">Exists formally · Rada FSM operates permanently, its composition is published. The board president and Rada members are appointed by the Polish Minister of Foreign Affairs — the same body that is the donor of FSM programmes. This provides formal but not independent oversight.</div>
     </div>
   </div>
 </section>
@@ -83,115 +83,126 @@ status_note:
 <section class="bt-org-meta">
   <div class="bt-meta-grid">
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Тип</div>
-      <div class="bt-meta-value">Государственный фонд (Skarbu Państwa)</div>
+      <div class="bt-meta-label">Type</div>
+      <div class="bt-meta-value">State Foundation (Skarbu Państwa)</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Юрисдикция</div>
-      <div class="bt-meta-value">Польша</div>
+      <div class="bt-meta-label">Jurisdiction</div>
+      <div class="bt-meta-value">Poland</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Зарегистрирован</div>
-      <div class="bt-meta-value">12 июля 2001<br/><em>(устав от 07.01.1997)</em></div>
+      <div class="bt-meta-label">Registered</div>
+      <div class="bt-meta-value">12 July 2001<br/><em>(charter from 07.01.1997)</em></div>
     </div>
     <div class="bt-meta-item">
       <div class="bt-meta-label">KRS / NIP / REGON</div>
       <div class="bt-meta-value">0000024453 / 5262264292 / 012345095</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Адрес</div>
+      <div class="bt-meta-label">Address</div>
       <div class="bt-meta-value">ul. Tadeusza Czackiego 7/9/11, 00-043 Warszawa</div>
     </div>
     <div class="bt-meta-item">
-      <div class="bt-meta-label">Президент правления</div>
-      <div class="bt-meta-value">Justyna Janiszewska (с 21 ноября 2024)</div>
+      <div class="bt-meta-label">Board President</div>
+      <div class="bt-meta-value">Justyna Janiszewska (from 21 November 2024)</div>
     </div>
   </div>
 </section>
 
 <div class="bt-prose" markdown>
 
-FSM — фонд государственной казны Польши под надзором Министра иностранных дел, действующий по заказу МИД. Создан 7 января 1997 года под названием Polska Fundacja Transformacji Rynkowej «Wiedzieć Jak» и зарегистрирован в KRS 12 июля 2001 года. В августе 2002 года переименован в Polską Fundację Międzynarodowej Współpracy na rzecz Rozwoju «Wiedzieć Jak». В феврале 2013 года получил текущее имя — Fundacja Solidarności Międzynarodowej. До 2002 года надзорным органом был Министр Skarbu Państwa, с 2002 года — Министр иностранных дел.
+FSM is a Polish state treasury foundation under the supervision of the Minister of Foreign Affairs, operating on behalf of the MFA. Established 7 January 1997 under the name Polska Fundacja Transformacji Rynkowej "Wiedzieć Jak" and registered in KRS on 12 July 2001. In August 2002 renamed to Polska Fundacja Międzynarodowej Współpracy na rzecz Rozwoju "Wiedzieć Jak". In February 2013 received its current name — Fundacja Solidarności Międzynarodowej. Until 2002 the supervisory body was the Minister of the State Treasury, from 2002 — the Minister of Foreign Affairs.
 
-Основные направления — Украина, Беларусь, Грузия, Молдова. Среди программ — «Wsparcie Demokracji» (поддержка демократии), «Polska pomoc rozwojowa» (польская помощь развитию). Беларуское направление реализуется через ежегодный «Konkurs Grantowy na rzecz społeczeństwa białoruskiego» (до 2024 года — «na rzecz Białorusi»).
+Main directions — Ukraine, Belarus, Georgia, Moldova. Programmes include "Wsparcie Demokracji" (democracy support) and "Polska pomoc rozwojowa" (Polish development aid). The Belarusian direction is implemented through the annual "Konkurs Grantowy na rzecz społeczeństwa białoruskiego" (until 2024 — "na rzecz Białorusi").
 
-По формальным индикаторам прозрачности FSM — институция, удовлетворяющая стандартам открытости: устав опубликован, годовые отчёты с 2012 по 2024 годы доступны, внешний аудит NIK 2024 года прошёл и опубликован. См. ниже **системную аномалию на беларуском направлении**.
+By formal transparency indicators, FSM is an institution meeting openness standards: charter published, annual reports from 2012 to 2024 available, external NIK 2024 audit completed and published. See below the **systemic anomaly on the Belarusian direction**.
 
-Действующий президент правления Justyna Janiszewska, назначенная 21 ноября 2024 года, до прихода в FSM возглавляла Fundację Edukacja dla Demokracji (FED) с 2010 по 2016 год. FED была среди заявителей конкурса FSM 2023 года по беларускому направлению с проектом поддержки репрессированных учителей (14 баллов, не получила финансирования) и среди тех, чья тематика расходится с тем, как FSM фактически распределяла гранты по приоритету III.
+Current board president Justyna Janiszewska, appointed 21 November 2024, previously headed Fundacja Edukacja dla Demokracji (FED) from 2010 to 2016. FED was among the applicants in the FSM 2023 competition for Belarus with a project supporting repressed teachers (14 points, did not receive funding) and among those whose focus diverges from how FSM actually distributed grants under priority III.
 
 </div>
 
 <section class="bt-org-money bt-org-money-fragments">
-  <div class="bt-block-label">Финансы — беларуское направление</div>
-  <p class="bt-org-money-note">Общая отчётность FSM — на <a href="https://solidarityfund.pl/raporty-roczne/">solidarityfund.pl/raporty-roczne</a>. Ниже только распределение по беларускому направлению — в фокусе нашего проекта. С 2024 года основная часть конкурсного бюджета по этому направлению скрыта от публикации.</p>
+  <div class="bt-block-label">Finances — Belarusian direction</div>
+  <p class="bt-org-money-note">General FSM reporting is at <a href="https://solidarityfund.pl/raporty-roczne/">solidarityfund.pl/raporty-roczne</a>. Below only the distribution for the Belarusian direction — the focus of our project. Since 2024, the main part of the competition budget for this direction has been hidden from publication.</p>
 
-  <ul class="bt-money-fragments-list">
-    <li>
-      <span class="bt-mf-year">2020</span>
-      <span class="bt-mf-amount">сумма не указана</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi</span>
-      <span class="bt-mf-doc"></span>
-      <span class="bt-mf-context">— 7 грантов, имена получателей опубликованы, суммы не указаны.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2021</span>
-      <span class="bt-mf-amount">сумма не указана</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi</span>
-      <span class="bt-mf-doc"></span>
-      <span class="bt-mf-context">— 5 грантов, имена получателей опубликованы, суммы не указаны.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2022</span>
-      <span class="bt-mf-amount">не опубликовано</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi i Ukrainy (объединённый)</span>
-      <span class="bt-mf-doc"></span>
-      <span class="bt-mf-context">— результаты конкурса не обнаружены в архиве сайта FSM.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2023</span>
-      <span class="bt-mf-amount">≈ 2 073 460 zł</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi</span>
-      <span class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2023-results</span></span>
-      <span class="bt-mf-context">— 5 грантов, прозрачность 100%. Крупнейший индивидуальный грант (980 000 zł, 47% бюджета конкурса) получила <a href="../bialorus-przyszlosci/">Fundacja Białoruś Przyszłości</a>.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2024</span>
-      <span class="bt-mf-amount">4 700 000 zł</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz społeczeństwa białoruskiego</span>
-      <span class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2024-results</span></span>
-      <span class="bt-mf-context">— 11 грантов; открыто 4 имени на 880 000 zł, скрыто 7 имён на 3 820 000 zł. **Прозрачность 18,7%.**</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2025</span>
-      <span class="bt-mf-amount">8 000 000 zł</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz społeczeństwa białoruskiego</span>
-      <span class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2025-results</span></span>
-      <span class="bt-mf-context">— 11 грантов; открыто 2 имени на 900 000 zł, скрыто 9 имён на 7 100 000 zł. **Прозрачность 11,25%.** Введён формальный критерий о трёх предыдущих проектах на 200+ тыс. zł, закрывающий конкурс для новых заявителей.</span>
-    </li>
-  </ul>
+  <table class="bt-mf-table">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Amount</th>
+        <th>Transparency</th>
+        <th>Note</th>
+        <th>Document</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bt-mf-year">2020</td>
+        <td class="bt-mf-amount bt-mf-amount--na">not stated</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"></div></div><span class="bt-mf-pct">0%</span></td>
+        <td class="bt-mf-note">7 grants, recipients published, amounts not stated.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2020-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2021</td>
+        <td class="bt-mf-amount bt-mf-amount--na">not stated</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"></div></div><span class="bt-mf-pct">0%</span></td>
+        <td class="bt-mf-note">5 grants, recipients published, amounts not stated.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2021-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2022</td>
+        <td class="bt-mf-amount bt-mf-amount--na">not published</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"></div></div><span class="bt-mf-pct">0%</span></td>
+        <td class="bt-mf-note">Results not found in the FSM website archive.</td>
+        <td class="bt-mf-doc">—</td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2023</td>
+        <td class="bt-mf-amount">2 073 460 zł</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"><div class="bt-mf-bar-fill" style="width:100%"></div></div></div><span class="bt-mf-pct">100%</span></td>
+        <td class="bt-mf-note">5 grants, all recipients published, transparency 100%. Largest grant — 980,000 zł (47% of competition budget).</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2023-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2024</td>
+        <td class="bt-mf-amount">4 700 000 zł</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"><div class="bt-mf-bar-fill" style="width:18.7%"></div></div></div><span class="bt-mf-pct">18,7%</span></td>
+        <td class="bt-mf-note">11 grants; 4 names disclosed for 880,000 zł, 7 names hidden for 3,820,000 zł.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2024-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2025</td>
+        <td class="bt-mf-amount">8 000 000 zł</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"><div class="bt-mf-bar-fill" style="width:11.25%"></div></div></div><span class="bt-mf-pct">11,25%</span></td>
+        <td class="bt-mf-note">11 grants; 2 names disclosed for 900,000 zł, 9 names hidden for 7,100,000 zł. A criterion was introduced closing the competition to new applicants.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2025-results</span></td>
+      </tr>
+    </tbody>
+  </table>
 
   <div class="bt-org-money-anomaly">
-    <div class="bt-block-label">Системная аномалия одного направления</div>
-    <p>За 2023–2025 годы по беларускому направлению через FSM прошло <strong>не менее 14,77 миллиона zł</strong>. Бюджет конкурса за этот период вырос почти в 4 раза (с 2,07 до 8 миллионов zł); прозрачность распределения упала со 100% до 11,25%. Совокупно за 2024–2025 годы из публикации скрыто 10,92 миллиона zł — две трети всего объёма беларуского направления за три года.</p>
-    <p>Формальное основание сокрытия — норма регламента, позволяющая по просьбе заявителей не публиковать данные о выбранных проектах в связи с особыми политическими условиями страны проекта. По другим направлениям (Украина, Грузия, Молдова) такая практика не зафиксирована. На фоне формально работающих индикаторов прозрачности институции в целом — это структурная аномалия одного направления, требующая объяснения.</p>
+    <div class="bt-block-label">Systemic anomaly of one direction</div>
+    <p>In 2023–2025, at least <strong>14.77 million zł</strong> passed through FSM for the Belarusian direction. The competition budget grew almost fourfold (from 2.07 to 8 million zł); transparency fell from 100% to 11.25%. In total for 2024–2025, 10.92 million zł was hidden from publication — two thirds of the entire Belarusian direction volume over three years.</p>
+    <p>The formal basis for concealment is a regulatory provision allowing applicants to request non-publication of selected project data due to the special political conditions of the project country. This practice has not been observed in other directions (Ukraine, Georgia, Moldova). Against the background of formally functioning transparency indicators for the institution as a whole — this is a structural anomaly of one direction requiring explanation.</p>
   </div>
 
-  <p class="bt-org-money-checked">Последняя проверка публикаций конкурсов: 16 мая 2026.</p>
+  <p class="bt-org-money-checked">Last verification of competition publications: 16 May 2026.</p>
 </section>
 
-<section class="bt-ties">
-  <div class="bt-block-label">Связи</div>
+<section class="bt-org-structure">
+  <div class="bt-block-label">Connections</div>
 
 ```mermaid
 graph LR
-    MSZ["Министерство иностранных дел<br/>Польши (MSZ)"]
+    MSZ["Polish Ministry<br/>of Foreign Affairs (MSZ)"]
     FSM["Fundacja Solidarności<br/>Międzynarodowej (FSM)"]
     BP["Fundacja Białoruś Przyszłości<br/>980 000 zł, 2023"]
     NIK["Najwyższa Izba<br/>Kontroli (NIK)"]
 
-    MSZ -.финансирует, надзирает,<br/>назначает руководство.-> FSM
-    FSM ==конкурсы 2020–2025==> BP
-    NIK -.аудит KAP.430.7.2024.-> FSM
+    MSZ -.finances and oversees.-> FSM
+    FSM ==grants 2020-2025==> BP
+    NIK -.audit NIK 2024.-> FSM
 
     classDef state fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1.5px,color:#0A0A0A;
@@ -205,52 +216,52 @@ graph LR
 </section>
 
 <section class="bt-org-people">
-  <div class="bt-block-label">Руководство в ключевые периоды беларуского направления</div>
+  <div class="bt-block-label">Leadership during key periods of the Belarusian direction</div>
   <ul class="bt-org-people-list">
-    <li><strong>Конкурс 2023 года (грант BP — 980 тыс. zł, 100% открытости)</strong> · президент правления — Rafał Dzięciołowski (с 19 сентября 2019)</li>
-    <li><strong>Конкурс 2024 года (закрытие 81% бюджета)</strong> · президент правления — Rafał Dzięciołowski. Публикация результатов конкурса — август 2024 года, через несколько недель после ухода Dzięciołowski 30 июля 2024 года</li>
-    <li><strong>Конкурс 2025 года (закрытие 89% бюджета, введён критерий закрытия круга получателей)</strong> · президент правления — Justyna Janiszewska (с 21 ноября 2024)</li>
+    <li><strong>2023 competition (BP grant — 980k zł, 100% transparency)</strong> · board president — Rafał Dzięciołowski (from 19 September 2019)</li>
+    <li><strong>2024 competition (81% budget concealment)</strong> · board president — Rafał Dzięciołowski. Results published August 2024, weeks after Dzięciołowski left on 30 July 2024</li>
+    <li><strong>2025 competition (89% budget concealment, restrictive criterion introduced)</strong> · board president — Justyna Janiszewska (from 21 November 2024)</li>
   </ul>
 </section>
 
 <section class="bt-org-people">
-  <div class="bt-block-label">Действующее руководство (правление)</div>
+  <div class="bt-block-label">Current leadership (board)</div>
   <ul class="bt-org-people-list">
-    <li>Justyna Janiszewska — Президент правления, с 21 ноября 2024</li>
-    <li>Teresa Zagrodzka — член правления, с 13 мая 2025</li>
+    <li>Justyna Janiszewska — Board President, from 21 November 2024</li>
+    <li>Teresa Zagrodzka — Board member, from 13 May 2025</li>
   </ul>
   <p><em>Действующий состав Rady Fundacji указан в полной выписке KRS — <a href="../archive/doc-krs-fsm/">doc-krs-fsm</a>.</em></p>
 </section>
 
 <section class="bt-org-people">
-  <div class="bt-block-label">Бывшие президенты правления (по KRS)</div>
+  <div class="bt-block-label">Former board presidents (per KRS)</div>
   <ul class="bt-org-people-list">
     <li>Jacek Kluczkowski — 2001–2004</li>
     <li>Waldemar Dubaniowski — 2004–2011</li>
     <li>Klaudia Wojciechowska — 2011–2012</li>
     <li>Krzysztof Stanowski — 2012–2017</li>
     <li>Maciej Falkowski — 2017–2019</li>
-    <li>Rafał Dzięciołowski — 19 сентября 2019 — 30 июля 2024 (ушёл в процессе аудита NIK 2024 года, до публикации отчёта)</li>
-    <li>Henryk Litwin — 30 июля — 14 ноября 2024 (3,5 месяца)</li>
+    <li>Rafał Dzięciołowski — 19 September 2019 — 30 July 2024 (left during NIK 2024 audit, before report publication)</li>
+    <li>Henryk Litwin — 30 July — 14 November 2024 (3.5 months)</li>
   </ul>
 </section>
 
 <section class="bt-org-events">
-  <div class="bt-block-label">Связанные события</div>
+  <div class="bt-block-label">Related events</div>
   <ul class="bt-org-events-list">
-    <li><a href="../events/fsm-grant-competition-2023/">Конкурс грантов FSM на беларуское направление, 2023</a></li>
+    <li><a href="../events/fsm-grant-competition-2023/">FSM grant competition for Belarus, 2023</a></li>
   </ul>
 </section>
 
 <section class="bt-org-cases">
-  <div class="bt-block-label">Упоминается в кейсах</div>
+  <div class="bt-block-label">Mentioned in cases</div>
   <ul class="bt-org-cases-list">
-    <li><a href="../investigations/bialorus-przyszlosci-fsm/">Беларусь Будущего и польские публичные деньги</a> · inv-0001</li>
+    <li><a href="../investigations/bialorus-przyszlosci-fsm/">Belarus of the Future and Polish public money</a> · inv-0001</li>
   </ul>
 </section>
 
 <section class="bt-org-sources">
-  <div class="bt-block-label">Первичные документы</div>
+  <div class="bt-block-label">Source documents</div>
   <ul class="bt-sources-list">
     <li><a href="../archive/doc-fsm-2023-results/">doc-fsm-2023-results</a> · Wyniki Konkursu Grantowego na rzecz Białorusi 2023</li>
     <li><a href="../archive/doc-fsm-2024-results/">doc-fsm-2024-results</a> · Wyniki Konkursu Grantowego na rzecz społeczeństwa białoruskiego 2024</li>
@@ -260,11 +271,11 @@ graph LR
 </section>
 
 <footer class="bt-tags">
-  <div class="bt-block-label">Теги</div>
+  <div class="bt-block-label">Tags</div>
   <div class="bt-tag-list">
-    <span class="bt-tag">фонд</span>
-    <span class="bt-tag">польша</span>
-    <span class="bt-tag">государственный фонд</span>
+    <span class="bt-tag">foundation</span>
+    <span class="bt-tag">poland</span>
+    <span class="bt-tag">state foundation</span>
     <span class="bt-tag">msz</span>
   </div>
 </footer>

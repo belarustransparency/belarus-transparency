@@ -125,50 +125,55 @@ Dabartinė valdybos pirmininkė Justyna Janiszewska, paskirta 2024 m. lapkričio
   <div class="bt-block-label">Finansai — Baltarusijos kryptis</div>
   <p class="bt-org-money-note">Bendra FSM atskaitomybė yra <a href="https://solidarityfund.pl/raporty-roczne/">solidarityfund.pl/raporty-roczne</a>. Žemiau tik paskirstymas Baltarusijos kryptimi — mūsų projekto dėmesio centre. Nuo 2024 m. didžioji konkursinio biudžeto šia kryptimi dalis nuo skelbimo paslėpta.</p>
 
-  <ul class="bt-money-fragments-list">
-    <li>
-      <span class="bt-mf-year">2020</span>
-      <span class="bt-mf-amount">suma nenurodyta</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi</span>
-      <span class="bt-mf-doc"></span>
-      <span class="bt-mf-context">— 7 dotacijos, gavėjų pavadinimai paskelbti, sumos nenurodytos.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2021</span>
-      <span class="bt-mf-amount">suma nenurodyta</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi</span>
-      <span class="bt-mf-doc"></span>
-      <span class="bt-mf-context">— 5 dotacijos, gavėjų pavadinimai paskelbti, sumos nenurodytos.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2022</span>
-      <span class="bt-mf-amount">nepaskelbta</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi i Ukrainy (sujungtas)</span>
-      <span class="bt-mf-doc"></span>
-      <span class="bt-mf-context">— konkurso rezultatai FSM svetainės archyve nerasti.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2023</span>
-      <span class="bt-mf-amount">≈ 2 073 460 zł</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz Białorusi</span>
-      <span class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2023-results</span></span>
-      <span class="bt-mf-context">— 5 dotacijos, skaidrumas 100%. Didžiausią individualią dotaciją (980 000 zł, 47% konkurso biudžeto) gavo <a href="../bialorus-przyszlosci/">Fundacja Białoruś Przyszłości</a>.</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2024</span>
-      <span class="bt-mf-amount">4 700 000 zł</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz społeczeństwa białoruskiego</span>
-      <span class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2024-results</span></span>
-      <span class="bt-mf-context">— 11 dotacijų; atskleisti 4 pavadinimai už 880 000 zł, paslėpti 7 pavadinimai už 3 820 000 zł. **Skaidrumas 18,7%.**</span>
-    </li>
-    <li>
-      <span class="bt-mf-year">2025</span>
-      <span class="bt-mf-amount">8 000 000 zł</span>
-      <span class="bt-mf-source">Konkurs Grantowy na rzecz społeczeństwa białoruskiego</span>
-      <span class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2025-results</span></span>
-      <span class="bt-mf-context">— 11 dotacijų; atskleisti 2 pavadinimai už 900 000 zł, paslėpti 9 pavadinimai už 7 100 000 zł. **Skaidrumas 11,25%.** Įvestas formalus kriterijus dėl trijų ankstesnių projektų po 200+ tūkst. zł, uždarantis konkursą naujiems pareiškėjams.</span>
-    </li>
-  </ul>
+  <table class="bt-mf-table">
+    <thead>
+      <tr><th>Metai</th><th>Suma</th><th>Skaidrumas</th><th>Pastaba</th><th>Dokumentas</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bt-mf-year">2020</td>
+        <td class="bt-mf-amount bt-mf-amount--na">suma nenurodyta</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"></div></div><span class="bt-mf-pct">0%</span></td>
+        <td class="bt-mf-note">7 dotacijos, gavėjų pavadinimai paskelbti, sumos nenurodytos.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2020-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2021</td>
+        <td class="bt-mf-amount bt-mf-amount--na">suma nenurodyta</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"></div></div><span class="bt-mf-pct">0%</span></td>
+        <td class="bt-mf-note">5 dotacijos, gavėjų pavadinimai paskelbti, sumos nenurodytos.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2021-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2022</td>
+        <td class="bt-mf-amount bt-mf-amount--na">nepaskelbta</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"></div></div><span class="bt-mf-pct">0%</span></td>
+        <td class="bt-mf-note">konkurso rezultatai FSM svetainės archyve nerasti.</td>
+        <td class="bt-mf-doc">—</td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2023</td>
+        <td class="bt-mf-amount">2 073 460 zł</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"><div class="bt-mf-bar-fill" style="width:100%"></div></div></div><span class="bt-mf-pct">100%</span></td>
+        <td class="bt-mf-note">5 dotacijos, skaidrumas 100%. Didžiausią individualią dotaciją (980 000 zł, 47% konkurso biudžeto) gavo Fundacja Białoruś Przyszłości.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2023-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2024</td>
+        <td class="bt-mf-amount">4 700 000 zł</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"><div class="bt-mf-bar-fill" style="width:18.7%"></div></div></div><span class="bt-mf-pct">18,7%</span></td>
+        <td class="bt-mf-note">11 dotacijų; atskleisti 4 pavadinimai už 880 000 zł, paslėpti 7 pavadinimai už 3 820 000 zł. Skaidrumas 18,7%.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2024-results</span></td>
+      </tr>
+      <tr>
+        <td class="bt-mf-year">2025</td>
+        <td class="bt-mf-amount">8 000 000 zł</td>
+        <td class="bt-mf-transp"><div class="bt-mf-bar-wrap"><div class="bt-mf-bar-track"><div class="bt-mf-bar-fill" style="width:11.25%"></div></div></div><span class="bt-mf-pct">11,25%</span></td>
+        <td class="bt-mf-note">11 dotacijų; atskleisti 2 pavadinimai už 900 000 zł, paslėpti 9 pavadinimai už 7 100 000 zł. Skaidrumas 11,25%. Įvestas formalus kriterijus dėl trijų ankstesnių projektų po 200+ tūkst. zł, uždarantis konkursą naujiems pareiškėjams.</td>
+        <td class="bt-mf-doc"><span class="bt-doc-ref">doc-fsm-2025-results</span></td>
+      </tr>
+    </tbody>
+  </table>
 
   <div class="bt-org-money-anomaly">
     <div class="bt-block-label">Sisteminė vienos krypties anomalija</div>
@@ -179,7 +184,7 @@ Dabartinė valdybos pirmininkė Justyna Janiszewska, paskirta 2024 m. lapkričio
   <p class="bt-org-money-checked">Paskutinė konkursų skelbimų patikra: 2026 m. gegužės 16 d.</p>
 </section>
 
-<section class="bt-ties">
+<section class="bt-org-structure">
   <div class="bt-block-label">Ryšiai</div>
 
 ```mermaid
@@ -189,9 +194,9 @@ graph LR
     BP["Fundacja Białoruś Przyszłości<br/>980 000 zł, 2023"]
     NIK["Najwyższa Izba<br/>Kontroli (NIK)"]
 
-    MSZ -.finansuoja, prižiūri,<br/>skiria vadovybę.-> FSM
-    FSM ==konkursai 2020–2025==> BP
-    NIK -.auditas KAP.430.7.2024.-> FSM
+    MSZ -.finansuoja ir prižiūri.-> FSM
+    FSM ==konkursai 2020-2025==> BP
+    NIK -.auditas NIK 2024.-> FSM
 
     classDef state fill:#EDEAE0,stroke:#0A0A0A,stroke-width:1px,color:#0A0A0A;
     classDef org fill:#FFFFFF,stroke:#B8341E,stroke-width:1.5px,color:#0A0A0A;
