@@ -101,7 +101,7 @@ extra_css_body_class: bt-ftm-page
             data-title="{{ tr(inv.title) }}"
             data-orgs="{%- for o in inv.orgs %}{%- if not loop.first %}, {% endif %}{{ o.name }}{%- endfor %}"
             data-persons="{%- for p in inv.persons %}{%- if not loop.first %}, {% endif %}{{ p.name }}{%- endfor %}"
-            data-href="{{ inv.href }}"></span>
+            data-href="/{{ lang }}/investigations/{{ inv.href }}"></span>
           {%- endfor -%}
         {%- endif -%}
       {%- endfor -%}
@@ -175,14 +175,15 @@ extra_css_body_class: bt-ftm-page
     }
 
     dot.addEventListener('mouseenter', function(e) {
-      if (!dot.dataset.title) return;
+      var d = e.currentTarget;
+      if (!d.dataset.title) return;
       var status = dot.classList.contains('published') ? '● Нарушения подтверждены' :
-                   dot.classList.contains('collecting') ? '◐ Расследование идёт' : '';
-      var html = '<div class="bt-ftm-tt-status ' + (dot.classList.contains('published') ? 'confirmed' : 'investigating') + '">' + status + '</div>';
-      html += '<div class="bt-ftm-tt-title">' + dot.dataset.title + '</div>';
-      if (dot.dataset.orgs) html += '<div class="bt-ftm-tt-sub">' + dot.dataset.orgs + '</div>';
-      if (dot.dataset.persons) html += '<div class="bt-ftm-tt-sub">' + dot.dataset.persons + '</div>';
-      if (dot.dataset.href) html += '<div class="bt-ftm-tt-link">→ Читать расследование</div>';
+                   d.classList.contains('collecting') ? '◐ Расследование идёт' : '';
+      var html = '<div class="bt-ftm-tt-status ' + (d.classList.contains('published') ? 'confirmed' : 'investigating') + '">' + status + '</div>';
+      html += '<div class="bt-ftm-tt-title">' + d.dataset.title + '</div>';
+      if (d.dataset.orgs) html += '<div class="bt-ftm-tt-sub">' + d.dataset.orgs + '</div>';
+      if (d.dataset.persons) html += '<div class="bt-ftm-tt-sub">' + d.dataset.persons + '</div>';
+      if (d.dataset.href) html += '<div class="bt-ftm-tt-link">→ Читать расследование</div>';
       tooltip.innerHTML = html;
       tooltip.classList.add('show');
     });
@@ -192,7 +193,7 @@ extra_css_body_class: bt-ftm-page
       tooltip.style.top = (e.clientY - 10) + 'px';
     });
     if (dot.dataset.href) {
-      dot.addEventListener('click', function() { window.location = dot.dataset.href; });
+      dot.addEventListener('click', function(e) { window.location = e.currentTarget.dataset.href; });
     }
   });
 
