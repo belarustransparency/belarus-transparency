@@ -377,10 +377,10 @@ ui:
     pl: Naruszenia potwierdzone
     lt: Pažeidimai patvirtinti
   ftm_footer_note:
-    ru: "Источники: EC NDICI, US State Dept. Обновляется по мере публикации расследований."
-    en: "Sources: EC NDICI, US State Dept. Updated as investigations are published."
-    pl: "Źródła: EC NDICI, US State Dept. Aktualizowane wraz z publikacją śledztw."
-    lt: "Šaltiniai: EC NDICI, US State Dept. Atnaujinama skelbtinant tyrimus."
+    ru: "Источники: EC NDICI, US State Dept. Обновляется регулярно."
+    en: "Sources: EC NDICI, US State Dept. Updated regularly."
+    pl: "Źródła: EC NDICI, US State Dept. Aktualizowane regularnie."
+    lt: "Šaltiniai: EC NDICI, US State Dept. Atnaujinama reguliariai."
 
   grants_prefix:
     ru: не менее
