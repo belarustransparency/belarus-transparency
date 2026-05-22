@@ -3864,12 +3864,12 @@ img.bt-logo--dark,
 .bt-mf-donor{color:var(--md-default-fg-color);font-weight:500}
 .bt-mf-target{color:var(--bt-color-meta,#6B6B6B)}
 .bt-mf-target::before{content:"→ ";color:var(--bt-color-meta,#6B6B6B)}
-.bt-mf-amount{
+.bt-mf > .bt-mf-amount{
   font-variant-numeric:tabular-nums;white-space:nowrap;
   font-family:var(--md-code-font-family,'JetBrains Mono',ui-monospace,monospace);
   font-size:var(--bt-fs-s4);color:var(--md-default-fg-color);
 }
-.bt-mf-year{
+.bt-mf > .bt-mf-year{
   font-variant-numeric:tabular-nums;white-space:nowrap;
   font-size:var(--bt-fs-s5);color:var(--bt-color-meta,#6B6B6B);
 }
