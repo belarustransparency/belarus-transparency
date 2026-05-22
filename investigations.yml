@@ -117,7 +117,7 @@ investigations:
     grants_pct: 3
     sector: business          # civil | rights | media | education | business | culture
     orgs:
-      - slug: abba
+      - slug: 
         name: ABBA Foundation
       - slug: opk
         name: ОПК
