@@ -4280,8 +4280,7 @@ img.bt-logo--dark,
   padding-bottom: 14px;
   padding-left: 12px;
   margin-bottom: 14px;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  border-left: 2px solid #B8341E;
+  border-left: 1px solid #B8341E;
 }
 .bt-ftm-sb-block:last-child {
   border-bottom: 0;
