@@ -51,6 +51,18 @@ title: Investigations
   {%- endfor %}
 </div>
 
+<div class="bt-ftm-inv-banner" markdown="0">
+  <div class="bt-ftm-ib-left">
+    <div class="bt-ftm-ib-kicker">Следуй за деньгами</div>
+    <div class="bt-ftm-ib-title">Западные налогоплательщики отдали сотни миллионов евро на беларускую демократию в эмиграции.</div>
+    <div class="bt-ftm-ib-tagline">Поможем отчитаться об успехах — если найдём.</div>
+  </div>
+  <div class="bt-ftm-ib-right">
+    <div class="bt-ftm-ib-dots" id="ftm-ib-dots"></div>
+    <a class="bt-ftm-ib-link" href="../dashboards/follow-the-money/">Открыть карту →</a>
+  </div>
+</div>
+
 <div class="bt-inv-list" markdown="0">
 {%- for inv in data.investigations %}
 {%- set card_href = '/' ~ lang ~ '/source-protection/#open-investigations' if inv.status == 'collecting' else inv.href %}
@@ -83,6 +95,17 @@ title: Investigations
 
 </div>
 
+<script>
+(function(){
+  var d=document.getElementById('ftm-ib-dots');
+  if(!d)return;
+  for(var i=0;i<35;i++){
+    var s=document.createElement('span');
+    s.className='bt-ftm-ib-dot'+(i<1?' published':i<3?' collecting':'');
+    d.appendChild(s);
+  }
+})();
+</script>
 <script>
 (function() {
   function init() {

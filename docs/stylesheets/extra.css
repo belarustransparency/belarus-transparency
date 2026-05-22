@@ -4421,3 +4421,132 @@ img.bt-logo--dark,
   .bt-ftm-footer-note { padding-left: 0; border-left: none; }
   .bt-ftm-sector-label { width: 84px; }
 }
+
+/* === Баннер "Следуй за деньгами" на главной === */
+
+.bt-ftm-lb {
+  border-left: 3px solid #B8341E;
+  padding: 14px 18px;
+  background: var(--md-default-fg-color--lightest);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: end;
+}
+.bt-ftm-lb-title {
+  font-size: var(--bt-fs-s4);
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+  line-height: var(--bt-lh-tight);
+  margin-bottom: 4px;
+}
+.bt-ftm-lb-tagline {
+  font-size: var(--bt-fs-s4);
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+.bt-ftm-lb-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+}
+.bt-ftm-lb-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  width: 90px;
+  justify-content: flex-end;
+}
+.bt-ftm-lb-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--md-default-fg-color--lightest);
+  border: 1px solid var(--md-default-fg-color--lighter);
+}
+.bt-ftm-lb-dot.published {
+  background: #B8341E;
+  border-color: #B8341E;
+}
+.bt-ftm-lb-dot.collecting {
+  background: #C8791A;
+  border-color: #C8791A;
+}
+.bt-ftm-lb-link {
+  font-size: var(--bt-fs-s5);
+  color: #B8341E !important;
+  font-style: italic;
+  border-bottom: 1px solid #B8341E !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+/* === Баннер "Следуй за деньгами" на витрине расследований === */
+
+.bt-ftm-inv-banner {
+  background: #0F1419;
+  border-top: 2px solid #B8341E;
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+.bt-ftm-ib-kicker {
+  font-size: var(--bt-fs-s6);
+  text-transform: uppercase;
+  letter-spacing: var(--bt-ls-caps);
+  color: #B8341E;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.bt-ftm-ib-title {
+  font-size: var(--bt-fs-s4);
+  font-weight: 500;
+  color: #E8E6E0;
+  line-height: var(--bt-lh-tight);
+  margin-bottom: 4px;
+}
+.bt-ftm-ib-tagline {
+  font-size: var(--bt-fs-s4);
+  color: #9A9690;
+  font-style: italic;
+}
+.bt-ftm-ib-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+}
+.bt-ftm-ib-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  width: 100px;
+  justify-content: flex-end;
+}
+.bt-ftm-ib-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #252D38;
+  border: 0.5px solid #323D4A;
+}
+.bt-ftm-ib-dot.published {
+  background: #8A1E0E;
+  border-color: #B8341E;
+}
+.bt-ftm-ib-dot.collecting {
+  background: #7A5010;
+  border-color: #C8791A;
+}
+.bt-ftm-ib-link {
+  font-size: var(--bt-fs-s5);
+  color: #B8341E !important;
+  font-style: italic;
+  border-bottom: 0.5px solid #B8341E !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
