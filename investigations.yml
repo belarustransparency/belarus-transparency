@@ -7,15 +7,22 @@
 # Локализуемые поля имеют вложенные ключи ru/en/pl/lt.
 # Если для какого-то языка перевода нет, шаблон витрины
 # fallback'нется на en (или ru, если и en нет).
-#
-# Не локализуются (одно значение):
-#   code, href, status, filter_tags,
-#   grants_eur, grants_pct, cover, cover_gradient
 
 investigations:
 
-  - code: CASE-001
+  - # --- ВИТРИНА ---
+    code: CASE-001
     href: bialorus-przyszlosci-fsm/
+    status: published     # published | collecting | draft
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
+    cover: "/assets/covers/brukhan.webp"
+    cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
+
+    # --- ТЕКСТЫ ---
     title:
       ru: Фонд "Беларусь будущего"
       en: "\"Belarus of the Future\" Foundation"
@@ -38,12 +45,6 @@ investigations:
         2023 metais Lenkija privačiai organizacijai skyrė 980&nbsp;000&nbsp;zł dotaciją „žmogaus teisių apsaugos veiksmų planui".
         Fondo valdymo ir priežiūros organus sudaro Pavlo Latuškos, OPK pirmininko pavaduotojo, darbuotojai ir šeimos nariai.
         Organizacijos įstatai ir finansinės ataskaitos paslėpti arba jų nėra.
-    date:
-      ru: май 2026
-      en: May 2026
-      pl: maj 2026
-      lt: 2026 m. gegužė
-    status: published     # published | collecting | draft
     tags:
       ru: [Польша, Эпизод, Коррупция]
       en: [Poland, Episode, Corruption]
@@ -51,21 +52,33 @@ investigations:
       lt: [Lenkija, Epizodas, Korupcija]
     filter_tags:
       - democracy
-    grants_eur: 0.22
-    grants_bar_eur: 0.22
+
+    # --- БАР (Follow the Money) ---
+    grants_eur: 0.22          # полная сумма для карточки расследования
+    grants_bar_eur: 0.22      # сумма для дашборда (за вычетом пересечений)
     grants_pct: 1
-    sector: civil
+    sector: civil             # civil | rights | media | education | business | culture
     orgs:
       - slug: belarus-future-foundation
         name: Фонд "Беларусь будущего"
     persons:
       - slug: latushko
         name: Павел Латушко
-    cover: "/assets/covers/brukhan.webp"
-    cover_gradient: "linear-gradient(135deg, #4a3d35 0%, #20191a 100%)"
 
-  - code: CASE-002
+
+  - # --- ВИТРИНА ---
+    code: CASE-002
     href: abba/
+    status: collecting     # published | collecting | draft
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
+    cover: "/assets/covers/alekhnovich.webp"
+    cover_gradient: "linear-gradient(135deg, #3d3530 0%, #20191a 100%)"
+
+    # --- ТЕКСТЫ ---
     title:
       ru: "ABBA — Ассоциации белорусского бизнеса за рубежом"
       en: "ABBA — Associations of Belarusian Business Abroad"
@@ -88,12 +101,6 @@ investigations:
         Privačių organizacijų tinklas, 2022–2024&nbsp;m. gavęs 1,05&nbsp;mln.&nbsp;€ iš Europos Komisijos ir ~1&nbsp;mln.&nbsp;$ iš JAV donorų.
         Šiuo metu dalyvauja Belarusian Diaspora Initiative su 3&nbsp;mln.&nbsp;€ fondu. Baltarusių verslui paskirstyta ne daugiau kaip 100&nbsp;tūkst.&nbsp;€.
         Įstatai nepaskelbti, auditas neatliktas.
-    date:
-      ru: май 2026
-      en: May 2026
-      pl: maj 2026
-      lt: 2026 m. gegužė
-    status: collecting
     tags:
       ru: [США, ЕК, Деятельность, Лоббизм]
       en: [USA, EC, Operations, Lobbying]
@@ -101,10 +108,12 @@ investigations:
       lt: [JAV, EK, Veikla, Lobizmas]
     filter_tags:
       - business
-    grants_eur: 4.98
-    grants_bar_eur: 3.48
+
+    # --- БАР (Follow the Money) ---
+    grants_eur: 4.98          # полная сумма для карточки расследования
+    grants_bar_eur: 3.48      # сумма для дашборда (за вычетом пересечений с BDI)
     grants_pct: 3
-    sector: business
+    sector: business          # civil | rights | media | education | business | culture
     orgs:
       - slug: abba
         name: ABBA Foundation
@@ -115,11 +124,21 @@ investigations:
         name: Павел Латушко
       - slug: vecherko
         name: Валерий Вечерко
-    cover: "/assets/covers/alekhnovich.webp"
-    cover_gradient: "linear-gradient(135deg, #3d3530 0%, #20191a 100%)"
 
-  - code: CASE-003
+
+  - # --- ВИТРИНА ---
+    code: CASE-003
     href: imaguru/
+    status: collecting     # published | collecting | draft
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
+    cover: "/assets/covers/marinich.webp"
+    cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
+
+    # --- ТЕКСТЫ ---
     title:
       ru: "Imaguru / Belbiz — гранты ЕК 2022–2025"
       en: "Imaguru / Belbiz — EC grants 2022–2025"
@@ -142,12 +161,6 @@ investigations:
         Fondų tinklas Lietuvoje, Latvijoje, Lenkijoje ir Ispanijoje su vienu naudos gavėju — Tatjana Marinič. 2022&nbsp;m. gavo
         Europos Komisijos 2&nbsp;mln.&nbsp;€ dotaciją. Nuo 2025&nbsp;m. dalyvauja Belarusian Diaspora Initiative su 3&nbsp;mln.&nbsp;€ fondu.
         Atskaitomybės nėra, EK dotaciją gavęs fondas paskubomis likviduotas.
-    date:
-      ru: май 2026
-      en: May 2026
-      pl: maj 2026
-      lt: 2026 m. gegužė
-    status: collecting
     tags:
       ru: [ЕК, Деятельность, Лоббизм]
       en: [EC, Operations, Lobbying]
@@ -155,10 +168,12 @@ investigations:
       lt: [EK, Veikla, Lobizmas]
     filter_tags:
       - business
-    grants_eur: 5.06
-    grants_bar_eur: 3.56
+
+    # --- БАР (Follow the Money) ---
+    grants_eur: 5.06          # полная сумма для карточки расследования
+    grants_bar_eur: 3.56      # сумма для дашборда (за вычетом пересечений с BDI)
     grants_pct: 3
-    sector: business
+    sector: business          # civil | rights | media | education | business | culture
     orgs:
       - slug: imaguru
         name: Imaguru
@@ -167,8 +182,7 @@ investigations:
     persons:
       - slug: marinich
         name: Татьяна Маринич
-    cover: "/assets/covers/marinich.webp"
-    cover_gradient: "linear-gradient(135deg, #2c3540 0%, #161c24 100%)"
+
 
 # === Секторы для дашборда "Следи за деньгами" ===
 
@@ -176,25 +190,17 @@ sectors:
   - id: civil
     total: 105
     name:
-      ru: "Гражданское
-общество"
-      en: "Civil
-society"
-      pl: "Społeczeństwo
-obywatelskie"
-      lt: "Pilietinė
-visuomenė"
+      ru: "Гражданское\nобщество"
+      en: "Civil\nsociety"
+      pl: "Społeczeństwo\nobywatelskie"
+      lt: "Pilietinė\nvisuomenė"
   - id: rights
     total: 45
     name:
-      ru: "Права
-человека"
-      en: "Human
-rights"
-      pl: "Prawa
-człowieka"
-      lt: "Žmogaus
-teisės"
+      ru: "Права\nчеловека"
+      en: "Human\nrights"
+      pl: "Prawa\nczłowieka"
+      lt: "Žmogaus\nteisės"
   - id: media
     total: 45
     name:
@@ -223,6 +229,7 @@ teisės"
       en: Culture
       pl: Kultura
       lt: Kultūra
+
 
 # === Список фильтров сверху витрины ===
 # Ключ должен совпадать с filter_tags в расследованиях.
@@ -265,8 +272,8 @@ filters:
     pl: Relokacja
     lt: Perkėlimas
 
-# === Локализация UI элементов витрины ===
-# Используется в шаблоне docs/<lang>/investigations/index.md
+
+# === Локализация UI элементов ===
 
 ui:
   kicker:
@@ -304,7 +311,18 @@ ui:
     en: Draft
     pl: Szkic
     lt: Juodraštis
-  # === Дашборд "Следи за деньгами" ===
+  grants_prefix:
+    ru: не менее
+    en: at least
+    pl: co najmniej
+    lt: ne mažiau kaip
+  grants_unit:
+    ru: млн&nbsp;€
+    en: million&nbsp;€
+    pl: mln&nbsp;€
+    lt: mln.&nbsp;€
+
+  # --- Дашборд "Следи за деньгами" ---
   dashboard_budget: 300
   ftm_kicker:
     ru: Следи за деньгами
@@ -381,14 +399,3 @@ ui:
     en: "Sources: EC NDICI, US State Dept. Updated regularly."
     pl: "Źródła: EC NDICI, US State Dept. Aktualizowane regularnie."
     lt: "Šaltiniai: EC NDICI, US State Dept. Atnaujinama reguliariai."
-
-  grants_prefix:
-    ru: не менее
-    en: at least
-    pl: co najmniej
-    lt: ne mažiau kaip
-  grants_unit:
-    ru: млн&nbsp;€
-    en: million&nbsp;€
-    pl: mln&nbsp;€
-    lt: mln.&nbsp;€
