@@ -343,7 +343,7 @@ ui:
     lt: Ištirta
   ftm_quote_text:
     ru: "«Мы не умеем продавать себя, продавать свои успехи»"
-    en: ""We don't know how to sell ourselves, to sell our achievements""
+    en: We don't know how to sell ourselves, to sell our achievements
     pl: "«Nie umiemy sprzedawać siebie, sprzedawać swoich sukcesów»"
     lt: "«Mes nemokame parduoti savęs, parduoti savo pasiekimų»"
   ftm_quote_cite:
@@ -377,10 +377,10 @@ ui:
     pl: Naruszenia potwierdzone
     lt: Pažeidimai patvirtinti
   ftm_footer_note:
-    ru: Источники: EC NDICI, US State Dept. Обновляется по мере публикации расследований.
-    en: Sources: EC NDICI, US State Dept. Updated as investigations are published.
-    pl: Źródła: EC NDICI, US State Dept. Aktualizowane wraz z publikacją śledztw.
-    lt: Šaltiniai: EC NDICI, US State Dept. Atnaujinama skelbtinant tyrimus.
+    ru: "Источники: EC NDICI, US State Dept. Обновляется по мере публикации расследований."
+    en: "Sources: EC NDICI, US State Dept. Updated as investigations are published."
+    pl: "Źródła: EC NDICI, US State Dept. Aktualizowane wraz z publikacją śledztw."
+    lt: "Šaltiniai: EC NDICI, US State Dept. Atnaujinama skelbtinant tyrimus."
 
   grants_prefix:
     ru: не менее
