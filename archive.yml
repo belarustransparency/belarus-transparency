@@ -21,6 +21,30 @@
 
 documents:
 
+  - id: doc-wp143-2025
+    type: pdf
+    year: "2025"
+    lang_original: en
+    title_original: Exploring the Entrepreneurial Potential of Belarusian Migrants in the EU (CASE Working Paper №143/2025)
+    title_translated:
+      ru: Исследование предпринимательского потенциала беларуских мигрантов в ЕС (CASE Working Paper №143/2025)
+      pl: Badanie potencjału przedsiębiorczego białoruskich migrantów w UE (CASE Working Paper №143/2025)
+      lt: Baltarusių migrantų verslumo potencialo ES tyrimas (CASE Working Paper №143/2025)
+    source_alive: true
+    source_domain: case-research.eu
+
+  - id: doc-krs-case-belarus
+    type: pdf
+    year: "2026"
+    lang_original: pl
+    title_original: Odpis pełny KRS — Fundacja CASE Białoruś
+    title_translated:
+      ru: Полная выписка KRS — Fundacja CASE Białoruś
+      en: Full KRS extract — Fundacja CASE Białoruś
+      lt: Pilnas KRS išrašas — Fundacja CASE Białoruś
+    source_alive: true
+    source_domain: prs.ms.gov.pl
+
   - id: doc-nik-kap-430-7-2024
     type: pdf
     year: "2025"
