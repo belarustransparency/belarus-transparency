@@ -8,28 +8,34 @@
      ============================================================ */
 
   var CSS = `
+/* Override MkDocs content container max-width when WP143 dashboard is on the page */
+.md-content__inner:has(.bt-dash) {
+  max-width: none !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
 .bt-dash {
-  --bt-bg-primary:        #FBF9F4;
-  --bt-bg-secondary:      #F4F2EC;
-  --bt-text-primary:      #1A1A1A;
-  --bt-text-secondary:    #555555;
+  --bt-bg-primary:        #F7F5F0;
+  --bt-bg-secondary:      #EDEAE0;
+  --bt-text-primary:      #1F1F1F;
+  --bt-text-secondary:    #6B6B6B;
   --bt-text-tertiary:     #888888;
-  --bt-border-secondary:  #D5D2C5;
-  --bt-border-tertiary:   #E5E3D8;
-  --bt-accent:            #D85A30;
+  --bt-border-secondary:  #E5E5E0;
+  --bt-border-tertiary:   #E5E5E0;
+  --bt-accent:            #B8341E;
   --bt-accent-bg:         #FAECE7;
   --bt-accent-text:       #4A1B0C;
-  --bt-accent-strong:     #993C1D;
-  --bt-accent-medium:     #712B13;
+  --bt-accent-strong:     #B8341E;
+  --bt-accent-medium:     #B8341E;
   --bt-radius-md: 8px;
   --bt-radius-lg: 12px;
   --bt-font-sans:  'Inter', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif;
-  --bt-font-serif: 'Source Serif Pro', Georgia, 'Cormorant Garamond', serif;
   --bt-font-mono:  'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
   font-family: var(--bt-font-sans);
   color: var(--bt-text-primary);
   line-height: 1.5;
-  max-width: 760px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1.5rem;
   background: var(--bt-bg-primary);
@@ -79,14 +85,14 @@
   letter-spacing: 0.8px; line-height: 1.5;
 }
 .bt-dash .bt-hero-title {
-  font-family: var(--bt-font-serif);
-  font-size: 22px; font-weight: 600;
+  font-family: var(--bt-font-sans);
+  font-size: 22px; font-weight: 700;
   line-height: 1.3; margin: 0 0 6px;
   color: var(--bt-text-primary);
 }
 .bt-dash .bt-hero-authors {
   font-size: 12px; color: var(--bt-text-secondary);
-  margin: 0 0 14px; font-style: italic;
+  margin: 0 0 14px;
 }
 .bt-dash .bt-hero-verdict {
   background: var(--bt-accent-bg);
@@ -127,7 +133,7 @@
   margin: 0 0 6px; line-height: 1.3;
 }
 .bt-dash .bt-metric-value {
-  font-family: var(--bt-font-serif);
+  font-family: var(--bt-font-sans);
   font-size: 24px; font-weight: 700;
   color: var(--bt-text-primary);
   line-height: 1.1; margin: 0;
@@ -138,8 +144,8 @@
 }
 .bt-dash .bt-section { margin-bottom: 1.75rem; }
 .bt-dash .bt-section-title {
-  font-family: var(--bt-font-serif);
-  font-size: 16px; font-weight: 600;
+  font-family: var(--bt-font-sans);
+  font-size: 16px; font-weight: 700;
   margin: 0 0 10px; color: var(--bt-text-primary);
 }
 .bt-dash .bt-section-lede {
@@ -168,6 +174,7 @@
   background: var(--bt-bg-secondary);
   border-radius: var(--bt-radius-md);
   margin-bottom: 8px;
+  max-width: 760px;
 }
 .bt-dash .bt-dot {
   width: 10px; height: 10px;
@@ -337,7 +344,7 @@
       document.head.appendChild(pre2);
       var fontsLink = document.createElement('link');
       fontsLink.rel = 'stylesheet';
-      fontsLink.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+Pro:wght@400;600;700&family=JetBrains+Mono:wght@400&display=swap';
+      fontsLink.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap';
       document.head.appendChild(fontsLink);
     }
   }
@@ -680,14 +687,14 @@
     var host = cv.closest('.bt-dash');
     if (host && host.getAttribute('data-theme') === 'dark') isDark = true;
     if (host && host.getAttribute('data-theme') === 'light') isDark = false;
-    ctx.fillStyle = isDark ? '#73726C' : '#B4B2A9';
+    ctx.fillStyle = isDark ? '#73726C' : '#7A7873';
     for (var k = 0; k < total; k++) {
       var c = k % cols;
       var r = Math.floor(k / cols);
       ctx.fillRect(c * cellPx, r * cellPx, dotSize, dotSize);
     }
     var reds6k = [856, 2987, 4912];
-    ctx.fillStyle = '#D85A30';
+    ctx.fillStyle = '#B8341E';
     for (var j = 0; j < reds6k.length; j++) {
       var idx = reds6k[j];
       var c2 = idx % cols;
