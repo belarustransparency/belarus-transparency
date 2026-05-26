@@ -28,6 +28,21 @@ dashboards:
       pl: "Przed wyborami: 130 ze 171 kandydatów na 6 z 9 list było zgrupowanych wokół pracowników Biura Cichanouskiej, UTC i NAM. Wyniki głosowania: 69 z 76 rozdzielonych miejsc otrzymali deputowani z list biurowych, sama Koalicja Łatuszki — 33 miejsca z 80."
       lt: "Iki rinkimų: 130 iš 171 kandidato 6-iuose iš 9 sąrašų buvo sutelkti aplink Cichanouskos biuro, UTC ir NAM darbuotojus. Balsavimo rezultatai: 69 iš 76 paskirstytų vietų atiteko biurų sąrašų deputatams, viena Latuškos koalicija — 33 vietos iš 80."
 
+  - slug: wp143-imitation
+    date_day: "24"
+    date_month: "04"
+    date_year: "25"
+    title:
+      ru: Working Paper 143 — имитация полевой работы
+      en: Working Paper 143 — fake fieldwork
+      pl: Working Paper 143 — imitacja pracy terenowej
+      lt: Working Paper 143 — apsimestinis lauko darbas
+    summary:
+      ru: "Разбор Working Paper CASE №143/2025 о беларуских предпринимателях-мигрантах в ЕС: вместо заявленных экспертных интервью — три анонимных кейса и компиляция вторичных источников на 48 страницах за €1 млн гранта Еврокомиссии. Презентация в Брюсселе через 8 месяцев после завершения работы и через 3 месяца после получения консорциумом во главе с Eurochambres нового €3 млн гранта ЕК."
+      en: "Analysis of CASE Working Paper №143/2025 on Belarusian migrant entrepreneurs in the EU: instead of the declared expert interviews — three anonymous case studies and a compilation of secondary sources on 48 pages, for a €1M European Commission grant. Presented in Brussels 8 months after the work was completed and 3 months after a Eurochambres-led consortium received a new €3M EC grant."
+      pl: "Analiza dokumentu CASE Working Paper №143/2025 o białoruskich przedsiębiorcach-migrantach w UE: zamiast zadeklarowanych wywiadów eksperckich — trzy anonimowe studia przypadków i kompilacja źródeł wtórnych na 48 stronach, za grant Komisji Europejskiej w wysokości €1 mln. Prezentacja w Brukseli 8 miesięcy po zakończeniu prac i 3 miesiące po otrzymaniu przez konsorcjum pod przewodnictwem Eurochambres nowego grantu KE w wysokości €3 mln."
+      lt: "CASE darbo dokumento Nr. 143/2025 apie baltarusių migrantų verslininkus ES analizė: vietoj deklaruotų ekspertų interviu — trys anoniminiai atvejų tyrimai ir antrinių šaltinių kompiliacija 48 puslapiuose, už €1 mln Europos Komisijos dotaciją. Pristatymas Briuselyje praėjus 8 mėnesiams po darbo pabaigos ir 3 mėnesiams po to, kai Eurochambres vadovaujamas konsorciumas gavo naują €3 mln EK dotaciją."
+
 # === UI элементы витрины ===
 
 ui:
