@@ -60,6 +60,28 @@ events:
       pl: Warszawa, Polska
       lt: Varšuva, Lenkija
 
+  - slug: abba-brussels-2025-04-24
+    event_type: meeting
+    status: completed
+    date_day: "24"
+    date_month_key: apr
+    date_year: "25"
+    title:
+      ru: Презентация Working Paper 143 в Eurochambres
+      en: Presentation of Working Paper 143 at Eurochambres
+      pl: Prezentacja Working Paper 143 w Eurochambres
+      lt: Working Paper 143 pristatymas Eurochambres
+    summary:
+      ru: Совместная встреча CASE и ABBA с представителем Еврокомиссии в офисе Eurochambres. Презентация Working Paper №143 — через 8 месяцев после завершения работы и через 3 месяца после получения консорциумом во главе с Eurochambres нового €3 млн гранта ЕК на BDI.
+      en: Joint meeting of CASE and ABBA with a European Commission representative at the Eurochambres office. Presentation of Working Paper №143 — 8 months after the work was completed and 3 months after a Eurochambres-led consortium received a new €3M EC grant for BDI.
+      pl: Wspólne spotkanie CASE i ABBA z przedstawicielem Komisji Europejskiej w biurze Eurochambres. Prezentacja Working Paper №143 — 8 miesięcy po zakończeniu prac i 3 miesiące po otrzymaniu przez konsorcjum pod przewodnictwem Eurochambres nowego grantu KE w wysokości €3 mln na BDI.
+      lt: Bendras CASE ir ABBA susitikimas su Europos Komisijos atstovu Eurochambres biure. Working Paper №143 pristatymas — praėjus 8 mėnesiams po darbo pabaigos ir 3 mėnesiams po to, kai Eurochambres vadovaujamas konsorciumas gavo naują €3 mln EK dotaciją BDI.
+    place:
+      ru: Брюссель, Бельгия
+      en: Brussels, Belgium
+      pl: Bruksela, Belgia
+      lt: Briuselis, Belgija
+
   - slug: fsm-grant-competition-2023
     event_type: grant
     status: completed
