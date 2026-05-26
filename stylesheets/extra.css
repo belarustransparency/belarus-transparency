@@ -4647,3 +4647,107 @@ img.bt-logo--dark,
   .bt-mf-table .bt-mf-amount { display: inline; }
   .bt-mf-table .bt-mf-transp { margin: 4px 0; }
 }
+
+/* === Дашборд WP143 (CASE Working Paper №143/2025) ========================
+ * Зеркало секции «Дашборд КС-2026» по архитектуре.
+ * Префикс классов: bt-wp143-*
+ * Все размеры — из общей дизайн-системы (--bt-fs-s1..s6, --bt-lh-*, --bt-ls-caps).
+ * Цвета — через --md-* переменные Material (адаптация под светлую/тёмную тему).
+ *
+ * Технический долг: при появлении третьего дашборда выделить общий слой
+ * bt-dash-* (header, stats, section, callout, marker, chain) и мигрировать
+ * на него и KC-2026, и WP143. См. manual_addition.md.
+ */
+
+#bt-wp143-dashboard {
+  --bt-wp143-accent:       #993C1D;
+  --bt-wp143-accent-soft:  rgba(153, 60, 29, 0.10);
+  --bt-wp143-accent-text:  #4A1B0C;
+  --bt-wp143-mute:         #BA7517;
+  --bt-wp143-text:         var(--md-default-fg-color);
+  --bt-wp143-text-muted:   var(--md-default-fg-color--light);
+  --bt-wp143-text-faint:   var(--md-default-fg-color--lighter);
+  --bt-wp143-surface:      var(--md-default-bg-color);
+  --bt-wp143-surface-2:    var(--md-code-bg-color);
+  --bt-wp143-border:       var(--md-default-fg-color--lightest);
+
+  font-family: var(--md-text-font-family, system-ui, sans-serif);
+  color: var(--bt-wp143-text);
+  max-width: 100%;
+}
+
+[data-md-color-scheme="slate"] #bt-wp143-dashboard {
+  --bt-wp143-accent:       #C44A24;
+  --bt-wp143-accent-soft:  rgba(196, 74, 36, 0.18);
+  --bt-wp143-accent-text:  #F5C4B3;
+  --bt-wp143-mute:         #D88A2A;
+}
+
+#bt-wp143-dashboard a { color: inherit; }
+
+/* ---------------------- Hero ---------------------- */
+.bt-wp143-hero {
+  background: var(--bt-wp143-surface-2);
+  border: 1px solid var(--bt-wp143-border);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 1.5rem;
+}
+.bt-wp143-hero-eyebrow {
+  font-size: var(--bt-fs-s6);
+  color: var(--bt-wp143-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--bt-ls-caps);
+  margin: 0 0 0.5rem;
+  line-height: var(--bt-lh-tight);
+}
+.bt-wp143-hero-title {
+  font-size: var(--bt-fs-s1);
+  font-weight: 500;
+  line-height: var(--bt-lh-head);
+  margin: 0 0 0.3rem;
+  color: var(--bt-wp143-text);
+}
+.bt-wp143-hero-authors {
+  font-size: var(--bt-fs-s5);
+  color: var(--bt-wp143-text-muted);
+  font-style: italic;
+  margin: 0 0 1rem;
+  line-height: var(--bt-lh-body);
+}
+.bt-wp143-hero-verdict {
+  background: var(--bt-wp143-accent-soft);
+  border-left: 3px solid var(--bt-wp143-accent);
+  border-radius: 0 4px 4px 0;
+  padding: 0.7rem 0.9rem;
+  margin: 0 0 1rem;
+}
+.bt-wp143-hero-verdict-label {
+  font-size: var(--bt-fs-s6);
+  font-weight: 500;
+  color: var(--bt-wp143-accent);
+  text-transform: uppercase;
+  letter-spacing: var(--bt-ls-caps);
+  margin: 0 0 0.25rem;
+}
+.bt-wp143-hero-verdict-text {
+  font-size: var(--bt-fs-s4);
+  color: var(--bt-wp143-text);
+  line-height: var(--bt-lh-tight);
+  margin: 0;
+  font-weight: 500;
+}
+.bt-wp143-hero-meta {
+  font-size: var(--bt-fs-s5);
+  color: var(--bt-wp143-text-muted);
+  margin: 0;
+  line-height: var(--bt-lh-body);
+}
+.bt-wp143-hero-meta strong {
+  color: var(--bt-wp143-text);
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  .bt-wp143-hero { padding: 1rem 1.1rem; }
+}
+
