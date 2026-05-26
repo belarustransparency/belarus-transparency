@@ -4751,3 +4751,87 @@ img.bt-logo--dark,
   .bt-wp143-hero { padding: 1rem 1.1rem; }
 }
 
+
+/* ---------------------- Metrics ---------------------- */
+.bt-wp143-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin: 0 0 1.5rem;
+}
+.bt-wp143-metric {
+  background: var(--bt-wp143-surface-2);
+  border: 1px solid var(--bt-wp143-border);
+  border-radius: 4px;
+  padding: 0.85rem 1rem;
+}
+.bt-wp143-metric-label {
+  font-size: var(--bt-fs-s6);
+  color: var(--bt-wp143-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--bt-ls-caps);
+  margin: 0 0 0.4rem;
+  line-height: var(--bt-lh-tight);
+}
+.bt-wp143-metric-value {
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: var(--bt-wp143-text);
+  margin: 0;
+}
+.bt-wp143-metric-sub {
+  font-size: var(--bt-fs-s6);
+  color: var(--bt-wp143-text-faint);
+  margin: 0.3rem 0 0;
+  line-height: var(--bt-lh-tight);
+}
+@media (max-width: 700px) {
+  .bt-wp143-metrics { grid-template-columns: repeat(2, 1fr); }
+  .bt-wp143-metric-value { font-size: 1.5rem; }
+}
+
+/* ---------------------- Section ---------------------- */
+.bt-wp143-section {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.1rem;
+  background: var(--bt-wp143-surface-2);
+  border-radius: 4px;
+  border: 1px solid var(--bt-wp143-border);
+}
+.bt-wp143-section-title {
+  font-size: var(--bt-fs-s2);
+  font-weight: 500;
+  line-height: var(--bt-lh-head);
+  color: var(--bt-wp143-text);
+  margin: 0 0 0.85rem;
+}
+.bt-wp143-section-lede {
+  font-size: var(--bt-fs-s4);
+  color: var(--bt-wp143-text-muted);
+  line-height: var(--bt-lh-body);
+  margin: 0 0 0.75rem;
+}
+.bt-wp143-section-lede strong {
+  color: var(--bt-wp143-text);
+  font-weight: 500;
+}
+.bt-wp143-question {
+  font-size: var(--bt-fs-s4);
+  font-weight: 500;
+  color: var(--bt-wp143-text);
+  line-height: var(--bt-lh-tight);
+  margin: 0 0 0.75rem;
+}
+.bt-wp143-subprose {
+  font-size: var(--bt-fs-s4);
+  color: var(--bt-wp143-text-muted);
+  line-height: var(--bt-lh-body);
+  margin: 1rem 0 0.5rem;
+}
+.bt-wp143-subprose strong {
+  color: var(--bt-wp143-text);
+  font-weight: 500;
+}
+
