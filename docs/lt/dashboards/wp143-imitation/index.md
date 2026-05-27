@@ -10,4 +10,4 @@ description: "Анализ Working Paper CASE №143/2025 «Exploring the Entrep
   <p>Загрузка дашборда…</p>
 </div>
 
-<script src="dashboard-wp143.js"></script>
+<script src="../../javascripts/dashboard-wp143.js"></script>
