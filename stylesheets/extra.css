@@ -4876,3 +4876,43 @@ img.bt-logo--dark,
 .bt-wp143-svg-coral-divider { stroke: var(--bt-wp143-accent); opacity: 0.25; }
 
 <table class="bt-event-table bt-event-table--text">
+
+/* ---------------------- Icons (inline SVG) ---------------------- */
+.bt-wp143-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ---------------------- SVG network — базовые цвета ---------------------- */
+.bt-wp143-svg-wrap {
+  background: var(--bt-wp143-surface);
+  border: 1px solid var(--bt-wp143-border);
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin: 0.5rem 0 0;
+}
+.bt-wp143-svg-wrap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.bt-wp143-svg-bg {
+  fill: var(--bt-wp143-surface);
+  stroke: var(--bt-wp143-border);
+}
+.bt-wp143-svg-line {
+  stroke: var(--bt-wp143-text-faint);
+  fill: none;
+}
+.bt-wp143-svg-text-primary  { fill: var(--bt-wp143-text); }
+.bt-wp143-svg-text-secondary { fill: var(--bt-wp143-text-muted); }
+.bt-wp143-svg-coral-fill    { fill: var(--bt-wp143-accent-soft); }
+.bt-wp143-svg-coral-stroke  { stroke: var(--bt-wp143-accent); }
+.bt-wp143-svg-coral-title   { fill: var(--bt-wp143-text); }
+.bt-wp143-svg-coral-sub     { fill: var(--bt-wp143-text-muted); }
+.bt-wp143-svg-coral-strong  { fill: var(--bt-wp143-accent); }
+.bt-wp143-svg-coral-divider { stroke: var(--bt-wp143-accent); opacity: 0.25; }
