@@ -1333,7 +1333,7 @@ img.bt-logo--dark,
 .bt-event-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: var(--bt-fs-s4);
+  font-size: var(--bt-fs-s5);
   table-layout: auto;
 }
 
