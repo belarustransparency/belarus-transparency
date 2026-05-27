@@ -4961,3 +4961,58 @@ img.bt-logo--dark,
 }
 .bt-wp143-marker-sub strong { color: var(--bt-wp143-text); font-weight: 500; }
 .bt-wp143-marker-sub em { font-style: italic; }
+
+/* ---------------------- Chain (цепочка делегирования) ---------------------- */
+.bt-wp143-chain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.bt-wp143-chain-step {
+  display: flex;
+  gap: 0.9rem;
+  background: var(--bt-wp143-surface);
+  border: 1px solid var(--bt-wp143-border);
+  border-radius: 4px;
+  padding: 0.8rem 0.95rem;
+  align-items: flex-start;
+}
+.bt-wp143-chain-num {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bt-wp143-accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--bt-fs-s5);
+  font-weight: 500;
+  line-height: 1;
+}
+.bt-wp143-chain-body {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--bt-fs-s4);
+  color: var(--bt-wp143-text);
+  line-height: var(--bt-lh-tight);
+}
+.bt-wp143-chain-body strong { font-weight: 500; }
+.bt-wp143-chain-sub {
+  font-size: var(--bt-fs-s5);
+  color: var(--bt-wp143-text-muted);
+  margin-top: 0.3rem;
+  line-height: var(--bt-lh-body);
+}
+.bt-wp143-chain-sub strong { color: var(--bt-wp143-text); font-weight: 500; }
+
+/* ---------------------- Footnote ---------------------- */
+.bt-wp143-footnote {
+  font-size: var(--bt-fs-s6);
+  color: var(--bt-wp143-text-faint);
+  line-height: var(--bt-lh-body);
+  margin: 2rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bt-wp143-border);
+}
