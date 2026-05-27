@@ -38,6 +38,7 @@ extra_css:
 extra_javascript:
   - javascripts/external-links.js
   - javascripts/dashboard-kc-2026.js
+  - javascripts/dashboard-wp143.js
 
 nav:
   - Главная: ru/index.md
