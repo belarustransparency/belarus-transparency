@@ -34,7 +34,7 @@ status: active
 
 <div class="bt-doc-kicker">Архив · документ · <span class="bt-doc-id">doc-fsm-2024-results</span></div>
 <h1 class="bt-doc-title">Listy rankingowe Konkursu Grantowego na rzecz społeczeństwa białoruskiego (FSM, 2024)</h1>
-<p class="bt-doc-lede">Результаты грантового конкурса FSM на беларуское направление 2024 года. Первый год, в котором применён регламент 15.9.2 — норма о сокрытии заявителей «по соображениям безопасности». Из 43 заявок 22 (51%) скрыты: имена заявителей, проекты и суммы не публикуются. Видимый бюджет победителей — 880 000 PLN на 5 организаций.</p>
+<p class="bt-doc-lede">Результаты грантового конкурса FSM на беларуское направление 2024 года. Первый год, в котором применён регламент 15.9.2 — норма о сокрытии заявителей «по соображениям безопасности». Из 43 заявок 22 (51%) скрыты: имена заявителей, проекты и суммы не публикуются. Общий бюджет конкурса — 4 700 000 PLN, распределено 11 грантов (данные FSM). Видимый бюджет победителей в публичной таблице — 880 000 PLN на 5 организаций.</p>
 
 <div class="bt-doc-meta">
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Тип</div><div class="bt-doc-meta-value">PDF, 10 страниц</div></div>
@@ -42,6 +42,7 @@ status: active
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">По поручению</div><div class="bt-doc-meta-value">Ministerstwo Spraw Zagranicznych RP (МИД Польши)</div></div>
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Программа</div><div class="bt-doc-meta-value">«Solidarni z Białorusią» / Wsparcie Demokracji</div></div>
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Год конкурса</div><div class="bt-doc-meta-value">2024</div></div>
+<div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Общий бюджет конкурса</div><div class="bt-doc-meta-value">4 700 000 PLN, распределено 11 грантов (по данным FSM)</div></div>
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Захвачено</div><div class="bt-doc-meta-value">17 мая 2026</div></div>
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Источник</div><div class="bt-doc-meta-value">URL первоисточника требует уточнения <span class="bt-doc-status bt-doc-status-dead">не зафиксирован</span></div></div>
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Хранение</div><div class="bt-doc-meta-value">В репозитории</div></div>
