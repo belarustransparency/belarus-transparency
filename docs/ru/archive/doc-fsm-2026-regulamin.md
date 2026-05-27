@@ -11,7 +11,7 @@ source_url: https://solidarityfund.pl/procedures/konkurs-grantowy-na-rzecz-spole
 source_alive: true
 archive_url:
 storage: repo
-file_path: files/Regulamin-Konkursu-Grantowego-2026.pdf
+file_path: /assets/archive/doc-fsm-2026-regulamin.pdf
 gdrive_link:
 type: pdf
 related_persons:
@@ -77,7 +77,7 @@ status: active
   </div>
 
   <div class="bt-doc-actions">
-    <a class="bt-doc-button bt-doc-primary" href="../files/Regulamin-Konkursu-Grantowego-2026.pdf" download>Скачать PDF</a>
+    <a class="bt-doc-button bt-doc-primary" href="/assets/archive/doc-fsm-2026-regulamin.pdf" download>Скачать PDF</a>
     <a class="bt-doc-button" href="https://solidarityfund.pl/procedures/konkurs-grantowy-na-rzecz-spoleczenstwa-bialoruskiego-2026/">Открыть на сайте FSM</a>
   </div>
 </section>

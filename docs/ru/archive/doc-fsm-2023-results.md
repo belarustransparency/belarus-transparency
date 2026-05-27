@@ -11,7 +11,7 @@ source_url:
 source_alive:
 archive_url:
 storage: repo
-file_path: files/2023-fsm-bialorus-grants-results.pdf
+file_path: /assets/archive/doc-fsm-2023-results.pdf
 gdrive_link:
 type: pdf
 related_persons:
@@ -71,7 +71,7 @@ status: active
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Хранение</div><div class="bt-doc-meta-value">В репозитории</div></div>
 </div>
 
-<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/2023-fsm-bialorus-grants-results.pdf" download>Скачать PDF</a></div>
+<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="/assets/archive/doc-fsm-2023-results.pdf" download>Скачать PDF</a></div>
 
 <div class="bt-doc-prose" markdown>
 

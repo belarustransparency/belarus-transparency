@@ -11,7 +11,7 @@ source_url: https://prs.ms.gov.pl/
 source_alive: true
 archive_url:
 storage: repo
-file_path: files/Odpis_Pełny_KRS_0000024453.pdf
+file_path: /assets/archive/doc-krs-fsm.pdf
 gdrive_link:
 type: pdf
 related_persons:
@@ -45,7 +45,7 @@ status: active
 <div class="bt-doc-meta-row"><div class="bt-doc-meta-label">Хранение</div><div class="bt-doc-meta-value">В репозитории</div></div>
 </div>
 
-<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="../files/Odpis_Pełny_KRS_0000024453.pdf" download>Скачать PDF</a></div>
+<div class="bt-doc-actions"><a class="bt-doc-btn bt-doc-btn-primary" href="/assets/archive/doc-krs-fsm.pdf" download>Скачать PDF</a></div>
 
 <div class="bt-doc-prose" markdown>
 
