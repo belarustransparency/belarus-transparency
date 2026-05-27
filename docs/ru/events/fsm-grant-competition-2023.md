@@ -81,7 +81,7 @@ status: completed
 
 <section class="bt-block">
 <div class="bt-block-label">Получатели грантов</div>
-<table class="bt-event-table">
+<table class="bt-event-table bt-event-table--numeric">
   <thead>
     <tr>
       <th>Место</th>
@@ -133,7 +133,7 @@ status: completed
 
 <section class="bt-block">
 <div class="bt-block-label">Заявки, не получившие финансирования</div>
-<table class="bt-event-table">
+<table class="bt-event-table bt-event-table--numeric">
   <thead>
     <tr>
       <th>Организация</th>
