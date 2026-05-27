@@ -89,7 +89,7 @@ status: completed
 
 <section class="bt-block">
 <div class="bt-block-label">Состав со сцены</div>
-<table class="bt-event-table bt-event-table--text">
+<table class="bt-event-table">
   <thead>
     <tr>
       <th>Имя</th>
