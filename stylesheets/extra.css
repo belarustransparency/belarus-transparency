@@ -4874,3 +4874,5 @@ img.bt-logo--dark,
 .bt-wp143-svg-coral-sub     { fill: var(--bt-wp143-text-muted); }
 .bt-wp143-svg-coral-strong  { fill: var(--bt-wp143-accent); }
 .bt-wp143-svg-coral-divider { stroke: var(--bt-wp143-accent); opacity: 0.25; }
+
+<table class="bt-event-table bt-event-table--text">
