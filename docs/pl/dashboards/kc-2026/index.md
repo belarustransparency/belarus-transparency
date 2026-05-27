@@ -2,10 +2,10 @@
 hide:
   - navigation
   - toc
-title: Захват Координационного совета — выборы КС 2026
-description: "Интерактивный анализ выборов в Координационный совет Беларуси 4-го созыва. Два режима — «До выборов» (расстановка 130 из 171 кандидата по офисным спискам) и «После выборов» (69 из 76 распределённых мест заняли депутаты офисных списков, Коалиция Латушко получила 33 места из 80)."
+title: Przejęcie Rady Koordynacyjnej — wybory do RK 2026
+description: "Interaktywna analiza wyborów do Rady Koordynacyjnej Białorusi IV kadencji. Dwa tryby — „Przed wyborami\" (rozmieszczenie 130 ze 171 kandydatów według list Biura Cichanouskiej) i „Po wyborach\" (69 z 76 przyznanych mandatów zajęli deputowani z list Biura Cichanouskiej, Koalicja Łatuszki uzyskała 33 mandaty z 80)."
 ---
 
 <div id="bt-kc-dashboard">
-  <p>Загрузка дашборда…</p>
+  <p>Ładowanie panelu…</p>
 </div>

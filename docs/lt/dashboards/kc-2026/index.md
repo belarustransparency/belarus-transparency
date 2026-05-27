@@ -2,10 +2,10 @@
 hide:
   - navigation
   - toc
-title: Захват Координационного совета — выборы КС 2026
-description: "Интерактивный анализ выборов в Координационный совет Беларуси 4-го созыва. Два режима — «До выборов» (расстановка 130 из 171 кандидата по офисным спискам) и «После выборов» (69 из 76 распределённых мест заняли депутаты офисных списков, Коалиция Латушко получила 33 места из 80)."
+title: Koordinacinės Tarybos perėmimas — 2026 m. KT rinkimai
+description: "Interaktyvi 4-osios kadencijos Baltarusijos Koordinacinės Tarybos rinkimų analizė. Du režimai — „Prieš rinkimus\" (130 iš 171 kandidato išdėstymas pagal Cichanouskajos biuro sąrašus) ir „Po rinkimų\" (69 iš 76 paskirstytų mandatų užėmė Cichanouskajos biuro sąrašų deputatai, Latuškos koalicija gavo 33 mandatus iš 80)."
 ---
 
 <div id="bt-kc-dashboard">
-  <p>Загрузка дашборда…</p>
+  <p>Įkeliama informacijos panelė…</p>
 </div>
