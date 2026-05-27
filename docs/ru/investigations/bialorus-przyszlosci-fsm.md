@@ -93,7 +93,7 @@ BP подала заявку на проект «Opracowanie mapy drogowej dla o
 | Место | Организация | Проект | Приоритет | Балл | Сумма (zł) |
 |---|---|---|---|---|---|
 | 1 | Kolegium Europy Wschodniej im. J. Nowaka-Jeziorańskiego | Wspieramy Białoruskie Przebudzenie | II, III | **19,5** | 142 000 |
-| 2 | Fundacja Strefa Solidarności (TV Biełsat) | Поддержка платформы TV Биелсат | II, III | 16,5 | 300 000 |
+| 2 | Fundacja Strefa Solidarności (TV Biełsat) | Поддержка платформы БЕЛСАТ | II, III | 16,5 | 300 000 |
 | 2 | **Fundacja Białoruś Przyszłości** | **Дорожная карта защиты прав жертв преступлений** | **I** | **16,5** | **980 000** |
 | 4 | Fundacja Informacyjne Biuro Białoruś w Fokusie | Развитие журналистики в эмиграции | II | 16,0 | 400 000 |
 | 5 | Fundacja BYPOL | Развитие демократии на Беларуси | II | 15,5 | 251 460 |
