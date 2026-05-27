@@ -4875,44 +4875,89 @@ img.bt-logo--dark,
 .bt-wp143-svg-coral-strong  { fill: var(--bt-wp143-accent); }
 .bt-wp143-svg-coral-divider { stroke: var(--bt-wp143-accent); opacity: 0.25; }
 
-<table class="bt-event-table bt-event-table--text">
-
-/* ---------------------- Icons (inline SVG) ---------------------- */
-.bt-wp143-icon {
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* ---------------------- SVG network — базовые цвета ---------------------- */
-.bt-wp143-svg-wrap {
+/* ---------------------- Callouts ---------------------- */
+.bt-wp143-callout {
+  display: flex;
+  gap: 0.7rem;
   background: var(--bt-wp143-surface);
   border: 1px solid var(--bt-wp143-border);
   border-radius: 4px;
-  padding: 0.75rem;
-  margin: 0.5rem 0 0;
+  padding: 0.75rem 0.9rem;
+  margin: 1rem 0 0;
+  font-size: var(--bt-fs-s4);
+  color: var(--bt-wp143-text);
+  line-height: var(--bt-lh-body);
 }
-.bt-wp143-svg-wrap svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
+.bt-wp143-callout-ironic {
+  border-left: 3px solid var(--bt-wp143-accent);
+  background: var(--bt-wp143-accent-soft);
 }
-.bt-wp143-svg-bg {
-  fill: var(--bt-wp143-surface);
-  stroke: var(--bt-wp143-border);
+.bt-wp143-callout-ironic .bt-wp143-icon { color: var(--bt-wp143-accent); }
+
+.bt-wp143-callout-curio {
+  border-left: 3px solid var(--bt-wp143-mute);
 }
-.bt-wp143-svg-line {
-  stroke: var(--bt-wp143-text-faint);
-  fill: none;
+.bt-wp143-callout-curio .bt-wp143-icon { color: var(--bt-wp143-text-muted); }
+
+.bt-wp143-callout-postscript {
+  border-left: 3px solid var(--bt-wp143-border);
+  margin-top: 1.5rem;
 }
-.bt-wp143-svg-text-primary  { fill: var(--bt-wp143-text); }
-.bt-wp143-svg-text-secondary { fill: var(--bt-wp143-text-muted); }
-.bt-wp143-svg-coral-fill    { fill: var(--bt-wp143-accent-soft); }
-.bt-wp143-svg-coral-stroke  { stroke: var(--bt-wp143-accent); }
-.bt-wp143-svg-coral-title   { fill: var(--bt-wp143-text); }
-.bt-wp143-svg-coral-sub     { fill: var(--bt-wp143-text-muted); }
-.bt-wp143-svg-coral-strong  { fill: var(--bt-wp143-accent); }
-.bt-wp143-svg-coral-divider { stroke: var(--bt-wp143-accent); opacity: 0.25; }
+.bt-wp143-callout-postscript .bt-wp143-icon { color: var(--bt-wp143-text-muted); }
+
+.bt-wp143-callout-body { flex: 1; min-width: 0; }
+.bt-wp143-callout p { margin: 0; }
+.bt-wp143-callout p + p { margin-top: 0.5rem; }
+.bt-wp143-callout strong { font-weight: 500; }
+.bt-wp143-callout em { font-style: italic; }
+.bt-wp143-callout code {
+  font-family: var(--md-code-font-family, ui-monospace, monospace);
+  font-size: 0.9em;
+  background: var(--bt-wp143-surface-2);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.bt-wp143-callout-label {
+  font-size: var(--bt-fs-s6);
+  font-weight: 500;
+  color: var(--bt-wp143-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--bt-ls-caps);
+  margin: 0 0 0.35rem;
+}
+
+/* ---------------------- Markers (список «Признаки текста под донора») ---------------------- */
+.bt-wp143-markers {
+  background: var(--bt-wp143-surface);
+  border: 1px solid var(--bt-wp143-border);
+  border-radius: 4px;
+  padding: 0 1rem;
+}
+.bt-wp143-marker {
+  display: flex;
+  gap: 0.7rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--bt-wp143-border);
+}
+.bt-wp143-marker:last-child { border-bottom: none; }
+.bt-wp143-marker .bt-wp143-icon {
+  color: var(--bt-wp143-accent);
+  margin-top: 2px;
+}
+.bt-wp143-marker-body {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--bt-fs-s4);
+  font-weight: 500;
+  color: var(--bt-wp143-text);
+  line-height: var(--bt-lh-tight);
+}
+.bt-wp143-marker-sub {
+  font-size: var(--bt-fs-s5);
+  font-weight: 400;
+  color: var(--bt-wp143-text-muted);
+  margin-top: 0.3rem;
+  line-height: var(--bt-lh-body);
+}
+.bt-wp143-marker-sub strong { color: var(--bt-wp143-text); font-weight: 500; }
+.bt-wp143-marker-sub em { font-style: italic; }
