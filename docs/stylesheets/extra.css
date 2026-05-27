@@ -1367,13 +1367,6 @@ img.bt-logo--dark,
   text-align: right;
 }
 
-/* Текстовые таблицы события — отключают nowrap+right последних двух колонок */
-.bt-event-table--text th:nth-last-child(-n+2),
-.bt-event-table--text td:nth-last-child(-n+2) {
-  white-space: normal;
-  text-align: left;
-}
-
 .bt-event-table th:last-child,
 .bt-event-table td:last-child {
   padding-right: 0;
