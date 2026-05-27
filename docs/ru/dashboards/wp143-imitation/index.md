@@ -9,5 +9,3 @@ description: "Анализ Working Paper CASE №143/2025 «Exploring the Entrep
 <div id="bt-wp143-dashboard">
   <p>Загрузка дашборда…</p>
 </div>
-
-<script src="../../javascripts/dashboard-wp143.js"></script>
