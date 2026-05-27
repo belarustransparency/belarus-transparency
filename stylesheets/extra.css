@@ -1361,8 +1361,8 @@ img.bt-logo--dark,
 /* Числовые колонки (Балл, Сумма) — без переносов, выровнены по правому краю.
    Так суммы вида «980 000» не разрываются на две строки и выстраиваются
    по разрядам. */
-.bt-event-table th:nth-last-child(-n+2),
-.bt-event-table td:nth-last-child(-n+2) {
+.bt-event-table--numeric th:nth-last-child(-n+2),
+.bt-event-table--numeric td:nth-last-child(-n+2) {
   white-space: nowrap;
   text-align: right;
 }
