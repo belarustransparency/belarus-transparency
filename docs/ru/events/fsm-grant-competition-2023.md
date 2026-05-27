@@ -2,7 +2,7 @@
 hide:
   - navigation
   - toc
-title: Конкурс грантов FSM на беларуское направление, 2023
+title: Конкурс грантов FSM для беларусов, 2023
 event_type: grant
 date_start: 2023-05-18
 date_end: 2023-05-18
@@ -33,7 +33,7 @@ status: completed
 <div class="bt-event">
 
 <header class="bt-event-head">
-  <h1>Конкурс грантов FSM на беларуское направление, 2023</h1>
+  <h1>Конкурс грантов FSM для беларусов ` 2023</h1>
   <p class="bt-lede">Fundacja Solidarności Międzynarodowej распределила ≈ 2,07 миллиона zł между пятью получателями. Крупнейший индивидуальный грант — 980 000 zł, или 47,3% всего видимого бюджета конкурса, — присуждён Fundacji Białoruś Przyszłości.</p>
 </header>
 
