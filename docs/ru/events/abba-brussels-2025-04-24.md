@@ -89,7 +89,7 @@ status: completed
 
 <section class="bt-block">
 <div class="bt-block-label">Состав со сцены</div>
-<table class="bt-event-table">
+<table class="bt-event-table bt-event-table--text">
   <thead>
     <tr>
       <th>Имя</th>
@@ -139,7 +139,7 @@ status: completed
 <section class="bt-event-cases">
   <div class="bt-block-label">Упоминается в кейсах</div>
   <ul class="bt-sources-list">
-    <li><em>CASE Working Paper 143/2025: разбор</em> (готовится)</li>
+    <li><a href="../../dashboards/wp143-imitation/">CASE Working Paper №143/2025: разбор</a> — дашборд: имитация полевой работы за €1 млн гранта Еврокомиссии</li>
   </ul>
 </section>
 
