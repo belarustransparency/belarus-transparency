@@ -7,7 +7,6 @@ title: ""
 extra_css_body_class: bt-ftm-page
 ---
 
-<style>.md-typeset h1, .md-content__inner > h1 { display: none !important; }</style>
 
 {#- ===========================================================
     Дашборд "Следи за деньгами" — универсальный для 4 локалей.
@@ -37,9 +36,9 @@ extra_css_body_class: bt-ftm-page
 {#- Считаем суммарные цифры для хедера -#}
 {%- set ns = namespace(confirmed=0, investigating=0) -%}
 {%- for inv in data.investigations -%}
-  {%- if inv.status == 'published' -%}
+  {%- if inv.status == 'published' or inv.status == 'active' -%}
     {%- set ns.confirmed = ns.confirmed + (inv.grants_bar_eur | default(inv.grants_eur) | float | round(0, 'ceil') | int) -%}
-  {%- elif inv.status == 'collecting' or inv.status == 'draft' -%}
+  {%- elif inv.status == 'draft' -%}
     {%- set ns.investigating = ns.investigating + (inv.grants_bar_eur | default(inv.grants_eur) | float | round(0, 'ceil') | int) -%}
   {%- endif -%}
 {%- endfor -%}
@@ -155,7 +154,9 @@ extra_css_body_class: bt-ftm-page
   <div class="bt-ftm-legend">
     <span class="bt-ftm-leg-item"><span class="bt-ftm-leg-dot uninvestigated"></span>{{ tr(data.ui.ftm_legend_uninvestigated) }}</span>
     <span class="bt-ftm-leg-sep"></span>
-    <span class="bt-ftm-leg-item"><span class="bt-ftm-leg-dot collecting"></span>{{ tr(data.ui.ftm_legend_investigating) }}</span>
+    <span class="bt-ftm-leg-item"><span class="bt-ftm-leg-dot draft"></span>{{ tr(data.ui.ftm_legend_investigating) }}</span>
+    <span class="bt-ftm-leg-sep"></span>
+    <span class="bt-ftm-leg-item"><span class="bt-ftm-leg-dot active"></span>{{ tr(data.ui.ftm_legend_active) }}</span>
     <span class="bt-ftm-leg-sep"></span>
     <span class="bt-ftm-leg-item"><span class="bt-ftm-leg-dot published"></span>{{ tr(data.ui.ftm_legend_confirmed) }}</span>
   </div>
@@ -185,8 +186,9 @@ extra_css_body_class: bt-ftm-page
     dot.addEventListener('mouseenter', function(e) {
       var d = e.currentTarget;
       if (!d.dataset.title) return;
-      var status = dot.classList.contains('published') ? '● Нарушения подтверждены' :
-                   d.classList.contains('collecting') ? '◐ Расследование идёт' : '';
+      var status = d.classList.contains('published') ? '● Системная коррупция' :
+                   d.classList.contains('active') ? '◉ Множественные нарушения' :
+                   d.classList.contains('draft') ? '◐ Ведётся расследование' : '';
       var html = '<div class="bt-ftm-tt-status ' + (d.classList.contains('published') ? 'confirmed' : 'investigating') + '">' + status + '</div>';
       html += '<div class="bt-ftm-tt-title">' + d.dataset.title + '</div>';
       if (d.dataset.orgs) html += '<div class="bt-ftm-tt-sub">' + d.dataset.orgs + '</div>';
