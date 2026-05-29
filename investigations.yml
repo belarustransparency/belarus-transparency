@@ -87,7 +87,7 @@ investigations:
   - # --- ВИТРИНА ---
     code: CASE-002
     href: abba/
-    status: collecting     # published | collecting | draft
+    status: active       # published | active | collecting | draft
     date:
       ru: май 2026
       en: May 2026
@@ -329,6 +329,11 @@ ui:
     en: Draft
     pl: Szkic
     lt: Juodraštis
+  status_active:
+    ru: В работе
+    en: In progress
+    pl: W trakcie
+    lt: Vykdoma
   grants_prefix:
     ru: не менее
     en: at least

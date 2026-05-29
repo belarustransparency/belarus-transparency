@@ -65,7 +65,7 @@ title: Investigations
 
 <div class="bt-inv-list" markdown="0">
 {%- for inv in data.investigations %}
-{%- set card_href = '/' ~ lang ~ '/source-protection/#open-investigations' if inv.status == 'collecting' else inv.href %}
+{%- set card_href = '/' ~ lang ~ '/source-protection/#open-investigations' if inv.status == 'collecting' or inv.status == 'draft' else inv.href %}
 {%- set bg = "url('" ~ inv.cover ~ "')" if inv.cover else inv.cover_gradient %}
 <a class="bt-inv-card" href="{{ card_href }}" data-tags="{{ inv.filter_tags | join(' ') }}" style="background-image: {{ bg }};">
   <div class="bt-inv-cover">
@@ -86,7 +86,7 @@ title: Investigations
     <div class="bt-inv-grants">
       <span class="bt-inv-sum"><span class="bt-inv-prefix">{{ tr(data.ui.grants_prefix) }}</span><span class="bt-inv-sum-val">{{ inv.grants_eur }}&nbsp;{{ tr(data.ui.grants_unit) | safe }}</span></span>
       <span class="bt-inv-sep"></span>
-      <span class="bt-inv-status {{ inv.status }}">{% if inv.status == 'published' %}{{ tr(data.ui.status_published) }}{% elif inv.status == 'draft' %}{{ tr(data.ui.status_draft) }}{% else %}{{ tr(data.ui.status_collecting) }}{% endif %}</span>
+      <span class="bt-inv-status {{ inv.status }}">{% if inv.status == 'published' %}{{ tr(data.ui.status_published) }}{% elif inv.status == 'active' %}{{ tr(data.ui.status_active) }}{% elif inv.status == 'draft' %}{{ tr(data.ui.status_draft) }}{% else %}{{ tr(data.ui.status_collecting) }}{% endif %}</span>
     </div>
   </div>
 </a>
