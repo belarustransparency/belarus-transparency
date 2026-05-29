@@ -133,26 +133,26 @@ investigations:
     grants_pct: 3
     sector: business          # civil | rights | media | education | business | culture
     orgs:
-      - slug: fundacja-abba
+      - slug: 
         name: Fundacja ABBA
-      - slug: zwiazek-abba
+      - slug: 
         name: Związek ABBA
-      - slug: connect-gmn
+      - slug: 
         name: Connect GMN
-      - slug: ost-economic-team
+      - slug: 
         name: Economic Team OST
     persons:
-      - slug: yauheni-bury
+      - slug: 
         name: Yauheni Bury
-      - slug: marina-girin
+      - slug: 
         name: Marina Girin
-      - slug: karolina-savka
+      - slug: 
         name: Karalina Sauka
-      - slug: ales-alachnovic
+      - slug: 
         name: Aleś Alachnovič
-      - slug: iryna-sazanovich
+      - slug: 
         name: Iryna Sazanovich
-      - slug: siarhei-naurodski
+      - slug: 
         name: Siarhei Naurodski
 
 
@@ -205,20 +205,20 @@ investigations:
     grants_pct: 3
     sector: business          # civil | rights | media | education | business | culture
     orgs:
-      - slug: belbiz
+      - slug: 
         name: Asociacija BELBIZ
-      - slug: imaguru-mb
+      - slug: 
         name: Imaguru MB
-      - slug: imaguru-foundation
+      - slug: 
         name: Imaguru Foundation
-      - slug: imaguru-tech-hub-sl
+      - slug: 
         name: Imaguru Tech HUB SL
-      - slug: envision-sp-zoo
+      - slug: 
         name: ENVISION Sp. z o.o.
     persons:
-      - slug: marinich
+      - slug: 
         name: Tatsiana Marinich
-      - slug: anastasiya-khamiankova
+      - slug: 
         name: Anastasiya Khamiankova
 
 
