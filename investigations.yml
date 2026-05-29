@@ -430,15 +430,20 @@ ui:
     pl: Nie zbadano
     lt: Netirta
   ftm_legend_investigating:
-    ru: Расследуется
+    ru: Ведётся расследование
     en: Under investigation
-    pl: W trakcie
+    pl: W trakcie śledztwa
     lt: Tiriama
+  ftm_legend_active:
+    ru: Множественные нарушения
+    en: Multiple violations
+    pl: Wielokrotne naruszenia
+    lt: Keli pažeidimai
   ftm_legend_confirmed:
-    ru: Нарушения подтверждены
-    en: Violations confirmed
-    pl: Naruszenia potwierdzone
-    lt: Pažeidimai patvirtinti
+    ru: Системная коррупция
+    en: Systemic corruption
+    pl: Korupcja systemowa
+    lt: Sisteminė korupcija
   ftm_footer_note:
     ru: "Источники: EC NDICI, US State Dept. Обновляется регулярно."
     en: "Sources: EC NDICI, US State Dept. Updated regularly."
