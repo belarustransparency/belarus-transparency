@@ -4501,6 +4501,18 @@ img.bt-logo--dark,
 [data-md-color-scheme="default"] .bt-ftm-leg-item {
   color: #6B6B6B;
 }
+[data-md-color-scheme="default"] .bt-ftm-dot.draft {
+  background: #C8791A;
+  border: 1px solid #E09020;
+  box-shadow: 0 0 4px rgba(200,121,26,0.35);
+}
+[data-md-color-scheme="default"] .bt-ftm-leg-dot.draft {
+  background: #C8791A;
+  border: 1px solid #E09020;
+}
+[data-md-color-scheme="default"] .bt-ftm-chip-dot.draft {
+  background: #C8791A;
+}
 [data-md-color-scheme="default"] .bt-ftm-leg-dot.uninvestigated {
   background: #C8C5BD;
   border: 1px solid #B0ADA6;
