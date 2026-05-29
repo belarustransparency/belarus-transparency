@@ -55,7 +55,7 @@ title: Investigations
   <div class="bt-ftm-ib-left">
     <div class="bt-ftm-ib-kicker">Следуй за деньгами</div>
     <div class="bt-ftm-ib-title">Западные налогоплательщики отдали сотни миллионов евро на беларускую демократию в эмиграции.</div>
-    <div class="bt-ftm-ib-tagline">Поможем отчитаться об успехах — если найдём.</div>
+    <div class="bt-ftm-ib-tagline">Давайте поможем отчитаться об успехах. Если найдём, конечно.</div>
   </div>
   <div class="bt-ftm-ib-right">
     <div class="bt-ftm-ib-dots" id="ftm-ib-dots"></div>
