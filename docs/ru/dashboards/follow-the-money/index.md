@@ -36,9 +36,9 @@ extra_css_body_class: bt-ftm-page
 {#- Считаем суммарные цифры для хедера -#}
 {%- set ns = namespace(confirmed=0, investigating=0) -%}
 {%- for inv in data.investigations -%}
-  {%- if inv.status == 'published' -%}
+  {%- if inv.status == 'published' or inv.status == 'active' -%}
     {%- set ns.confirmed = ns.confirmed + (inv.grants_bar_eur | default(inv.grants_eur) | float | round(0, 'ceil') | int) -%}
-  {%- elif inv.status == 'active' or inv.status == 'draft' -%}
+  {%- elif inv.status == 'draft' -%}
     {%- set ns.investigating = ns.investigating + (inv.grants_bar_eur | default(inv.grants_eur) | float | round(0, 'ceil') | int) -%}
   {%- endif -%}
 {%- endfor -%}
