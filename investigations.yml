@@ -133,15 +133,27 @@ investigations:
     grants_pct: 3
     sector: business          # civil | rights | media | education | business | culture
     orgs:
-      - slug: 
-        name: ABBA Foundation
-      - slug: opk
-        name: ОПК
+      - slug: fundacja-abba
+        name: Fundacja ABBA
+      - slug: zwiazek-abba
+        name: Związek ABBA
+      - slug: connect-gmn
+        name: Connect GMN
+      - slug: ost-economic-team
+        name: Экономическая команда OST
     persons:
-      - slug: latushko
-        name: Павел Латушко
-      - slug: vecherko
-        name: Валерий Вечерко
+      - slug: yauheni-bury
+        name: Yauheni Bury
+      - slug: marina-girin
+        name: Marina Girin
+      - slug: karolina-savka
+        name: Karalina Sauka
+      - slug: ales-alachnovic
+        name: Aleś Alachnovič
+      - slug: iryna-sazanovich
+        name: Iryna Sazanovich
+      - slug: siarhei-naurodski
+        name: Siarhei Naurodski
 
 
   - # --- ВИТРИНА ---
