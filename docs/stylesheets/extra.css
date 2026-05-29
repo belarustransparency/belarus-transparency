@@ -4430,6 +4430,104 @@ img.bt-logo--dark,
 .bt-ftm-tt-sub    { color: #9A9690; font-size: 11px; }
 .bt-ftm-tt-link   { color: #B8341E; font-size: 10px; margin-top: 6px; }
 
+/* === FTM: светлая тема === */
+[data-md-color-scheme="default"] .bt-ftm {
+  background: #F0EDE6;
+  color: #1F1F1F;
+  border-top: 3px solid #B8341E;
+}
+[data-md-color-scheme="default"] .bt-ftm-header {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+[data-md-color-scheme="default"] .bt-ftm-title {
+  color: #0A0A0A;
+}
+[data-md-color-scheme="default"] .bt-ftm-sub {
+  color: #6B6B6B;
+}
+[data-md-color-scheme="default"] .bt-ftm-stat {
+  background: #E5E2D8;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+[data-md-color-scheme="default"] .bt-ftm-stat-val {
+  color: #0A0A0A;
+}
+[data-md-color-scheme="default"] .bt-ftm-stat-label {
+  color: #6B6B6B;
+}
+[data-md-color-scheme="default"] .bt-ftm-quote {
+  background: #E8E5DC;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+[data-md-color-scheme="default"] .bt-ftm-quote-text {
+  color: #1F1F1F;
+}
+[data-md-color-scheme="default"] .bt-ftm-quote-cite {
+  color: #9A9690;
+}
+[data-md-color-scheme="default"] .bt-ftm-sector-name {
+  color: #6B6B6B;
+}
+[data-md-color-scheme="default"] .bt-ftm-sector-amt {
+  color: #9A9690;
+}
+[data-md-color-scheme="default"] .bt-ftm-dot.uninvestigated {
+  background: #C8C5BD;
+  border: 1px solid #B0ADA6;
+}
+[data-md-color-scheme="default"] .bt-ftm-sb-block {
+  border-left: 1px solid #B8341E;
+}
+[data-md-color-scheme="default"] .bt-ftm-sb-title {
+  color: #9A9690;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+[data-md-color-scheme="default"] .bt-ftm-chip {
+  background: #E5E2D8;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: #6B6B6B;
+}
+[data-md-color-scheme="default"] .bt-ftm-chip:hover {
+  border-color: #B8341E;
+  color: #1F1F1F;
+  background-color: transparent;
+}
+[data-md-color-scheme="default"] .bt-ftm-chip.published { border-color: rgba(184,52,30,0.5); color: #1F1F1F; }
+[data-md-color-scheme="default"] .bt-ftm-chip.active    { border-color: rgba(224,53,24,0.5); color: #1F1F1F; }
+[data-md-color-scheme="default"] .bt-ftm-chip.draft     { border-color: rgba(200,121,26,0.5); color: #1F1F1F; }
+[data-md-color-scheme="default"] .bt-ftm-footer {
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+[data-md-color-scheme="default"] .bt-ftm-leg-item {
+  color: #6B6B6B;
+}
+[data-md-color-scheme="default"] .bt-ftm-leg-dot.uninvestigated {
+  background: #C8C5BD;
+  border: 1px solid #B0ADA6;
+}
+[data-md-color-scheme="default"] .bt-ftm-leg-sep {
+  background: rgba(0,0,0,0.1);
+}
+[data-md-color-scheme="default"] .bt-ftm-footer-note {
+  color: #9A9690;
+}
+[data-md-color-scheme="default"] .bt-ftm-tooltip {
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-left: 3px solid #B8341E;
+  color: #1F1F1F;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+}
+[data-md-color-scheme="default"] .bt-ftm-tt-title {
+  color: #0A0A0A;
+}
+[data-md-color-scheme="default"] .bt-ftm-tt-sub {
+  color: #6B6B6B;
+}
+[data-md-color-scheme="default"] .bt-ftm-sidebar {
+  border-left: none;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .bt-ftm-header { grid-template-columns: 1fr; padding: 16px 18px 14px; }
