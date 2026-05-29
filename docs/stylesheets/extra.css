@@ -4216,6 +4216,7 @@ img.bt-logo--dark,
 .bt-ftm-body {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: start;
 }
 
 /* Матрица — левые 2/3, без border-right */
