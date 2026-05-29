@@ -222,6 +222,72 @@ investigations:
         name: Anastasiya Khamiankova
 
 
+  - # --- ВИТРИНА ---
+    code: CASE-004
+    href: byculture/
+    status: active
+    date:
+      ru: май 2026
+      en: May 2026
+      pl: maj 2026
+      lt: 2026 m. gegužė
+    cover: "/assets/covers/budkin.webp"
+    cover_gradient: "linear-gradient(135deg, #2a3535 0%, #141c1c 100%)"
+
+    # --- ТЕКСТЫ ---
+    title:
+      ru: Беларуская Рада Культуры и группа Морозовых
+      en: Belarusian Council for Culture and the Marozau Group
+      pl: Białoruska Rada Kultury i grupa Marozauów
+      lt: Baltarusių kultūros taryba ir Marozavų grupė
+    lede:
+      ru: >-
+        Эстонская MTÜ позиционирует себя как главный институт беларуской культуры в эмиграции
+        с программой ArtPower на 2&nbsp;млн&nbsp;€. При обороте €737&nbsp;тыс. в 2024 году — нулевой штат,
+        99,9% расходов скрыты в одной строке, контроль сосредоточен в руках семейной пары через 13 юрлиц.
+      en: >-
+        An Estonian MTÜ positions itself as the main institution of Belarusian culture in exile,
+        with the ArtPower programme budgeted at €2&nbsp;million. With a 2024 turnover of €737K — zero staff,
+        99.9% of expenses hidden in a single line, control concentrated in a family couple across 13 legal entities.
+      pl: >-
+        Estońskie MTÜ pozycjonuje się jako główna instytucja kultury białoruskiej na emigracji
+        z programem ArtPower o budżecie 2&nbsp;mln&nbsp;€. Przy obrotach €737&nbsp;tys. w 2024 roku — zerowe zatrudnienie,
+        99,9% wydatków ukrytych w jednej pozycji, kontrola skupiona w rękach małżeństwa poprzez 13 podmiotów prawnych.
+      lt: >-
+        Estijos MTÜ pozicionuoja save kaip pagrindinę baltarusių kultūros tremtyje instituciją
+        su ArtPower programa, kurios biudžetas — 2&nbsp;mln.&nbsp;€. 2024&nbsp;m. apyvarta €737&nbsp;tūkst. — nulis darbuotojų,
+        99,9% išlaidų paslėpta vienoje eilutėje, kontrolė sutelkta šeimos poros rankose per 13 juridinių asmenų.
+    tags:
+      ru: [Эстония, Культура, Семейный бизнес]
+      en: [Estonia, Culture, Family business]
+      pl: [Estonia, Kultura, Biznes rodzinny]
+      lt: [Estija, Kultūra, Šeimos verslas]
+    filter_tags:
+      - culture
+
+    # --- БАР (Follow the Money) ---
+    grants_eur: 2.04          # ~€2,04 млн через РК за 2022–2024
+    grants_bar_eur: 2.04
+    grants_pct: 1
+    sector: culture
+    orgs:
+      - slug:
+        name: Valgevene Kultuuri Assotsiatsioon
+      - slug:
+        name: DigitalMediaHub MTÜ
+      - slug:
+        name: Valgevene Uus Tee MTÜ
+    persons:
+      - slug:
+        name: Pavel Marozau
+      - slug:
+        name: Olga-Anastasiya Marozava
+      - slug:
+        name: Grigory Korotych
+      - slug:
+        name: Siarhei Budkin
+
+
 # === Секторы для дашборда "Следи за деньгами" ===
 
 sectors:
