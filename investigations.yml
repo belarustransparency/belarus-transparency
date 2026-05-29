@@ -205,8 +205,6 @@ investigations:
     grants_pct: 3
     sector: business          # civil | rights | media | education | business | culture
     orgs:
-      - slug: imaguru
-        name: Imaguru
       - slug: belbiz
         name: Asociacija BELBIZ
       - slug: imaguru-mb
