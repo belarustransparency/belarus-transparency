@@ -5016,3 +5016,32 @@ img.bt-logo--dark,
   padding-top: 1rem;
   border-top: 1px solid var(--bt-wp143-border);
 }
+
+
+/* === Блок открытого вопроса (.bt-open) === */
+
+.bt-open {
+  border-left: 3px solid var(--md-accent-fg-color, #B8341E);
+  background: color-mix(in srgb, var(--md-accent-fg-color, #B8341E) 6%, transparent);
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0;
+  border-radius: 0 4px 4px 0;
+  font-size: var(--bt-fs-s4);
+  color: var(--md-default-fg-color--light);
+  line-height: var(--bt-lh-body);
+}
+
+.bt-open::before {
+  content: "⟳ В работе";
+  display: block;
+  font-size: var(--bt-fs-s6);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color, #B8341E);
+  margin-bottom: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .bt-open {
+  background: color-mix(in srgb, var(--md-accent-fg-color, #D85A30) 8%, transparent);
+}
