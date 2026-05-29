@@ -116,8 +116,8 @@ extra_css_body_class: bt-ftm-page
         {%- set seen_orgs = [] -%}
         {%- for inv in data.investigations -%}
           {%- for org in inv.orgs -%}
-            {%- if org.slug not in seen_orgs -%}
-              {%- set _ = seen_orgs.append(org.slug) -%}
+            {%- if org.name not in seen_orgs -%}
+              {%- set _ = seen_orgs.append(org.name) -%}
               {%- if org.slug -%}
               <a class="bt-ftm-chip {{ inv.status }}" href="/{{ lang }}/organizations/{{ org.slug }}/"><span class="bt-ftm-chip-dot {{ inv.status }}"></span>{{ org.name }}</a>
               {%- else -%}
@@ -134,8 +134,8 @@ extra_css_body_class: bt-ftm-page
         {%- set seen_persons = [] -%}
         {%- for inv in data.investigations -%}
           {%- for person in inv.persons -%}
-            {%- if person.slug not in seen_persons -%}
-              {%- set _ = seen_persons.append(person.slug) -%}
+            {%- if person.name not in seen_persons -%}
+              {%- set _ = seen_persons.append(person.name) -%}
               {%- if person.slug -%}
               <a class="bt-ftm-chip {{ inv.status }}" href="/{{ lang }}/persons/{{ person.slug }}/"><span class="bt-ftm-chip-dot {{ inv.status }}"></span>{{ person.name }}</a>
               {%- else -%}
