@@ -87,7 +87,7 @@ investigations:
   - # --- ВИТРИНА ---
     code: CASE-002
     href: abba/
-    status: active       # published | active | collecting | draft
+    status: collecting   # published | active | collecting | draft
     date:
       ru: май 2026
       en: May 2026
@@ -140,7 +140,7 @@ investigations:
       - slug: connect-gmn
         name: Connect GMN
       - slug: ost-economic-team
-        name: Экономическая команда OST
+        name: Economic Team OST
     persons:
       - slug: yauheni-bury
         name: Yauheni Bury
@@ -208,10 +208,20 @@ investigations:
       - slug: imaguru
         name: Imaguru
       - slug: belbiz
-        name: Belbiz
+        name: Asociacija BELBIZ
+      - slug: imaguru-mb
+        name: Imaguru MB
+      - slug: imaguru-foundation
+        name: Imaguru Foundation
+      - slug: imaguru-tech-hub-sl
+        name: Imaguru Tech HUB SL
+      - slug: envision-sp-zoo
+        name: ENVISION Sp. z o.o.
     persons:
       - slug: marinich
-        name: Татьяна Маринич
+        name: Tatsiana Marinich
+      - slug: anastasiya-khamiankova
+        name: Anastasiya Khamiankova
 
 
 # === Секторы для дашборда "Следи за деньгами" ===
