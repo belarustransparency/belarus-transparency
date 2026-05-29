@@ -236,10 +236,10 @@ investigations:
 
     # --- ТЕКСТЫ ---
     title:
-      ru: Рада Культуры: публичная миссия, семейная касса
-      en: Culture Council: Public Mission, Family Cash
-      pl: Rada Kultury: misja publiczna, kasa rodzinna
-      lt: Kultūros taryba: vieša misija, šeimos kasa
+      ru: "Рада Культуры: публичная миссия, семейная касса"
+      en: "Culture Council: Public Mission, Family Cash"
+      pl: "Rada Kultury: misja publiczna, kasa rodzinna"
+      lt: "Kultūros taryba: vieša misija, šeimos kasa"
     lede:
       ru: >-
         Беларуская культура в эмиграции получила грантовую инфраструктуру. Вопрос в том, кому она принадлежит:
