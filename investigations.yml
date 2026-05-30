@@ -432,17 +432,17 @@ ui:
     lt: mln.&nbsp;€
 
   # --- Дашборд "Следи за деньгами" ---
-  dashboard_budget: 300
+  dashboard_budget: 318
   ftm_kicker:
     ru: Следуй за деньгами
     en: Follow the Money
     pl: Śledź pieniądze
     lt: Sek pinigus
   ftm_title:
-    ru: Куда ушли €300 млн на беларускую демократию
-    en: Where did €300M for Belarusian democracy go
-    pl: Gdzie trafiło €300M na białoruską demokrację
-    lt: Kur dingo €300 mln Baltarusijos demokratijai
+    ru: Куда ушли €318 млн на беларускую демократию
+    en: Where did €318M for Belarusian democracy go
+    pl: Gdzie trafiło €318M na białoruską demokrację
+    lt: Kur dingo €318 mln Baltarusijos demokratijai
   ftm_sub:
     ru: Каждый кружок — €1 млн помощи ЕС и США за 2020–2025 гг.
     en: Each circle represents €1M in EU and US aid for 2020–2025.
