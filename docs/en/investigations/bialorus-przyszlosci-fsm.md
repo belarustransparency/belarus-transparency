@@ -43,6 +43,8 @@ tags:
   <p class="bt-lede">One grant from 2023 and the system in which it became possible</p>
 </header>
 
+investigate by Dmitriy Skindereu
+
 ## Preamble
 
 The transparency of public-money disposition is the condition under which democratic institutions work as intended. When information about the spending of taxpayer and foreign-donor funds is unavailable — and especially when it is deliberately hidden — an environment forms that, at best, favours unprofessionalism and inefficient use of money, and at worst, corruption. The same environment arms populists and opponents of democratic values: those who can point to the absence of accountability as proof that democracy is mere decoration.
