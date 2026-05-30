@@ -43,7 +43,7 @@ extra_css_body_class: bt-ftm-page
   {%- endif -%}
 {%- endfor -%}
 {%- set total_covered = ns.confirmed + ns.investigating -%}
-{%- set total_budget = data.ui.dashboard_budget | default(300) -%}
+{%- set total_budget = data.ui.dashboard_budget | default(318) -%}
 {%- set covered_pct = ((total_covered / total_budget) * 100) | round(0, 'ceil') | int -%}
 
 <div class="bt-ftm" markdown="0">
