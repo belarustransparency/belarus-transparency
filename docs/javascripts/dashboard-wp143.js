@@ -92,7 +92,7 @@
       +     '<p class="bt-wp143-hero-verdict-text">Имитация полевой работы. Вместо заявленных экспертных интервью — три анонимных кейса и компиляция открытых источников на 48 страницах.</p>'
       +   '</div>'
       +   '<p class="bt-wp143-hero-meta">'
-      +     'Работа — один из деливераблов гранта Еврокомиссии в <strong>€1 млн</strong>, выданного в декабре 2022 года консорциуму четырёх организаций: <strong>Association of Belarusian Business Abroad</strong> (ABBA, заказчик и со-бенефициар), <strong>CASE — Center for Social and Economic Research</strong> (польский think tank), <strong>Krajowa Izba Gospodarcza</strong> (KIG, Польская национальная торговая палата) и <strong>Lietuvos darbdavių konfederacija</strong> (LDK, Конфедерация работодателей Литвы). Название проекта: «Support to Belarusian businesses in exile and ABBA Capacity Development».'
+      +     'Работа — один из получателей гранта Еврокомиссии в <strong>€1 млн</strong>, выданного в декабре 2022 года консорциуму четырёх организаций: <strong>Association of Belarusian Business Abroad</strong> (ABBA, заказчик и со-бенефициар), <strong>CASE — Center for Social and Economic Research</strong> (польский think tank), <strong>Krajowa Izba Gospodarcza</strong> (KIG, Польская национальная торговая палата) и <strong>Lietuvos darbdavių konfederacija</strong> (LDK, Конфедерация работодателей Литвы). Название проекта: «Support to Belarusian businesses in exile and ABBA Capacity Development».'
       +   '</p>'
       + '</div>';
   }
