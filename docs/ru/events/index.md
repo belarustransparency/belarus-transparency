@@ -14,7 +14,9 @@ title: Events
     - UI-надписи берутся из config.extra.events_data.ui[поле][lang].
     - Данные событий — из events_data.events[i].title[lang] и т.д.
     - Тип события в плашке — events_data.types[event_type][lang].
-    - Короткое название месяца — events_data.months[month_key][lang].
+    - Дата в плашке — три строки: день / месяц числом / год
+      (как на витрине дашбордов). Словарь months больше не
+      используется в блоке даты, но оставлен в events.yml.
     - Fallback: lang → en → ru. Логика — макрос tr() ниже.
 =========================================================== -#}
 
@@ -60,12 +62,13 @@ title: Events
      ЛЕНТА СОБЫТИЙ
      Каждая плашка — ОДНОЙ строкой HTML, иначе markdown-парсер
      развалит грид (известная проблема).
+     Дата — три строки: день / месяц числом / год.
      ============================================================ -->
 
 <div class="bt-events-list" markdown="0">
 
 {%- for ev in data.events %}
-<a class="bt-event-row" data-type="{{ ev.event_type }}" href="{{ ev.slug }}/"><div class="bt-event-date"><span class="bt-event-day">{{ ev.date_day }}</span><span class="bt-event-month">{{ tr(data.months[ev.date_month_key]) }} {{ ev.date_year }}</span></div><div class="bt-event-type">{{ tr(data.types[ev.event_type]) }}</div><div class="bt-event-info"><div class="bt-event-title">{{ tr(ev.title) }}</div><div class="bt-event-summary">{{ tr(ev.summary) | safe }}</div></div><div class="bt-event-place">{{ tr(ev.place) }}</div></a>
+<a class="bt-event-row" data-type="{{ ev.event_type }}" href="{{ ev.slug }}/"><div class="bt-event-date"><div class="bt-event-day">{{ ev.date_day }}</div><div class="bt-event-month">{{ ev.date_month_key }}</div><div class="bt-event-year">{{ ev.date_year }}</div></div><div class="bt-event-type">{{ tr(data.types[ev.event_type]) }}</div><div class="bt-event-info"><div class="bt-event-title">{{ tr(ev.title) }}</div><div class="bt-event-summary">{{ tr(ev.summary) | safe }}</div></div><div class="bt-event-place">{{ tr(ev.place) }}</div></a>
 {%- endfor %}
 
 </div>
