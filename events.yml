@@ -20,7 +20,7 @@ events:
     event_type: election
     status: completed
     date_day: "11"
-    date_month: "05"
+    date_month_key: "05"
     date_year: "26"
     title:
       ru: Выборы в Координационный совет — 4-й созыв
@@ -42,7 +42,7 @@ events:
     event_type: grant
     status: active
     date_day: "26"
-    date_month: "03"
+    date_month_key: "03"
     date_year: "26"
     title:
       ru: Конкурс грантов FSM на беларуское направление, 2026
@@ -64,7 +64,7 @@ events:
     event_type: meeting
     status: completed
     date_day: "24"
-    date_month: "04"
+    date_month_key: "04"
     date_year: "25"
     title:
       ru: Презентация Working Paper 143 в Eurochambres
@@ -86,7 +86,7 @@ events:
     event_type: grant
     status: completed
     date_day: "18"
-    date_month_key: may
+    date_month_key: "05"
     date_year: "23"
     title:
       ru: Конкурс грантов FSM на беларуское направление, 2023
